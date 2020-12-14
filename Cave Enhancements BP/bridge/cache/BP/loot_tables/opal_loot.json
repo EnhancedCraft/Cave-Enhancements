@@ -1,0 +1,75 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\loot_tables\\opal_loot.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "e4e82ec0_f6a8_4a50_ae48_33744ebb30e5",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"pools": [
+						{
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"name": "ores:opal"
+								}
+							]
+						}
+					]
+				},
+				"key": "pools",
+				"children": [
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "ores:opal"
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"name": "ores:opal"
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "ores:opal"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"name": "ores:opal"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

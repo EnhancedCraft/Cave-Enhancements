@@ -1,0 +1,61 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ores:flurite_apple",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:stacked_by_data": true,
+			"minecraft:use_duration": 1.6,
+			"minecraft:foil": false,
+			"minecraft:food": {
+				"nutrition": 4,
+				"saturation_modifier": "supernatural",
+				"can_always_eat": true,
+				"on_consume": {
+					"event": "f",
+					"target": "self"
+				}
+			},
+			"minecraft:icon": {
+				"texture": "fluriteapple"
+			},
+			"minecraft:use_animation": "eat",
+			"minecraft:display_name": {
+				"value": "Flurite Apple"
+			}
+		},
+		"events": {
+			"f": {
+				"sequence": [
+					{
+						"add_mob_effect": {
+							"effect": "regeneration",
+							"target": "holder",
+							"duration": 5,
+							"amplifier": 1
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "water_breathing",
+							"target": "holder",
+							"duration": 300,
+							"amplifier": 1
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "night_vision",
+							"target": "holder",
+							"duration": 300,
+							"amplifier": 1
+						}
+					}
+				]
+			}
+		}
+	}
+}

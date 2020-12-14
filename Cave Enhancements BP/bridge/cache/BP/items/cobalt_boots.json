@@ -1,0 +1,310 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Cave Enhancements BP\\items\\cobalt_boots.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "3520337f_1d3f_4f6c_8c64_63ec71370b94",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ores:cobalt_boots",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:enchantable": {
+								"value": 9,
+								"slot": "armor_feet"
+							},
+							"minecraft:damage": 2,
+							"minecraft:armor": {
+								"protection": 3
+							},
+							"minecraft:wearable": {
+								"slot": "slot.armor.feet"
+							},
+							"minecraft:durability": {
+								"max_durability": 460,
+								"damage_chance": {
+									"min": 60,
+									"max": 100
+								}
+							},
+							"minecraft:icon": {
+								"texture": "ores_cobalt_boots"
+							},
+							"minecraft:display_name": {
+								"value": "Cobalt Boots"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.boots"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:cobalt_boots",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:cobalt_boots",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:enchantable": {
+									"value": 9,
+									"slot": "armor_feet"
+								},
+								"minecraft:damage": 2,
+								"minecraft:armor": {
+									"protection": 3
+								},
+								"minecraft:wearable": {
+									"slot": "slot.armor.feet"
+								},
+								"minecraft:durability": {
+									"max_durability": 460,
+									"damage_chance": {
+										"min": 60,
+										"max": 100
+									}
+								},
+								"minecraft:icon": {
+									"texture": "ores_cobalt_boots"
+								},
+								"minecraft:display_name": {
+									"value": "Cobalt Boots"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.boots"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"key": "minecraft:enchantable",
+								"is_minified": true,
+								"children": {
+									"value": 9,
+									"slot": "armor_feet"
+								}
+							},
+							{
+								"data": "2",
+								"key": "minecraft:damage"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:enchantable": {
+										"value": 9,
+										"slot": "armor_feet"
+									},
+									"minecraft:damage": 2,
+									"minecraft:armor": {
+										"protection": 3
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.feet"
+									},
+									"minecraft:durability": {
+										"max_durability": 460,
+										"damage_chance": {
+											"min": 60,
+											"max": 100
+										}
+									},
+									"minecraft:icon": {
+										"texture": "ores_cobalt_boots"
+									},
+									"minecraft:display_name": {
+										"value": "Cobalt Boots"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.boots"
+									}
+								},
+								"key": "minecraft:armor",
+								"is_minified": true,
+								"children": {
+									"protection": 3
+								}
+							},
+							{
+								"key": "minecraft:wearable",
+								"is_minified": true,
+								"children": {
+									"slot": "slot.armor.feet"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:enchantable": {
+										"value": 9,
+										"slot": "armor_feet"
+									},
+									"minecraft:damage": 2,
+									"minecraft:armor": {
+										"protection": 3
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.feet"
+									},
+									"minecraft:durability": {
+										"max_durability": 460,
+										"damage_chance": {
+											"min": 60,
+											"max": 100
+										}
+									},
+									"minecraft:icon": {
+										"texture": "ores_cobalt_boots"
+									},
+									"minecraft:display_name": {
+										"value": "Cobalt Boots"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.boots"
+									}
+								},
+								"key": "minecraft:durability",
+								"children": [
+									{
+										"open": {
+											"max_durability": 460,
+											"damage_chance": {
+												"min": 60,
+												"max": 100
+											}
+										},
+										"data": "460",
+										"key": "max_durability"
+									},
+									{
+										"open": {
+											"max_durability": 460,
+											"damage_chance": {
+												"min": 60,
+												"max": 100
+											}
+										},
+										"key": "damage_chance",
+										"is_minified": true,
+										"children": {
+											"min": 60,
+											"max": 100
+										}
+									}
+								]
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "ores_cobalt_boots"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:enchantable": {
+										"value": 9,
+										"slot": "armor_feet"
+									},
+									"minecraft:damage": 2,
+									"minecraft:armor": {
+										"protection": 3
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.feet"
+									},
+									"minecraft:durability": {
+										"max_durability": 460,
+										"damage_chance": {
+											"min": 60,
+											"max": 100
+										}
+									},
+									"minecraft:icon": {
+										"texture": "ores_cobalt_boots"
+									},
+									"minecraft:display_name": {
+										"value": "Cobalt Boots"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.boots"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Cobalt Boots"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:enchantable": {
+										"value": 9,
+										"slot": "armor_feet"
+									},
+									"minecraft:damage": 2,
+									"minecraft:armor": {
+										"protection": 3
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.feet"
+									},
+									"minecraft:durability": {
+										"max_durability": 460,
+										"damage_chance": {
+											"min": 60,
+											"max": 100
+										}
+									},
+									"minecraft:icon": {
+										"texture": "ores_cobalt_boots"
+									},
+									"minecraft:display_name": {
+										"value": "Cobalt Boots"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.boots"
+									}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.boots"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

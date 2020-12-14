@@ -1,0 +1,135 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1/items/silver_ingot.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "38656b49_5002_4c02_95cd_613c982cbeb3",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ores:silver_ingot",
+							"category": "items"
+						},
+						"components": {
+							"minecraft:max_stack_size": 64,
+							"minecraft:hand_equipped": false,
+							"minecraft:stacked_by_data": true,
+							"minecraft:display_name": {
+								"value": "Silver Ingot"
+							},
+							"minecraft:icon": {
+								"texture": "silveringot"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:silver_ingot",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:max_stack_size": 64,
+								"minecraft:hand_equipped": false,
+								"minecraft:stacked_by_data": true,
+								"minecraft:display_name": {
+									"value": "Silver Ingot"
+								},
+								"minecraft:icon": {
+									"texture": "silveringot"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:silver_ingot",
+							"category": "items"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:silver_ingot",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:max_stack_size": 64,
+								"minecraft:hand_equipped": false,
+								"minecraft:stacked_by_data": true,
+								"minecraft:display_name": {
+									"value": "Silver Ingot"
+								},
+								"minecraft:icon": {
+									"texture": "silveringot"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "64",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "false",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 64,
+									"minecraft:hand_equipped": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:display_name": {
+										"value": "Silver Ingot"
+									},
+									"minecraft:icon": {
+										"texture": "silveringot"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Silver Ingot"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 64,
+									"minecraft:hand_equipped": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:display_name": {
+										"value": "Silver Ingot"
+									},
+									"minecraft:icon": {
+										"texture": "silveringot"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "silveringot"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

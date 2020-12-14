@@ -1,0 +1,68 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Cave Enhancements BP\\blocks\\end_plutonium_ore.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "e4bf25e2_4b1c_40ef_9f67_4b58cfd71f02",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:block": {
+						"description": {
+							"identifier": "ores:end_plutonium_ore",
+							"is_experimental": false
+						},
+						"components": {
+							"minecraft:destroy_time": 1780,
+							"minecraft:friction": 1,
+							"minecraft:explosion_resistance": 17,
+							"minecraft:loot": "loot_tables/end_plutonium_loot.json",
+							"tag:ores:hard": {}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:end_plutonium_ore",
+							"is_experimental": false
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:end_plutonium_ore",
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:destroy_time": 1780,
+								"minecraft:friction": 1,
+								"minecraft:explosion_resistance": 17,
+								"minecraft:loot": "loot_tables/end_plutonium_loot.json",
+								"tag:ores:hard": {}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 1780,
+							"minecraft:friction": 1,
+							"minecraft:explosion_resistance": 17,
+							"minecraft:loot": "loot_tables/end_plutonium_loot.json",
+							"tag:ores:hard": {}
+						}
+					}
+				]
+			}
+		]
+	}
+}

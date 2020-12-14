@@ -1,0 +1,31 @@
+//bridge-file-version: #35
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:sickle_tanzanite"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XXX",
+			"C  X",
+			"C"
+		],
+		"key": {
+			"X": {
+				"item": "ores:tanzanite_gemstone"
+			},
+			"C": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": [
+			{
+				"item": "ores:tanzanite_sickle",
+				"count": 1
+			}
+		]
+	}
+}

@@ -1,0 +1,52 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:glowing_mushroom"
+		},
+		"components": {
+			"minecraft:destroy_time": 0,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:block_light_emission": 1,
+			"minecraft:explosion_resistance": 0.6,
+			"minecraft:geometry": "geometry.crystal",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "glowingmushroom",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:entity_collision": false,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"ores:i_stone",
+							"ores:coldstone",
+							"ores:s_stone",
+							"ores:j_stone",
+							"minecraft:stone"
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-1,
+					0,
+					-1
+				],
+				"size": [
+					4,
+					8,
+					4
+				]
+			}
+		},
+		"events": {}
+	}
+}

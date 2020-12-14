@@ -1,0 +1,28 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:apple_cobalt"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"#X#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "ores:cobalt_gemstone"
+			},
+			"X": {
+				"item": "minecraft:apple"
+			}
+		},
+		"result": {
+			"item": "ores:cobalt_apple"
+		}
+	}
+}

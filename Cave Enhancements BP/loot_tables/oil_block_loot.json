@@ -1,0 +1,26 @@
+//bridge-file-version: #0
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 1,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "ores:oil",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 2,
+								"max": 5
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

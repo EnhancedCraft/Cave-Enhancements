@@ -1,0 +1,272 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\items\\cobalt_apple.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "dbcd4b47_d7f4_4022_9495_1401e89d2bd0",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ores:cobalt_apple",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:use_duration": 1.6,
+							"minecraft:foil": false,
+							"minecraft:food": {
+								"nutrition": 4,
+								"saturation_modifier": "supernatural",
+								"can_always_eat": true,
+								"on_consume": {
+									"event": "d",
+									"target": "self"
+								}
+							},
+							"minecraft:icon": {
+								"texture": "cobaltapple"
+							},
+							"minecraft:use_animation": "eat",
+							"minecraft:display_name": {
+								"value": "Cobalt Apple"
+							}
+						},
+						"events": {
+							"d": {
+								"sequence": [
+									{
+										"add_mob_effect": {
+											"effect": "regeneration",
+											"target": "holder",
+											"duration": 25,
+											"amplifier": 2
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "absorption",
+											"target": "holder",
+											"duration": 120,
+											"amplifier": 0
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "haste",
+											"target": "holder",
+											"duration": 100,
+											"amplifier": 1
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "night_vision",
+											"target": "holder",
+											"duration": 17,
+											"amplifier": 1
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:cobalt_apple",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:cobalt_apple",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:foil": false,
+								"minecraft:food": {
+									"nutrition": 4,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "d",
+										"target": "self"
+									}
+								},
+								"minecraft:icon": {
+									"texture": "cobaltapple"
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:display_name": {
+									"value": "Cobalt Apple"
+								}
+							},
+							"events": {
+								"d": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "regeneration",
+												"target": "holder",
+												"duration": 25,
+												"amplifier": 2
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "absorption",
+												"target": "holder",
+												"duration": 120,
+												"amplifier": 0
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "haste",
+												"target": "holder",
+												"duration": 100,
+												"amplifier": 1
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "night_vision",
+												"target": "holder",
+												"duration": 17,
+												"amplifier": 1
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"data": "1.6",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"data": "false",
+								"key": "minecraft:foil"
+							},
+							{
+								"key": "minecraft:food",
+								"is_minified": true,
+								"children": {
+									"nutrition": 4,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "d",
+										"target": "self"
+									}
+								}
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "cobaltapple"
+								}
+							},
+							{
+								"data": "eat",
+								"key": "minecraft:use_animation"
+							},
+							{
+								"open": {
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 1.6,
+									"minecraft:foil": false,
+									"minecraft:food": {
+										"nutrition": 4,
+										"saturation_modifier": "supernatural",
+										"can_always_eat": true,
+										"on_consume": {
+											"event": "d",
+											"target": "self"
+										}
+									},
+									"minecraft:icon": {
+										"texture": "cobaltapple"
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:display_name": {
+										"value": "Cobalt Apple"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Cobalt Apple"
+								}
+							}
+						]
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {
+							"d": {
+								"sequence": [
+									{
+										"add_mob_effect": {
+											"effect": "regeneration",
+											"target": "holder",
+											"duration": 25,
+											"amplifier": 2
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "absorption",
+											"target": "holder",
+											"duration": 120,
+											"amplifier": 0
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "haste",
+											"target": "holder",
+											"duration": 100,
+											"amplifier": 1
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "night_vision",
+											"target": "holder",
+											"duration": 17,
+											"amplifier": 1
+										}
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

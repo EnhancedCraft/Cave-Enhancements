@@ -1,0 +1,29 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "ores:ruby_helmet.player",
+			"item": {
+				"ores:ruby_helmet": "query.owner_identifier == 'minecraft:player'"
+			},
+			"materials": {
+				"default": "armor",
+				"enchanted": "armor_enchanted"
+			},
+			"textures": {
+				"default": "textures/armor/armor/ruby_1",
+				"enchanted": "textures/misc/red_glint"
+			},
+			"geometry": {
+				"default": "geometry.player.armor.helmet"
+			},
+			"scripts": {
+				"parent_setup": "variable.helmet_layer_visible = 0.0;"
+			},
+			"render_controllers": [
+				"controller.render.armor"
+			]
+		}
+	}
+}

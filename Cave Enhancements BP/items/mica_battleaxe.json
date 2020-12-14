@@ -1,0 +1,35 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ores:mica_battleaxe",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:stacked_by_data": true,
+			"minecraft:damageable": {
+				"max_damage": 5000
+			},
+			"minecraft:enchantable": {
+				"slot": "sword",
+				"value": 10
+			},
+			"minecraft:durability": {
+				"max_durability": 5000
+			},
+			"minecraft:icon": {
+				"texture": "micabattleaxe"
+			},
+			"minecraft:damage": 5,
+			"minecraft:display_name": {
+				"value": "Mica Battleaxe §15 Damage"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
+			}
+		}
+	}
+}

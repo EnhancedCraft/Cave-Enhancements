@@ -1,0 +1,16 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:mud_block"
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:friction": 1,
+			"minecraft:explosion_resistance": 1,
+			"minecraft:loot": "loot_tables/mud_block_loot.json",
+			"minecraft:preventsjumping": true
+		}
+	}
+}

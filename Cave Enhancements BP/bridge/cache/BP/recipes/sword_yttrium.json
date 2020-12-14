@@ -1,0 +1,224 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\recipes\\sword_yttrium.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "9341ae40_c338_4206_9b8c_15e2ced53d15",
+	"file_version": 37,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ores:sword_yttrium"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"X",
+							"X",
+							"#"
+						],
+						"key": {
+							"#": {
+								"item": "minecraft:stick"
+							},
+							"X": {
+								"item": "ores:yttrium_ingot"
+							}
+						},
+						"result": {
+							"item": "ores:yttrium_sword"
+						}
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:sword_yttrium"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"X",
+								"X",
+								"#"
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:stick"
+								},
+								"X": {
+									"item": "ores:yttrium_ingot"
+								}
+							},
+							"result": {
+								"item": "ores:yttrium_sword"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:sword_yttrium"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:sword_yttrium"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"X",
+								"X",
+								"#"
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:stick"
+								},
+								"X": {
+									"item": "ores:yttrium_ingot"
+								}
+							},
+							"result": {
+								"item": "ores:yttrium_sword"
+							}
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:sword_yttrium"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"X",
+								"X",
+								"#"
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:stick"
+								},
+								"X": {
+									"item": "ores:yttrium_ingot"
+								}
+							},
+							"result": {
+								"item": "ores:yttrium_sword"
+							}
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"X",
+							"X",
+							"#"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:sword_yttrium"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"X",
+								"X",
+								"#"
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:stick"
+								},
+								"X": {
+									"item": "ores:yttrium_ingot"
+								}
+							},
+							"result": {
+								"item": "ores:yttrium_sword"
+							}
+						},
+						"key": "key",
+						"children": [
+							{
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:stick"
+								}
+							},
+							{
+								"open": {
+									"#": {
+										"item": "minecraft:stick"
+									},
+									"X": {
+										"item": "ores:yttrium_ingot"
+									}
+								},
+								"key": "X",
+								"is_minified": true,
+								"children": {
+									"item": "ores:yttrium_ingot"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:sword_yttrium"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"X",
+								"X",
+								"#"
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:stick"
+								},
+								"X": {
+									"item": "ores:yttrium_ingot"
+								}
+							},
+							"result": {
+								"item": "ores:yttrium_sword"
+							}
+						},
+						"key": "result",
+						"is_minified": true,
+						"children": {
+							"item": "ores:yttrium_sword"
+						}
+					}
+				]
+			}
+		]
+	}
+}

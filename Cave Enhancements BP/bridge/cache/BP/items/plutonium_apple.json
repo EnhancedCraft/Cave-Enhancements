@@ -1,0 +1,200 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\items\\plutonium_apple.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "61627d32_08d2_4d65_9381_38632e92a5b3",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ores:plutonium_apple",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:use_duration": 1.6,
+							"minecraft:foil": false,
+							"minecraft:food": {
+								"nutrition": 4,
+								"saturation_modifier": "supernatural",
+								"can_always_eat": true,
+								"on_consume": {
+									"event": "consumed",
+									"target": "self"
+								}
+							},
+							"minecraft:icon": {
+								"texture": "plutoniumapple"
+							},
+							"minecraft:use_animation": "eat",
+							"minecraft:display_name": {
+								"value": "Plutonium Apple"
+							}
+						},
+						"events": {
+							"consumed": {
+								"sequence": [
+									{
+										"add_mob_effect": {
+											"effect": "fatal_poison",
+											"duration": 8,
+											"amplifier": 1,
+											"target": "holder"
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:plutonium_apple",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:plutonium_apple",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:foil": false,
+								"minecraft:food": {
+									"nutrition": 4,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								},
+								"minecraft:icon": {
+									"texture": "plutoniumapple"
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:display_name": {
+									"value": "Plutonium Apple"
+								}
+							},
+							"events": {
+								"consumed": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "fatal_poison",
+												"duration": 8,
+												"amplifier": 1,
+												"target": "holder"
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"data": "1.6",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"data": "false",
+								"key": "minecraft:foil"
+							},
+							{
+								"key": "minecraft:food",
+								"is_minified": true,
+								"children": {
+									"nutrition": 4,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								}
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "plutoniumapple"
+								}
+							},
+							{
+								"data": "eat",
+								"key": "minecraft:use_animation"
+							},
+							{
+								"open": {
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 1.6,
+									"minecraft:foil": false,
+									"minecraft:food": {
+										"nutrition": 4,
+										"saturation_modifier": "supernatural",
+										"can_always_eat": true,
+										"on_consume": {
+											"event": "consumed",
+											"target": "self"
+										}
+									},
+									"minecraft:icon": {
+										"texture": "plutoniumapple"
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:display_name": {
+										"value": "Plutonium Apple"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Plutonium Apple"
+								}
+							}
+						]
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {
+							"consumed": {
+								"sequence": [
+									{
+										"add_mob_effect": {
+											"effect": "fatal_poison",
+											"duration": 8,
+											"amplifier": 1,
+											"target": "holder"
+										}
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

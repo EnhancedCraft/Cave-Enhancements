@@ -1,0 +1,52 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "ores:rocks_gen",
+			"places_feature": "ores:rocks_feature"
+		},
+		"conditions": {
+			"placement_pass": "after_surface_pass",
+			"minecraft:biome_filter": {
+				"any_of": [
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "overworld"
+					},
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "overworld_generation"
+					}
+				]
+			}
+		},
+		"distribution": {
+			"iterations": 1000,
+			"coordinate_eval_order": "zyx",
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					59
+				]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			}
+		}
+	}
+}

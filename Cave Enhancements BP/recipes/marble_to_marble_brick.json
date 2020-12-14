@@ -1,0 +1,26 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "ores:marble_to_marble_brick"
+		},
+		"tags": [
+			"stonecutter"
+		],
+		"priority": 0,
+		"ingredients": [
+			{
+				"item": "ores:marble",
+				"data": 0
+			}
+		],
+		"result": [
+			{
+				"item": "ores:marble_brick",
+				"data": 0,
+				"count": 1
+			}
+		]
+	}
+}

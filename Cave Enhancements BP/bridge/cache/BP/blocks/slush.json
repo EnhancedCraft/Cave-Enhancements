@@ -1,0 +1,355 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\blocks\\slush.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "b9ad29c2_3a63_49d1_b07a_821e715e69a4",
+	"file_version": 10,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "ores:slush"
+						},
+						"components": {
+							"minecraft:destroy_time": 1,
+							"minecraft:explosion_resistance": 1,
+							"minecraft:entity_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									3,
+									16
+								]
+							},
+							"minecraft:pick_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									3,
+									16
+								]
+							},
+							"minecraft:preventsjumping": true,
+							"bridge:log_rotate_on_place": {
+								"rotation_from": "player"
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:slush"
+							},
+							"components": {
+								"minecraft:destroy_time": 1,
+								"minecraft:explosion_resistance": 1,
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										3,
+										16
+									]
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										3,
+										16
+									]
+								},
+								"minecraft:preventsjumping": true,
+								"bridge:log_rotate_on_place": {
+									"rotation_from": "player"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:slush"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:slush"
+							},
+							"components": {
+								"minecraft:destroy_time": 1,
+								"minecraft:explosion_resistance": 1,
+								"minecraft:entity_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										3,
+										16
+									]
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										3,
+										16
+									]
+								},
+								"minecraft:preventsjumping": true,
+								"bridge:log_rotate_on_place": {
+									"rotation_from": "player"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"data": "1",
+								"key": "minecraft:explosion_resistance"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 1,
+									"minecraft:explosion_resistance": 1,
+									"minecraft:entity_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											3,
+											16
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											3,
+											16
+										]
+									},
+									"minecraft:preventsjumping": true,
+									"bridge:log_rotate_on_place": {
+										"rotation_from": "player"
+									}
+								},
+								"key": "minecraft:entity_collision",
+								"children": [
+									{
+										"open": {
+											"origin": [
+												-8,
+												0,
+												-8
+											],
+											"size": [
+												16,
+												3,
+												16
+											]
+										},
+										"key": "origin",
+										"is_minified": true,
+										"children": [
+											-8,
+											0,
+											-8
+										]
+									},
+									{
+										"open": {
+											"origin": [
+												-8,
+												0,
+												-8
+											],
+											"size": [
+												16,
+												3,
+												16
+											]
+										},
+										"key": "size",
+										"is_minified": true,
+										"children": [
+											16,
+											3,
+											16
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 1,
+									"minecraft:explosion_resistance": 1,
+									"minecraft:entity_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											3,
+											16
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											3,
+											16
+										]
+									},
+									"minecraft:preventsjumping": true,
+									"bridge:log_rotate_on_place": {
+										"rotation_from": "player"
+									}
+								},
+								"key": "minecraft:pick_collision",
+								"children": [
+									{
+										"open": {
+											"origin": [
+												-8,
+												0,
+												-8
+											],
+											"size": [
+												16,
+												3,
+												16
+											]
+										},
+										"key": "origin",
+										"is_minified": true,
+										"children": [
+											-8,
+											0,
+											-8
+										]
+									},
+									{
+										"open": {
+											"origin": [
+												-8,
+												0,
+												-8
+											],
+											"size": [
+												16,
+												3,
+												16
+											]
+										},
+										"key": "size",
+										"is_minified": true,
+										"children": [
+											16,
+											3,
+											16
+										]
+									}
+								]
+							},
+							{
+								"data": "true",
+								"key": "minecraft:preventsjumping"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 1,
+									"minecraft:explosion_resistance": 1,
+									"minecraft:entity_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											3,
+											16
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-8,
+											0,
+											-8
+										],
+										"size": [
+											16,
+											3,
+											16
+										]
+									},
+									"minecraft:preventsjumping": true,
+									"bridge:log_rotate_on_place": {
+										"rotation_from": "player"
+									}
+								},
+								"key": "bridge:log_rotate_on_place",
+								"is_minified": true,
+								"children": {
+									"rotation_from": "player"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

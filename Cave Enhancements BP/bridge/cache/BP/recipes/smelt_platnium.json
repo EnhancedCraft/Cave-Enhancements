@@ -1,0 +1,79 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\recipes\\smelt_platnium.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "ff450aad_e0f3_4b56_92cf_e55be405ecaf",
+	"file_version": 11,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_furnace": {
+						"description": {
+							"identifier": "ores:smelt_platnium"
+						},
+						"tags": [
+							"furnace",
+							"blast_furnace"
+						],
+						"input": "ores:platnium_ore",
+						"output": "ores:platnium_ingot"
+					}
+				},
+				"key": "minecraft:recipe_furnace",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:smelt_platnium"
+							},
+							"tags": [
+								"furnace",
+								"blast_furnace"
+							],
+							"input": "ores:platnium_ore",
+							"output": "ores:platnium_ingot"
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:smelt_platnium"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:smelt_platnium"
+							},
+							"tags": [
+								"furnace",
+								"blast_furnace"
+							],
+							"input": "ores:platnium_ore",
+							"output": "ores:platnium_ingot"
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"furnace",
+							"blast_furnace"
+						]
+					},
+					{
+						"data": "ores:platnium_ore",
+						"key": "input"
+					},
+					{
+						"data": "ores:platnium_ingot",
+						"key": "output"
+					}
+				]
+			}
+		]
+	}
+}

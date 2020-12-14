@@ -1,0 +1,22 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ores:tungsten_gemstone",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:hand_equipped": false,
+			"minecraft:stacked_by_data": true,
+			"minecraft:display_name": {
+				"value": "Tungsten Bar"
+			},
+			"minecraft:icon": {
+				"texture": "tungstengemstone"
+			}
+		},
+		"events": {}
+	}
+}

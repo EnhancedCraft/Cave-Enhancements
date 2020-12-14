@@ -1,0 +1,25 @@
+//bridge-file-version: #21
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:block_mica"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "ores:mica_crystal"
+			}
+		},
+		"result": {
+			"item": "ores:mica_block"
+		}
+	}
+}

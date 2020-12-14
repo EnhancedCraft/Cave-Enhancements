@@ -1,0 +1,175 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\recipes\\block_celestine.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "7403e79c_c2dc_4561_9f33_31bdab79458f",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ores:block_celestine"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"###",
+							"###",
+							"###"
+						],
+						"key": {
+							"#": {
+								"item": "ores:celestine_ingot"
+							}
+						},
+						"result": {
+							"item": "ores:celestine_block"
+						}
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:block_celestine"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"###",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:celestine_ingot"
+								}
+							},
+							"result": {
+								"item": "ores:celestine_block"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:block_celestine"
+						}
+					},
+					{
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:block_celestine"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"###",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:celestine_ingot"
+								}
+							},
+							"result": {
+								"item": "ores:celestine_block"
+							}
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"###",
+							"###",
+							"###"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:block_celestine"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"###",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:celestine_ingot"
+								}
+							},
+							"result": {
+								"item": "ores:celestine_block"
+							}
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"#": {
+										"item": "ores:celestine_ingot"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "ores:celestine_ingot"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:block_celestine"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"###",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:celestine_ingot"
+								}
+							},
+							"result": {
+								"item": "ores:celestine_block"
+							}
+						},
+						"key": "result",
+						"is_minified": true,
+						"children": {
+							"item": "ores:celestine_block"
+						}
+					}
+				]
+			}
+		]
+	}
+}

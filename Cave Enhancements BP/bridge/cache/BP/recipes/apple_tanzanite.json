@@ -1,0 +1,259 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\recipes\\apple_tanzanite.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "6b5b048a_d103_4995_baba_f91aafdab9ad",
+	"file_version": 33,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ores:apple_tanzanite"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"###",
+							"#X#",
+							"###"
+						],
+						"key": {
+							"#": {
+								"item": "ores:tanzanite_gemstone"
+							},
+							"X": {
+								"item": "minecraft:apple"
+							}
+						},
+						"result": {
+							"item": "ores:tanzanite_apple"
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ores:apple_tanzanite"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"###",
+							"#X#",
+							"###"
+						],
+						"key": {
+							"#": {
+								"item": "ores:tanzanite_gemstone"
+							},
+							"X": {
+								"item": "minecraft:apple"
+							}
+						},
+						"result": {
+							"item": "ores:tanzanite_apple"
+						}
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:apple_tanzanite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"#X#",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:tanzanite_gemstone"
+								},
+								"X": {
+									"item": "minecraft:apple"
+								}
+							},
+							"result": {
+								"item": "ores:tanzanite_apple"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:apple_tanzanite"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:apple_tanzanite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"#X#",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:tanzanite_gemstone"
+								},
+								"X": {
+									"item": "minecraft:apple"
+								}
+							},
+							"result": {
+								"item": "ores:tanzanite_apple"
+							}
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:apple_tanzanite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"#X#",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:tanzanite_gemstone"
+								},
+								"X": {
+									"item": "minecraft:apple"
+								}
+							},
+							"result": {
+								"item": "ores:tanzanite_apple"
+							}
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"###",
+							"#X#",
+							"###"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:apple_tanzanite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"#X#",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:tanzanite_gemstone"
+								},
+								"X": {
+									"item": "minecraft:apple"
+								}
+							},
+							"result": {
+								"item": "ores:tanzanite_apple"
+							}
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"#": {
+										"item": "ores:tanzanite_gemstone"
+									},
+									"X": {
+										"item": "minecraft:apple"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "ores:tanzanite_gemstone"
+								}
+							},
+							{
+								"open": {
+									"#": {
+										"item": "ores:tanzanite_gemstone"
+									},
+									"X": {
+										"item": "minecraft:apple"
+									}
+								},
+								"key": "X",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:apple"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:apple_tanzanite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"#X#",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:tanzanite_gemstone"
+								},
+								"X": {
+									"item": "minecraft:apple"
+								}
+							},
+							"result": {
+								"item": "ores:tanzanite_apple"
+							}
+						},
+						"key": "result",
+						"is_minified": true,
+						"children": {
+							"item": "ores:tanzanite_apple"
+						}
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,249 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\items\\pyrite_sword.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "92ce693f_e917_4479_824a_40ccb7fc6439",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ores:pyrite_sword",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:stacked_by_data": true,
+							"minecraft:damage": 4.5,
+							"minecraft:durability": {
+								"max_durability": 350
+							},
+							"minecraft:enchantable": {
+								"slot": "sword",
+								"value": 10
+							},
+							"minecraft:display_name": {
+								"value": "Pyrite Sword"
+							},
+							"minecraft:icon": {
+								"texture": "pyritesword"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
+							},
+							"minecraft:weapon": {}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:pyrite_sword",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:stacked_by_data": true,
+								"minecraft:damage": 4.5,
+								"minecraft:durability": {
+									"max_durability": 350
+								},
+								"minecraft:enchantable": {
+									"slot": "sword",
+									"value": 10
+								},
+								"minecraft:display_name": {
+									"value": "Pyrite Sword"
+								},
+								"minecraft:icon": {
+									"texture": "pyritesword"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								},
+								"minecraft:weapon": {}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:pyrite_sword",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:pyrite_sword",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:stacked_by_data": true,
+								"minecraft:damage": 4.5,
+								"minecraft:durability": {
+									"max_durability": 350
+								},
+								"minecraft:enchantable": {
+									"slot": "sword",
+									"value": 10
+								},
+								"minecraft:display_name": {
+									"value": "Pyrite Sword"
+								},
+								"minecraft:icon": {
+									"texture": "pyritesword"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								},
+								"minecraft:weapon": {}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"data": "4.5",
+								"key": "minecraft:damage"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:stacked_by_data": true,
+									"minecraft:damage": 4.5,
+									"minecraft:durability": {
+										"max_durability": 350
+									},
+									"minecraft:enchantable": {
+										"slot": "sword",
+										"value": 10
+									},
+									"minecraft:display_name": {
+										"value": "Pyrite Sword"
+									},
+									"minecraft:icon": {
+										"texture": "pyritesword"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:weapon": {}
+								},
+								"key": "minecraft:durability",
+								"is_minified": true,
+								"children": {
+									"max_durability": 350
+								}
+							},
+							{
+								"key": "minecraft:enchantable",
+								"is_minified": true,
+								"children": {
+									"slot": "sword",
+									"value": 10
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:stacked_by_data": true,
+									"minecraft:damage": 4.5,
+									"minecraft:durability": {
+										"max_durability": 350
+									},
+									"minecraft:enchantable": {
+										"slot": "sword",
+										"value": 10
+									},
+									"minecraft:display_name": {
+										"value": "Pyrite Sword"
+									},
+									"minecraft:icon": {
+										"texture": "pyritesword"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:weapon": {}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Pyrite Sword"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:stacked_by_data": true,
+									"minecraft:damage": 4.5,
+									"minecraft:durability": {
+										"max_durability": 350
+									},
+									"minecraft:enchantable": {
+										"slot": "sword",
+										"value": 10
+									},
+									"minecraft:display_name": {
+										"value": "Pyrite Sword"
+									},
+									"minecraft:icon": {
+										"texture": "pyritesword"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:weapon": {}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "pyritesword"
+								}
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.sword"
+								}
+							},
+							{
+								"key": "minecraft:weapon",
+								"is_minified": true,
+								"children": {}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

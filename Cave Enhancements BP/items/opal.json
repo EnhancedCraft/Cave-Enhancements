@@ -1,0 +1,21 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ores:opal",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:hand_equipped": false,
+			"minecraft:stacked_by_data": true,
+			"minecraft:icon": {
+				"texture": "opal"
+			},
+			"minecraft:display_name": {
+				"value": "Opal"
+			}
+		}
+	}
+}

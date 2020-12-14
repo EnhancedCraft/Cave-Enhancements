@@ -1,0 +1,18 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:cinnabar_ore",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 1230,
+			"minecraft:block_light_emission": 0.3,
+			"minecraft:friction": 1,
+			"minecraft:explosion_resistance": 4,
+			"minecraft:loot": "loot_tables/cinnabar_loot.json",
+			"tag:ores:medium": {}
+		}
+	}
+}

@@ -1,0 +1,58 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Cave Enhancements Beta 1\\textures\\flipbook_textures.json",
+	"file_type": "flipbook_texture",
+	"format_version": 1,
+	"file_uuid": "40aee1ac_629c_490d_93bd_755c21aaa0d3",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"open": [
+					{
+						"flipbook_texture": "textures/blocks/spread",
+						"atlas_tile": "spread",
+						"frames": [
+							3
+						],
+						"ticks_per_frame": 30,
+						"blend_frames": true
+					}
+				],
+				"children": [
+					{
+						"data": "textures/blocks/spread",
+						"key": "flipbook_texture"
+					},
+					{
+						"data": "spread",
+						"key": "atlas_tile"
+					},
+					{
+						"open": {
+							"flipbook_texture": "textures/blocks/spread",
+							"atlas_tile": "spread",
+							"frames": [
+								3
+							],
+							"ticks_per_frame": 30,
+							"blend_frames": true
+						},
+						"key": "frames",
+						"is_minified": true,
+						"children": [
+							3
+						]
+					},
+					{
+						"data": "30",
+						"key": "ticks_per_frame"
+					},
+					{
+						"data": "true",
+						"key": "blend_frames"
+					}
+				]
+			}
+		]
+	}
+}

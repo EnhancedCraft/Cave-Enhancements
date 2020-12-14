@@ -1,0 +1,21 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:centrifuge"
+		},
+		"components": {
+			"minecraft:destroy_time": 3,
+			"minecraft:explosion_resistance": 5,
+			"minecraft:crafting_table": {
+				"custom_description": "Centrifuge",
+				"grid_size": 3,
+				"crafting_tags": [
+					"centrifuge"
+				]
+			}
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,31 @@
+//bridge-file-version: #41
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:battleaxe_zinc"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XXX",
+			"XOX",
+			" O"
+		],
+		"key": {
+			"X": {
+				"item": "ores:zinc_ingot"
+			},
+			"O": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": [
+			{
+				"item": "ores:zinc_battleaxe",
+				"count": 1
+			}
+		]
+	}
+}

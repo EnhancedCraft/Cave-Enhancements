@@ -1,0 +1,175 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\recipes\\block_flurite.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "6a0001b7_4c5e_4cfc_90ec_03cbe9691f3e",
+	"file_version": 10,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ores:flurite"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"###",
+							"###",
+							"###"
+						],
+						"key": {
+							"#": {
+								"item": "ores:flurite_crystal"
+							}
+						},
+						"result": {
+							"item": "ores:flurite_block"
+						}
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:flurite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"###",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:flurite_crystal"
+								}
+							},
+							"result": {
+								"item": "ores:flurite_block"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:flurite"
+						}
+					},
+					{
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:flurite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"###",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:flurite_crystal"
+								}
+							},
+							"result": {
+								"item": "ores:flurite_block"
+							}
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"###",
+							"###",
+							"###"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:flurite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"###",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:flurite_crystal"
+								}
+							},
+							"result": {
+								"item": "ores:flurite_block"
+							}
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"#": {
+										"item": "ores:flurite_crystal"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "ores:flurite_crystal"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:flurite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"###",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:flurite_crystal"
+								}
+							},
+							"result": {
+								"item": "ores:flurite_block"
+							}
+						},
+						"key": "result",
+						"is_minified": true,
+						"children": {
+							"item": "ores:flurite_block"
+						}
+					}
+				]
+			}
+		]
+	}
+}

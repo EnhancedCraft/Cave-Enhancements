@@ -1,0 +1,241 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Cave Enhancements Beta 1\\attachables\\tophat_player.json",
+	"file_type": "attachable",
+	"format_version": 1,
+	"file_uuid": "3299479e_a1ec_43b1_b534_057a824f6d5a",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:attachable": {
+						"description": {
+							"identifier": "ores:tophat.player",
+							"item": {
+								"ores:tophat": "query.owner_identifier == 'minecraft:player'"
+							},
+							"materials": {
+								"default": "armor",
+								"enchanted": "armor_enchanted"
+							},
+							"textures": {
+								"default": "textures/armor/armor/tophat",
+								"enchanted": "textures/misc/enchanted_item_glint"
+							},
+							"geometry": {
+								"default": "geometry.tophat"
+							},
+							"scripts": {
+								"parent_setup": "variable.helmet_layer_visible = 0.0;"
+							},
+							"render_controllers": [
+								"controller.render.armor"
+							]
+						}
+					}
+				},
+				"key": "minecraft:attachable",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:tophat.player",
+								"item": {
+									"ores:tophat": "query.owner_identifier == 'minecraft:player'"
+								},
+								"materials": {
+									"default": "armor",
+									"enchanted": "armor_enchanted"
+								},
+								"textures": {
+									"default": "textures/armor/armor/tophat",
+									"enchanted": "textures/misc/enchanted_item_glint"
+								},
+								"geometry": {
+									"default": "geometry.tophat"
+								},
+								"scripts": {
+									"parent_setup": "variable.helmet_layer_visible = 0.0;"
+								},
+								"render_controllers": [
+									"controller.render.armor"
+								]
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "ores:tophat.player",
+									"item": {
+										"ores:tophat": "query.owner_identifier == 'minecraft:player'"
+									},
+									"materials": {
+										"default": "armor",
+										"enchanted": "armor_enchanted"
+									},
+									"textures": {
+										"default": "textures/armor/armor/tophat",
+										"enchanted": "textures/misc/enchanted_item_glint"
+									},
+									"geometry": {
+										"default": "geometry.tophat"
+									},
+									"scripts": {
+										"parent_setup": "variable.helmet_layer_visible = 0.0;"
+									},
+									"render_controllers": [
+										"controller.render.armor"
+									]
+								},
+								"data": "ores:tophat.player",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "ores:tophat.player",
+									"item": {
+										"ores:tophat": "query.owner_identifier == 'minecraft:player'"
+									},
+									"materials": {
+										"default": "armor",
+										"enchanted": "armor_enchanted"
+									},
+									"textures": {
+										"default": "textures/armor/armor/tophat",
+										"enchanted": "textures/misc/enchanted_item_glint"
+									},
+									"geometry": {
+										"default": "geometry.tophat"
+									},
+									"scripts": {
+										"parent_setup": "variable.helmet_layer_visible = 0.0;"
+									},
+									"render_controllers": [
+										"controller.render.armor"
+									]
+								},
+								"key": "item",
+								"is_minified": true,
+								"children": {
+									"ores:tophat": "query.owner_identifier == 'minecraft:player'"
+								}
+							},
+							{
+								"open": {
+									"identifier": "ores:tophat.player",
+									"item": {
+										"ores:tophat": "query.owner_identifier == 'minecraft:player'"
+									},
+									"materials": {
+										"default": "armor",
+										"enchanted": "armor_enchanted"
+									},
+									"textures": {
+										"default": "textures/armor/armor/tophat",
+										"enchanted": "textures/misc/enchanted_item_glint"
+									},
+									"geometry": {
+										"default": "geometry.tophat"
+									},
+									"scripts": {
+										"parent_setup": "variable.helmet_layer_visible = 0.0;"
+									},
+									"render_controllers": [
+										"controller.render.armor"
+									]
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "armor",
+									"enchanted": "armor_enchanted"
+								}
+							},
+							{
+								"open": {
+									"identifier": "ores:tophat.player",
+									"item": {
+										"ores:tophat": "query.owner_identifier == 'minecraft:player'"
+									},
+									"materials": {
+										"default": "armor",
+										"enchanted": "armor_enchanted"
+									},
+									"textures": {
+										"default": "textures/armor/armor/tophat",
+										"enchanted": "textures/misc/enchanted_item_glint"
+									},
+									"geometry": {
+										"default": "geometry.tophat"
+									},
+									"scripts": {
+										"parent_setup": "variable.helmet_layer_visible = 0.0;"
+									},
+									"render_controllers": [
+										"controller.render.armor"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/armor/armor/tophat",
+									"enchanted": "textures/misc/enchanted_item_glint"
+								}
+							},
+							{
+								"open": {
+									"identifier": "ores:tophat.player",
+									"item": {
+										"ores:tophat": "query.owner_identifier == 'minecraft:player'"
+									},
+									"materials": {
+										"default": "armor",
+										"enchanted": "armor_enchanted"
+									},
+									"textures": {
+										"default": "textures/armor/armor/tophat",
+										"enchanted": "textures/misc/enchanted_item_glint"
+									},
+									"geometry": {
+										"default": "geometry.tophat"
+									},
+									"scripts": {
+										"parent_setup": "variable.helmet_layer_visible = 0.0;"
+									},
+									"render_controllers": [
+										"controller.render.armor"
+									]
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.tophat"
+								}
+							},
+							{
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"parent_setup": "variable.helmet_layer_visible = 0.0;"
+								}
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.armor"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

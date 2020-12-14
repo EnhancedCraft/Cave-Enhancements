@@ -1,0 +1,436 @@
+//bridge-file-version: #23
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "ores:giant_cave_feature"
+		},
+		"count": 125,
+		"places_block": {
+			"name": "minecraft:air",
+			"states": {}
+		},
+		"may_replace": [
+			{
+				"name": "minecraft:stone",
+				"states": {
+					"stone_type": "andesite"
+				}
+			},
+			{
+				"name": "minecraft:stone",
+				"states": {
+					"stone_type": "andesite_smooth"
+				}
+			},
+			{
+				"name": "minecraft:stone",
+				"states": {
+					"stone_type": "diorite"
+				}
+			},
+			{
+				"name": "minecraft:stone",
+				"states": {
+					"stone_type": "diorite_smooth"
+				}
+			},
+			{
+				"name": "minecraft:stone",
+				"states": {
+					"stone_type": "granite"
+				}
+			},
+			{
+				"name": "minecraft:stone",
+				"states": {
+					"stone_type": "granite_smooth"
+				}
+			},
+			{
+				"name": "minecraft:stone",
+				"states": {
+					"stone_type": "stone"
+				}
+			},
+			{
+				"name": "ores:molten_stone",
+				"states": {}
+			},
+			{
+				"name": "ores:marble",
+				"states": {}
+			},
+			{
+				"name": "ores:cold_stone",
+				"states": {}
+			},
+			{
+				"name": "ores:s_stone",
+				"states": {}
+			},
+			{
+				"name": "ores:j_stone",
+				"states": {}
+			},
+			{
+				"name": "minecraft:water",
+				"states": {}
+			},
+			{
+				"name": "minecraft:flowing_water",
+				"states": {}
+			},
+			{
+				"name": "minecraft:lava",
+				"states": {}
+			},
+			{
+				"name": "ores:platnium_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:copper_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:cobalt_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:amber_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:bauxite_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:calcite_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:garnet_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:nickel_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:ocean_stone_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:prismarite_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:pyrite_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:amethyst_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:celestine_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:cinnabar_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:flurite_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:hematite_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:jade_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:lead_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:magnetite_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:mica_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:ruby_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:sapphire_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:silver_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:titanium_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:tungsten_ore",
+				"states": {}
+			},
+			{
+				"name": "minecraft:gold_ore",
+				"states": {}
+			},
+			{
+				"name": "minecraft:iron_ore",
+				"states": {}
+			},
+			{
+				"name": "minecraft:coal_ore",
+				"states": {}
+			},
+			{
+				"name": "minecraft:lapis_ore",
+				"states": {}
+			},
+			{
+				"name": "minecraft:diamond_ore",
+				"states": {}
+			},
+			{
+				"name": "minecraft:redstone_ore",
+				"states": {}
+			},
+			{
+				"name": "minecraft:emerald_ore",
+				"states": {}
+			},
+			{
+				"name": "minecraft:dirt",
+				"states": {}
+			},
+			{
+				"name": "minecraft:gravel",
+				"states": {}
+			},
+			{
+				"name": "ores:cave_grass",
+				"states": {}
+			},
+			{
+				"name": "minecraft:coral_fan_dead",
+				"states": {}
+			},
+			{
+				"name": "ores:i_diorite",
+				"states": {}
+			},
+			{
+				"name": "ores:j_diorite",
+				"states": {}
+			},
+			{
+				"name": "ores:s_diorite",
+				"states": {}
+			},
+			{
+				"name": "ores:i_andesite",
+				"states": {}
+			},
+			{
+				"name": "ores:j_andesite",
+				"states": {}
+			},
+			{
+				"name": "ores:s_andesite",
+				"states": {}
+			},
+			{
+				"name": "ores:i_granite",
+				"states": {}
+			},
+			{
+				"name": "ores:j_granite",
+				"states": {}
+			},
+			{
+				"name": "ores:s_granite",
+				"states": {}
+			},
+			{
+				"name": "ores:blue_crystal_block",
+				"states": {}
+			},
+			{
+				"name": "ores:yellow_crystal_block",
+				"states": {}
+			},
+			{
+				"name": "ores:red_crystal_block",
+				"states": {}
+			},
+			{
+				"name": "minecraft:cobblestone",
+				"states": {}
+			},
+			{
+				"name": "minecraft:cobblestone_wall",
+				"states": {}
+			},
+			{
+				"name": "ores:i_coal",
+				"states": {}
+			},
+			{
+				"name": "ores:j_coal",
+				"states": {}
+			},
+			{
+				"name": "ores:s_coal",
+				"states": {}
+			},
+			{
+				"name": "ores:i_iron",
+				"states": {}
+			},
+			{
+				"name": "ores:j_iron",
+				"states": {}
+			},
+			{
+				"name": "ores:s_iron",
+				"states": {}
+			},
+			{
+				"name": "ores:i_gold",
+				"states": {}
+			},
+			{
+				"name": "ores:j_gold",
+				"states": {}
+			},
+			{
+				"name": "ores:s_gold",
+				"states": {}
+			},
+			{
+				"name": "ores:i_lapis",
+				"states": {}
+			},
+			{
+				"name": "ores:j_lapis",
+				"states": {}
+			},
+			{
+				"name": "ores:s_lapis",
+				"states": {}
+			},
+			{
+				"name": "ores:i_redstone",
+				"states": {}
+			},
+			{
+				"name": "ores:j_redstone",
+				"states": {}
+			},
+			{
+				"name": "ores:s_redstone",
+				"states": {}
+			},
+			{
+				"name": "ores:i_diamond",
+				"states": {}
+			},
+			{
+				"name": "ores:j_diamond",
+				"states": {}
+			},
+			{
+				"name": "ores:s_diamond",
+				"states": {}
+			},
+			{
+				"name": "ores:m_stone",
+				"states": {}
+			},
+			{
+				"name": "ores:gm_stone",
+				"states": {}
+			},
+			{
+				"name": "minecraft:bone_block",
+				"states": {}
+			},
+			{
+				"name": "minecraft:sandstone",
+				"states": {}
+			},
+			{
+				"name": "minecraft:packed_ice",
+				"states": {}
+			},
+			{
+				"name": "ores:limestone",
+				"states": {}
+			},
+			{
+				"name": "minecraft:wood",
+				"states": {
+					"wood_type": "oak"
+				}
+			},
+			{
+				"name": "minecraft:web",
+				"states": {}
+			},
+			{
+				"name": "minecraft:torch",
+				"states": {}
+			},
+			{
+				"name": "minecraft:chest",
+				"states": {}
+			},
+			{
+				"name": "ores:blue_crystal",
+				"states": {}
+			},
+			{
+				"name": "ores:glowing_grape_bush",
+				"states": {}
+			},
+			{
+				"name": "ores:stalagmite",
+				"states": {}
+			},
+			{
+				"name": "ores:glowing_mushroom",
+				"states": {}
+			},
+			{
+				"name": "ores:moss",
+				"states": {}
+			},
+			{
+				"name": "ores:purple_mushroom",
+				"states": {}
+			},
+			{
+				"name": "ores:cave_grass",
+				"states": {}
+			},
+			{
+				"name": "ores:glowing_grass",
+				"states": {}
+			}
+		]
+	}
+}

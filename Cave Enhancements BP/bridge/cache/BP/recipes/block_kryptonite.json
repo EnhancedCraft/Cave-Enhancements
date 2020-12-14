@@ -1,0 +1,175 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\recipes\\block_kryptonite.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "1fffef26_de2a_481e_9f5e_3d5071531fff",
+	"file_version": 15,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ores:block_kryptonite"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"###",
+							"###",
+							"###"
+						],
+						"key": {
+							"#": {
+								"item": "ores:kryptonite_crystal"
+							}
+						},
+						"result": {
+							"item": "ores:kryptonite_block"
+						}
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:block_kryptonite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"###",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:kryptonite_crystal"
+								}
+							},
+							"result": {
+								"item": "ores:kryptonite_block"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:block_kryptonite"
+						}
+					},
+					{
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:block_kryptonite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"###",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:kryptonite_crystal"
+								}
+							},
+							"result": {
+								"item": "ores:kryptonite_block"
+							}
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"###",
+							"###",
+							"###"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:block_kryptonite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"###",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:kryptonite_crystal"
+								}
+							},
+							"result": {
+								"item": "ores:kryptonite_block"
+							}
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"#": {
+										"item": "ores:kryptonite_crystal"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "ores:kryptonite_crystal"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:block_kryptonite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"###",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:kryptonite_crystal"
+								}
+							},
+							"result": {
+								"item": "ores:kryptonite_block"
+							}
+						},
+						"key": "result",
+						"is_minified": true,
+						"children": {
+							"item": "ores:kryptonite_block"
+						}
+					}
+				]
+			}
+		]
+	}
+}

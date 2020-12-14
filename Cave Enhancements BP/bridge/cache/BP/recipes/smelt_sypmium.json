@@ -1,0 +1,79 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\recipes\\smelt_sypmium.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "c4abd32b_bbc5_4374_89c7_26162e45975b",
+	"file_version": 15,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_furnace": {
+						"description": {
+							"identifier": "ores:smelt_sypmium"
+						},
+						"tags": [
+							"furnace",
+							"blast_furnace"
+						],
+						"input": "ores:sypmium_ore",
+						"output": "ores:sypmium_ingot"
+					}
+				},
+				"key": "minecraft:recipe_furnace",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:smelt_sypmium"
+							},
+							"tags": [
+								"furnace",
+								"blast_furnace"
+							],
+							"input": "ores:sypmium_ore",
+							"output": "ores:sypmium_ingot"
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:smelt_sypmium"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:smelt_sypmium"
+							},
+							"tags": [
+								"furnace",
+								"blast_furnace"
+							],
+							"input": "ores:sypmium_ore",
+							"output": "ores:sypmium_ingot"
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"furnace",
+							"blast_furnace"
+						]
+					},
+					{
+						"data": "ores:sypmium_ore",
+						"key": "input"
+					},
+					{
+						"data": "ores:sypmium_ingot",
+						"key": "output"
+					}
+				]
+			}
+		]
+	}
+}

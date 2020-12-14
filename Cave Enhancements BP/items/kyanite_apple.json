@@ -1,0 +1,61 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ores:kyanite_apple",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:stacked_by_data": true,
+			"minecraft:use_duration": 1.6,
+			"minecraft:foil": false,
+			"minecraft:food": {
+				"nutrition": 4,
+				"saturation_modifier": "supernatural",
+				"can_always_eat": true,
+				"on_consume": {
+					"event": "k",
+					"target": "self"
+				}
+			},
+			"minecraft:icon": {
+				"texture": "kyaniteapple"
+			},
+			"minecraft:use_animation": "eat",
+			"minecraft:display_name": {
+				"value": "Kyanite Apple"
+			}
+		},
+		"events": {
+			"k": {
+				"sequence": [
+					{
+						"add_mob_effect": {
+							"effect": "fire_resistance",
+							"target": "holder",
+							"duration": 800,
+							"amplifier": 1
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "resistance",
+							"target": "holder",
+							"duration": 300,
+							"amplifier": 1
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "instant_health",
+							"target": "holder",
+							"duration": 2,
+							"amplifier": 3
+						}
+					}
+				]
+			}
+		}
+	}
+}

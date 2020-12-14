@@ -1,0 +1,249 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\items\\tungsten_sword.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "ddb6079b_206e_4158_ab93_cdcc5998b3e1",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ores:tungsten_sword",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:stacked_by_data": true,
+							"minecraft:damage": 5.5,
+							"minecraft:durability": {
+								"max_durability": 1450
+							},
+							"minecraft:weapon": {},
+							"minecraft:enchantable": {
+								"slot": "sword",
+								"value": 10
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
+							},
+							"minecraft:display_name": {
+								"value": "Tungsten Sword"
+							},
+							"minecraft:icon": {
+								"texture": "tungstensword"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:tungsten_sword",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:stacked_by_data": true,
+								"minecraft:damage": 5.5,
+								"minecraft:durability": {
+									"max_durability": 1450
+								},
+								"minecraft:weapon": {},
+								"minecraft:enchantable": {
+									"slot": "sword",
+									"value": 10
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								},
+								"minecraft:display_name": {
+									"value": "Tungsten Sword"
+								},
+								"minecraft:icon": {
+									"texture": "tungstensword"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:tungsten_sword",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:tungsten_sword",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:stacked_by_data": true,
+								"minecraft:damage": 5.5,
+								"minecraft:durability": {
+									"max_durability": 1450
+								},
+								"minecraft:weapon": {},
+								"minecraft:enchantable": {
+									"slot": "sword",
+									"value": 10
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								},
+								"minecraft:display_name": {
+									"value": "Tungsten Sword"
+								},
+								"minecraft:icon": {
+									"texture": "tungstensword"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"data": "5.5",
+								"key": "minecraft:damage"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:stacked_by_data": true,
+									"minecraft:damage": 5.5,
+									"minecraft:durability": {
+										"max_durability": 1450
+									},
+									"minecraft:weapon": {},
+									"minecraft:enchantable": {
+										"slot": "sword",
+										"value": 10
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:display_name": {
+										"value": "Tungsten Sword"
+									},
+									"minecraft:icon": {
+										"texture": "tungstensword"
+									}
+								},
+								"key": "minecraft:durability",
+								"is_minified": true,
+								"children": {
+									"max_durability": 1450
+								}
+							},
+							{
+								"key": "minecraft:weapon",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:enchantable",
+								"is_minified": true,
+								"children": {
+									"slot": "sword",
+									"value": 10
+								}
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.sword"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:stacked_by_data": true,
+									"minecraft:damage": 5.5,
+									"minecraft:durability": {
+										"max_durability": 1450
+									},
+									"minecraft:weapon": {},
+									"minecraft:enchantable": {
+										"slot": "sword",
+										"value": 10
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:display_name": {
+										"value": "Tungsten Sword"
+									},
+									"minecraft:icon": {
+										"texture": "tungstensword"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Tungsten Sword"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:stacked_by_data": true,
+									"minecraft:damage": 5.5,
+									"minecraft:durability": {
+										"max_durability": 1450
+									},
+									"minecraft:weapon": {},
+									"minecraft:enchantable": {
+										"slot": "sword",
+										"value": 10
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:display_name": {
+										"value": "Tungsten Sword"
+									},
+									"minecraft:icon": {
+										"texture": "tungstensword"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "tungstensword"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

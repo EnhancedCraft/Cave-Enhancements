@@ -1,0 +1,301 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Cave Enhancements BP\\blocks\\cave_grass.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "840df904_2dce_48cc_91d1_70aaa9aa85ee",
+	"file_version": 20,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "ores:cave_grass"
+						},
+						"components": {
+							"minecraft:destroy_time": 1,
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "cavegrass",
+									"render_method": "alpha_test"
+								}
+							},
+							"minecraft:geometry": "geometry.cavegrass",
+							"minecraft:entity_collision": false,
+							"minecraft:pick_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									8,
+									16
+								]
+							},
+							"minecraft:breakonpush": true,
+							"minecraft:block_light_emission": 0,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:placement_filter": {
+								"conditions": [
+									{
+										"block_filter": [
+											"minecraft:stone",
+											"ores:i_stone",
+											"ores:cold_stone",
+											"ores:s_stone",
+											"ores:j_stone",
+											"ores:i_diorite",
+											"ores:j_diorite",
+											"ores:s_diorite",
+											"ores:i_andesite",
+											"ores:j_andesite",
+											"ores:s_andesite",
+											"ores:i_granite",
+											"ores:j_granite",
+											"ores:s_granite",
+											"minecraft:dirt"
+										],
+										"allowed_faces": [
+											"up"
+										]
+									}
+								]
+							},
+							"minecraft:on_interact": {
+								"event": "ores:glow"
+							}
+						},
+						"events": {
+							"ores:glow": {
+								"set_block": {
+									"block_type": "ores:cave_grass_glow"
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:cave_grass"
+							},
+							"components": {
+								"minecraft:destroy_time": 1,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "cavegrass",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:geometry": "geometry.cavegrass",
+								"minecraft:entity_collision": false,
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										8,
+										16
+									]
+								},
+								"minecraft:breakonpush": true,
+								"minecraft:block_light_emission": 0,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:placement_filter": {
+									"conditions": [
+										{
+											"block_filter": [
+												"minecraft:stone",
+												"ores:i_stone",
+												"ores:cold_stone",
+												"ores:s_stone",
+												"ores:j_stone",
+												"ores:i_diorite",
+												"ores:j_diorite",
+												"ores:s_diorite",
+												"ores:i_andesite",
+												"ores:j_andesite",
+												"ores:s_andesite",
+												"ores:i_granite",
+												"ores:j_granite",
+												"ores:s_granite",
+												"minecraft:dirt"
+											],
+											"allowed_faces": [
+												"up"
+											]
+										}
+									]
+								},
+								"minecraft:on_interact": {
+									"event": "ores:glow"
+								}
+							},
+							"events": {
+								"ores:glow": {
+									"set_block": {
+										"block_type": "ores:cave_grass_glow"
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:cave_grass"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:cave_grass"
+							},
+							"components": {
+								"minecraft:destroy_time": 1,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "cavegrass",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:geometry": "geometry.cavegrass",
+								"minecraft:entity_collision": false,
+								"minecraft:pick_collision": {
+									"origin": [
+										-8,
+										0,
+										-8
+									],
+									"size": [
+										16,
+										8,
+										16
+									]
+								},
+								"minecraft:breakonpush": true,
+								"minecraft:block_light_emission": 0,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:placement_filter": {
+									"conditions": [
+										{
+											"block_filter": [
+												"minecraft:stone",
+												"ores:i_stone",
+												"ores:cold_stone",
+												"ores:s_stone",
+												"ores:j_stone",
+												"ores:i_diorite",
+												"ores:j_diorite",
+												"ores:s_diorite",
+												"ores:i_andesite",
+												"ores:j_andesite",
+												"ores:s_andesite",
+												"ores:i_granite",
+												"ores:j_granite",
+												"ores:s_granite",
+												"minecraft:dirt"
+											],
+											"allowed_faces": [
+												"up"
+											]
+										}
+									]
+								},
+								"minecraft:on_interact": {
+									"event": "ores:glow"
+								}
+							},
+							"events": {
+								"ores:glow": {
+									"set_block": {
+										"block_type": "ores:cave_grass_glow"
+									}
+								}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 1,
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "cavegrass",
+									"render_method": "alpha_test"
+								}
+							},
+							"minecraft:geometry": "geometry.cavegrass",
+							"minecraft:entity_collision": false,
+							"minecraft:pick_collision": {
+								"origin": [
+									-8,
+									0,
+									-8
+								],
+								"size": [
+									16,
+									8,
+									16
+								]
+							},
+							"minecraft:breakonpush": true,
+							"minecraft:block_light_emission": 0,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:placement_filter": {
+								"conditions": [
+									{
+										"block_filter": [
+											"minecraft:stone",
+											"ores:i_stone",
+											"ores:cold_stone",
+											"ores:s_stone",
+											"ores:j_stone",
+											"ores:i_diorite",
+											"ores:j_diorite",
+											"ores:s_diorite",
+											"ores:i_andesite",
+											"ores:j_andesite",
+											"ores:s_andesite",
+											"ores:i_granite",
+											"ores:j_granite",
+											"ores:s_granite",
+											"minecraft:dirt"
+										],
+										"allowed_faces": [
+											"up"
+										]
+									}
+								]
+							},
+							"minecraft:on_interact": {
+								"event": "ores:glow"
+							}
+						}
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {
+							"ores:glow": {
+								"set_block": {
+									"block_type": "ores:cave_grass_glow"
+								}
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

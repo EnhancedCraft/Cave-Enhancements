@@ -1,0 +1,32 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ores:prolinite_sickle",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:stacked_by_data": true,
+			"minecraft:damage": 18,
+			"minecraft:durability": {
+				"max_durability": 3200
+			},
+			"minecraft:display_name": {
+				"value": "Prolinite Sickle §118 Damage"
+			},
+			"minecraft:icon": {
+				"texture": "prolinitesickle"
+			},
+			"minecraft:enchantable": {
+				"slot": "sword",
+				"value": 10
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
+			}
+		}
+	}
+}

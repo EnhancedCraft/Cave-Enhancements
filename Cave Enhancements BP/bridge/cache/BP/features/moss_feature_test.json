@@ -1,0 +1,79 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Cave Enhancements BP\\features\\moss_feature_test.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "08353050_1201_44ef_b739_a5ad7bcfa889",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:single_block_feature": {
+						"description": {
+							"identifier": "ores:moss_feature_test"
+						},
+						"places_block": {
+							"name": "ores:moss",
+							"states": {}
+						},
+						"enforce_survivability_rules": true,
+						"enforce_placement_rules": true
+					}
+				},
+				"key": "minecraft:single_block_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:moss_feature_test"
+							},
+							"places_block": {
+								"name": "ores:moss",
+								"states": {}
+							},
+							"enforce_survivability_rules": true,
+							"enforce_placement_rules": true
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:moss_feature_test"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:moss_feature_test"
+							},
+							"places_block": {
+								"name": "ores:moss",
+								"states": {}
+							},
+							"enforce_survivability_rules": true,
+							"enforce_placement_rules": true
+						},
+						"key": "places_block",
+						"is_minified": true,
+						"children": {
+							"name": "ores:moss",
+							"states": {}
+						}
+					},
+					{
+						"data": "true",
+						"key": "enforce_survivability_rules"
+					},
+					{
+						"data": "true",
+						"key": "enforce_placement_rules"
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,73 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Cave Enhancements BP\\blocks\\cinquanta_ore.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "991fde63_0d44_4694_984c_1bdcf6d9293b",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.200",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.200",
+					"minecraft:block": {
+						"description": {
+							"identifier": "ores:cinquanta_ore"
+						},
+						"components": {
+							"minecraft:destroy_time": 3400,
+							"minecraft:explosion_resistance": 100,
+							"minecraft:loot": "loot_tables/cinquanta_loot.json",
+							"tag:ores:hard": {}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:cinquanta_ore"
+							},
+							"components": {
+								"minecraft:destroy_time": 3400,
+								"minecraft:explosion_resistance": 100,
+								"minecraft:loot": "loot_tables/cinquanta_loot.json",
+								"tag:ores:hard": {}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:cinquanta_ore"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:cinquanta_ore"
+							},
+							"components": {
+								"minecraft:destroy_time": 3400,
+								"minecraft:explosion_resistance": 100,
+								"minecraft:loot": "loot_tables/cinquanta_loot.json",
+								"tag:ores:hard": {}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 3400,
+							"minecraft:explosion_resistance": 100,
+							"minecraft:loot": "loot_tables/cinquanta_loot.json",
+							"tag:ores:hard": {}
+						}
+					}
+				]
+			}
+		]
+	}
+}

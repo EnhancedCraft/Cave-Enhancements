@@ -1,0 +1,31 @@
+//bridge-file-version: #41
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:sickle_yttrium"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XXX",
+			"C  X",
+			"C"
+		],
+		"key": {
+			"X": {
+				"item": "ores:yttrium_ingot"
+			},
+			"C": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": [
+			{
+				"item": "ores:yttrium_sickle",
+				"count": 1
+			}
+		]
+	}
+}

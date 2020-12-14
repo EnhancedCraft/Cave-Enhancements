@@ -1,0 +1,45 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Cave Enhancements RP\\splashes.json",
+	"file_type": "unknown",
+	"format_version": 1,
+	"file_uuid": "2a7b94fb_a5c9_4710_b495_f7e738511799",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"splashes": [
+						"Made by Warhead!",
+						"Join the Discord!",
+						"Now with more ores!",
+						"Extra long loading time!",
+						"Skully certified!",
+						"Only from MCPEDL!",
+						"MCPE Monster SUCKS!!!",
+						"Unbalanced Weapons!",
+						"Try lite!!",
+						"Dig straight down!",
+						"Pickaxes make pickaxes!",
+						"Rufus!"
+					]
+				},
+				"key": "splashes",
+				"is_minified": true,
+				"children": [
+					"Made by Warhead!",
+					"Join the Discord!",
+					"Now with more ores!",
+					"Extra long loading time!",
+					"Skully certified!",
+					"Only from MCPEDL!",
+					"MCPE Monster SUCKS!!!",
+					"Unbalanced Weapons!",
+					"Try lite!!",
+					"Dig straight down!",
+					"Pickaxes make pickaxes!",
+					"Rufus!"
+				]
+			}
+		]
+	}
+}

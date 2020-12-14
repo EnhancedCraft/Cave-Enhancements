@@ -1,0 +1,50 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.start": {
+			"loop": true,
+			"animation_length": 1,
+			"timeline": {
+				"0.25": [
+					"/function start"
+				]
+			}
+		},
+		"animation.torch": {
+			"loop": true,
+			"animation_length": 0.5,
+			"timeline": {
+				"0": [
+					"/tag @s add torch"
+				]
+			}
+		},
+		"animation.ntorch": {
+			"loop": true,
+			"animation_length": 0.5,
+			"timeline": {
+				"0": [
+					"/tag @s remove torch"
+				]
+			}
+		},
+		"animation.water": {
+			"loop": true,
+			"animation_length": 0.5,
+			"timeline": {
+				"0": [
+					"/tag @s add water"
+				]
+			}
+		},
+		"animation.nwater": {
+			"loop": true,
+			"animation_length": 0.5,
+			"timeline": {
+				"0": [
+					"/tag @s remove water"
+				]
+			}
+		}
+	}
+}

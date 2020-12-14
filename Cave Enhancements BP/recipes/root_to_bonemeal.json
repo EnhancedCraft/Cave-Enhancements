@@ -1,0 +1,26 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "ores:root_to_bonemeal"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "ores:roots",
+				"data": 0,
+				"count": 4
+			}
+		],
+		"result": [
+			{
+				"item": "minecraft:dye",
+				"data": 15,
+				"count": 2
+			}
+		]
+	}
+}

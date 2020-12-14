@@ -1,0 +1,28 @@
+//bridge-file-version: #38
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:apple_voidstone"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"#X#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "ores:voidstone_ingot"
+			},
+			"X": {
+				"item": "minecraft:apple"
+			}
+		},
+		"result": {
+			"item": "ores:voidstone_apple"
+		}
+	}
+}

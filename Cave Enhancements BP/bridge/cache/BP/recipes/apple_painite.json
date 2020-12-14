@@ -1,0 +1,259 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\recipes\\apple_painite.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "2b582a99_86c6_464c_84ae_ae46df0fd44d",
+	"file_version": 23,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ores:apple_painite"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"###",
+							"#X#",
+							"###"
+						],
+						"key": {
+							"#": {
+								"item": "ores:painite_gemstone"
+							},
+							"X": {
+								"item": "minecraft:apple"
+							}
+						},
+						"result": {
+							"item": "ores:painite_apple"
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ores:apple_painite"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"###",
+							"#X#",
+							"###"
+						],
+						"key": {
+							"#": {
+								"item": "ores:painite_gemstone"
+							},
+							"X": {
+								"item": "minecraft:apple"
+							}
+						},
+						"result": {
+							"item": "ores:painite_apple"
+						}
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:apple_painite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"#X#",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:painite_gemstone"
+								},
+								"X": {
+									"item": "minecraft:apple"
+								}
+							},
+							"result": {
+								"item": "ores:painite_apple"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:apple_painite"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:apple_painite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"#X#",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:painite_gemstone"
+								},
+								"X": {
+									"item": "minecraft:apple"
+								}
+							},
+							"result": {
+								"item": "ores:painite_apple"
+							}
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:apple_painite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"#X#",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:painite_gemstone"
+								},
+								"X": {
+									"item": "minecraft:apple"
+								}
+							},
+							"result": {
+								"item": "ores:painite_apple"
+							}
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"###",
+							"#X#",
+							"###"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:apple_painite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"#X#",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:painite_gemstone"
+								},
+								"X": {
+									"item": "minecraft:apple"
+								}
+							},
+							"result": {
+								"item": "ores:painite_apple"
+							}
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"#": {
+										"item": "ores:painite_gemstone"
+									},
+									"X": {
+										"item": "minecraft:apple"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "ores:painite_gemstone"
+								}
+							},
+							{
+								"open": {
+									"#": {
+										"item": "ores:painite_gemstone"
+									},
+									"X": {
+										"item": "minecraft:apple"
+									}
+								},
+								"key": "X",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:apple"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:apple_painite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"#X#",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:painite_gemstone"
+								},
+								"X": {
+									"item": "minecraft:apple"
+								}
+							},
+							"result": {
+								"item": "ores:painite_apple"
+							}
+						},
+						"key": "result",
+						"is_minified": true,
+						"children": {
+							"item": "ores:painite_apple"
+						}
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,14 @@
+//bridge-file-version: #0
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "ores:black_opal_block"
+				}
+			]
+		}
+	]
+}

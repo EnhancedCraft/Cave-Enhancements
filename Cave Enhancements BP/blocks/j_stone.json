@@ -1,0 +1,15 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:j_stone"
+		},
+		"components": {
+			"minecraft:destroy_time": 7,
+			"minecraft:explosion_resistance": 1,
+			"minecraft:loot": "loot_tables/stone_loot.json",
+			"tag:ores:biomestone": {}
+		}
+	}
+}

@@ -1,0 +1,1841 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Cave Enhancements Lite RP\\textures\\item_texture.json",
+	"file_type": "item_texture",
+	"format_version": 1,
+	"file_uuid": "cc4f8114_41ea_426e_b7e5_02f980a947b4",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "bridgeRP",
+				"key": "resource_pack_name"
+			},
+			{
+				"data": "atlas.items",
+				"key": "texture_name"
+			},
+			{
+				"open": {
+					"resource_pack_name": "bridgeRP",
+					"texture_name": "atlas.items",
+					"texture_data": {
+						"adamantiteapple": {
+							"textures": "textures/items/adamantiteapple"
+						},
+						"adamantitebattleaxe": {
+							"textures": "textures/items/adamantitebattleaxe"
+						},
+						"adamantitehammer": {
+							"textures": "textures/items/adamantitehammer"
+						},
+						"adamantiteingot": {
+							"textures": "textures/items/adamantiteingot"
+						},
+						"adamantitesickle": {
+							"textures": "textures/items/adamantitesickle"
+						},
+						"adamantitesword": {
+							"textures": "textures/items/adamantitesword"
+						},
+						"aluminiumapple": {
+							"textures": "textures/items/aluminiumapple"
+						},
+						"aluminiumbattleaxe": {
+							"textures": "textures/items/aluminiumbattleaxe"
+						},
+						"aluminiumhammer": {
+							"textures": "textures/items/aluminiumhammer"
+						},
+						"aluminiumingot": {
+							"textures": "textures/items/aluminiumingot"
+						},
+						"aluminiumsickle": {
+							"textures": "textures/items/aluminiumsickle"
+						},
+						"aluminiumsword": {
+							"textures": "textures/items/aluminiumsword"
+						},
+						"amber": {
+							"textures": "textures/items/amber"
+						},
+						"amberapple": {
+							"textures": "textures/items/amberapple"
+						},
+						"amberbattleaxe": {
+							"textures": "textures/items/amberbattleaxe"
+						},
+						"amberhammer": {
+							"textures": "textures/items/amberhammer"
+						},
+						"ambersickle": {
+							"textures": "textures/items/ambersickle"
+						},
+						"ambersword": {
+							"textures": "textures/items/ambersword"
+						},
+						"amethystapple": {
+							"textures": "textures/items/amethystapple"
+						},
+						"amethystbattleaxe": {
+							"textures": "textures/items/amethystbattleaxe"
+						},
+						"amethystgemstone": {
+							"textures": "textures/items/amethystgemstone"
+						},
+						"amethysthammer": {
+							"textures": "textures/items/amethysthammer"
+						},
+						"amethystsickle": {
+							"textures": "textures/items/amethystsickle"
+						},
+						"amethystsword": {
+							"textures": "textures/items/amethystsword"
+						},
+						"blackopal": {
+							"textures": "textures/items/blackopal"
+						},
+						"blackopalapple": {
+							"textures": "textures/items/blackopalapple"
+						},
+						"blackopalbattleaxe": {
+							"textures": "textures/items/blackopalbattleaxe"
+						},
+						"blackopalhammer": {
+							"textures": "textures/items/blackopalhammer"
+						},
+						"blackopalsickle": {
+							"textures": "textures/items/blackopalsickle"
+						},
+						"blackopalsword": {
+							"textures": "textures/items/blackopalsword"
+						},
+						"calciteapple": {
+							"textures": "textures/items/calciteapple"
+						},
+						"calcitebattleaxe": {
+							"textures": "textures/items/calcitebattleaxe"
+						},
+						"calcitecrystal": {
+							"textures": "textures/items/calcitecrystal"
+						},
+						"calcitehammer": {
+							"textures": "textures/items/calcitehammer"
+						},
+						"calcitesickle": {
+							"textures": "textures/items/calcitesickle"
+						},
+						"calcitesword": {
+							"textures": "textures/items/calcitesword"
+						},
+						"celestineapple": {
+							"textures": "textures/items/celestineapple"
+						},
+						"celestinebattleaxe": {
+							"textures": "textures/items/celestinebattleaxe"
+						},
+						"celestinehammer": {
+							"textures": "textures/items/celestinehammer"
+						},
+						"celestineingot": {
+							"textures": "textures/items/celestineingot"
+						},
+						"celestinesickle": {
+							"textures": "textures/items/celestinesickle"
+						},
+						"celestinesword": {
+							"textures": "textures/items/celestinesword"
+						},
+						"cinnabarapple": {
+							"textures": "textures/items/cinnabarapple"
+						},
+						"cinnabarbattleaxe": {
+							"textures": "textures/items/cinnabarbattleaxe"
+						},
+						"cinnabarhammer": {
+							"textures": "textures/items/cinnabarhammer"
+						},
+						"cinnabaringot": {
+							"textures": "textures/items/cinnabaringot"
+						},
+						"cinnabarsickle": {
+							"textures": "textures/items/cinnabarsickle"
+						},
+						"cinnabrsword": {
+							"textures": "textures/items/cinnabrsword"
+						},
+						"cobaltapple": {
+							"textures": "textures/items/cobaltapple"
+						},
+						"cobaltbattleaxe": {
+							"textures": "textures/items/cobatbattleaxe"
+						},
+						"cobaltgemstone": {
+							"textures": "textures/items/cobatgemstone"
+						},
+						"cobalthammer": {
+							"textures": "textures/items/cobalthammer"
+						},
+						"cobaltsickle": {
+							"textures": "textures/items/cobaltsickle"
+						},
+						"cobaltsword": {
+							"textures": "textures/items/cobaltsword"
+						},
+						"copperapple": {
+							"textures": "textures/items/copperapple"
+						},
+						"copperbattleaxe": {
+							"textures": "textures/items/copperbattleaxe"
+						},
+						"copperhammer": {
+							"textures": "textures/items/copperhammer"
+						},
+						"copperingot": {
+							"textures": "textures/items/copperingot"
+						},
+						"coppersickle": {
+							"textures": "textures/items/coppersickle"
+						},
+						"coppersword": {
+							"textures": "textures/items/coppersword"
+						},
+						"dragonglassapple": {
+							"textures": "textures/items/dragonglassapple"
+						},
+						"dragonglassbattleaxe": {
+							"textures": "textures/items/dragonglassbattleaxe"
+						},
+						"dragonglasscrystal": {
+							"textures": "textures/items/dragonglasscrystal"
+						},
+						"dragonglasshammer": {
+							"textures": "textures/items/dragonglasshammer"
+						},
+						"dragonglasssickle": {
+							"textures": "textures/items/dragonglasssickle"
+						},
+						"dragonglasssword": {
+							"textures": "textures/items/dragonglasssword"
+						},
+						"fluriteapple": {
+							"textures": "textures/items/fluriteapple"
+						},
+						"fluritebattleaxe": {
+							"textures": "textures/items/fluritebattleaxe"
+						},
+						"fluritecrystal": {
+							"textures": "textures/items/fluritecrystal"
+						},
+						"fluritehammer": {
+							"textures": "textures/items/fluritehammer"
+						},
+						"fluritesickle": {
+							"textures": "textures/items/fluritesickle"
+						},
+						"fluritesword": {
+							"textures": "textures/items/fluritesword"
+						},
+						"garnetapple": {
+							"textures": "textures/items/garnetapple"
+						},
+						"garnetbattleaxe": {
+							"textures": "textures/items/garnetbattleaxe"
+						},
+						"garnetgemstone": {
+							"textures": "textures/items/garnetgemstone"
+						},
+						"garnethammer": {
+							"textures": "textures/items/garnethammer"
+						},
+						"garnetsickle": {
+							"textures": "textures/items/garnetsickle"
+						},
+						"garnetsword": {
+							"textures": "textures/items/garnetsword"
+						},
+						"gypsumapple": {
+							"textures": "textures/items/gypsumapple"
+						},
+						"gypsumbattleaxe": {
+							"textures": "textures/items/gypsumbattleaxe"
+						},
+						"gypsumhammer": {
+							"textures": "textures/items/gypsumhammer"
+						},
+						"gypsumingot": {
+							"textures": "textures/items/gypsumingot"
+						},
+						"gypsumsickle": {
+							"textures": "textures/items/gypsumsickle"
+						},
+						"gypsumsword": {
+							"textures": "textures/items/gypsumsword"
+						},
+						"hematiteapple": {
+							"textures": "textures/items/hematiteapple"
+						},
+						"hematitebattleaxe": {
+							"textures": "textures/items/hematitebattleaxe"
+						},
+						"hematitehammer": {
+							"textures": "textures/items/hematitehammer"
+						},
+						"hematiteingot": {
+							"textures": "textures/items/hematiteingot"
+						},
+						"hematitesickle": {
+							"textures": "textures/items/hematitesickle"
+						},
+						"hematitesword": {
+							"textures": "textures/items/hematitesword"
+						},
+						"jadeapple": {
+							"textures": "textures/items/jadeapple"
+						},
+						"jadebattleaxe": {
+							"textures": "textures/items/jadebattleaxe"
+						},
+						"jadegemstone": {
+							"textures": "textures/items/jadegemstone"
+						},
+						"jadehammer": {
+							"textures": "textures/items/jadehammer"
+						},
+						"jadesickle": {
+							"textures": "textures/items/jadesickle"
+						},
+						"jadesword": {
+							"textures": "textures/items/jadesword"
+						},
+						"kryptoniteapple": {
+							"textures": "textures/items/kryptoniteapple"
+						},
+						"kryptonitebattleaxe": {
+							"textures": "textures/items/kryptonitebattleaxe"
+						},
+						"kryptonitecrystal": {
+							"textures": "textures/items/kryptonitecrystal"
+						},
+						"kryptonitehammer": {
+							"textures": "textures/items/kryptonitehammer"
+						},
+						"kryptonitesickle": {
+							"textures": "textures/items/kryptonitesickle"
+						},
+						"kryptonitesword": {
+							"textures": "textures/items/kryptonitesword"
+						},
+						"kyaniteapple": {
+							"textures": "textures/items/kyaniteapple"
+						},
+						"kyanitebattleaxe": {
+							"textures": "textures/items/kyanitebattleaxe"
+						},
+						"kyanitehammer": {
+							"textures": "textures/items/kyanitehammer"
+						},
+						"kyaniteingot": {
+							"textures": "textures/items/kyaniteingot"
+						},
+						"kyanitesickle": {
+							"textures": "textures/items/kyanitesickle"
+						},
+						"kyanitesword": {
+							"textures": "textures/items/kyanitesword"
+						},
+						"lavastone": {
+							"textures": "textures/items/lavastone"
+						},
+						"lavastoneapple": {
+							"textures": "textures/items/lavastoneapple"
+						},
+						"lavastonebattleaxe": {
+							"textures": "textures/items/lavastonebattleaxe"
+						},
+						"lavastonehammer": {
+							"textures": "textures/items/lavastonehammer"
+						},
+						"lavastonesickle": {
+							"textures": "textures/items/lavastonesickle"
+						},
+						"lavastonesword": {
+							"textures": "textures/items/lavastonesword"
+						},
+						"mud": {
+							"textures": "textures/items/mud"
+						},
+						"roots": {
+							"textures": "textures/items/roots"
+						},
+						"leadapple": {
+							"textures": "textures/items/leadapple"
+						},
+						"leadbattleaxe": {
+							"textures": "textures/items/leadbattleaxe"
+						},
+						"leadhammer": {
+							"textures": "textures/items/leadhammer"
+						},
+						"leadingot": {
+							"textures": "textures/items/leadingot"
+						},
+						"leadsickle": {
+							"textures": "textures/items/leadsickle"
+						},
+						"leadsword": {
+							"textures": "textures/items/leadsword"
+						},
+						"magnetiteapple": {
+							"textures": "textures/items/magnetiteapple"
+						},
+						"magnetitebattleaxe": {
+							"textures": "textures/items/magnetitebattleaxe"
+						},
+						"magnetitehammer": {
+							"textures": "textures/items/magnetitehammer"
+						},
+						"magnetiteingot": {
+							"textures": "textures/items/magnetiteingot"
+						},
+						"magnetitesickle": {
+							"textures": "textures/items/magnetitesickle"
+						},
+						"magnetitesword": {
+							"textures": "textures/items/magnetitesword"
+						},
+						"micaapple": {
+							"textures": "textures/items/micaapple"
+						},
+						"micabattleaxe": {
+							"textures": "textures/items/micabattleaxe"
+						},
+						"micacrystal": {
+							"textures": "textures/items/micacrystal"
+						},
+						"micahammer": {
+							"textures": "textures/items/micahammer"
+						},
+						"micasickle": {
+							"textures": "textures/items/micasickle"
+						},
+						"micasword": {
+							"textures": "textures/items/micasword"
+						},
+						"nickelapple": {
+							"textures": "textures/items/nickelapple"
+						},
+						"nickelbattleaxe": {
+							"textures": "textures/items/nickelbattleaxe"
+						},
+						"nickelhammer": {
+							"textures": "textures/items/nickelhammer"
+						},
+						"nickelingot": {
+							"textures": "textures/items/nickelingot"
+						},
+						"nickelsickle": {
+							"textures": "textures/items/nickelsickle"
+						},
+						"nickelsword": {
+							"textures": "textures/items/nickelsword"
+						},
+						"purple_boots": {
+							"textures": "textures/items/purple_boots"
+						},
+						"purple_chestplate": {
+							"textures": "textures/items/purple_chestplate"
+						},
+						"purple_leggings": {
+							"textures": "textures/items/purple_leggings"
+						},
+						"purple_helmet": {
+							"textures": "textures/items/purple_helmet"
+						},
+						"ruby_helmet": {
+							"textures": "textures/items/ruby_helmet"
+						},
+						"ruby_chestplate": {
+							"textures": "textures/items/ruby_chestplate"
+						},
+						"ruby_leggings": {
+							"textures": "textures/items/ruby_leggings"
+						},
+						"ruby_boots": {
+							"textures": "textures/items/ruby_boots"
+						},
+						"tanzanitepickaxe": {
+							"textures": "textures/items/tanzanitepickaxe"
+						},
+						"ores_copper_helmet": {
+							"textures": [
+								"textures/items/copper_helmet"
+							]
+						},
+						"ores_copper_chestplate": {
+							"textures": [
+								"textures/items/copper_chestplate"
+							]
+						},
+						"ores_copper_leggings": {
+							"textures": [
+								"textures/items/copper_leggings"
+							]
+						},
+						"ores_copper_boots": {
+							"textures": [
+								"textures/items/copper_boots"
+							]
+						},
+						"ores_emerald_helmet": {
+							"textures": [
+								"textures/items/emerald_helmet"
+							]
+						},
+						"ores_emerald_chestplate": {
+							"textures": [
+								"textures/items/emerald_chestplate"
+							]
+						},
+						"ores_emerald_leggings": {
+							"textures": [
+								"textures/items/emerald_leggings"
+							]
+						},
+						"ores_emerald_boots": {
+							"textures": [
+								"textures/items/emerald_boots"
+							]
+						},
+						"oil": {
+							"textures": "textures/items/oil"
+						},
+						"wooden_pickaxe": {
+							"textures": "textures/items/wood_pickaxe"
+						},
+						"stone_pickaxe": {
+							"textures": "textures/items/stone_pickaxe"
+						},
+						"bow": {
+							"textures": "textures/items/bow"
+						},
+						"iron_pickaxe": {
+							"textures": "textures/items/iron_pickaxe"
+						},
+						"ores_cobalt_helmet": {
+							"textures": [
+								"textures/items/cobalt_helmet"
+							]
+						},
+						"ores_cobalt_chestplate": {
+							"textures": [
+								"textures/items/cobalt_chestplate"
+							]
+						},
+						"ores_cobalt_leggings": {
+							"textures": [
+								"textures/items/cobalt_leggings"
+							]
+						},
+						"ores_cobalt_boots": {
+							"textures": [
+								"textures/items/cobalt_boots"
+							]
+						},
+						"ores_galaxy_helmet": {
+							"textures": [
+								"textures/items/galaxy_helmet"
+							]
+						},
+						"ores_galaxy_chestplate": {
+							"textures": [
+								"textures/items/galaxy_chestplate"
+							]
+						},
+						"ores_galaxy_leggings": {
+							"textures": [
+								"textures/items/galaxy_leggings"
+							]
+						},
+						"ores_galaxy_boots": {
+							"textures": [
+								"textures/items/galaxy_boots"
+							]
+						},
+						"opal": {
+							"textures": "textures/items/opal"
+						},
+						"opalapple": {
+							"textures": "textures/items/opalapple"
+						},
+						"opalbattleaxe": {
+							"textures": "textures/items/opalbattleaxe"
+						},
+						"opalhammer": {
+							"textures": "textures/items/opalhammer"
+						},
+						"opalsickle": {
+							"textures": "textures/items/opalsickle"
+						},
+						"opalsword": {
+							"textures": "textures/items/opalsword"
+						},
+						"painiteapple": {
+							"textures": "textures/items/painiteapple"
+						},
+						"painitebattleaxe": {
+							"textures": "textures/items/painitebattleaxe"
+						},
+						"painitegemstone": {
+							"textures": "textures/items/painitegemstone"
+						},
+						"painitehammer": {
+							"textures": "textures/items/painitehammer"
+						},
+						"painitesickle": {
+							"textures": "textures/items/painitesickle"
+						},
+						"painitesword": {
+							"textures": "textures/items/painitesword"
+						},
+						"platniumapple": {
+							"textures": "textures/items/platniumapple"
+						},
+						"platniumbattleaxe": {
+							"textures": "textures/items/platniumbattleaxe"
+						},
+						"platniumhammer": {
+							"textures": "textures/items/platniumhammer"
+						},
+						"platniumingot": {
+							"textures": "textures/items/platniumingot"
+						},
+						"platniumsickle": {
+							"textures": "textures/items/platniumsickle"
+						},
+						"platniumsword": {
+							"textures": "textures/items/platniumsword"
+						},
+						"plutoniumapple": {
+							"textures": "textures/items/plutoniumapple"
+						},
+						"plutoniumbattleaxe": {
+							"textures": "textures/items/plutoniumbattleaxe"
+						},
+						"plutoniumhammer": {
+							"textures": "textures/items/plutoniumhammer"
+						},
+						"plutoniumingot": {
+							"textures": "textures/items/plutoniumingot"
+						},
+						"plutoniumsickle": {
+							"textures": "textures/items/plutoniumsickle"
+						},
+						"plutoniumsword": {
+							"textures": "textures/items/plutoniumsword"
+						},
+						"diamond_pickaxe": {
+							"textures": "textures/items/diamond_pickaxe"
+						},
+						"proliniteapple": {
+							"textures": "textures/items/proliniteapple"
+						},
+						"prolinitebattleaxe": {
+							"textures": "textures/items/prolinitebattleaxe"
+						},
+						"prolinitegemstone": {
+							"textures": "textures/items/prolinitegemstone"
+						},
+						"prolinitehammer": {
+							"textures": "textures/items/prolinitehammer"
+						},
+						"prolinitesickle": {
+							"textures": "textures/items/prolinitesickle"
+						},
+						"prolinitesword": {
+							"textures": "textures/items/prolinitesword"
+						},
+						"pyriteapple": {
+							"textures": "textures/items/pyriteapple"
+						},
+						"pyritebattleaxe": {
+							"textures": "textures/items/pyritebattleaxe"
+						},
+						"pyritehammer": {
+							"textures": "textures/items/pyritehammer"
+						},
+						"pyriteingot": {
+							"textures": "textures/items/pyriteingot"
+						},
+						"pyritesickle": {
+							"textures": "textures/items/pyritesickle"
+						},
+						"pyritesword": {
+							"textures": "textures/items/pyritesword"
+						},
+						"rubyapple": {
+							"textures": "textures/items/rubyapple"
+						},
+						"rubybattleaxe": {
+							"textures": "textures/items/rubybattleaxe"
+						},
+						"rubygemstone": {
+							"textures": "textures/items/rubygemstone"
+						},
+						"rubyhammer": {
+							"textures": "textures/items/rubyhammer"
+						},
+						"rubysickle": {
+							"textures": "textures/items/rubysickle"
+						},
+						"rubysword": {
+							"textures": "textures/items/rubysword"
+						},
+						"sapphireapple": {
+							"textures": "textures/items/sapphireapple"
+						},
+						"sapphirebattleaxe": {
+							"textures": "textures/items/sapphirebattleaxe"
+						},
+						"sapphiregemstone": {
+							"textures": "textures/items/sapphiregemstone"
+						},
+						"sapphirehammer": {
+							"textures": "textures/items/sapphirehammer"
+						},
+						"sapphiresickle": {
+							"textures": "textures/items/sapphiresickle"
+						},
+						"sapphiresword": {
+							"textures": "textures/items/sapphiresword"
+						},
+						"silverapple": {
+							"textures": "textures/items/silverapple"
+						},
+						"silverbattleaxe": {
+							"textures": "textures/items/silverbattleaxe"
+						},
+						"silverhammer": {
+							"textures": "textures/items/silverhammer"
+						},
+						"silveringot": {
+							"textures": "textures/items/silveringot"
+						},
+						"silversickle": {
+							"textures": "textures/items/silversickle"
+						},
+						"silversword": {
+							"textures": "textures/items/silversword"
+						},
+						"sypmiumapple": {
+							"textures": "textures/items/sypmiumapple"
+						},
+						"sypmiumbattleaxe": {
+							"textures": "textures/items/sypmiumbattleaxe"
+						},
+						"sypmiumhammer": {
+							"textures": "textures/items/sypmiumhammer"
+						},
+						"sypmiumingot": {
+							"textures": "textures/items/sypmiumingot"
+						},
+						"sypmiumsickle": {
+							"textures": "textures/items/sypmiumsickle"
+						},
+						"sypmiumsword": {
+							"textures": "textures/items/sypmiumsword"
+						},
+						"tanzaniteapple": {
+							"textures": "textures/items/tanzaniteapple"
+						},
+						"tanzanitebattleaxe": {
+							"textures": "textures/items/tanzanitebattleaxe"
+						},
+						"tanzanitegemstone": {
+							"textures": "textures/items/tanzanitegemstone"
+						},
+						"tanzanitehammer": {
+							"textures": "textures/items/tanzanitehammer"
+						},
+						"tanzanitesickle": {
+							"textures": "textures/items/tanzanitesickle"
+						},
+						"tanzanitesword": {
+							"textures": "textures/items/tanzanitesword"
+						},
+						"tinapple": {
+							"textures": "textures/items/tinapple"
+						},
+						"tinbattleaxe": {
+							"textures": "textures/items/tinbattleaxe"
+						},
+						"tinhammer": {
+							"textures": "textures/items/tinhammer"
+						},
+						"tiningot": {
+							"textures": "textures/items/tiningot"
+						},
+						"tinsickle": {
+							"textures": "textures/items/tinsickle"
+						},
+						"tinsword": {
+							"textures": "textures/items/tinsword"
+						},
+						"titaniumapple": {
+							"textures": "textures/items/titaniumapple"
+						},
+						"titaniumbattleaxe": {
+							"textures": "textures/items/titaniumbattleaxe"
+						},
+						"titaniumhammer": {
+							"textures": "textures/items/titaniumhammer"
+						},
+						"titaniumingot": {
+							"textures": "textures/items/titaniumingot"
+						},
+						"titaniumsickle": {
+							"textures": "textures/items/titaniumsickle"
+						},
+						"titaniumsword": {
+							"textures": "textures/items/titaniumsword"
+						},
+						"topazapple": {
+							"textures": "textures/items/topazapple"
+						},
+						"topazbattleaxe": {
+							"textures": "textures/items/topazbattleaxe"
+						},
+						"topazgemstone": {
+							"textures": "textures/items/topazgemstone"
+						},
+						"topazhammer": {
+							"textures": "textures/items/topazhammer"
+						},
+						"topazsickle": {
+							"textures": "textures/items/topazsickle"
+						},
+						"topazsword": {
+							"textures": "textures/items/topazsword"
+						},
+						"copperchainlink": {
+							"textures": "textures/items/copperchainlink"
+						},
+						"tungstenapple": {
+							"textures": "textures/items/tungstenapple"
+						},
+						"tungstenbattleaxe": {
+							"textures": "textures/items/tungstenbattleaxe"
+						},
+						"tungstengemstone": {
+							"textures": "textures/items/tungstengemstone"
+						},
+						"tungstenhammer": {
+							"textures": "textures/items/tungstenhammer"
+						},
+						"tungstensickle": {
+							"textures": "textures/items/tungstensickle"
+						},
+						"tungstensword": {
+							"textures": "textures/items/tungstensword"
+						},
+						"voidstoneapple": {
+							"textures": "textures/items/voidstoneapple"
+						},
+						"voidstonebattleaxe": {
+							"textures": "textures/items/voidstonebattleaxe"
+						},
+						"voidstonehammer": {
+							"textures": "textures/items/voidstonehammer"
+						},
+						"voidstoneingot": {
+							"textures": "textures/items/voidstoneingot"
+						},
+						"voidstonesickle": {
+							"textures": "textures/items/voidstonesickle"
+						},
+						"voidstonesword": {
+							"textures": "textures/items/voidstonesword"
+						},
+						"yttriumapple": {
+							"textures": "textures/items/yttriumapple"
+						},
+						"yttriumbattleaxe": {
+							"textures": "textures/items/yttriumbattleaxe"
+						},
+						"yttriumhammer": {
+							"textures": "textures/items/yttriumhammer"
+						},
+						"yttriumingot": {
+							"textures": "textures/items/yttriumingot"
+						},
+						"yttriumsickle": {
+							"textures": "textures/items/yttriumsickle"
+						},
+						"yttriumsword": {
+							"textures": "textures/items/yttriumsword"
+						},
+						"zincapple": {
+							"textures": "textures/items/zincapple"
+						},
+						"zincbattleaxe": {
+							"textures": "textures/items/zincbattleaxe"
+						},
+						"zinchammer": {
+							"textures": "textures/items/zinchammer"
+						},
+						"zincingot": {
+							"textures": "textures/items/zincingot"
+						},
+						"zincsickle": {
+							"textures": "textures/items/zincsickle"
+						},
+						"zincsword": {
+							"textures": "textures/items/zincsword"
+						},
+						"zincoliumapple": {
+							"textures": "textures/items/zincoliumapple"
+						},
+						"zincoliumbattleaxe": {
+							"textures": "textures/items/zincoliumbattleaxe"
+						},
+						"zincoliumhammer": {
+							"textures": "textures/items/zincoliumhammer"
+						},
+						"zincoliumingot": {
+							"textures": "textures/items/zincoliumingot"
+						},
+						"zincoliumsickle": {
+							"textures": "textures/items/zincoliumsickle"
+						},
+						"zincoliumsword": {
+							"textures": "textures/items/zincoliumsword"
+						},
+						"glowinggrape": {
+							"textures": "textures/items/glowinggrape"
+						},
+						"ores_sebkar_helmet": {
+							"textures": "textures/items/sebkar_helmet"
+						},
+						"ores_sebkar_chestplate": {
+							"textures": "textures/items/sebkar_chestplate"
+						},
+						"ores_sebkar_leggings": {
+							"textures": "textures/items/sebkar_leggings"
+						},
+						"ores_sebkar_boots": {
+							"textures": "textures/items/sebkar_boots"
+						}
+					}
+				},
+				"key": "texture_data",
+				"is_minified": true,
+				"children": {
+					"adamantiteapple": {
+						"textures": "textures/items/adamantiteapple"
+					},
+					"adamantitebattleaxe": {
+						"textures": "textures/items/adamantitebattleaxe"
+					},
+					"adamantitehammer": {
+						"textures": "textures/items/adamantitehammer"
+					},
+					"adamantiteingot": {
+						"textures": "textures/items/adamantiteingot"
+					},
+					"adamantitesickle": {
+						"textures": "textures/items/adamantitesickle"
+					},
+					"adamantitesword": {
+						"textures": "textures/items/adamantitesword"
+					},
+					"aluminiumapple": {
+						"textures": "textures/items/aluminiumapple"
+					},
+					"aluminiumbattleaxe": {
+						"textures": "textures/items/aluminiumbattleaxe"
+					},
+					"aluminiumhammer": {
+						"textures": "textures/items/aluminiumhammer"
+					},
+					"aluminiumingot": {
+						"textures": "textures/items/aluminiumingot"
+					},
+					"aluminiumsickle": {
+						"textures": "textures/items/aluminiumsickle"
+					},
+					"aluminiumsword": {
+						"textures": "textures/items/aluminiumsword"
+					},
+					"amber": {
+						"textures": "textures/items/amber"
+					},
+					"amberapple": {
+						"textures": "textures/items/amberapple"
+					},
+					"amberbattleaxe": {
+						"textures": "textures/items/amberbattleaxe"
+					},
+					"amberhammer": {
+						"textures": "textures/items/amberhammer"
+					},
+					"ambersickle": {
+						"textures": "textures/items/ambersickle"
+					},
+					"ambersword": {
+						"textures": "textures/items/ambersword"
+					},
+					"amethystapple": {
+						"textures": "textures/items/amethystapple"
+					},
+					"amethystbattleaxe": {
+						"textures": "textures/items/amethystbattleaxe"
+					},
+					"amethystgemstone": {
+						"textures": "textures/items/amethystgemstone"
+					},
+					"amethysthammer": {
+						"textures": "textures/items/amethysthammer"
+					},
+					"amethystsickle": {
+						"textures": "textures/items/amethystsickle"
+					},
+					"amethystsword": {
+						"textures": "textures/items/amethystsword"
+					},
+					"blackopal": {
+						"textures": "textures/items/blackopal"
+					},
+					"blackopalapple": {
+						"textures": "textures/items/blackopalapple"
+					},
+					"blackopalbattleaxe": {
+						"textures": "textures/items/blackopalbattleaxe"
+					},
+					"blackopalhammer": {
+						"textures": "textures/items/blackopalhammer"
+					},
+					"blackopalsickle": {
+						"textures": "textures/items/blackopalsickle"
+					},
+					"blackopalsword": {
+						"textures": "textures/items/blackopalsword"
+					},
+					"calciteapple": {
+						"textures": "textures/items/calciteapple"
+					},
+					"calcitebattleaxe": {
+						"textures": "textures/items/calcitebattleaxe"
+					},
+					"calcitecrystal": {
+						"textures": "textures/items/calcitecrystal"
+					},
+					"calcitehammer": {
+						"textures": "textures/items/calcitehammer"
+					},
+					"calcitesickle": {
+						"textures": "textures/items/calcitesickle"
+					},
+					"calcitesword": {
+						"textures": "textures/items/calcitesword"
+					},
+					"celestineapple": {
+						"textures": "textures/items/celestineapple"
+					},
+					"celestinebattleaxe": {
+						"textures": "textures/items/celestinebattleaxe"
+					},
+					"celestinehammer": {
+						"textures": "textures/items/celestinehammer"
+					},
+					"celestineingot": {
+						"textures": "textures/items/celestineingot"
+					},
+					"celestinesickle": {
+						"textures": "textures/items/celestinesickle"
+					},
+					"celestinesword": {
+						"textures": "textures/items/celestinesword"
+					},
+					"cinnabarapple": {
+						"textures": "textures/items/cinnabarapple"
+					},
+					"cinnabarbattleaxe": {
+						"textures": "textures/items/cinnabarbattleaxe"
+					},
+					"cinnabarhammer": {
+						"textures": "textures/items/cinnabarhammer"
+					},
+					"cinnabaringot": {
+						"textures": "textures/items/cinnabaringot"
+					},
+					"cinnabarsickle": {
+						"textures": "textures/items/cinnabarsickle"
+					},
+					"cinnabrsword": {
+						"textures": "textures/items/cinnabrsword"
+					},
+					"cobaltapple": {
+						"textures": "textures/items/cobaltapple"
+					},
+					"cobaltbattleaxe": {
+						"textures": "textures/items/cobatbattleaxe"
+					},
+					"cobaltgemstone": {
+						"textures": "textures/items/cobatgemstone"
+					},
+					"cobalthammer": {
+						"textures": "textures/items/cobalthammer"
+					},
+					"cobaltsickle": {
+						"textures": "textures/items/cobaltsickle"
+					},
+					"cobaltsword": {
+						"textures": "textures/items/cobaltsword"
+					},
+					"copperapple": {
+						"textures": "textures/items/copperapple"
+					},
+					"copperbattleaxe": {
+						"textures": "textures/items/copperbattleaxe"
+					},
+					"copperhammer": {
+						"textures": "textures/items/copperhammer"
+					},
+					"copperingot": {
+						"textures": "textures/items/copperingot"
+					},
+					"coppersickle": {
+						"textures": "textures/items/coppersickle"
+					},
+					"coppersword": {
+						"textures": "textures/items/coppersword"
+					},
+					"dragonglassapple": {
+						"textures": "textures/items/dragonglassapple"
+					},
+					"dragonglassbattleaxe": {
+						"textures": "textures/items/dragonglassbattleaxe"
+					},
+					"dragonglasscrystal": {
+						"textures": "textures/items/dragonglasscrystal"
+					},
+					"dragonglasshammer": {
+						"textures": "textures/items/dragonglasshammer"
+					},
+					"dragonglasssickle": {
+						"textures": "textures/items/dragonglasssickle"
+					},
+					"dragonglasssword": {
+						"textures": "textures/items/dragonglasssword"
+					},
+					"fluriteapple": {
+						"textures": "textures/items/fluriteapple"
+					},
+					"fluritebattleaxe": {
+						"textures": "textures/items/fluritebattleaxe"
+					},
+					"fluritecrystal": {
+						"textures": "textures/items/fluritecrystal"
+					},
+					"fluritehammer": {
+						"textures": "textures/items/fluritehammer"
+					},
+					"fluritesickle": {
+						"textures": "textures/items/fluritesickle"
+					},
+					"fluritesword": {
+						"textures": "textures/items/fluritesword"
+					},
+					"garnetapple": {
+						"textures": "textures/items/garnetapple"
+					},
+					"garnetbattleaxe": {
+						"textures": "textures/items/garnetbattleaxe"
+					},
+					"garnetgemstone": {
+						"textures": "textures/items/garnetgemstone"
+					},
+					"garnethammer": {
+						"textures": "textures/items/garnethammer"
+					},
+					"garnetsickle": {
+						"textures": "textures/items/garnetsickle"
+					},
+					"garnetsword": {
+						"textures": "textures/items/garnetsword"
+					},
+					"gypsumapple": {
+						"textures": "textures/items/gypsumapple"
+					},
+					"gypsumbattleaxe": {
+						"textures": "textures/items/gypsumbattleaxe"
+					},
+					"gypsumhammer": {
+						"textures": "textures/items/gypsumhammer"
+					},
+					"gypsumingot": {
+						"textures": "textures/items/gypsumingot"
+					},
+					"gypsumsickle": {
+						"textures": "textures/items/gypsumsickle"
+					},
+					"gypsumsword": {
+						"textures": "textures/items/gypsumsword"
+					},
+					"hematiteapple": {
+						"textures": "textures/items/hematiteapple"
+					},
+					"hematitebattleaxe": {
+						"textures": "textures/items/hematitebattleaxe"
+					},
+					"hematitehammer": {
+						"textures": "textures/items/hematitehammer"
+					},
+					"hematiteingot": {
+						"textures": "textures/items/hematiteingot"
+					},
+					"hematitesickle": {
+						"textures": "textures/items/hematitesickle"
+					},
+					"hematitesword": {
+						"textures": "textures/items/hematitesword"
+					},
+					"jadeapple": {
+						"textures": "textures/items/jadeapple"
+					},
+					"jadebattleaxe": {
+						"textures": "textures/items/jadebattleaxe"
+					},
+					"jadegemstone": {
+						"textures": "textures/items/jadegemstone"
+					},
+					"jadehammer": {
+						"textures": "textures/items/jadehammer"
+					},
+					"jadesickle": {
+						"textures": "textures/items/jadesickle"
+					},
+					"jadesword": {
+						"textures": "textures/items/jadesword"
+					},
+					"kryptoniteapple": {
+						"textures": "textures/items/kryptoniteapple"
+					},
+					"kryptonitebattleaxe": {
+						"textures": "textures/items/kryptonitebattleaxe"
+					},
+					"kryptonitecrystal": {
+						"textures": "textures/items/kryptonitecrystal"
+					},
+					"kryptonitehammer": {
+						"textures": "textures/items/kryptonitehammer"
+					},
+					"kryptonitesickle": {
+						"textures": "textures/items/kryptonitesickle"
+					},
+					"kryptonitesword": {
+						"textures": "textures/items/kryptonitesword"
+					},
+					"kyaniteapple": {
+						"textures": "textures/items/kyaniteapple"
+					},
+					"kyanitebattleaxe": {
+						"textures": "textures/items/kyanitebattleaxe"
+					},
+					"kyanitehammer": {
+						"textures": "textures/items/kyanitehammer"
+					},
+					"kyaniteingot": {
+						"textures": "textures/items/kyaniteingot"
+					},
+					"kyanitesickle": {
+						"textures": "textures/items/kyanitesickle"
+					},
+					"kyanitesword": {
+						"textures": "textures/items/kyanitesword"
+					},
+					"lavastone": {
+						"textures": "textures/items/lavastone"
+					},
+					"lavastoneapple": {
+						"textures": "textures/items/lavastoneapple"
+					},
+					"lavastonebattleaxe": {
+						"textures": "textures/items/lavastonebattleaxe"
+					},
+					"lavastonehammer": {
+						"textures": "textures/items/lavastonehammer"
+					},
+					"lavastonesickle": {
+						"textures": "textures/items/lavastonesickle"
+					},
+					"lavastonesword": {
+						"textures": "textures/items/lavastonesword"
+					},
+					"mud": {
+						"textures": "textures/items/mud"
+					},
+					"roots": {
+						"textures": "textures/items/roots"
+					},
+					"leadapple": {
+						"textures": "textures/items/leadapple"
+					},
+					"leadbattleaxe": {
+						"textures": "textures/items/leadbattleaxe"
+					},
+					"leadhammer": {
+						"textures": "textures/items/leadhammer"
+					},
+					"leadingot": {
+						"textures": "textures/items/leadingot"
+					},
+					"leadsickle": {
+						"textures": "textures/items/leadsickle"
+					},
+					"leadsword": {
+						"textures": "textures/items/leadsword"
+					},
+					"magnetiteapple": {
+						"textures": "textures/items/magnetiteapple"
+					},
+					"magnetitebattleaxe": {
+						"textures": "textures/items/magnetitebattleaxe"
+					},
+					"magnetitehammer": {
+						"textures": "textures/items/magnetitehammer"
+					},
+					"magnetiteingot": {
+						"textures": "textures/items/magnetiteingot"
+					},
+					"magnetitesickle": {
+						"textures": "textures/items/magnetitesickle"
+					},
+					"magnetitesword": {
+						"textures": "textures/items/magnetitesword"
+					},
+					"micaapple": {
+						"textures": "textures/items/micaapple"
+					},
+					"micabattleaxe": {
+						"textures": "textures/items/micabattleaxe"
+					},
+					"micacrystal": {
+						"textures": "textures/items/micacrystal"
+					},
+					"micahammer": {
+						"textures": "textures/items/micahammer"
+					},
+					"micasickle": {
+						"textures": "textures/items/micasickle"
+					},
+					"micasword": {
+						"textures": "textures/items/micasword"
+					},
+					"nickelapple": {
+						"textures": "textures/items/nickelapple"
+					},
+					"nickelbattleaxe": {
+						"textures": "textures/items/nickelbattleaxe"
+					},
+					"nickelhammer": {
+						"textures": "textures/items/nickelhammer"
+					},
+					"nickelingot": {
+						"textures": "textures/items/nickelingot"
+					},
+					"nickelsickle": {
+						"textures": "textures/items/nickelsickle"
+					},
+					"nickelsword": {
+						"textures": "textures/items/nickelsword"
+					},
+					"purple_boots": {
+						"textures": "textures/items/purple_boots"
+					},
+					"purple_chestplate": {
+						"textures": "textures/items/purple_chestplate"
+					},
+					"purple_leggings": {
+						"textures": "textures/items/purple_leggings"
+					},
+					"purple_helmet": {
+						"textures": "textures/items/purple_helmet"
+					},
+					"ruby_helmet": {
+						"textures": "textures/items/ruby_helmet"
+					},
+					"ruby_chestplate": {
+						"textures": "textures/items/ruby_chestplate"
+					},
+					"ruby_leggings": {
+						"textures": "textures/items/ruby_leggings"
+					},
+					"ruby_boots": {
+						"textures": "textures/items/ruby_boots"
+					},
+					"tanzanitepickaxe": {
+						"textures": "textures/items/tanzanitepickaxe"
+					},
+					"ores_copper_helmet": {
+						"textures": [
+							"textures/items/copper_helmet"
+						]
+					},
+					"ores_copper_chestplate": {
+						"textures": [
+							"textures/items/copper_chestplate"
+						]
+					},
+					"ores_copper_leggings": {
+						"textures": [
+							"textures/items/copper_leggings"
+						]
+					},
+					"ores_copper_boots": {
+						"textures": [
+							"textures/items/copper_boots"
+						]
+					},
+					"ores_emerald_helmet": {
+						"textures": [
+							"textures/items/emerald_helmet"
+						]
+					},
+					"ores_emerald_chestplate": {
+						"textures": [
+							"textures/items/emerald_chestplate"
+						]
+					},
+					"ores_emerald_leggings": {
+						"textures": [
+							"textures/items/emerald_leggings"
+						]
+					},
+					"ores_emerald_boots": {
+						"textures": [
+							"textures/items/emerald_boots"
+						]
+					},
+					"oil": {
+						"textures": "textures/items/oil"
+					},
+					"wooden_pickaxe": {
+						"textures": "textures/items/wood_pickaxe"
+					},
+					"stone_pickaxe": {
+						"textures": "textures/items/stone_pickaxe"
+					},
+					"bow": {
+						"textures": "textures/items/bow"
+					},
+					"iron_pickaxe": {
+						"textures": "textures/items/iron_pickaxe"
+					},
+					"ores_cobalt_helmet": {
+						"textures": [
+							"textures/items/cobalt_helmet"
+						]
+					},
+					"ores_cobalt_chestplate": {
+						"textures": [
+							"textures/items/cobalt_chestplate"
+						]
+					},
+					"ores_cobalt_leggings": {
+						"textures": [
+							"textures/items/cobalt_leggings"
+						]
+					},
+					"ores_cobalt_boots": {
+						"textures": [
+							"textures/items/cobalt_boots"
+						]
+					},
+					"ores_galaxy_helmet": {
+						"textures": [
+							"textures/items/galaxy_helmet"
+						]
+					},
+					"ores_galaxy_chestplate": {
+						"textures": [
+							"textures/items/galaxy_chestplate"
+						]
+					},
+					"ores_galaxy_leggings": {
+						"textures": [
+							"textures/items/galaxy_leggings"
+						]
+					},
+					"ores_galaxy_boots": {
+						"textures": [
+							"textures/items/galaxy_boots"
+						]
+					},
+					"opal": {
+						"textures": "textures/items/opal"
+					},
+					"opalapple": {
+						"textures": "textures/items/opalapple"
+					},
+					"opalbattleaxe": {
+						"textures": "textures/items/opalbattleaxe"
+					},
+					"opalhammer": {
+						"textures": "textures/items/opalhammer"
+					},
+					"opalsickle": {
+						"textures": "textures/items/opalsickle"
+					},
+					"opalsword": {
+						"textures": "textures/items/opalsword"
+					},
+					"painiteapple": {
+						"textures": "textures/items/painiteapple"
+					},
+					"painitebattleaxe": {
+						"textures": "textures/items/painitebattleaxe"
+					},
+					"painitegemstone": {
+						"textures": "textures/items/painitegemstone"
+					},
+					"painitehammer": {
+						"textures": "textures/items/painitehammer"
+					},
+					"painitesickle": {
+						"textures": "textures/items/painitesickle"
+					},
+					"painitesword": {
+						"textures": "textures/items/painitesword"
+					},
+					"platniumapple": {
+						"textures": "textures/items/platniumapple"
+					},
+					"platniumbattleaxe": {
+						"textures": "textures/items/platniumbattleaxe"
+					},
+					"platniumhammer": {
+						"textures": "textures/items/platniumhammer"
+					},
+					"platniumingot": {
+						"textures": "textures/items/platniumingot"
+					},
+					"platniumsickle": {
+						"textures": "textures/items/platniumsickle"
+					},
+					"platniumsword": {
+						"textures": "textures/items/platniumsword"
+					},
+					"plutoniumapple": {
+						"textures": "textures/items/plutoniumapple"
+					},
+					"plutoniumbattleaxe": {
+						"textures": "textures/items/plutoniumbattleaxe"
+					},
+					"plutoniumhammer": {
+						"textures": "textures/items/plutoniumhammer"
+					},
+					"plutoniumingot": {
+						"textures": "textures/items/plutoniumingot"
+					},
+					"plutoniumsickle": {
+						"textures": "textures/items/plutoniumsickle"
+					},
+					"plutoniumsword": {
+						"textures": "textures/items/plutoniumsword"
+					},
+					"diamond_pickaxe": {
+						"textures": "textures/items/diamond_pickaxe"
+					},
+					"proliniteapple": {
+						"textures": "textures/items/proliniteapple"
+					},
+					"prolinitebattleaxe": {
+						"textures": "textures/items/prolinitebattleaxe"
+					},
+					"prolinitegemstone": {
+						"textures": "textures/items/prolinitegemstone"
+					},
+					"prolinitehammer": {
+						"textures": "textures/items/prolinitehammer"
+					},
+					"prolinitesickle": {
+						"textures": "textures/items/prolinitesickle"
+					},
+					"prolinitesword": {
+						"textures": "textures/items/prolinitesword"
+					},
+					"pyriteapple": {
+						"textures": "textures/items/pyriteapple"
+					},
+					"pyritebattleaxe": {
+						"textures": "textures/items/pyritebattleaxe"
+					},
+					"pyritehammer": {
+						"textures": "textures/items/pyritehammer"
+					},
+					"pyriteingot": {
+						"textures": "textures/items/pyriteingot"
+					},
+					"pyritesickle": {
+						"textures": "textures/items/pyritesickle"
+					},
+					"pyritesword": {
+						"textures": "textures/items/pyritesword"
+					},
+					"rubyapple": {
+						"textures": "textures/items/rubyapple"
+					},
+					"rubybattleaxe": {
+						"textures": "textures/items/rubybattleaxe"
+					},
+					"rubygemstone": {
+						"textures": "textures/items/rubygemstone"
+					},
+					"rubyhammer": {
+						"textures": "textures/items/rubyhammer"
+					},
+					"rubysickle": {
+						"textures": "textures/items/rubysickle"
+					},
+					"rubysword": {
+						"textures": "textures/items/rubysword"
+					},
+					"sapphireapple": {
+						"textures": "textures/items/sapphireapple"
+					},
+					"sapphirebattleaxe": {
+						"textures": "textures/items/sapphirebattleaxe"
+					},
+					"sapphiregemstone": {
+						"textures": "textures/items/sapphiregemstone"
+					},
+					"sapphirehammer": {
+						"textures": "textures/items/sapphirehammer"
+					},
+					"sapphiresickle": {
+						"textures": "textures/items/sapphiresickle"
+					},
+					"sapphiresword": {
+						"textures": "textures/items/sapphiresword"
+					},
+					"silverapple": {
+						"textures": "textures/items/silverapple"
+					},
+					"silverbattleaxe": {
+						"textures": "textures/items/silverbattleaxe"
+					},
+					"silverhammer": {
+						"textures": "textures/items/silverhammer"
+					},
+					"silveringot": {
+						"textures": "textures/items/silveringot"
+					},
+					"silversickle": {
+						"textures": "textures/items/silversickle"
+					},
+					"silversword": {
+						"textures": "textures/items/silversword"
+					},
+					"sypmiumapple": {
+						"textures": "textures/items/sypmiumapple"
+					},
+					"sypmiumbattleaxe": {
+						"textures": "textures/items/sypmiumbattleaxe"
+					},
+					"sypmiumhammer": {
+						"textures": "textures/items/sypmiumhammer"
+					},
+					"sypmiumingot": {
+						"textures": "textures/items/sypmiumingot"
+					},
+					"sypmiumsickle": {
+						"textures": "textures/items/sypmiumsickle"
+					},
+					"sypmiumsword": {
+						"textures": "textures/items/sypmiumsword"
+					},
+					"tanzaniteapple": {
+						"textures": "textures/items/tanzaniteapple"
+					},
+					"tanzanitebattleaxe": {
+						"textures": "textures/items/tanzanitebattleaxe"
+					},
+					"tanzanitegemstone": {
+						"textures": "textures/items/tanzanitegemstone"
+					},
+					"tanzanitehammer": {
+						"textures": "textures/items/tanzanitehammer"
+					},
+					"tanzanitesickle": {
+						"textures": "textures/items/tanzanitesickle"
+					},
+					"tanzanitesword": {
+						"textures": "textures/items/tanzanitesword"
+					},
+					"tinapple": {
+						"textures": "textures/items/tinapple"
+					},
+					"tinbattleaxe": {
+						"textures": "textures/items/tinbattleaxe"
+					},
+					"tinhammer": {
+						"textures": "textures/items/tinhammer"
+					},
+					"tiningot": {
+						"textures": "textures/items/tiningot"
+					},
+					"tinsickle": {
+						"textures": "textures/items/tinsickle"
+					},
+					"tinsword": {
+						"textures": "textures/items/tinsword"
+					},
+					"titaniumapple": {
+						"textures": "textures/items/titaniumapple"
+					},
+					"titaniumbattleaxe": {
+						"textures": "textures/items/titaniumbattleaxe"
+					},
+					"titaniumhammer": {
+						"textures": "textures/items/titaniumhammer"
+					},
+					"titaniumingot": {
+						"textures": "textures/items/titaniumingot"
+					},
+					"titaniumsickle": {
+						"textures": "textures/items/titaniumsickle"
+					},
+					"titaniumsword": {
+						"textures": "textures/items/titaniumsword"
+					},
+					"topazapple": {
+						"textures": "textures/items/topazapple"
+					},
+					"topazbattleaxe": {
+						"textures": "textures/items/topazbattleaxe"
+					},
+					"topazgemstone": {
+						"textures": "textures/items/topazgemstone"
+					},
+					"topazhammer": {
+						"textures": "textures/items/topazhammer"
+					},
+					"topazsickle": {
+						"textures": "textures/items/topazsickle"
+					},
+					"topazsword": {
+						"textures": "textures/items/topazsword"
+					},
+					"copperchainlink": {
+						"textures": "textures/items/copperchainlink"
+					},
+					"tungstenapple": {
+						"textures": "textures/items/tungstenapple"
+					},
+					"tungstenbattleaxe": {
+						"textures": "textures/items/tungstenbattleaxe"
+					},
+					"tungstengemstone": {
+						"textures": "textures/items/tungstengemstone"
+					},
+					"tungstenhammer": {
+						"textures": "textures/items/tungstenhammer"
+					},
+					"tungstensickle": {
+						"textures": "textures/items/tungstensickle"
+					},
+					"tungstensword": {
+						"textures": "textures/items/tungstensword"
+					},
+					"voidstoneapple": {
+						"textures": "textures/items/voidstoneapple"
+					},
+					"voidstonebattleaxe": {
+						"textures": "textures/items/voidstonebattleaxe"
+					},
+					"voidstonehammer": {
+						"textures": "textures/items/voidstonehammer"
+					},
+					"voidstoneingot": {
+						"textures": "textures/items/voidstoneingot"
+					},
+					"voidstonesickle": {
+						"textures": "textures/items/voidstonesickle"
+					},
+					"voidstonesword": {
+						"textures": "textures/items/voidstonesword"
+					},
+					"yttriumapple": {
+						"textures": "textures/items/yttriumapple"
+					},
+					"yttriumbattleaxe": {
+						"textures": "textures/items/yttriumbattleaxe"
+					},
+					"yttriumhammer": {
+						"textures": "textures/items/yttriumhammer"
+					},
+					"yttriumingot": {
+						"textures": "textures/items/yttriumingot"
+					},
+					"yttriumsickle": {
+						"textures": "textures/items/yttriumsickle"
+					},
+					"yttriumsword": {
+						"textures": "textures/items/yttriumsword"
+					},
+					"zincapple": {
+						"textures": "textures/items/zincapple"
+					},
+					"zincbattleaxe": {
+						"textures": "textures/items/zincbattleaxe"
+					},
+					"zinchammer": {
+						"textures": "textures/items/zinchammer"
+					},
+					"zincingot": {
+						"textures": "textures/items/zincingot"
+					},
+					"zincsickle": {
+						"textures": "textures/items/zincsickle"
+					},
+					"zincsword": {
+						"textures": "textures/items/zincsword"
+					},
+					"zincoliumapple": {
+						"textures": "textures/items/zincoliumapple"
+					},
+					"zincoliumbattleaxe": {
+						"textures": "textures/items/zincoliumbattleaxe"
+					},
+					"zincoliumhammer": {
+						"textures": "textures/items/zincoliumhammer"
+					},
+					"zincoliumingot": {
+						"textures": "textures/items/zincoliumingot"
+					},
+					"zincoliumsickle": {
+						"textures": "textures/items/zincoliumsickle"
+					},
+					"zincoliumsword": {
+						"textures": "textures/items/zincoliumsword"
+					},
+					"glowinggrape": {
+						"textures": "textures/items/glowinggrape"
+					},
+					"ores_sebkar_helmet": {
+						"textures": "textures/items/sebkar_helmet"
+					},
+					"ores_sebkar_chestplate": {
+						"textures": "textures/items/sebkar_chestplate"
+					},
+					"ores_sebkar_leggings": {
+						"textures": "textures/items/sebkar_leggings"
+					},
+					"ores_sebkar_boots": {
+						"textures": "textures/items/sebkar_boots"
+					}
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,15 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:s_gold"
+		},
+		"components": {
+			"minecraft:destroy_time": 1000,
+			"minecraft:explosion_resistance": 3,
+			"minecraft:loot": "loot_tables/s_gold_loot.json",
+			"tag:ores:iron_pick": {}
+		}
+	}
+}

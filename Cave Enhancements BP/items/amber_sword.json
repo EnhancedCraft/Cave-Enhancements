@@ -1,0 +1,32 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ores:amber_sword",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:stacked_by_data": true,
+			"minecraft:enchantable": {
+				"slot": "sword",
+				"value": 10
+			},
+			"minecraft:durability": {
+				"max_durability": 450
+			},
+			"minecraft:icon": {
+				"texture": "ambersword"
+			},
+			"minecraft:damage": 6.6,
+			"minecraft:display_name": {
+				"value": "Amber Sword §16 Damage"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
+			}
+		}
+	}
+}

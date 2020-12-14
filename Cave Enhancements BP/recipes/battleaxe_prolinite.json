@@ -1,0 +1,31 @@
+//bridge-file-version: #28
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:battleaxe_prolinite"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XXX",
+			"XOX",
+			" O"
+		],
+		"key": {
+			"X": {
+				"item": "ores:prolinite_gemstone"
+			},
+			"O": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": [
+			{
+				"item": "ores:prolinite_battleaxe",
+				"count": 1
+			}
+		]
+	}
+}

@@ -1,0 +1,69 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ores:sypmium_apple",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:stacked_by_data": true,
+			"minecraft:use_duration": 1.6,
+			"minecraft:foil": false,
+			"minecraft:food": {
+				"nutrition": 4,
+				"saturation_modifier": "supernatural",
+				"can_always_eat": true,
+				"on_consume": {
+					"event": "consumed",
+					"target": "self"
+				}
+			},
+			"minecraft:icon": {
+				"texture": "sypmiumapple"
+			},
+			"minecraft:display_name": {
+				"value": "Sypmium Apple"
+			},
+			"minecraft:use_animation": "eat"
+		},
+		"events": {
+			"consumed": {
+				"sequence": [
+					{
+						"add_mob_effect": {
+							"effect": "regeneration",
+							"duration": 130,
+							"amplifier": 2,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "speed",
+							"duration": 120,
+							"amplifier": 2,
+							"target": "holder"
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "fire_resistance",
+							"duration": 100,
+							"target": "holder",
+							"amplifier": 2
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "haste",
+							"duration": 250,
+							"target": "holder",
+							"amplifier": 2
+						}
+					}
+				]
+			}
+		}
+	}
+}

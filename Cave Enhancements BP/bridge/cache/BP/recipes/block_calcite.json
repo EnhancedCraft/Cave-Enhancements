@@ -1,0 +1,175 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\recipes\\block_calcite.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "170a2ea5_533c_445a_bbb1_0ede5d6645a1",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ores:block_calcite"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"###",
+							"###",
+							"###"
+						],
+						"key": {
+							"#": {
+								"item": "ores:calcite_crystal"
+							}
+						},
+						"result": {
+							"item": "ores:calcite_block"
+						}
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:block_calcite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"###",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:calcite_crystal"
+								}
+							},
+							"result": {
+								"item": "ores:calcite_block"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:block_calcite"
+						}
+					},
+					{
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:block_calcite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"###",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:calcite_crystal"
+								}
+							},
+							"result": {
+								"item": "ores:calcite_block"
+							}
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"###",
+							"###",
+							"###"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:block_calcite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"###",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:calcite_crystal"
+								}
+							},
+							"result": {
+								"item": "ores:calcite_block"
+							}
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"#": {
+										"item": "ores:calcite_crystal"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "ores:calcite_crystal"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:block_calcite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"###",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:calcite_crystal"
+								}
+							},
+							"result": {
+								"item": "ores:calcite_block"
+							}
+						},
+						"key": "result",
+						"is_minified": true,
+						"children": {
+							"item": "ores:calcite_block"
+						}
+					}
+				]
+			}
+		]
+	}
+}

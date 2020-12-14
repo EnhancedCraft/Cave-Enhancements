@@ -1,0 +1,175 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\recipes\\block_sulfer.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "118a5ef7_9cb4_4c5b_97f4_6942d382baec",
+	"file_version": 32,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ores:block_sulfer"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"###",
+							"###",
+							"###"
+						],
+						"key": {
+							"#": {
+								"item": "ores:sulfer"
+							}
+						},
+						"result": {
+							"item": "ores:sulfer_block"
+						}
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:block_sulfer"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"###",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:sulfer"
+								}
+							},
+							"result": {
+								"item": "ores:sulfer_block"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:block_sulfer"
+						}
+					},
+					{
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:block_sulfer"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"###",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:sulfer"
+								}
+							},
+							"result": {
+								"item": "ores:sulfer_block"
+							}
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"###",
+							"###",
+							"###"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:block_sulfer"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"###",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:sulfer"
+								}
+							},
+							"result": {
+								"item": "ores:sulfer_block"
+							}
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"#": {
+										"item": "ores:sulfer"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "ores:sulfer"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:block_sulfer"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"###",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:sulfer"
+								}
+							},
+							"result": {
+								"item": "ores:sulfer_block"
+							}
+						},
+						"key": "result",
+						"is_minified": true,
+						"children": {
+							"item": "ores:sulfer_block"
+						}
+					}
+				]
+			}
+		]
+	}
+}

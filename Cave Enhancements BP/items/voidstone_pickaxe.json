@@ -1,0 +1,152 @@
+//bridge-file-version: #24
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ores:voidstone_pickaxe",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:mining_speed": 1,
+			"minecraft:damage": 2,
+			"minecraft:enchantable": {
+				"value": 5,
+				"slot": "pickaxe"
+			},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": {
+					"0": {
+						"block": {
+							"tags": "query.any_tag('stone', 'metal', 'diamond_pick_diggable')"
+						},
+						"speed": 9
+					},
+					"1": {
+						"block": "minecraft:ice",
+						"speed": 4
+					},
+					"2": {
+						"block": "minecraft:sandstone",
+						"speed": 4
+					},
+					"3": {
+						"block": {
+							"tags": "query.any_tag('ores:easy')"
+						},
+						"speed": 3400
+					},
+					"4": {
+						"block": {
+							"tags": "query.any_tag('ores:biomestone')"
+						},
+						"speed": 27
+					},
+					"5": {
+						"block": {
+							"tags": "query.any_tag('ores:medium')"
+						},
+						"speed": 2000
+					},
+					"6": {
+						"block": {
+							"tags": "query.any_tag('ores:hard')"
+						},
+						"speed": 1000
+					},
+					"7": {
+						"block": "minecraft:furnace",
+						"speed": 9
+					},
+					"8": {
+						"block": "minecraft:cobblestone",
+						"speed": 9
+					},
+					"9": {
+						"block": "minecraft:netherrack",
+						"speed": 9
+					},
+					"10": {
+						"block": "minecraft:quartz_ore",
+						"speed": 9
+					},
+					"11": {
+						"block": "minecraft:nether_gold_ore",
+						"speed": 9
+					},
+					"12": {
+						"block": "minecraft:stonecutter_block",
+						"speed": 9
+					},
+					"13": {
+						"block": "minecraft:dispenser",
+						"speed": 9
+					},
+					"14": {
+						"block": "minecraft:dropper",
+						"speed": 9
+					},
+					"15": {
+						"block": "minecraft:blast_furnace",
+						"speed": 9
+					},
+					"16": {
+						"block": "minecraft:lit_blast_furnace",
+						"speed": 9
+					},
+					"17": {
+						"block": "minecraft:nether_brick",
+						"speed": 9
+					},
+					"18": {
+						"block": "minecraft:observer",
+						"speed": 9
+					},
+					"19": {
+						"block": "minecraft:blackstone",
+						"speed": 9
+					},
+					"20": {
+						"block": "minecraft:piston",
+						"speed": 9
+					},
+					"21": {
+						"block": "minecraft:sticky_piston",
+						"speed": 9
+					},
+					"22": {
+						"block": "minecraft:end_stone",
+						"speed": 9
+					},
+					"23": {
+						"block": "minecraft:brewing_stand",
+						"speed": 9
+					},
+					"7_copy": {
+						"block": "minecraft:lit_furnace",
+						"speed": 9
+					},
+					"8_copy": {
+						"block": "minecraft:hopper",
+						"speed": 9
+					}
+				}
+			},
+			"minecraft:durability": {
+				"max_durability": 3000
+			},
+			"minecraft:icon": {
+				"texture": "voidstonepickaxe"
+			},
+			"minecraft:display_name": {
+				"value": "Voidstone Pickaxe"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.pickaxe"
+			}
+		},
+		"events": {}
+	}
+}

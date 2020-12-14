@@ -1,0 +1,249 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\items\\tanzanite_battleaxe.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "9eb0ae75_f97e_4174_994f_c62d75f3787c",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ores:tanzanite_battleaxe",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:stacked_by_data": true,
+							"minecraft:damage": 23,
+							"minecraft:weapon": {},
+							"minecraft:durability": {
+								"max_durability": 5600
+							},
+							"minecraft:enchantable": {
+								"slot": "sword",
+								"value": 10
+							},
+							"minecraft:display_name": {
+								"value": "Tanzanite Battleaxe"
+							},
+							"minecraft:icon": {
+								"texture": "tanzanitebattleaxe"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:tanzanite_battleaxe",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:stacked_by_data": true,
+								"minecraft:damage": 23,
+								"minecraft:weapon": {},
+								"minecraft:durability": {
+									"max_durability": 5600
+								},
+								"minecraft:enchantable": {
+									"slot": "sword",
+									"value": 10
+								},
+								"minecraft:display_name": {
+									"value": "Tanzanite Battleaxe"
+								},
+								"minecraft:icon": {
+									"texture": "tanzanitebattleaxe"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:tanzanite_battleaxe",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:tanzanite_battleaxe",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:stacked_by_data": true,
+								"minecraft:damage": 23,
+								"minecraft:weapon": {},
+								"minecraft:durability": {
+									"max_durability": 5600
+								},
+								"minecraft:enchantable": {
+									"slot": "sword",
+									"value": 10
+								},
+								"minecraft:display_name": {
+									"value": "Tanzanite Battleaxe"
+								},
+								"minecraft:icon": {
+									"texture": "tanzanitebattleaxe"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"data": "23",
+								"key": "minecraft:damage"
+							},
+							{
+								"key": "minecraft:weapon",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:stacked_by_data": true,
+									"minecraft:damage": 23,
+									"minecraft:weapon": {},
+									"minecraft:durability": {
+										"max_durability": 5600
+									},
+									"minecraft:enchantable": {
+										"slot": "sword",
+										"value": 10
+									},
+									"minecraft:display_name": {
+										"value": "Tanzanite Battleaxe"
+									},
+									"minecraft:icon": {
+										"texture": "tanzanitebattleaxe"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									}
+								},
+								"key": "minecraft:durability",
+								"is_minified": true,
+								"children": {
+									"max_durability": 5600
+								}
+							},
+							{
+								"key": "minecraft:enchantable",
+								"is_minified": true,
+								"children": {
+									"slot": "sword",
+									"value": 10
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:stacked_by_data": true,
+									"minecraft:damage": 23,
+									"minecraft:weapon": {},
+									"minecraft:durability": {
+										"max_durability": 5600
+									},
+									"minecraft:enchantable": {
+										"slot": "sword",
+										"value": 10
+									},
+									"minecraft:display_name": {
+										"value": "Tanzanite Battleaxe"
+									},
+									"minecraft:icon": {
+										"texture": "tanzanitebattleaxe"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Tanzanite Battleaxe"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:stacked_by_data": true,
+									"minecraft:damage": 23,
+									"minecraft:weapon": {},
+									"minecraft:durability": {
+										"max_durability": 5600
+									},
+									"minecraft:enchantable": {
+										"slot": "sword",
+										"value": 10
+									},
+									"minecraft:display_name": {
+										"value": "Tanzanite Battleaxe"
+									},
+									"minecraft:icon": {
+										"texture": "tanzanitebattleaxe"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "tanzanitebattleaxe"
+								}
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.sword"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

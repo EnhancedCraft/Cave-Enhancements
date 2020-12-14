@@ -1,0 +1,77 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\blocks\\bauxite_ore.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "614a5094_30a6_4f31_9c9b_aff790a80140",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:block": {
+						"description": {
+							"identifier": "ores:bauxite_ore",
+							"is_experimental": false
+						},
+						"components": {
+							"minecraft:destroy_time": 1200,
+							"minecraft:explosion_resistance": 3,
+							"minecraft:loot": "loot_tables/bauxite_loot.json",
+							"tag:ores:easy": {}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:bauxite_ore",
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:destroy_time": 1200,
+								"minecraft:explosion_resistance": 3,
+								"minecraft:loot": "loot_tables/bauxite_loot.json",
+								"tag:ores:easy": {}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:bauxite_ore",
+							"is_experimental": false
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:bauxite_ore",
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:destroy_time": 1200,
+								"minecraft:explosion_resistance": 3,
+								"minecraft:loot": "loot_tables/bauxite_loot.json",
+								"tag:ores:easy": {}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 1200,
+							"minecraft:explosion_resistance": 3,
+							"minecraft:loot": "loot_tables/bauxite_loot.json",
+							"tag:ores:easy": {}
+						}
+					}
+				]
+			}
+		]
+	}
+}

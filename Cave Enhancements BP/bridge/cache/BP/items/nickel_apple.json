@@ -1,0 +1,224 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\items\\nickel_apple.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "256c2010_7ae5_41db_954d_b23b2fa6c697",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ores:nickel_apple",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:use_duration": 1.6,
+							"minecraft:foil": false,
+							"minecraft:food": {
+								"nutrition": 3,
+								"saturation_modifier": "supernatural",
+								"can_always_eat": true,
+								"on_consume": {
+									"event": "n",
+									"target": "self"
+								}
+							},
+							"minecraft:icon": {
+								"texture": "nickelapple"
+							},
+							"minecraft:use_animation": "eat",
+							"minecraft:display_name": {
+								"value": "Nickel Apple"
+							}
+						},
+						"events": {
+							"n": {
+								"sequence": [
+									{
+										"add_mob_effect": {
+											"effect": "regeneration",
+											"target": "holder",
+											"duration": 4,
+											"amplifier": 1
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "absorption",
+											"target": "holder",
+											"duration": 30,
+											"amplifier": 0
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:nickel_apple",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:nickel_apple",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:foil": false,
+								"minecraft:food": {
+									"nutrition": 3,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "n",
+										"target": "self"
+									}
+								},
+								"minecraft:icon": {
+									"texture": "nickelapple"
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:display_name": {
+									"value": "Nickel Apple"
+								}
+							},
+							"events": {
+								"n": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "regeneration",
+												"target": "holder",
+												"duration": 4,
+												"amplifier": 1
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "absorption",
+												"target": "holder",
+												"duration": 30,
+												"amplifier": 0
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"data": "1.6",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"data": "false",
+								"key": "minecraft:foil"
+							},
+							{
+								"key": "minecraft:food",
+								"is_minified": true,
+								"children": {
+									"nutrition": 3,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "n",
+										"target": "self"
+									}
+								}
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "nickelapple"
+								}
+							},
+							{
+								"data": "eat",
+								"key": "minecraft:use_animation"
+							},
+							{
+								"open": {
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 1.6,
+									"minecraft:foil": false,
+									"minecraft:food": {
+										"nutrition": 3,
+										"saturation_modifier": "supernatural",
+										"can_always_eat": true,
+										"on_consume": {
+											"event": "n",
+											"target": "self"
+										}
+									},
+									"minecraft:icon": {
+										"texture": "nickelapple"
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:display_name": {
+										"value": "Nickel Apple"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Nickel Apple"
+								}
+							}
+						]
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {
+							"n": {
+								"sequence": [
+									{
+										"add_mob_effect": {
+											"effect": "regeneration",
+											"target": "holder",
+											"duration": 4,
+											"amplifier": 1
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "absorption",
+											"target": "holder",
+											"duration": 30,
+											"amplifier": 0
+										}
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

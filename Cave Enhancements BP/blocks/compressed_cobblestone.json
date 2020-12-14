@@ -1,0 +1,16 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:compressed_cobblestone"
+		},
+		"components": {
+			"minecraft:destroy_time": 10,
+			"minecraft:explosion_resistance": 25,
+			"minecraft:loot": "loot_tables/compressed_cobble_loot.json",
+			"tag:ores:easy": {}
+		},
+		"events": {}
+	}
+}

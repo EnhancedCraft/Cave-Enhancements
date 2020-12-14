@@ -1,0 +1,33 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:spread"
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:block_light_emission": 0.5,
+			"minecraft:explosion_resistance": 1,
+			"minecraft:ticking": {
+				"range": [
+					1,
+					1
+				],
+				"on_tick": {
+					"event": "test"
+				}
+			}
+		},
+		"events": {
+			"test": {
+				"run_command": {
+					"command": [
+						"fill ~~~ ~40 ~5 ~42 ores:end_grass 0 replace end_stone 0",
+						"fill ~~~ ~ ~-2 ~  ores:end_grass 0 replace end_stone 0"
+					]
+				}
+			}
+		}
+	}
+}

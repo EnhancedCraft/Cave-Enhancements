@@ -1,0 +1,47 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ores:glowing_grape",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:stacked_by_data": true,
+			"minecraft:use_duration": 1,
+			"minecraft:foil": false,
+			"minecraft:food": {
+				"nutrition": 2,
+				"saturation_modifier": "normal",
+				"can_always_eat": true,
+				"on_consume": {
+					"event": "consumed",
+					"target": "self"
+				}
+			},
+			"minecraft:display_name": {
+				"value": "Glowing Grape"
+			},
+			"minecraft:icon": {
+				"texture": "glowinggrape"
+			},
+			"minecraft:hand_equipped": false,
+			"minecraft:max_stack_size": 16,
+			"minecraft:use_animation": "eat"
+		},
+		"events": {
+			"consumed": {
+				"sequence": [
+					{
+						"add_mob_effect": {
+							"effect": "night_vision",
+							"duration": 8,
+							"amplifier": 1,
+							"target": "holder"
+						}
+					}
+				]
+			}
+		}
+	}
+}

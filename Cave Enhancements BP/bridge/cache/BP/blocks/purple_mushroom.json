@@ -1,0 +1,520 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Cave Enhancements BP\\blocks\\purple_mushroom.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "e607fb07_fa5c_42d7_ad80_70e757352f18",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "ores:purple_mushroom"
+						},
+						"components": {
+							"minecraft:destroy_time": 0,
+							"minecraft:block_light_emission": 0.5,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:explosion_resistance": 0.6,
+							"minecraft:geometry": "geometry.mushroom",
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "purplemushroom",
+									"render_method": "alpha_test"
+								}
+							},
+							"minecraft:pick_collision": {
+								"origin": [
+									-1,
+									0,
+									-1
+								],
+								"size": [
+									2,
+									11,
+									4
+								]
+							},
+							"minecraft:entity_collision": false,
+							"minecraft:placement_filter": {
+								"conditions": [
+									{
+										"block_filter": [
+											"minecraft:stone",
+											"ores:s_stone",
+											"ores:j_stone",
+											"ores:i_stone",
+											"ores:coldstone"
+										],
+										"allowed_faces": [
+											"up"
+										]
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:purple_mushroom"
+							},
+							"components": {
+								"minecraft:destroy_time": 0,
+								"minecraft:block_light_emission": 0.5,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:explosion_resistance": 0.6,
+								"minecraft:geometry": "geometry.mushroom",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "purplemushroom",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-1,
+										0,
+										-1
+									],
+									"size": [
+										2,
+										11,
+										4
+									]
+								},
+								"minecraft:entity_collision": false,
+								"minecraft:placement_filter": {
+									"conditions": [
+										{
+											"block_filter": [
+												"minecraft:stone",
+												"ores:s_stone",
+												"ores:j_stone",
+												"ores:i_stone",
+												"ores:coldstone"
+											],
+											"allowed_faces": [
+												"up"
+											]
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:purple_mushroom"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:purple_mushroom"
+							},
+							"components": {
+								"minecraft:destroy_time": 0,
+								"minecraft:block_light_emission": 0.5,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:explosion_resistance": 0.6,
+								"minecraft:geometry": "geometry.mushroom",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "purplemushroom",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-1,
+										0,
+										-1
+									],
+									"size": [
+										2,
+										11,
+										4
+									]
+								},
+								"minecraft:entity_collision": false,
+								"minecraft:placement_filter": {
+									"conditions": [
+										{
+											"block_filter": [
+												"minecraft:stone",
+												"ores:s_stone",
+												"ores:j_stone",
+												"ores:i_stone",
+												"ores:coldstone"
+											],
+											"allowed_faces": [
+												"up"
+											]
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "0",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 0,
+									"minecraft:block_light_emission": 0.5,
+									"minecraft:block_light_absorption": 0,
+									"minecraft:explosion_resistance": 0.6,
+									"minecraft:geometry": "geometry.mushroom",
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "purplemushroom",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-1,
+											0,
+											-1
+										],
+										"size": [
+											2,
+											11,
+											4
+										]
+									},
+									"minecraft:entity_collision": false,
+									"minecraft:placement_filter": {
+										"conditions": [
+											{
+												"block_filter": [
+													"minecraft:stone",
+													"ores:s_stone",
+													"ores:j_stone",
+													"ores:i_stone",
+													"ores:coldstone"
+												],
+												"allowed_faces": [
+													"up"
+												]
+											}
+										]
+									}
+								},
+								"data": "0.5",
+								"key": "minecraft:block_light_emission"
+							},
+							{
+								"data": "0.0",
+								"key": "minecraft:block_light_absorption"
+							},
+							{
+								"data": "0.6",
+								"key": "minecraft:explosion_resistance"
+							},
+							{
+								"data": "geometry.mushroom",
+								"key": "minecraft:geometry"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 0,
+									"minecraft:block_light_emission": 0.5,
+									"minecraft:block_light_absorption": 0,
+									"minecraft:explosion_resistance": 0.6,
+									"minecraft:geometry": "geometry.mushroom",
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "purplemushroom",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-1,
+											0,
+											-1
+										],
+										"size": [
+											2,
+											11,
+											4
+										]
+									},
+									"minecraft:entity_collision": false,
+									"minecraft:placement_filter": {
+										"conditions": [
+											{
+												"block_filter": [
+													"minecraft:stone",
+													"ores:s_stone",
+													"ores:j_stone",
+													"ores:i_stone",
+													"ores:coldstone"
+												],
+												"allowed_faces": [
+													"up"
+												]
+											}
+										]
+									}
+								},
+								"key": "minecraft:material_instances",
+								"children": [
+									{
+										"open": {
+											"*": {
+												"texture": "purplemushroom",
+												"render_method": "alpha_test"
+											}
+										},
+										"key": "*",
+										"is_minified": true,
+										"children": {
+											"texture": "purplemushroom",
+											"render_method": "alpha_test"
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 0,
+									"minecraft:block_light_emission": 0.5,
+									"minecraft:block_light_absorption": 0,
+									"minecraft:explosion_resistance": 0.6,
+									"minecraft:geometry": "geometry.mushroom",
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "purplemushroom",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-1,
+											0,
+											-1
+										],
+										"size": [
+											2,
+											11,
+											4
+										]
+									},
+									"minecraft:entity_collision": false,
+									"minecraft:placement_filter": {
+										"conditions": [
+											{
+												"block_filter": [
+													"minecraft:stone",
+													"ores:s_stone",
+													"ores:j_stone",
+													"ores:i_stone",
+													"ores:coldstone"
+												],
+												"allowed_faces": [
+													"up"
+												]
+											}
+										]
+									}
+								},
+								"key": "minecraft:pick_collision",
+								"children": [
+									{
+										"open": {
+											"origin": [
+												-1,
+												0,
+												-1
+											],
+											"size": [
+												2,
+												11,
+												4
+											]
+										},
+										"key": "origin",
+										"is_minified": true,
+										"children": [
+											-1,
+											0,
+											-1
+										]
+									},
+									{
+										"open": {
+											"origin": [
+												-1,
+												0,
+												-1
+											],
+											"size": [
+												2,
+												11,
+												4
+											]
+										},
+										"key": "size",
+										"is_minified": true,
+										"children": [
+											2,
+											11,
+											4
+										]
+									}
+								]
+							},
+							{
+								"data": "false",
+								"key": "minecraft:entity_collision"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 0,
+									"minecraft:block_light_emission": 0.5,
+									"minecraft:block_light_absorption": 0,
+									"minecraft:explosion_resistance": 0.6,
+									"minecraft:geometry": "geometry.mushroom",
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "purplemushroom",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-1,
+											0,
+											-1
+										],
+										"size": [
+											2,
+											11,
+											4
+										]
+									},
+									"minecraft:entity_collision": false,
+									"minecraft:placement_filter": {
+										"conditions": [
+											{
+												"block_filter": [
+													"minecraft:stone",
+													"ores:s_stone",
+													"ores:j_stone",
+													"ores:i_stone",
+													"ores:coldstone"
+												],
+												"allowed_faces": [
+													"up"
+												]
+											}
+										]
+									}
+								},
+								"key": "minecraft:placement_filter",
+								"children": [
+									{
+										"open": {
+											"conditions": [
+												{
+													"block_filter": [
+														"minecraft:stone",
+														"ores:s_stone",
+														"ores:j_stone",
+														"ores:i_stone",
+														"ores:coldstone"
+													],
+													"allowed_faces": [
+														"up"
+													]
+												}
+											]
+										},
+										"key": "conditions",
+										"children": [
+											{
+												"open": [
+													{
+														"block_filter": [
+															"minecraft:stone",
+															"ores:s_stone",
+															"ores:j_stone",
+															"ores:i_stone",
+															"ores:coldstone"
+														],
+														"allowed_faces": [
+															"up"
+														]
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"block_filter": [
+																"minecraft:stone",
+																"ores:s_stone",
+																"ores:j_stone",
+																"ores:i_stone",
+																"ores:coldstone"
+															],
+															"allowed_faces": [
+																"up"
+															]
+														},
+														"key": "block_filter",
+														"is_minified": true,
+														"children": [
+															"minecraft:stone",
+															"ores:s_stone",
+															"ores:j_stone",
+															"ores:i_stone",
+															"ores:coldstone"
+														]
+													},
+													{
+														"open": {
+															"block_filter": [
+																"minecraft:stone",
+																"ores:s_stone",
+																"ores:j_stone",
+																"ores:i_stone",
+																"ores:coldstone"
+															],
+															"allowed_faces": [
+																"up"
+															]
+														},
+														"key": "allowed_faces",
+														"is_minified": true,
+														"children": [
+															"up"
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

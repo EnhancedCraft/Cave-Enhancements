@@ -1,0 +1,25 @@
+//bridge-file-version: #33
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:block_sypmium"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "ores:sypmium_ingot"
+			}
+		},
+		"result": {
+			"item": "ores:sypmium_block"
+		}
+	}
+}

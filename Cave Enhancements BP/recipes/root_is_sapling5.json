@@ -1,0 +1,34 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:root_is_sapling5"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"wew",
+			"wew",
+			"wew"
+		],
+		"key": {
+			"w": {
+				"item": "ores:roots",
+				"data": 0
+			},
+			"e": {
+				"item": "minecraft:log2",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:sapling",
+				"data": 4,
+				"count": 1
+			}
+		]
+	}
+}

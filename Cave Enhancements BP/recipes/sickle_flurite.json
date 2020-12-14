@@ -1,0 +1,31 @@
+//bridge-file-version: #11
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:sickle_flurite"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XXX",
+			"C  X",
+			"C"
+		],
+		"key": {
+			"X": {
+				"item": "ores:flurite_crystal"
+			},
+			"C": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": [
+			{
+				"item": "ores:flurite_sickle",
+				"count": 1
+			}
+		]
+	}
+}

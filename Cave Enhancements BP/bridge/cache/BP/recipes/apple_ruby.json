@@ -1,0 +1,259 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\recipes\\apple_ruby.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "405ec4d9_7572_4a6b_b013_41db84021276",
+	"file_version": 29,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ores:apple_ruby"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"###",
+							"#X#",
+							"###"
+						],
+						"key": {
+							"#": {
+								"item": "ores:ruby_gemstone"
+							},
+							"X": {
+								"item": "minecraft:apple"
+							}
+						},
+						"result": {
+							"item": "ores:ruby_apple"
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ores:apple_ruby"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"###",
+							"#X#",
+							"###"
+						],
+						"key": {
+							"#": {
+								"item": "ores:ruby_gemstone"
+							},
+							"X": {
+								"item": "minecraft:apple"
+							}
+						},
+						"result": {
+							"item": "ores:ruby_apple"
+						}
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:apple_ruby"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"#X#",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:ruby_gemstone"
+								},
+								"X": {
+									"item": "minecraft:apple"
+								}
+							},
+							"result": {
+								"item": "ores:ruby_apple"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:apple_ruby"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:apple_ruby"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"#X#",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:ruby_gemstone"
+								},
+								"X": {
+									"item": "minecraft:apple"
+								}
+							},
+							"result": {
+								"item": "ores:ruby_apple"
+							}
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:apple_ruby"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"#X#",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:ruby_gemstone"
+								},
+								"X": {
+									"item": "minecraft:apple"
+								}
+							},
+							"result": {
+								"item": "ores:ruby_apple"
+							}
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"###",
+							"#X#",
+							"###"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:apple_ruby"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"#X#",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:ruby_gemstone"
+								},
+								"X": {
+									"item": "minecraft:apple"
+								}
+							},
+							"result": {
+								"item": "ores:ruby_apple"
+							}
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"#": {
+										"item": "ores:ruby_gemstone"
+									},
+									"X": {
+										"item": "minecraft:apple"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "ores:ruby_gemstone"
+								}
+							},
+							{
+								"open": {
+									"#": {
+										"item": "ores:ruby_gemstone"
+									},
+									"X": {
+										"item": "minecraft:apple"
+									}
+								},
+								"key": "X",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:apple"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:apple_ruby"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"#X#",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:ruby_gemstone"
+								},
+								"X": {
+									"item": "minecraft:apple"
+								}
+							},
+							"result": {
+								"item": "ores:ruby_apple"
+							}
+						},
+						"key": "result",
+						"is_minified": true,
+						"children": {
+							"item": "ores:ruby_apple"
+						}
+					}
+				]
+			}
+		]
+	}
+}

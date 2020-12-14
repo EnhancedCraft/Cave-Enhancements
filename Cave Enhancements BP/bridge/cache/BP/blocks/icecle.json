@@ -1,0 +1,321 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\blocks\\icecle.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "5d9aff52_9b7b_4492_8030_0813bcfa075b",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "ores:icicle"
+						},
+						"components": {
+							"minecraft:destroy_time": 2,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:block_light_emission": 0.3,
+							"minecraft:friction": 1,
+							"minecraft:explosion_resistance": 2,
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "ice",
+									"render_method": "alpha_test"
+								}
+							},
+							"minecraft:geometry": "geometry.ice",
+							"bridge:rotate_on_place": {
+								"rotation_from": "player"
+							},
+							"minecraft:pick_collision": {
+								"origin": [
+									-6,
+									0,
+									-5
+								],
+								"size": [
+									11,
+									3,
+									10
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:icicle"
+							},
+							"components": {
+								"minecraft:destroy_time": 2,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:block_light_emission": 0.3,
+								"minecraft:friction": 1,
+								"minecraft:explosion_resistance": 2,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "ice",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:geometry": "geometry.ice",
+								"bridge:rotate_on_place": {
+									"rotation_from": "player"
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-6,
+										0,
+										-5
+									],
+									"size": [
+										11,
+										3,
+										10
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:icicle"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:icicle"
+							},
+							"components": {
+								"minecraft:destroy_time": 2,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:block_light_emission": 0.3,
+								"minecraft:friction": 1,
+								"minecraft:explosion_resistance": 2,
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "ice",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:geometry": "geometry.ice",
+								"bridge:rotate_on_place": {
+									"rotation_from": "player"
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-6,
+										0,
+										-5
+									],
+									"size": [
+										11,
+										3,
+										10
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "2",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"data": "0.0",
+								"key": "minecraft:block_light_absorption"
+							},
+							{
+								"data": "0.3",
+								"key": "minecraft:block_light_emission"
+							},
+							{
+								"data": "1",
+								"key": "minecraft:friction"
+							},
+							{
+								"data": "2",
+								"key": "minecraft:explosion_resistance"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 2,
+									"minecraft:block_light_absorption": 0,
+									"minecraft:block_light_emission": 0.3,
+									"minecraft:friction": 1,
+									"minecraft:explosion_resistance": 2,
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "ice",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:geometry": "geometry.ice",
+									"bridge:rotate_on_place": {
+										"rotation_from": "player"
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-6,
+											0,
+											-5
+										],
+										"size": [
+											11,
+											3,
+											10
+										]
+									}
+								},
+								"key": "minecraft:material_instances",
+								"children": [
+									{
+										"open": {
+											"*": {
+												"texture": "ice",
+												"render_method": "alpha_test"
+											}
+										},
+										"key": "*",
+										"is_minified": true,
+										"children": {
+											"texture": "ice",
+											"render_method": "alpha_test"
+										}
+									}
+								]
+							},
+							{
+								"data": "geometry.ice",
+								"key": "minecraft:geometry"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 2,
+									"minecraft:block_light_absorption": 0,
+									"minecraft:block_light_emission": 0.3,
+									"minecraft:friction": 1,
+									"minecraft:explosion_resistance": 2,
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "ice",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:geometry": "geometry.ice",
+									"bridge:rotate_on_place": {
+										"rotation_from": "player"
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-6,
+											0,
+											-5
+										],
+										"size": [
+											11,
+											3,
+											10
+										]
+									}
+								},
+								"key": "bridge:rotate_on_place",
+								"is_minified": true,
+								"children": {
+									"rotation_from": "player"
+								}
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 2,
+									"minecraft:block_light_absorption": 0,
+									"minecraft:block_light_emission": 0.3,
+									"minecraft:friction": 1,
+									"minecraft:explosion_resistance": 2,
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "ice",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:geometry": "geometry.ice",
+									"bridge:rotate_on_place": {
+										"rotation_from": "player"
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-6,
+											0,
+											-5
+										],
+										"size": [
+											11,
+											3,
+											10
+										]
+									}
+								},
+								"key": "minecraft:pick_collision",
+								"children": [
+									{
+										"open": {
+											"origin": [
+												-6,
+												0,
+												-5
+											],
+											"size": [
+												11,
+												3,
+												10
+											]
+										},
+										"key": "origin",
+										"is_minified": true,
+										"children": [
+											-6,
+											0,
+											-5
+										]
+									},
+									{
+										"open": {
+											"origin": [
+												-6,
+												0,
+												-5
+											],
+											"size": [
+												11,
+												3,
+												10
+											]
+										},
+										"key": "size",
+										"is_minified": true,
+										"children": [
+											11,
+											3,
+											10
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

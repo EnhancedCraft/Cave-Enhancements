@@ -1,0 +1,53 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ores:amber_apple",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:stacked_by_data": true,
+			"minecraft:use_duration": 1.6,
+			"minecraft:foil": false,
+			"minecraft:food": {
+				"nutrition": 4,
+				"saturation_modifier": "supernatural",
+				"can_always_eat": true,
+				"on_consume": {
+					"event": "e",
+					"target": "self"
+				}
+			},
+			"minecraft:icon": {
+				"texture": "amberapple"
+			},
+			"minecraft:use_animation": "eat",
+			"minecraft:display_name": {
+				"value": "Amber Apple"
+			}
+		},
+		"events": {
+			"e": {
+				"sequence": [
+					{
+						"add_mob_effect": {
+							"effect": "saturation",
+							"target": "holder",
+							"duration": 300,
+							"amplifier": 4
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "absorption",
+							"target": "holder",
+							"duration": 120,
+							"amplifier": 0
+						}
+					}
+				]
+			}
+		}
+	}
+}

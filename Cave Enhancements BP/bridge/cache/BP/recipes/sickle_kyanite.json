@@ -1,0 +1,261 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Cave Enhancements BP\\recipes\\sickle_kyanite.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "dff2e3cc_daae_4c51_a684_131867222df2",
+	"file_version": 17,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ores:sickle_kyanite"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"XXX",
+							"C  X",
+							"C"
+						],
+						"key": {
+							"X": {
+								"item": "ores:kyanite_ingot"
+							},
+							"C": {
+								"item": "minecraft:stick"
+							}
+						},
+						"result": [
+							{
+								"item": "ores:kyanite_sickle",
+								"count": 1
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:sickle_kyanite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"XXX",
+								"C  X",
+								"C"
+							],
+							"key": {
+								"X": {
+									"item": "ores:kyanite_ingot"
+								},
+								"C": {
+									"item": "minecraft:stick"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:kyanite_sickle",
+									"count": 1
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:sickle_kyanite"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:sickle_kyanite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"XXX",
+								"C  X",
+								"C"
+							],
+							"key": {
+								"X": {
+									"item": "ores:kyanite_ingot"
+								},
+								"C": {
+									"item": "minecraft:stick"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:kyanite_sickle",
+									"count": 1
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:sickle_kyanite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"XXX",
+								"C  X",
+								"C"
+							],
+							"key": {
+								"X": {
+									"item": "ores:kyanite_ingot"
+								},
+								"C": {
+									"item": "minecraft:stick"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:kyanite_sickle",
+									"count": 1
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"XXX",
+							"C  X",
+							"C"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:sickle_kyanite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"XXX",
+								"C  X",
+								"C"
+							],
+							"key": {
+								"X": {
+									"item": "ores:kyanite_ingot"
+								},
+								"C": {
+									"item": "minecraft:stick"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:kyanite_sickle",
+									"count": 1
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"X": {
+										"item": "ores:kyanite_ingot"
+									},
+									"C": {
+										"item": "minecraft:stick"
+									}
+								},
+								"key": "X",
+								"is_minified": true,
+								"children": {
+									"item": "ores:kyanite_ingot"
+								}
+							},
+							{
+								"open": {
+									"X": {
+										"item": "ores:kyanite_ingot"
+									},
+									"C": {
+										"item": "minecraft:stick"
+									}
+								},
+								"key": "C",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:stick"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:sickle_kyanite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"XXX",
+								"C  X",
+								"C"
+							],
+							"key": {
+								"X": {
+									"item": "ores:kyanite_ingot"
+								},
+								"C": {
+									"item": "minecraft:stick"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:kyanite_sickle",
+									"count": 1
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "ores:kyanite_sickle",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "ores:kyanite_sickle",
+									"count": 1
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

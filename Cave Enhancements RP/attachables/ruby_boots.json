@@ -1,0 +1,26 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.8.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "ores:ruby_boots",
+			"materials": {
+				"default": "armor",
+				"enchanted": "armor_enchanted"
+			},
+			"textures": {
+				"default": "textures/armor/armor/ruby_1",
+				"enchanted": "textures/misc/red_glint"
+			},
+			"geometry": {
+				"default": "geometry.humanoid.armor.boots"
+			},
+			"scripts": {
+				"parent_setup": "variable.boot_layer_visible = 0.0;"
+			},
+			"render_controllers": [
+				"controller.render.armor"
+			]
+		}
+	}
+}

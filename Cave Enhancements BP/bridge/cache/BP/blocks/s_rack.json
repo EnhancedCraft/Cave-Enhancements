@@ -1,0 +1,73 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1/blocks/s_rack.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "321b5477_6ed1_438c_be72_890c2323e9c7",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "ores:s_rack"
+						},
+						"components": {
+							"minecraft:destroy_time": 2,
+							"minecraft:explosion_resistance": 2,
+							"minecraft:loot": "loot_tables/s_rack_loot.json",
+							"minecraft:display_name": "Soul Netherrack"
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:s_rack"
+							},
+							"components": {
+								"minecraft:destroy_time": 2,
+								"minecraft:explosion_resistance": 2,
+								"minecraft:loot": "loot_tables/s_rack_loot.json",
+								"minecraft:display_name": "Soul Netherrack"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:s_rack"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:s_rack"
+							},
+							"components": {
+								"minecraft:destroy_time": 2,
+								"minecraft:explosion_resistance": 2,
+								"minecraft:loot": "loot_tables/s_rack_loot.json",
+								"minecraft:display_name": "Soul Netherrack"
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 2,
+							"minecraft:explosion_resistance": 2,
+							"minecraft:loot": "loot_tables/s_rack_loot.json",
+							"minecraft:display_name": "Soul Netherrack"
+						}
+					}
+				]
+			}
+		]
+	}
+}

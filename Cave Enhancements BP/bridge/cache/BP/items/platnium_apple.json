@@ -1,0 +1,255 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\items\\platnium_apple.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "9b1cecd9_838a_49b2_9d0a_29cdfc0dfa5c",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ores:platnium_apple",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:use_duration": 1.6,
+							"minecraft:foil": false,
+							"minecraft:food": {
+								"nutrition": 4,
+								"saturation_modifier": "supernatural",
+								"can_always_eat": true,
+								"on_consume": {
+									"event": "consumed",
+									"target": "self"
+								}
+							},
+							"minecraft:explodable": false,
+							"minecraft:icon": {
+								"texture": "platniumapple"
+							},
+							"minecraft:use_animation": "eat",
+							"minecraft:display_name": {
+								"value": "Platnium Apple"
+							}
+						},
+						"events": {
+							"consumed": {
+								"sequence": [
+									{
+										"add_mob_effect": {
+											"effect": "resistance",
+											"duration": 150,
+											"amplifier": 1,
+											"target": "holder"
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "fire_resistance",
+											"duration": 160,
+											"amplifier": 0,
+											"target": "holder"
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "instant_health",
+											"target": "holder",
+											"duration": 2,
+											"amplifier": 1
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:platnium_apple",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:platnium_apple",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:foil": false,
+								"minecraft:food": {
+									"nutrition": 4,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								},
+								"minecraft:explodable": false,
+								"minecraft:icon": {
+									"texture": "platniumapple"
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:display_name": {
+									"value": "Platnium Apple"
+								}
+							},
+							"events": {
+								"consumed": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "resistance",
+												"duration": 150,
+												"amplifier": 1,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "fire_resistance",
+												"duration": 160,
+												"amplifier": 0,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "instant_health",
+												"target": "holder",
+												"duration": 2,
+												"amplifier": 1
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"data": "1.6",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"data": "false",
+								"key": "minecraft:foil"
+							},
+							{
+								"key": "minecraft:food",
+								"is_minified": true,
+								"children": {
+									"nutrition": 4,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								}
+							},
+							{
+								"data": "false",
+								"key": "minecraft:explodable"
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "platniumapple"
+								}
+							},
+							{
+								"data": "eat",
+								"key": "minecraft:use_animation"
+							},
+							{
+								"open": {
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 1.6,
+									"minecraft:foil": false,
+									"minecraft:food": {
+										"nutrition": 4,
+										"saturation_modifier": "supernatural",
+										"can_always_eat": true,
+										"on_consume": {
+											"event": "consumed",
+											"target": "self"
+										}
+									},
+									"minecraft:explodable": false,
+									"minecraft:icon": {
+										"texture": "platniumapple"
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:display_name": {
+										"value": "Platnium Apple"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Platnium Apple"
+								}
+							}
+						]
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {
+							"consumed": {
+								"sequence": [
+									{
+										"add_mob_effect": {
+											"effect": "resistance",
+											"duration": 150,
+											"amplifier": 1,
+											"target": "holder"
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "fire_resistance",
+											"duration": 160,
+											"amplifier": 0,
+											"target": "holder"
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "instant_health",
+											"target": "holder",
+											"duration": 2,
+											"amplifier": 1
+										}
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

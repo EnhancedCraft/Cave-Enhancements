@@ -1,0 +1,566 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\items\\tin_apple.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "4e0c42bc_68f5_4cae_ab2b_13658cb59fbd",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ores:tin_apple",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:use_duration": 1.6,
+							"minecraft:foil": false,
+							"minecraft:food": {
+								"nutrition": 4,
+								"saturation_modifier": "supernatural",
+								"can_always_eat": true,
+								"on_consume": {
+									"event": "consumed",
+									"target": "self"
+								}
+							},
+							"minecraft:display_name": {
+								"value": "Tin Apple"
+							},
+							"minecraft:icon": {
+								"texture": "tinapple"
+							},
+							"minecraft:use_animation": "eat"
+						},
+						"events": {
+							"consumed": {
+								"sequence": [
+									{
+										"add_mob_effect": {
+											"effect": "fire_resistance",
+											"duration": 250,
+											"amplifier": 1,
+											"target": "holder"
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "absorption",
+											"duration": 200,
+											"amplifier": 2,
+											"target": "holder"
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "speed",
+											"target": "holder",
+											"duration": 120,
+											"amplifier": 1
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:tin_apple",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:foil": false,
+								"minecraft:food": {
+									"nutrition": 4,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								},
+								"minecraft:display_name": {
+									"value": "Tin Apple"
+								},
+								"minecraft:icon": {
+									"texture": "tinapple"
+								},
+								"minecraft:use_animation": "eat"
+							},
+							"events": {
+								"consumed": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "fire_resistance",
+												"duration": 250,
+												"amplifier": 1,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "absorption",
+												"duration": 200,
+												"amplifier": 2,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "speed",
+												"target": "holder",
+												"duration": 120,
+												"amplifier": 1
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:tin_apple",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:tin_apple",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:foil": false,
+								"minecraft:food": {
+									"nutrition": 4,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								},
+								"minecraft:display_name": {
+									"value": "Tin Apple"
+								},
+								"minecraft:icon": {
+									"texture": "tinapple"
+								},
+								"minecraft:use_animation": "eat"
+							},
+							"events": {
+								"consumed": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "fire_resistance",
+												"duration": 250,
+												"amplifier": 1,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "absorption",
+												"duration": 200,
+												"amplifier": 2,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "speed",
+												"target": "holder",
+												"duration": 120,
+												"amplifier": 1
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"data": "1.6",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"data": "false",
+								"key": "minecraft:foil"
+							},
+							{
+								"key": "minecraft:food",
+								"is_minified": true,
+								"children": {
+									"nutrition": 4,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								}
+							},
+							{
+								"open": {
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 1.6,
+									"minecraft:foil": false,
+									"minecraft:food": {
+										"nutrition": 4,
+										"saturation_modifier": "supernatural",
+										"can_always_eat": true,
+										"on_consume": {
+											"event": "consumed",
+											"target": "self"
+										}
+									},
+									"minecraft:display_name": {
+										"value": "Tin Apple"
+									},
+									"minecraft:icon": {
+										"texture": "tinapple"
+									},
+									"minecraft:use_animation": "eat"
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Tin Apple"
+								}
+							},
+							{
+								"open": {
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 1.6,
+									"minecraft:foil": false,
+									"minecraft:food": {
+										"nutrition": 4,
+										"saturation_modifier": "supernatural",
+										"can_always_eat": true,
+										"on_consume": {
+											"event": "consumed",
+											"target": "self"
+										}
+									},
+									"minecraft:display_name": {
+										"value": "Tin Apple"
+									},
+									"minecraft:icon": {
+										"texture": "tinapple"
+									},
+									"minecraft:use_animation": "eat"
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "tinapple"
+								}
+							},
+							{
+								"data": "eat",
+								"key": "minecraft:use_animation"
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:tin_apple",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:foil": false,
+								"minecraft:food": {
+									"nutrition": 4,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								},
+								"minecraft:display_name": {
+									"value": "Tin Apple"
+								},
+								"minecraft:icon": {
+									"texture": "tinapple"
+								},
+								"minecraft:use_animation": "eat"
+							},
+							"events": {
+								"consumed": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "fire_resistance",
+												"duration": 250,
+												"amplifier": 1,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "absorption",
+												"duration": 200,
+												"amplifier": 2,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "speed",
+												"target": "holder",
+												"duration": 120,
+												"amplifier": 1
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"consumed": {
+										"sequence": [
+											{
+												"add_mob_effect": {
+													"effect": "fire_resistance",
+													"duration": 250,
+													"amplifier": 1,
+													"target": "holder"
+												}
+											},
+											{
+												"add_mob_effect": {
+													"effect": "absorption",
+													"duration": 200,
+													"amplifier": 2,
+													"target": "holder"
+												}
+											},
+											{
+												"add_mob_effect": {
+													"effect": "speed",
+													"target": "holder",
+													"duration": 120,
+													"amplifier": 1
+												}
+											}
+										]
+									}
+								},
+								"key": "consumed",
+								"children": [
+									{
+										"open": {
+											"sequence": [
+												{
+													"add_mob_effect": {
+														"effect": "fire_resistance",
+														"duration": 250,
+														"amplifier": 1,
+														"target": "holder"
+													}
+												},
+												{
+													"add_mob_effect": {
+														"effect": "absorption",
+														"duration": 200,
+														"amplifier": 2,
+														"target": "holder"
+													}
+												},
+												{
+													"add_mob_effect": {
+														"effect": "speed",
+														"target": "holder",
+														"duration": 120,
+														"amplifier": 1
+													}
+												}
+											]
+										},
+										"key": "sequence",
+										"children": [
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "fire_resistance",
+															"duration": 250,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "absorption",
+															"duration": 200,
+															"amplifier": 2,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "speed",
+															"target": "holder",
+															"duration": 120,
+															"amplifier": 1
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "fire_resistance",
+																"duration": 250,
+																"amplifier": 1,
+																"target": "holder"
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "fire_resistance",
+															"duration": 250,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "fire_resistance",
+															"duration": 250,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "absorption",
+															"duration": 200,
+															"amplifier": 2,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "speed",
+															"target": "holder",
+															"duration": 120,
+															"amplifier": 1
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "absorption",
+																"duration": 200,
+																"amplifier": 2,
+																"target": "holder"
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "absorption",
+															"duration": 200,
+															"amplifier": 2,
+															"target": "holder"
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "fire_resistance",
+															"duration": 250,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "absorption",
+															"duration": 200,
+															"amplifier": 2,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "speed",
+															"target": "holder",
+															"duration": 120,
+															"amplifier": 1
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "speed",
+																"target": "holder",
+																"duration": 120,
+																"amplifier": 1
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "speed",
+															"target": "holder",
+															"duration": 120,
+															"amplifier": 1
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

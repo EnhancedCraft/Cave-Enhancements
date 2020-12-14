@@ -1,0 +1,16 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:c_rack"
+		},
+		"components": {
+			"minecraft:destroy_time": 2,
+			"minecraft:explosion_resistance": 2,
+			"minecraft:loot": "loot_tables/c_rack_loot.json",
+			"minecraft:display_name": "Crimson Netherrack",
+			"tag:ores:biomestone": {}
+		}
+	}
+}

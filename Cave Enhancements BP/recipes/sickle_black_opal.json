@@ -1,0 +1,31 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:sickle_black_opal"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XXX",
+			"C  X",
+			"C"
+		],
+		"key": {
+			"X": {
+				"item": "ores:black_opal"
+			},
+			"C": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": [
+			{
+				"item": "ores:black_opal_sickle",
+				"count": 1
+			}
+		]
+	}
+}

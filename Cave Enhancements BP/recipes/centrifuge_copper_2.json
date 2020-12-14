@@ -1,0 +1,37 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.200",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:centrifuge_copper_2"
+		},
+		"tags": [
+			"centrifuge"
+		],
+		"pattern": [
+			"CPC",
+			"OFO",
+			"CPC"
+		],
+		"key": {
+			"C": {
+				"item": "minecraft:cobblestone"
+			},
+			"P": {
+				"item": "minecraft:coal"
+			},
+			"O": {
+				"item": "ores:compressed_cobblestone"
+			},
+			"F": {
+				"item": "minecraft:coal_block"
+			}
+		},
+		"result": [
+			{
+				"item": "ores:copper_ingot",
+				"count": 8
+			}
+		]
+	}
+}

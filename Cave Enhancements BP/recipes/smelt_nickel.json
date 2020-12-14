@@ -1,0 +1,15 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "ores:smelt_nickel"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "ores:nickel_ore",
+		"output": "ores:nickel_ingot"
+	}
+}

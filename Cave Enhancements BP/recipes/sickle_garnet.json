@@ -1,0 +1,31 @@
+//bridge-file-version: #12
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:sickle_garnet"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XXX",
+			"C  X",
+			"C"
+		],
+		"key": {
+			"X": {
+				"item": "ores:garnet_gemstone"
+			},
+			"C": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": [
+			{
+				"item": "ores:garnet_sickle",
+				"count": 1
+			}
+		]
+	}
+}

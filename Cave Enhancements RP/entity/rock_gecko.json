@@ -1,0 +1,38 @@
+//bridge-file-version: #11
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ores:rock_gecko",
+			"textures": {
+				"basalt": "textures/entity/basalt_gecko",
+				"gravel": "textures/entity/gravel_gecko"
+			},
+			"geometry": {
+				"default": "geometry.rock_geko"
+			},
+			"animations": {
+				"walk": "animation.rock_geko.walk",
+				"look_at_target": "animation.common.look_at_target"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"walk": "query.modified_move_speed"
+					},
+					"look_at_target"
+				]
+			},
+			"render_controllers": [
+				"controller.render.rock_gecko"
+			],
+			"enable_attachables": false,
+			"spawn_egg": {
+				"texture": "rock_gecko_spawn_egg"
+			},
+			"materials": {
+				"default": "fox"
+			}
+		}
+	}
+}

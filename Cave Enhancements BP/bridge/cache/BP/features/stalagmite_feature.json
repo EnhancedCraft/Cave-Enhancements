@@ -1,0 +1,79 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Cave Enhancements BP\\features\\stalagmite_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "ba1420be_0871_46d7_903e_6fc49022ad77",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:single_block_feature": {
+						"description": {
+							"identifier": "ores:stalagmite_feature"
+						},
+						"places_block": {
+							"name": "ores:stalagmite",
+							"states": {}
+						},
+						"enforce_survivability_rules": true,
+						"enforce_placement_rules": true
+					}
+				},
+				"key": "minecraft:single_block_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:stalagmite_feature"
+							},
+							"places_block": {
+								"name": "ores:stalagmite",
+								"states": {}
+							},
+							"enforce_survivability_rules": true,
+							"enforce_placement_rules": true
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:stalagmite_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:stalagmite_feature"
+							},
+							"places_block": {
+								"name": "ores:stalagmite",
+								"states": {}
+							},
+							"enforce_survivability_rules": true,
+							"enforce_placement_rules": true
+						},
+						"key": "places_block",
+						"is_minified": true,
+						"children": {
+							"name": "ores:stalagmite",
+							"states": {}
+						}
+					},
+					{
+						"data": "true",
+						"key": "enforce_survivability_rules"
+					},
+					{
+						"data": "true",
+						"key": "enforce_placement_rules"
+					}
+				]
+			}
+		]
+	}
+}

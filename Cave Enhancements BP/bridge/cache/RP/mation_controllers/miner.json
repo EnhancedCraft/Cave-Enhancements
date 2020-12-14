@@ -1,0 +1,48 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Cave Enhancements Beta 1\\animation_controllers\\miner.json",
+	"file_type": "rp_animation_controller",
+	"format_version": 0,
+	"cache_content": {
+		"format_version": "1.10.0",
+		"animation_controllers": {
+			"controller.animation.miner.baby": {
+				"initial_state": "baby",
+				"states": {
+					"baby": {
+						"animations": [
+							{
+								"baby_transform": "query.is_baby"
+							}
+						]
+					}
+				}
+			},
+			"controller.animation.miner.general": {
+				"initial_state": "default",
+				"states": {
+					"default": {
+						"animations": [
+							"general",
+							{
+								"look_at_target": "!query.is_sleeping"
+							}
+						]
+					}
+				}
+			},
+			"controller.animation.miner.move": {
+				"initial_state": "default",
+				"states": {
+					"default": {
+						"animations": [
+							{
+								"move": "query.modified_move_speed"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"file_uuid": "efe44a96_324f_4482_abf2_e45d4d42d343"
+}

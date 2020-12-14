@@ -1,0 +1,136 @@
+//bridge-file-version: #4
+{
+	"minecraft:block": {
+		"description": {
+			"properties": {
+				"bridge:block_rotation": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5
+				]
+			},
+			"identifier": "ores:glowing_grape_bush"
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 0",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 1",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						180
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 2",
+				"components": {
+					"minecraft:rotation": [
+						90,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 3",
+				"components": {
+					"minecraft:rotation": [
+						-90,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						-90
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						90
+					]
+				}
+			}
+		],
+		"components": {
+			"minecraft:on_player_placing": {
+				"event": "bridge:update_rotation"
+			},
+			"minecraft:destroy_time": 1,
+			"minecraft:block_light_emission": 0.5,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:explosion_resistance": 1,
+			"minecraft:entity_collision": false,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:stone",
+							"ores:s_stone",
+							"ores:i_stone",
+							"ores:j_stone",
+							"minecraft:dirt",
+							"minecraft:gravel",
+							"minecraft:sandstone",
+							"ores:coldstone"
+						],
+						"allowed_faces": [
+							"down"
+						]
+					}
+				]
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "glowing_grape_crop",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:on_interact": {
+				"event": "interact",
+				"target": "self"
+			},
+			"minecraft:geometry": "geometry.grape"
+		},
+		"events": {
+			"bridge:update_rotation": {
+				"set_block_property": {
+					"bridge:block_rotation": "query.cardinal_player_facing"
+				}
+			},
+			"interact": {
+				"spawn_loot": {
+					"table": "loot_tables/grape_harvest.json"
+				},
+				"set_block": {
+					"block_type": "ores:glowing_grape_non"
+				}
+			}
+		}
+	},
+	"format_version": "1.16.100"
+}

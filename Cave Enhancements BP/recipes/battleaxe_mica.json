@@ -1,0 +1,31 @@
+//bridge-file-version: #21
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:battleaxe_mica"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XXX",
+			"XOX",
+			" O"
+		],
+		"key": {
+			"X": {
+				"item": "ores:mica_crystal"
+			},
+			"O": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": [
+			{
+				"item": "ores:mica_battleaxe",
+				"count": 1
+			}
+		]
+	}
+}

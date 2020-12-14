@@ -1,0 +1,31 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.200",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:centrifuge_garnet"
+		},
+		"tags": [
+			"centrifuge"
+		],
+		"pattern": [
+			"CIC",
+			"CIC",
+			"CIC"
+		],
+		"key": {
+			"C": {
+				"item": "ores:molten_stone"
+			},
+			"I": {
+				"item": "minecraft:coal"
+			}
+		},
+		"result": [
+			{
+				"item": "ores:garnet_gemstone",
+				"count": 1
+			}
+		]
+	}
+}

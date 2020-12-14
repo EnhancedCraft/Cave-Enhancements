@@ -1,0 +1,293 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1/items/zincolium_apple.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "f2ece68d_09ed_49f1_a10b_9ee57f762bf0",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ores:zincolium_apple",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:use_duration": 1.6,
+							"minecraft:foil": false,
+							"minecraft:food": {
+								"nutrition": 4,
+								"saturation_modifier": "supernatural",
+								"can_always_eat": true,
+								"on_consume": {
+									"event": "consumed",
+									"target": "self"
+								}
+							},
+							"minecraft:use_animation": "eat",
+							"minecraft:display_name": {
+								"value": "Zincolium Apple"
+							},
+							"minecraft:icon": {
+								"texture": "zincoliumapple"
+							}
+						},
+						"events": {
+							"consumed": {
+								"sequence": [
+									{
+										"add_mob_effect": {
+											"effect": "health_boost",
+											"duration": 500,
+											"amplifier": 4,
+											"target": "holder"
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:zincolium_apple",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:foil": false,
+								"minecraft:food": {
+									"nutrition": 4,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:display_name": {
+									"value": "Zincolium Apple"
+								},
+								"minecraft:icon": {
+									"texture": "zincoliumapple"
+								}
+							},
+							"events": {
+								"consumed": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "health_boost",
+												"duration": 500,
+												"amplifier": 4,
+												"target": "holder"
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:zincolium_apple",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:zincolium_apple",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:foil": false,
+								"minecraft:food": {
+									"nutrition": 4,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:display_name": {
+									"value": "Zincolium Apple"
+								},
+								"minecraft:icon": {
+									"texture": "zincoliumapple"
+								}
+							},
+							"events": {
+								"consumed": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "health_boost",
+												"duration": 500,
+												"amplifier": 4,
+												"target": "holder"
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:use_duration": 1.6,
+							"minecraft:foil": false,
+							"minecraft:food": {
+								"nutrition": 4,
+								"saturation_modifier": "supernatural",
+								"can_always_eat": true,
+								"on_consume": {
+									"event": "consumed",
+									"target": "self"
+								}
+							},
+							"minecraft:use_animation": "eat",
+							"minecraft:display_name": {
+								"value": "Zincolium Apple"
+							},
+							"minecraft:icon": {
+								"texture": "zincoliumapple"
+							}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:zincolium_apple",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:foil": false,
+								"minecraft:food": {
+									"nutrition": 4,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:display_name": {
+									"value": "Zincolium Apple"
+								},
+								"minecraft:icon": {
+									"texture": "zincoliumapple"
+								}
+							},
+							"events": {
+								"consumed": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "health_boost",
+												"duration": 500,
+												"amplifier": 4,
+												"target": "holder"
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"consumed": {
+										"sequence": [
+											{
+												"add_mob_effect": {
+													"effect": "health_boost",
+													"duration": 500,
+													"amplifier": 4,
+													"target": "holder"
+												}
+											}
+										]
+									}
+								},
+								"key": "consumed",
+								"children": [
+									{
+										"open": {
+											"sequence": [
+												{
+													"add_mob_effect": {
+														"effect": "health_boost",
+														"duration": 500,
+														"amplifier": 4,
+														"target": "holder"
+													}
+												}
+											]
+										},
+										"key": "sequence",
+										"children": [
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "health_boost",
+															"duration": 500,
+															"amplifier": 4,
+															"target": "holder"
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "health_boost",
+																"duration": 500,
+																"amplifier": 4,
+																"target": "holder"
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "health_boost",
+															"duration": 500,
+															"amplifier": 4,
+															"target": "holder"
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

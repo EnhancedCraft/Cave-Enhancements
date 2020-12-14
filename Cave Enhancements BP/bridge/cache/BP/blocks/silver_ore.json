@@ -1,0 +1,68 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\blocks\\silver_ore.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "f34254c5_85c4_4d81_b858_22b2356b295f",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:block": {
+						"description": {
+							"identifier": "ores:silver_ore",
+							"is_experimental": false
+						},
+						"components": {
+							"minecraft:destroy_time": 1000,
+							"minecraft:friction": 1,
+							"minecraft:explosion_resistance": 25,
+							"minecraft:loot": "loot_tables/silver_loot.json",
+							"tag:ores:medium": {}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:silver_ore",
+							"is_experimental": false
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:silver_ore",
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:destroy_time": 1000,
+								"minecraft:friction": 1,
+								"minecraft:explosion_resistance": 25,
+								"minecraft:loot": "loot_tables/silver_loot.json",
+								"tag:ores:medium": {}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 1000,
+							"minecraft:friction": 1,
+							"minecraft:explosion_resistance": 25,
+							"minecraft:loot": "loot_tables/silver_loot.json",
+							"tag:ores:medium": {}
+						}
+					}
+				]
+			}
+		]
+	}
+}

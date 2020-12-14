@@ -1,0 +1,188 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\items\\celestine_sickle.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "ec535882_c1bd_45fe_94c8_e5873e0d97bb",
+	"file_version": 9,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ores:celestine_sickle",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:stacked_by_data": true,
+							"minecraft:enchantable": {
+								"slot": "sword",
+								"value": 10
+							},
+							"minecraft:durability": {
+								"max_durability": 1000
+							},
+							"minecraft:icon": {
+								"texture": "celestinesickle"
+							},
+							"minecraft:damage": 6.5,
+							"minecraft:display_name": {
+								"value": "Celestine Sickle §16.5 Damage"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:celestine_sickle",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:celestine_sickle",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:stacked_by_data": true,
+								"minecraft:enchantable": {
+									"slot": "sword",
+									"value": 10
+								},
+								"minecraft:durability": {
+									"max_durability": 1000
+								},
+								"minecraft:icon": {
+									"texture": "celestinesickle"
+								},
+								"minecraft:damage": 6.5,
+								"minecraft:display_name": {
+									"value": "Celestine Sickle §16.5 Damage"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"key": "minecraft:enchantable",
+								"is_minified": true,
+								"children": {
+									"slot": "sword",
+									"value": 10
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:stacked_by_data": true,
+									"minecraft:enchantable": {
+										"slot": "sword",
+										"value": 10
+									},
+									"minecraft:durability": {
+										"max_durability": 1000
+									},
+									"minecraft:icon": {
+										"texture": "celestinesickle"
+									},
+									"minecraft:damage": 6.5,
+									"minecraft:display_name": {
+										"value": "Celestine Sickle §16.5 Damage"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									}
+								},
+								"key": "minecraft:durability",
+								"is_minified": true,
+								"children": {
+									"max_durability": 1000
+								}
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "celestinesickle"
+								}
+							},
+							{
+								"data": "6.5",
+								"key": "minecraft:damage"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:stacked_by_data": true,
+									"minecraft:enchantable": {
+										"slot": "sword",
+										"value": 10
+									},
+									"minecraft:durability": {
+										"max_durability": 1000
+									},
+									"minecraft:icon": {
+										"texture": "celestinesickle"
+									},
+									"minecraft:damage": 6.5,
+									"minecraft:display_name": {
+										"value": "Celestine Sickle §16.5 Damage"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Celestine Sickle §16.5 Damage"
+								}
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.sword"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

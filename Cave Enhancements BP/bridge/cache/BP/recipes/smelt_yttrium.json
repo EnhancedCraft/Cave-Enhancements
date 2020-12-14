@@ -1,0 +1,79 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\recipes\\smelt_yttrium.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "fa72c87d_6eab_49fe_9c20_66ac6383ad2a",
+	"file_version": 20,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_furnace": {
+						"description": {
+							"identifier": "ores:smelt_yttrium"
+						},
+						"tags": [
+							"furnace",
+							"blast_furnace"
+						],
+						"input": "ores:end_yttrium_ore",
+						"output": "ores:yttrium_ingot"
+					}
+				},
+				"key": "minecraft:recipe_furnace",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:smelt_yttrium"
+							},
+							"tags": [
+								"furnace",
+								"blast_furnace"
+							],
+							"input": "ores:end_yttrium_ore",
+							"output": "ores:yttrium_ingot"
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:smelt_yttrium"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:smelt_yttrium"
+							},
+							"tags": [
+								"furnace",
+								"blast_furnace"
+							],
+							"input": "ores:end_yttrium_ore",
+							"output": "ores:yttrium_ingot"
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"furnace",
+							"blast_furnace"
+						]
+					},
+					{
+						"data": "ores:end_yttrium_ore",
+						"key": "input"
+					},
+					{
+						"data": "ores:yttrium_ingot",
+						"key": "output"
+					}
+				]
+			}
+		]
+	}
+}

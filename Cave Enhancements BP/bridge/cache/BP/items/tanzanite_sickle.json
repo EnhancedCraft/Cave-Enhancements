@@ -1,0 +1,249 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\items\\tanzanite_sickle.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "0e557cbc_07c3_4913_8709_cc441770b521",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ores:tanzanite_sickle",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:stacked_by_data": true,
+							"minecraft:damage": 22,
+							"minecraft:weapon": {},
+							"minecraft:durability": {
+								"max_durability": 5450
+							},
+							"minecraft:enchantable": {
+								"slot": "sword",
+								"value": 10
+							},
+							"minecraft:display_name": {
+								"value": "Tanzanite Sickle"
+							},
+							"minecraft:icon": {
+								"texture": "tanzanitesickle"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:tanzanite_sickle",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:stacked_by_data": true,
+								"minecraft:damage": 22,
+								"minecraft:weapon": {},
+								"minecraft:durability": {
+									"max_durability": 5450
+								},
+								"minecraft:enchantable": {
+									"slot": "sword",
+									"value": 10
+								},
+								"minecraft:display_name": {
+									"value": "Tanzanite Sickle"
+								},
+								"minecraft:icon": {
+									"texture": "tanzanitesickle"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:tanzanite_sickle",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:tanzanite_sickle",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:stacked_by_data": true,
+								"minecraft:damage": 22,
+								"minecraft:weapon": {},
+								"minecraft:durability": {
+									"max_durability": 5450
+								},
+								"minecraft:enchantable": {
+									"slot": "sword",
+									"value": 10
+								},
+								"minecraft:display_name": {
+									"value": "Tanzanite Sickle"
+								},
+								"minecraft:icon": {
+									"texture": "tanzanitesickle"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"data": "22",
+								"key": "minecraft:damage"
+							},
+							{
+								"key": "minecraft:weapon",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:stacked_by_data": true,
+									"minecraft:damage": 22,
+									"minecraft:weapon": {},
+									"minecraft:durability": {
+										"max_durability": 5450
+									},
+									"minecraft:enchantable": {
+										"slot": "sword",
+										"value": 10
+									},
+									"minecraft:display_name": {
+										"value": "Tanzanite Sickle"
+									},
+									"minecraft:icon": {
+										"texture": "tanzanitesickle"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									}
+								},
+								"key": "minecraft:durability",
+								"is_minified": true,
+								"children": {
+									"max_durability": 5450
+								}
+							},
+							{
+								"key": "minecraft:enchantable",
+								"is_minified": true,
+								"children": {
+									"slot": "sword",
+									"value": 10
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:stacked_by_data": true,
+									"minecraft:damage": 22,
+									"minecraft:weapon": {},
+									"minecraft:durability": {
+										"max_durability": 5450
+									},
+									"minecraft:enchantable": {
+										"slot": "sword",
+										"value": 10
+									},
+									"minecraft:display_name": {
+										"value": "Tanzanite Sickle"
+									},
+									"minecraft:icon": {
+										"texture": "tanzanitesickle"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Tanzanite Sickle"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:stacked_by_data": true,
+									"minecraft:damage": 22,
+									"minecraft:weapon": {},
+									"minecraft:durability": {
+										"max_durability": 5450
+									},
+									"minecraft:enchantable": {
+										"slot": "sword",
+										"value": 10
+									},
+									"minecraft:display_name": {
+										"value": "Tanzanite Sickle"
+									},
+									"minecraft:icon": {
+										"texture": "tanzanitesickle"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "tanzanitesickle"
+								}
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.sword"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

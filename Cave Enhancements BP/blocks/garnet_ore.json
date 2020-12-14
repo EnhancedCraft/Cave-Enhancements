@@ -1,0 +1,30 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:garnet_ore",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 1400,
+			"minecraft:friction": 1,
+			"minecraft:explosion_resistance": 10,
+			"minecraft:loot": "loot_tables/garnet_loot.json",
+			"minecraft:on_player_destroyed": {
+				"event": "destroy"
+			},
+			"tag:ores:easy": {}
+		},
+		"events": {
+			"destroy": {
+				"run_command": {
+					"command": [
+						"summon xp_orb",
+						"summon xp_orb"
+					]
+				}
+			}
+		}
+	}
+}

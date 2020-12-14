@@ -1,0 +1,33 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ores:sypmium_hammer",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:stacked_by_data": true,
+			"minecraft:damage": 6.5,
+			"minecraft:weapon": {},
+			"minecraft:durability": {
+				"max_durability": 1480
+			},
+			"minecraft:display_name": {
+				"value": "Sypmium Hammer"
+			},
+			"minecraft:icon": {
+				"texture": "sypmiumhammer"
+			},
+			"minecraft:enchantable": {
+				"slot": "sword",
+				"value": 10
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
+			}
+		}
+	}
+}

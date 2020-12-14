@@ -1,0 +1,79 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\recipes\\smelt_nickel.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "e7123167_0adc_4273_937c_ca3022e9a9d7",
+	"file_version": 10,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_furnace": {
+						"description": {
+							"identifier": "ores:smelt_nickel"
+						},
+						"tags": [
+							"furnace",
+							"blast_furnace"
+						],
+						"input": "ores:nickel_ore",
+						"output": "ores:nickel_ingot"
+					}
+				},
+				"key": "minecraft:recipe_furnace",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:smelt_nickel"
+							},
+							"tags": [
+								"furnace",
+								"blast_furnace"
+							],
+							"input": "ores:nickel_ore",
+							"output": "ores:nickel_ingot"
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:smelt_nickel"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:smelt_nickel"
+							},
+							"tags": [
+								"furnace",
+								"blast_furnace"
+							],
+							"input": "ores:nickel_ore",
+							"output": "ores:nickel_ingot"
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"furnace",
+							"blast_furnace"
+						]
+					},
+					{
+						"data": "ores:nickel_ore",
+						"key": "input"
+					},
+					{
+						"data": "ores:nickel_ingot",
+						"key": "output"
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,16 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:kyanite_block",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 9,
+			"minecraft:friction": 1,
+			"minecraft:explosion_resistance": 10,
+			"minecraft:loot": "loot_tables/kyanite_block_loot.json"
+		}
+	}
+}

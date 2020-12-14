@@ -1,0 +1,31 @@
+//bridge-file-version: #16
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:battleaxe_kryptonite"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XXX",
+			"XOX",
+			" O"
+		],
+		"key": {
+			"X": {
+				"item": "ores:kryptonite_crystal"
+			},
+			"O": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": [
+			{
+				"item": "ores:kryptonite_battleaxe",
+				"count": 1
+			}
+		]
+	}
+}

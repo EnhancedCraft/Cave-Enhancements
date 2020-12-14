@@ -1,0 +1,62 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\blocks\\j_lapis.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "7d4cf2d8_4d5c_415e_a62b_4cb0285649d9",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:block": {
+						"description": {
+							"identifier": "ores:j_lapis"
+						},
+						"components": {
+							"minecraft:destroy_time": 1000,
+							"minecraft:explosion_resistance": 2,
+							"minecraft:loot": "loot_tables/s_lapis_loot.json",
+							"tag:ores:easy": {}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:j_lapis"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:j_lapis"
+							},
+							"components": {
+								"minecraft:destroy_time": 1000,
+								"minecraft:explosion_resistance": 2,
+								"minecraft:loot": "loot_tables/s_lapis_loot.json",
+								"tag:ores:easy": {}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 1000,
+							"minecraft:explosion_resistance": 2,
+							"minecraft:loot": "loot_tables/s_lapis_loot.json",
+							"tag:ores:easy": {}
+						}
+					}
+				]
+			}
+		]
+	}
+}

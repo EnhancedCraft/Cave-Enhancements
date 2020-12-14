@@ -1,0 +1,31 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.200",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:centrifuge_nickel_3"
+		},
+		"tags": [
+			"centrifuge"
+		],
+		"pattern": [
+			"CIC",
+			"CIC",
+			"CIC"
+		],
+		"key": {
+			"C": {
+				"item": "ores:compressed_cobblestone"
+			},
+			"I": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"result": [
+			{
+				"item": "ores:nickel_ingot",
+				"count": 10
+			}
+		]
+	}
+}

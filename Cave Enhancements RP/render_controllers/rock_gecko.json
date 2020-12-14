@@ -1,0 +1,25 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.rock_gecko": {
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+				"Array.skins[query.variant]"
+			],
+			"arrays": {
+				"textures": {
+					"array.skins": [
+						"Texture.basalt",
+						"Texture.gravel"
+					]
+				}
+			}
+		}
+	}
+}

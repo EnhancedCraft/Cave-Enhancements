@@ -1,0 +1,500 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\items\\kryptonite_apple.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "353c61ad_0073_4183_b612_7aca4280b58d",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ores:kryptonite_apple",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:use_duration": 1.6,
+							"minecraft:foil": false,
+							"minecraft:food": {
+								"nutrition": 8,
+								"saturation_modifier": "supernatural",
+								"can_always_eat": true,
+								"on_consume": {
+									"event": "k",
+									"target": "self"
+								}
+							},
+							"minecraft:icon": {
+								"texture": "kryptoniteapple"
+							},
+							"minecraft:use_animation": "eat",
+							"minecraft:display_name": {
+								"value": "Kryptonite Apple"
+							},
+							"bridge:item_equipped_sensor": {
+								"execute_commands": [
+									"/say Eat this apple to get powers?? You must survive the poison to get them. Made By Warhead ;)"
+								]
+							}
+						},
+						"events": {
+							"k": {
+								"sequence": [
+									{
+										"add_mob_effect": {
+											"effect": "fatal_poison",
+											"target": "holder",
+											"duration": 30,
+											"amplifier": 2
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "speed",
+											"target": "holder",
+											"duration": 3000,
+											"amplifier": 2
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "strength",
+											"target": "holder",
+											"duration": 1000,
+											"amplifier": 1
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "village_hero",
+											"target": "holder",
+											"duration": 1000,
+											"amplifier": 1
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:kryptonite_apple",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:kryptonite_apple",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:foil": false,
+								"minecraft:food": {
+									"nutrition": 8,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "k",
+										"target": "self"
+									}
+								},
+								"minecraft:icon": {
+									"texture": "kryptoniteapple"
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:display_name": {
+									"value": "Kryptonite Apple"
+								},
+								"bridge:item_equipped_sensor": {
+									"execute_commands": [
+										"/say Eat this apple to get powers?? You must survive the poison to get them. Made By Warhead ;)"
+									]
+								}
+							},
+							"events": {
+								"k": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "fatal_poison",
+												"target": "holder",
+												"duration": 30,
+												"amplifier": 2
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "speed",
+												"target": "holder",
+												"duration": 3000,
+												"amplifier": 2
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "strength",
+												"target": "holder",
+												"duration": 1000,
+												"amplifier": 1
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "village_hero",
+												"target": "holder",
+												"duration": 1000,
+												"amplifier": 1
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"data": "1.6",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"data": "false",
+								"key": "minecraft:foil"
+							},
+							{
+								"key": "minecraft:food",
+								"is_minified": true,
+								"children": {
+									"nutrition": 8,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "k",
+										"target": "self"
+									}
+								}
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "kryptoniteapple"
+								}
+							},
+							{
+								"data": "eat",
+								"key": "minecraft:use_animation"
+							},
+							{
+								"open": {
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 1.6,
+									"minecraft:foil": false,
+									"minecraft:food": {
+										"nutrition": 8,
+										"saturation_modifier": "supernatural",
+										"can_always_eat": true,
+										"on_consume": {
+											"event": "k",
+											"target": "self"
+										}
+									},
+									"minecraft:icon": {
+										"texture": "kryptoniteapple"
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:display_name": {
+										"value": "Kryptonite Apple"
+									},
+									"bridge:item_equipped_sensor": {
+										"execute_commands": [
+											"/say Eat this apple to get powers?? You must survive the poison to get them. Made By Warhead ;)"
+										]
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Kryptonite Apple"
+								}
+							},
+							{
+								"open": {
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 1.6,
+									"minecraft:foil": false,
+									"minecraft:food": {
+										"nutrition": 8,
+										"saturation_modifier": "supernatural",
+										"can_always_eat": true,
+										"on_consume": {
+											"event": "k",
+											"target": "self"
+										}
+									},
+									"minecraft:icon": {
+										"texture": "kryptoniteapple"
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:display_name": {
+										"value": "Kryptonite Apple"
+									},
+									"bridge:item_equipped_sensor": {
+										"execute_commands": [
+											"/say Eat this apple to get powers?? You must survive the poison to get them. Made By Warhead ;)"
+										]
+									}
+								},
+								"key": "bridge:item_equipped_sensor",
+								"children": [
+									{
+										"open": {
+											"execute_commands": [
+												"/say Eat this apple to get powers?? You must survive the poison to get them. Made By Warhead ;)"
+											]
+										},
+										"key": "execute_commands",
+										"is_minified": true,
+										"children": [
+											"/say Eat this apple to get powers?? You must survive the poison to get them. Made By Warhead ;)"
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:kryptonite_apple",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:foil": false,
+								"minecraft:food": {
+									"nutrition": 8,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "k",
+										"target": "self"
+									}
+								},
+								"minecraft:icon": {
+									"texture": "kryptoniteapple"
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:display_name": {
+									"value": "Kryptonite Apple"
+								},
+								"bridge:item_equipped_sensor": {
+									"execute_commands": [
+										"/say Eat this apple to get powers?? You must survive the poison to get them. Made By Warhead ;)"
+									]
+								}
+							},
+							"events": {
+								"k": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "fatal_poison",
+												"target": "holder",
+												"duration": 30,
+												"amplifier": 2
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "speed",
+												"target": "holder",
+												"duration": 3000,
+												"amplifier": 2
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "strength",
+												"target": "holder",
+												"duration": 1000,
+												"amplifier": 1
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "village_hero",
+												"target": "holder",
+												"duration": 1000,
+												"amplifier": 1
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"k": {
+										"sequence": [
+											{
+												"add_mob_effect": {
+													"effect": "fatal_poison",
+													"target": "holder",
+													"duration": 30,
+													"amplifier": 2
+												}
+											},
+											{
+												"add_mob_effect": {
+													"effect": "speed",
+													"target": "holder",
+													"duration": 3000,
+													"amplifier": 2
+												}
+											},
+											{
+												"add_mob_effect": {
+													"effect": "strength",
+													"target": "holder",
+													"duration": 1000,
+													"amplifier": 1
+												}
+											},
+											{
+												"add_mob_effect": {
+													"effect": "village_hero",
+													"target": "holder",
+													"duration": 1000,
+													"amplifier": 1
+												}
+											}
+										]
+									}
+								},
+								"key": "k",
+								"children": [
+									{
+										"key": "sequence",
+										"children": [
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "fatal_poison",
+															"target": "holder",
+															"duration": 30,
+															"amplifier": 2
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "speed",
+															"target": "holder",
+															"duration": 3000,
+															"amplifier": 2
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "strength",
+															"target": "holder",
+															"duration": 1000,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "village_hero",
+															"target": "holder",
+															"duration": 1000,
+															"amplifier": 1
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "fatal_poison",
+																"target": "holder",
+																"duration": 30,
+																"amplifier": 2
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "fatal_poison",
+															"target": "holder",
+															"duration": 30,
+															"amplifier": 2
+														}
+													}
+												]
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"add_mob_effect": {
+														"effect": "speed",
+														"target": "holder",
+														"duration": 3000,
+														"amplifier": 2
+													}
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"add_mob_effect": {
+														"effect": "strength",
+														"target": "holder",
+														"duration": 1000,
+														"amplifier": 1
+													}
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"add_mob_effect": {
+														"effect": "village_hero",
+														"target": "holder",
+														"duration": 1000,
+														"amplifier": 1
+													}
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

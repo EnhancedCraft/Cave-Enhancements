@@ -1,0 +1,15 @@
+//bridge-file-version: #21
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "ores:smelt_zincolium"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "ores:zincolium_ore",
+		"output": "ores:zincolium_ingot"
+	}
+}

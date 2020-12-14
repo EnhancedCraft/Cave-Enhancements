@@ -1,0 +1,79 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\recipes\\smelt_silver.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "689be0dc_1bde_4994_ac98_262c0b95874e",
+	"file_version": 15,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_furnace": {
+						"description": {
+							"identifier": "ores:smelt_silver"
+						},
+						"tags": [
+							"furnace",
+							"blast_furnace"
+						],
+						"input": "ores:silver_ore",
+						"output": "ores:silver_ingot"
+					}
+				},
+				"key": "minecraft:recipe_furnace",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:smelt_silver"
+							},
+							"tags": [
+								"furnace",
+								"blast_furnace"
+							],
+							"input": "ores:silver_ore",
+							"output": "ores:silver_ingot"
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:smelt_silver"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:smelt_silver"
+							},
+							"tags": [
+								"furnace",
+								"blast_furnace"
+							],
+							"input": "ores:silver_ore",
+							"output": "ores:silver_ingot"
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"furnace",
+							"blast_furnace"
+						]
+					},
+					{
+						"data": "ores:silver_ore",
+						"key": "input"
+					},
+					{
+						"data": "ores:silver_ingot",
+						"key": "output"
+					}
+				]
+			}
+		]
+	}
+}

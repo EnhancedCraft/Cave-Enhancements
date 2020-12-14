@@ -1,0 +1,53 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ores:aluminium_apple",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:stacked_by_data": true,
+			"minecraft:use_duration": 1.6,
+			"minecraft:foil": false,
+			"minecraft:food": {
+				"nutrition": 4,
+				"saturation_modifier": "supernatural",
+				"can_always_eat": true,
+				"on_consume": {
+					"event": "q",
+					"target": "self"
+				}
+			},
+			"minecraft:icon": {
+				"texture": "aluminiumapple"
+			},
+			"minecraft:use_animation": "eat",
+			"minecraft:display_name": {
+				"value": "Aluminium Apple"
+			}
+		},
+		"events": {
+			"q": {
+				"sequence": [
+					{
+						"add_mob_effect": {
+							"effect": "regeneration",
+							"target": "holder",
+							"duration": 2,
+							"amplifier": 1
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "instant_health",
+							"target": "holder",
+							"duration": 3,
+							"amplifier": 2
+						}
+					}
+				]
+			}
+		}
+	}
+}

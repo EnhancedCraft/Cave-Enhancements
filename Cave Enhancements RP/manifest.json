@@ -1,0 +1,37 @@
+//bridge-file-version: #20
+{
+	"format_version": 2,
+	"header": {
+		"name": "Cave Enhancements V1.3 RP",
+		"description": "pack.description",
+		"uuid": "2bc74bdc-5b4e-4f04-8bf0-7f91239eaf0d",
+		"version": [
+			6,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "77f3e2ec-64c8-4488-befb-d78f7d240c29",
+			"version": [
+				6,
+				0,
+				0
+			]
+		}
+	],
+	"subpacks": [
+		{
+			"folder_name": "panorama",
+			"name": "The Caves",
+			"memory_tier": 1
+		}
+	]
+}

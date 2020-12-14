@@ -1,0 +1,304 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\items\\ruby_sickle.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "3b1af0fc_e1f1_48d1_96f2_8ddeb9aca29f",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ores:ruby_sickle",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:stacked_by_data": true,
+							"minecraft:damage": 14,
+							"minecraft:enchantable": {
+								"slot": "sword",
+								"value": 10
+							},
+							"minecraft:durability": {
+								"max_durability": 2800
+							},
+							"minecraft:weapon": {},
+							"minecraft:display_name": {
+								"value": "Ruby Sickle"
+							},
+							"minecraft:icon": {
+								"texture": "rubysickle"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ores:ruby_sickle",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:stacked_by_data": true,
+							"minecraft:damage": 14,
+							"minecraft:enchantable": {
+								"slot": "sword",
+								"value": 10
+							},
+							"minecraft:durability": {
+								"max_durability": 2800
+							},
+							"minecraft:weapon": {},
+							"minecraft:display_name": {
+								"value": "Ruby Sickle"
+							},
+							"minecraft:icon": {
+								"texture": "rubysickle"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:ruby_sickle",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:stacked_by_data": true,
+								"minecraft:damage": 14,
+								"minecraft:enchantable": {
+									"slot": "sword",
+									"value": 10
+								},
+								"minecraft:durability": {
+									"max_durability": 2800
+								},
+								"minecraft:weapon": {},
+								"minecraft:display_name": {
+									"value": "Ruby Sickle"
+								},
+								"minecraft:icon": {
+									"texture": "rubysickle"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:ruby_sickle",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:ruby_sickle",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:stacked_by_data": true,
+								"minecraft:damage": 14,
+								"minecraft:enchantable": {
+									"slot": "sword",
+									"value": 10
+								},
+								"minecraft:durability": {
+									"max_durability": 2800
+								},
+								"minecraft:weapon": {},
+								"minecraft:display_name": {
+									"value": "Ruby Sickle"
+								},
+								"minecraft:icon": {
+									"texture": "rubysickle"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:stacked_by_data": true,
+									"minecraft:damage": 14,
+									"minecraft:enchantable": {
+										"slot": "sword",
+										"value": 10
+									},
+									"minecraft:durability": {
+										"max_durability": 2800
+									},
+									"minecraft:weapon": {},
+									"minecraft:display_name": {
+										"value": "Ruby Sickle"
+									},
+									"minecraft:icon": {
+										"texture": "rubysickle"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									}
+								},
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"data": "14",
+								"key": "minecraft:damage"
+							},
+							{
+								"key": "minecraft:enchantable",
+								"is_minified": true,
+								"children": {
+									"slot": "sword",
+									"value": 10
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:stacked_by_data": true,
+									"minecraft:damage": 14,
+									"minecraft:enchantable": {
+										"slot": "sword",
+										"value": 10
+									},
+									"minecraft:durability": {
+										"max_durability": 2800
+									},
+									"minecraft:weapon": {},
+									"minecraft:display_name": {
+										"value": "Ruby Sickle"
+									},
+									"minecraft:icon": {
+										"texture": "rubysickle"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									}
+								},
+								"key": "minecraft:durability",
+								"is_minified": true,
+								"children": {
+									"max_durability": 2800
+								}
+							},
+							{
+								"key": "minecraft:weapon",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:stacked_by_data": true,
+									"minecraft:damage": 14,
+									"minecraft:enchantable": {
+										"slot": "sword",
+										"value": 10
+									},
+									"minecraft:durability": {
+										"max_durability": 2800
+									},
+									"minecraft:weapon": {},
+									"minecraft:display_name": {
+										"value": "Ruby Sickle"
+									},
+									"minecraft:icon": {
+										"texture": "rubysickle"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Ruby Sickle"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:stacked_by_data": true,
+									"minecraft:damage": 14,
+									"minecraft:enchantable": {
+										"slot": "sword",
+										"value": 10
+									},
+									"minecraft:durability": {
+										"max_durability": 2800
+									},
+									"minecraft:weapon": {},
+									"minecraft:display_name": {
+										"value": "Ruby Sickle"
+									},
+									"minecraft:icon": {
+										"texture": "rubysickle"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "rubysickle"
+								}
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.sword"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

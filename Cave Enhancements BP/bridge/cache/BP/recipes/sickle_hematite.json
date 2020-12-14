@@ -1,0 +1,261 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Cave Enhancements BP\\recipes\\sickle_hematite.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "4238f0d1_1d0b_4b09_9c05_b8d1ad7fee26",
+	"file_version": 14,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ores:sickle_hematite"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"XXX",
+							"C  X",
+							"C"
+						],
+						"key": {
+							"X": {
+								"item": "ores:hematite_ingot"
+							},
+							"C": {
+								"item": "minecraft:stick"
+							}
+						},
+						"result": [
+							{
+								"item": "ores:hematite_sickle",
+								"count": 1
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:sickle_hematite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"XXX",
+								"C  X",
+								"C"
+							],
+							"key": {
+								"X": {
+									"item": "ores:hematite_ingot"
+								},
+								"C": {
+									"item": "minecraft:stick"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:hematite_sickle",
+									"count": 1
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:sickle_hematite"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:sickle_hematite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"XXX",
+								"C  X",
+								"C"
+							],
+							"key": {
+								"X": {
+									"item": "ores:hematite_ingot"
+								},
+								"C": {
+									"item": "minecraft:stick"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:hematite_sickle",
+									"count": 1
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:sickle_hematite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"XXX",
+								"C  X",
+								"C"
+							],
+							"key": {
+								"X": {
+									"item": "ores:hematite_ingot"
+								},
+								"C": {
+									"item": "minecraft:stick"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:hematite_sickle",
+									"count": 1
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"XXX",
+							"C  X",
+							"C"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:sickle_hematite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"XXX",
+								"C  X",
+								"C"
+							],
+							"key": {
+								"X": {
+									"item": "ores:hematite_ingot"
+								},
+								"C": {
+									"item": "minecraft:stick"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:hematite_sickle",
+									"count": 1
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"X": {
+										"item": "ores:hematite_ingot"
+									},
+									"C": {
+										"item": "minecraft:stick"
+									}
+								},
+								"key": "X",
+								"is_minified": true,
+								"children": {
+									"item": "ores:hematite_ingot"
+								}
+							},
+							{
+								"open": {
+									"X": {
+										"item": "ores:hematite_ingot"
+									},
+									"C": {
+										"item": "minecraft:stick"
+									}
+								},
+								"key": "C",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:stick"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:sickle_hematite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"XXX",
+								"C  X",
+								"C"
+							],
+							"key": {
+								"X": {
+									"item": "ores:hematite_ingot"
+								},
+								"C": {
+									"item": "minecraft:stick"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:hematite_sickle",
+									"count": 1
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "ores:hematite_sickle",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "ores:hematite_sickle",
+									"count": 1
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

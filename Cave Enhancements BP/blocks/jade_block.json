@@ -1,0 +1,16 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:jade_block",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 8,
+			"minecraft:friction": 1,
+			"minecraft:explosion_resistance": 100,
+			"minecraft:loot": "loot_tables/jade_block_loot.json"
+		}
+	}
+}

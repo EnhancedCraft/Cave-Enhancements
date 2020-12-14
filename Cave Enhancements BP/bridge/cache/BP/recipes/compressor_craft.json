@@ -1,0 +1,261 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1/recipes/compressor_craft.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "bf4f7b2a_9ec9_4768_9ef2_d546870c7605",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ores:compressor_craft"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"XXX",
+							"XRX",
+							"XXX"
+						],
+						"key": {
+							"X": {
+								"item": "minecraft:cobblestone"
+							},
+							"R": {
+								"item": "minecraft:iron_ingot"
+							}
+						},
+						"result": [
+							{
+								"item": "ores:compressor",
+								"count": 1
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:compressor_craft"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"XXX",
+								"XRX",
+								"XXX"
+							],
+							"key": {
+								"X": {
+									"item": "minecraft:cobblestone"
+								},
+								"R": {
+									"item": "minecraft:iron_ingot"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:compressor",
+									"count": 1
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:compressor_craft"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:compressor_craft"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"XXX",
+								"XRX",
+								"XXX"
+							],
+							"key": {
+								"X": {
+									"item": "minecraft:cobblestone"
+								},
+								"R": {
+									"item": "minecraft:iron_ingot"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:compressor",
+									"count": 1
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:compressor_craft"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"XXX",
+								"XRX",
+								"XXX"
+							],
+							"key": {
+								"X": {
+									"item": "minecraft:cobblestone"
+								},
+								"R": {
+									"item": "minecraft:iron_ingot"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:compressor",
+									"count": 1
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"XXX",
+							"XRX",
+							"XXX"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:compressor_craft"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"XXX",
+								"XRX",
+								"XXX"
+							],
+							"key": {
+								"X": {
+									"item": "minecraft:cobblestone"
+								},
+								"R": {
+									"item": "minecraft:iron_ingot"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:compressor",
+									"count": 1
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"X": {
+										"item": "minecraft:cobblestone"
+									},
+									"R": {
+										"item": "minecraft:iron_ingot"
+									}
+								},
+								"key": "X",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:cobblestone"
+								}
+							},
+							{
+								"open": {
+									"X": {
+										"item": "minecraft:cobblestone"
+									},
+									"R": {
+										"item": "minecraft:iron_ingot"
+									}
+								},
+								"key": "R",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:iron_ingot"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:compressor_craft"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"XXX",
+								"XRX",
+								"XXX"
+							],
+							"key": {
+								"X": {
+									"item": "minecraft:cobblestone"
+								},
+								"R": {
+									"item": "minecraft:iron_ingot"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:compressor",
+									"count": 1
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "ores:compressor",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "ores:compressor",
+									"count": 1
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,31 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:compressor_craft"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XXX",
+			"XRX",
+			"XXX"
+		],
+		"key": {
+			"X": {
+				"item": "minecraft:cobblestone"
+			},
+			"R": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"result": [
+			{
+				"item": "ores:compressor",
+				"count": 1
+			}
+		]
+	}
+}

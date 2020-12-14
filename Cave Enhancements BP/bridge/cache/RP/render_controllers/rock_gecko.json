@@ -1,0 +1,167 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Cave Enhancements RP\\render_controllers\\rock_gecko.json",
+	"file_type": "render_controller",
+	"format_version": 1,
+	"file_uuid": "69469900_ace4_46b0_995f_28bd2c439405",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"render_controllers": {
+						"controller.render.rock_gecko": {
+							"geometry": "Geometry.default",
+							"materials": [
+								{
+									"*": "Material.default"
+								}
+							],
+							"textures": [
+								"Array.skins[query.variant]"
+							],
+							"arrays": {
+								"textures": {
+									"array.skins": [
+										"Texture.basalt",
+										"Texture.gravel"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "render_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.render.rock_gecko": {
+								"geometry": "Geometry.default",
+								"materials": [
+									{
+										"*": "Material.default"
+									}
+								],
+								"textures": [
+									"Array.skins[query.variant]"
+								],
+								"arrays": {
+									"textures": {
+										"array.skins": [
+											"Texture.basalt",
+											"Texture.gravel"
+										]
+									}
+								}
+							}
+						},
+						"key": "controller.render.rock_gecko",
+						"children": [
+							{
+								"data": "Geometry.default",
+								"key": "geometry"
+							},
+							{
+								"key": "materials",
+								"children": [
+									{
+										"open": [
+											{
+												"*": "Material.default"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"*": "Material.default"
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"textures": [
+										"Array.skins[query.variant]"
+									],
+									"arrays": {
+										"textures": {
+											"array.skins": [
+												"Texture.basalt",
+												"Texture.gravel"
+											]
+										}
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"Array.skins[query.variant]"
+								]
+							},
+							{
+								"open": {
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"textures": [
+										"Array.skins[query.variant]"
+									],
+									"arrays": {
+										"textures": {
+											"array.skins": [
+												"Texture.basalt",
+												"Texture.gravel"
+											]
+										}
+									}
+								},
+								"key": "arrays",
+								"children": [
+									{
+										"open": {
+											"textures": {
+												"array.skins": [
+													"Texture.basalt",
+													"Texture.gravel"
+												]
+											}
+										},
+										"key": "textures",
+										"children": [
+											{
+												"open": {
+													"array.skins": [
+														"Texture.basalt",
+														"Texture.gravel"
+													]
+												},
+												"key": "array.skins",
+												"is_minified": true,
+												"children": [
+													"Texture.basalt",
+													"Texture.gravel"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

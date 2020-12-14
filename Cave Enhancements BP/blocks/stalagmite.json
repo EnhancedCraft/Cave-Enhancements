@@ -1,0 +1,51 @@
+//bridge-file-version: #18
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:stalagmite"
+		},
+		"components": {
+			"minecraft:destroy_time": 7,
+			"minecraft:explosion_resistance": 1,
+			"minecraft:geometry": "geometry.stalagmite",
+			"minecraft:pick_collision": {
+				"origin": [
+					-5,
+					0,
+					-5
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"tag:ores:biomestone": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "gg",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:stone",
+							"ores:s_stone",
+							"ores:j_stone",
+							"ores:i_stone",
+							"ores:coldstone"
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:block_light_absorption": 0
+		},
+		"events": {}
+	}
+}

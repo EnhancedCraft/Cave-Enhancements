@@ -1,0 +1,259 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\recipes\\apple_tungsten.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "8df7af34_1baf_4d3d_b893_1f772637363e",
+	"file_version": 37,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ores:apple_tungsten"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"###",
+							"#X#",
+							"###"
+						],
+						"key": {
+							"#": {
+								"item": "ores:tungsten_gemstone"
+							},
+							"X": {
+								"item": "minecraft:apple"
+							}
+						},
+						"result": {
+							"item": "ores:tungsten_apple"
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ores:apple_tungsten"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"###",
+							"#X#",
+							"###"
+						],
+						"key": {
+							"#": {
+								"item": "ores:tungsten_gemstone"
+							},
+							"X": {
+								"item": "minecraft:apple"
+							}
+						},
+						"result": {
+							"item": "ores:tungsten_apple"
+						}
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:apple_tungsten"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"#X#",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:tungsten_gemstone"
+								},
+								"X": {
+									"item": "minecraft:apple"
+								}
+							},
+							"result": {
+								"item": "ores:tungsten_apple"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:apple_tungsten"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:apple_tungsten"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"#X#",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:tungsten_gemstone"
+								},
+								"X": {
+									"item": "minecraft:apple"
+								}
+							},
+							"result": {
+								"item": "ores:tungsten_apple"
+							}
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:apple_tungsten"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"#X#",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:tungsten_gemstone"
+								},
+								"X": {
+									"item": "minecraft:apple"
+								}
+							},
+							"result": {
+								"item": "ores:tungsten_apple"
+							}
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"###",
+							"#X#",
+							"###"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:apple_tungsten"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"#X#",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:tungsten_gemstone"
+								},
+								"X": {
+									"item": "minecraft:apple"
+								}
+							},
+							"result": {
+								"item": "ores:tungsten_apple"
+							}
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"#": {
+										"item": "ores:tungsten_gemstone"
+									},
+									"X": {
+										"item": "minecraft:apple"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "ores:tungsten_gemstone"
+								}
+							},
+							{
+								"open": {
+									"#": {
+										"item": "ores:tungsten_gemstone"
+									},
+									"X": {
+										"item": "minecraft:apple"
+									}
+								},
+								"key": "X",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:apple"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:apple_tungsten"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"#X#",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:tungsten_gemstone"
+								},
+								"X": {
+									"item": "minecraft:apple"
+								}
+							},
+							"result": {
+								"item": "ores:tungsten_apple"
+							}
+						},
+						"key": "result",
+						"is_minified": true,
+						"children": {
+							"item": "ores:tungsten_apple"
+						}
+					}
+				]
+			}
+		]
+	}
+}

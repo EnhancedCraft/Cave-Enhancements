@@ -1,0 +1,31 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:flurite_ore",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 1100,
+			"minecraft:block_light_emission": 0.6,
+			"minecraft:friction": 1,
+			"minecraft:explosion_resistance": 12,
+			"minecraft:loot": "loot_tables/flurite_loot.json",
+			"minecraft:on_player_destroyed": {
+				"event": "destroy"
+			},
+			"tag:ores:medium": {}
+		},
+		"events": {
+			"destroy": {
+				"run_command": {
+					"command": [
+						"summon xp_orb",
+						"summon xp_orb"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:end_yttrium_ore",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 1800,
+			"minecraft:friction": 2,
+			"minecraft:explosion_resistance": 22,
+			"minecraft:loot": "loot_tables/end_yttrium.json",
+			"tag:ores:medium": {}
+		}
+	}
+}

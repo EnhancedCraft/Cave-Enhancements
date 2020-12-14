@@ -1,0 +1,32 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:opal_ore",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 1000,
+			"minecraft:friction": 1,
+			"minecraft:explosion_resistance": 15,
+			"minecraft:on_player_destroyed": {
+				"event": "destroy"
+			},
+			"minecraft:loot": "loot_tables/opal_loot.json",
+			"tag:ores:medium": {}
+		},
+		"events": {
+			"destroy": {
+				"run_command": {
+					"command": [
+						"summon xp_orb",
+						"summon xp_orb",
+						"summon xp_orb",
+						"summon xp_orb"
+					]
+				}
+			}
+		}
+	}
+}

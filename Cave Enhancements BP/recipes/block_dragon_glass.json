@@ -1,0 +1,25 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:block_dragon_glass"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "ores:dragon_glass_crystal"
+			}
+		},
+		"result": {
+			"item": "ores:dragon_glass_block"
+		}
+	}
+}

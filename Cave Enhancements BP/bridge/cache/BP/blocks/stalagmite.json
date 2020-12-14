@@ -1,0 +1,543 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Cave Enhancements BP\\blocks\\stalagmite.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "5f7108fb_a9a6_4e5d_9892_b989aaa731fb",
+	"file_version": 18,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "ores:stalagmite"
+						},
+						"components": {
+							"minecraft:destroy_time": 7,
+							"minecraft:explosion_resistance": 1,
+							"minecraft:geometry": "geometry.stalagmite",
+							"minecraft:pick_collision": {
+								"origin": [
+									-5,
+									0,
+									-5
+								],
+								"size": [
+									16,
+									16,
+									16
+								]
+							},
+							"tag:ores:biomestone": {},
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "gg",
+									"render_method": "alpha_test"
+								}
+							},
+							"minecraft:placement_filter": {
+								"conditions": [
+									{
+										"block_filter": [
+											"minecraft:stone",
+											"ores:s_stone",
+											"ores:j_stone",
+											"ores:i_stone",
+											"ores:coldstone"
+										],
+										"allowed_faces": [
+											"up"
+										]
+									}
+								]
+							},
+							"minecraft:block_light_absorption": 0
+						},
+						"events": {}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "ores:stalagmite"
+						},
+						"components": {
+							"minecraft:destroy_time": 7,
+							"minecraft:explosion_resistance": 1,
+							"minecraft:geometry": "geometry.stalagmite",
+							"minecraft:pick_collision": {
+								"origin": [
+									-5,
+									0,
+									-5
+								],
+								"size": [
+									16,
+									16,
+									16
+								]
+							},
+							"tag:ores:biomestone": {},
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "gg",
+									"render_method": "alpha_test"
+								}
+							},
+							"minecraft:placement_filter": {
+								"conditions": [
+									{
+										"block_filter": [
+											"minecraft:stone",
+											"ores:s_stone",
+											"ores:j_stone",
+											"ores:i_stone",
+											"ores:coldstone"
+										],
+										"allowed_faces": [
+											"up"
+										]
+									}
+								]
+							},
+							"minecraft:block_light_absorption": 0
+						},
+						"events": {}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:stalagmite"
+							},
+							"components": {
+								"minecraft:destroy_time": 7,
+								"minecraft:explosion_resistance": 1,
+								"minecraft:geometry": "geometry.stalagmite",
+								"minecraft:pick_collision": {
+									"origin": [
+										-5,
+										0,
+										-5
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"tag:ores:biomestone": {},
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "gg",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:placement_filter": {
+									"conditions": [
+										{
+											"block_filter": [
+												"minecraft:stone",
+												"ores:s_stone",
+												"ores:j_stone",
+												"ores:i_stone",
+												"ores:coldstone"
+											],
+											"allowed_faces": [
+												"up"
+											]
+										}
+									]
+								},
+								"minecraft:block_light_absorption": 0
+							},
+							"events": {}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:stalagmite"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:stalagmite"
+							},
+							"components": {
+								"minecraft:destroy_time": 7,
+								"minecraft:explosion_resistance": 1,
+								"minecraft:geometry": "geometry.stalagmite",
+								"minecraft:pick_collision": {
+									"origin": [
+										-5,
+										0,
+										-5
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"tag:ores:biomestone": {},
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "gg",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:placement_filter": {
+									"conditions": [
+										{
+											"block_filter": [
+												"minecraft:stone",
+												"ores:s_stone",
+												"ores:j_stone",
+												"ores:i_stone",
+												"ores:coldstone"
+											],
+											"allowed_faces": [
+												"up"
+											]
+										}
+									]
+								},
+								"minecraft:block_light_absorption": 0
+							},
+							"events": {}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "7",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"data": "1",
+								"key": "minecraft:explosion_resistance"
+							},
+							{
+								"data": "geometry.stalagmite",
+								"key": "minecraft:geometry"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 7,
+									"minecraft:explosion_resistance": 1,
+									"minecraft:geometry": "geometry.stalagmite",
+									"minecraft:pick_collision": {
+										"origin": [
+											-5,
+											0,
+											-5
+										],
+										"size": [
+											16,
+											16,
+											16
+										]
+									},
+									"tag:ores:biomestone": {},
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "gg",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:placement_filter": {
+										"conditions": [
+											{
+												"block_filter": [
+													"minecraft:stone",
+													"ores:s_stone",
+													"ores:j_stone",
+													"ores:i_stone",
+													"ores:coldstone"
+												],
+												"allowed_faces": [
+													"up"
+												]
+											}
+										]
+									},
+									"minecraft:block_light_absorption": 0
+								},
+								"key": "minecraft:pick_collision",
+								"children": [
+									{
+										"open": {
+											"origin": [
+												-5,
+												0,
+												-5
+											],
+											"size": [
+												16,
+												16,
+												16
+											]
+										},
+										"key": "origin",
+										"is_minified": true,
+										"children": [
+											-5,
+											0,
+											-5
+										]
+									},
+									{
+										"open": {
+											"origin": [
+												-5,
+												0,
+												-5
+											],
+											"size": [
+												16,
+												16,
+												16
+											]
+										},
+										"key": "size",
+										"is_minified": true,
+										"children": [
+											16,
+											16,
+											16
+										]
+									}
+								]
+							},
+							{
+								"key": "tag:ores:biomestone",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 7,
+									"minecraft:explosion_resistance": 1,
+									"minecraft:geometry": "geometry.stalagmite",
+									"minecraft:pick_collision": {
+										"origin": [
+											-5,
+											0,
+											-5
+										],
+										"size": [
+											16,
+											16,
+											16
+										]
+									},
+									"tag:ores:biomestone": {},
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "gg",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:placement_filter": {
+										"conditions": [
+											{
+												"block_filter": [
+													"minecraft:stone",
+													"ores:s_stone",
+													"ores:j_stone",
+													"ores:i_stone",
+													"ores:coldstone"
+												],
+												"allowed_faces": [
+													"up"
+												]
+											}
+										]
+									},
+									"minecraft:block_light_absorption": 0
+								},
+								"key": "minecraft:material_instances",
+								"children": [
+									{
+										"open": {
+											"*": {
+												"texture": "gg",
+												"render_method": "alpha_test"
+											}
+										},
+										"key": "*",
+										"is_minified": true,
+										"children": {
+											"texture": "gg",
+											"render_method": "alpha_test"
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 7,
+									"minecraft:explosion_resistance": 1,
+									"minecraft:geometry": "geometry.stalagmite",
+									"minecraft:pick_collision": {
+										"origin": [
+											-5,
+											0,
+											-5
+										],
+										"size": [
+											16,
+											16,
+											16
+										]
+									},
+									"tag:ores:biomestone": {},
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "gg",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:placement_filter": {
+										"conditions": [
+											{
+												"block_filter": [
+													"minecraft:stone",
+													"ores:s_stone",
+													"ores:j_stone",
+													"ores:i_stone",
+													"ores:coldstone"
+												],
+												"allowed_faces": [
+													"up"
+												]
+											}
+										]
+									},
+									"minecraft:block_light_absorption": 0
+								},
+								"key": "minecraft:placement_filter",
+								"children": [
+									{
+										"open": {
+											"conditions": [
+												{
+													"block_filter": [
+														"minecraft:stone",
+														"ores:s_stone",
+														"ores:j_stone",
+														"ores:i_stone",
+														"ores:coldstone"
+													],
+													"allowed_faces": [
+														"up"
+													]
+												}
+											]
+										},
+										"key": "conditions",
+										"children": [
+											{
+												"open": [
+													{
+														"block_filter": [
+															"minecraft:stone",
+															"ores:s_stone",
+															"ores:j_stone",
+															"ores:i_stone",
+															"ores:coldstone"
+														],
+														"allowed_faces": [
+															"up"
+														]
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"block_filter": [
+														"minecraft:stone",
+														"ores:s_stone",
+														"ores:j_stone",
+														"ores:i_stone",
+														"ores:coldstone"
+													],
+													"allowed_faces": [
+														"up"
+													]
+												}
+											}
+										]
+									}
+								]
+							},
+							{
+								"data": "0.0",
+								"key": "minecraft:block_light_absorption"
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:stalagmite"
+							},
+							"components": {
+								"minecraft:destroy_time": 7,
+								"minecraft:explosion_resistance": 1,
+								"minecraft:geometry": "geometry.stalagmite",
+								"minecraft:pick_collision": {
+									"origin": [
+										-5,
+										0,
+										-5
+									],
+									"size": [
+										16,
+										16,
+										16
+									]
+								},
+								"tag:ores:biomestone": {},
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "gg",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:placement_filter": {
+									"conditions": [
+										{
+											"block_filter": [
+												"minecraft:stone",
+												"ores:s_stone",
+												"ores:j_stone",
+												"ores:i_stone",
+												"ores:coldstone"
+											],
+											"allowed_faces": [
+												"up"
+											]
+										}
+									]
+								},
+								"minecraft:block_light_absorption": 0
+							},
+							"events": {}
+						},
+						"key": "events",
+						"is_minified": true,
+						"children": {}
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,28 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "ores:lava_stone_feature"
+		},
+		"count": 4,
+		"places_block": {
+			"name": "ores:lava_stone_ore",
+			"states": {}
+		},
+		"may_replace": [
+			{
+				"name": "minecraft:netherrack",
+				"states": {}
+			},
+			{
+				"name": "minecraft:soul_sand",
+				"states": {}
+			},
+			{
+				"name": "minecraft:soul_soil",
+				"states": {}
+			}
+		]
+	}
+}

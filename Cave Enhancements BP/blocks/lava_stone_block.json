@@ -1,0 +1,17 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:lava_stone_block",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 7,
+			"minecraft:block_light_emission": 1,
+			"minecraft:friction": 1,
+			"minecraft:explosion_resistance": 300,
+			"minecraft:loot": "loot_tables/lava_stone_block_loot.json"
+		}
+	}
+}

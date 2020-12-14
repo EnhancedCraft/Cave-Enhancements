@@ -1,0 +1,401 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Cave Enhancements BP\\items\\glowing_grape.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "4fded621_a39c_49ee_874b_685e48e5ab57",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ores:glowing_grape",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:use_duration": 1,
+							"minecraft:foil": false,
+							"minecraft:food": {
+								"nutrition": 2,
+								"saturation_modifier": "normal",
+								"can_always_eat": true,
+								"on_consume": {
+									"event": "consumed",
+									"target": "self"
+								}
+							},
+							"minecraft:display_name": {
+								"value": "Glowing Grape"
+							},
+							"minecraft:icon": {
+								"texture": "glowinggrape"
+							},
+							"minecraft:hand_equipped": false,
+							"minecraft:max_stack_size": 16,
+							"minecraft:use_animation": "eat"
+						},
+						"events": {
+							"consumed": {
+								"sequence": [
+									{
+										"add_mob_effect": {
+											"effect": "night_vision",
+											"duration": 8,
+											"amplifier": 1,
+											"target": "holder"
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:glowing_grape",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1,
+								"minecraft:foil": false,
+								"minecraft:food": {
+									"nutrition": 2,
+									"saturation_modifier": "normal",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								},
+								"minecraft:display_name": {
+									"value": "Glowing Grape"
+								},
+								"minecraft:icon": {
+									"texture": "glowinggrape"
+								},
+								"minecraft:hand_equipped": false,
+								"minecraft:max_stack_size": 16,
+								"minecraft:use_animation": "eat"
+							},
+							"events": {
+								"consumed": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "night_vision",
+												"duration": 8,
+												"amplifier": 1,
+												"target": "holder"
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:glowing_grape",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:glowing_grape",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1,
+								"minecraft:foil": false,
+								"minecraft:food": {
+									"nutrition": 2,
+									"saturation_modifier": "normal",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								},
+								"minecraft:display_name": {
+									"value": "Glowing Grape"
+								},
+								"minecraft:icon": {
+									"texture": "glowinggrape"
+								},
+								"minecraft:hand_equipped": false,
+								"minecraft:max_stack_size": 16,
+								"minecraft:use_animation": "eat"
+							},
+							"events": {
+								"consumed": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "night_vision",
+												"duration": 8,
+												"amplifier": 1,
+												"target": "holder"
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"data": "1",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"data": "false",
+								"key": "minecraft:foil"
+							},
+							{
+								"open": {
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 1,
+									"minecraft:foil": false,
+									"minecraft:food": {
+										"nutrition": 2,
+										"saturation_modifier": "normal",
+										"can_always_eat": true,
+										"on_consume": {
+											"event": "consumed",
+											"target": "self"
+										}
+									},
+									"minecraft:display_name": {
+										"value": "Glowing Grape"
+									},
+									"minecraft:icon": {
+										"texture": "glowinggrape"
+									},
+									"minecraft:hand_equipped": false,
+									"minecraft:max_stack_size": 16,
+									"minecraft:use_animation": "eat"
+								},
+								"key": "minecraft:food",
+								"is_minified": true,
+								"children": {
+									"nutrition": 2,
+									"saturation_modifier": "normal",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								}
+							},
+							{
+								"open": {
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 1,
+									"minecraft:foil": false,
+									"minecraft:food": {
+										"nutrition": 2,
+										"saturation_modifier": "normal",
+										"can_always_eat": true,
+										"on_consume": {
+											"event": "consumed",
+											"target": "self"
+										}
+									},
+									"minecraft:display_name": {
+										"value": "Glowing Grape"
+									},
+									"minecraft:icon": {
+										"texture": "glowinggrape"
+									},
+									"minecraft:hand_equipped": false,
+									"minecraft:max_stack_size": 16,
+									"minecraft:use_animation": "eat"
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Glowing Grape"
+								}
+							},
+							{
+								"open": {
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 1,
+									"minecraft:foil": false,
+									"minecraft:food": {
+										"nutrition": 2,
+										"saturation_modifier": "normal",
+										"can_always_eat": true,
+										"on_consume": {
+											"event": "consumed",
+											"target": "self"
+										}
+									},
+									"minecraft:display_name": {
+										"value": "Glowing Grape"
+									},
+									"minecraft:icon": {
+										"texture": "glowinggrape"
+									},
+									"minecraft:hand_equipped": false,
+									"minecraft:max_stack_size": 16,
+									"minecraft:use_animation": "eat"
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "glowinggrape"
+								}
+							},
+							{
+								"data": "false",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "16",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "eat",
+								"key": "minecraft:use_animation"
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:glowing_grape",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1,
+								"minecraft:foil": false,
+								"minecraft:food": {
+									"nutrition": 2,
+									"saturation_modifier": "normal",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								},
+								"minecraft:display_name": {
+									"value": "Glowing Grape"
+								},
+								"minecraft:icon": {
+									"texture": "glowinggrape"
+								},
+								"minecraft:hand_equipped": false,
+								"minecraft:max_stack_size": 16,
+								"minecraft:use_animation": "eat"
+							},
+							"events": {
+								"consumed": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "night_vision",
+												"duration": 8,
+												"amplifier": 1,
+												"target": "holder"
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"consumed": {
+										"sequence": [
+											{
+												"add_mob_effect": {
+													"effect": "night_vision",
+													"duration": 8,
+													"amplifier": 1,
+													"target": "holder"
+												}
+											}
+										]
+									}
+								},
+								"key": "consumed",
+								"children": [
+									{
+										"open": {
+											"sequence": [
+												{
+													"add_mob_effect": {
+														"effect": "night_vision",
+														"duration": 8,
+														"amplifier": 1,
+														"target": "holder"
+													}
+												}
+											]
+										},
+										"key": "sequence",
+										"children": [
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "night_vision",
+															"duration": 8,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "night_vision",
+																"duration": 8,
+																"amplifier": 1,
+																"target": "holder"
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "night_vision",
+															"duration": 8,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

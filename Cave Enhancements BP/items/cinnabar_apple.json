@@ -1,0 +1,61 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ores:cinnabar_apple",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:stacked_by_data": true,
+			"minecraft:use_duration": 1.6,
+			"minecraft:foil": false,
+			"minecraft:food": {
+				"nutrition": 4,
+				"saturation_modifier": "supernatural",
+				"can_always_eat": true,
+				"on_consume": {
+					"event": "r",
+					"target": "self"
+				}
+			},
+			"minecraft:icon": {
+				"texture": "cinnabarapple"
+			},
+			"minecraft:use_animation": "eat",
+			"minecraft:display_name": {
+				"value": "Cinnabar Apple"
+			}
+		},
+		"events": {
+			"r": {
+				"sequence": [
+					{
+						"add_mob_effect": {
+							"effect": "levitation",
+							"target": "holder",
+							"duration": 30,
+							"amplifier": 1
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "slow_falling",
+							"target": "holder",
+							"duration": 60,
+							"amplifier": 1
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "night_vision",
+							"target": "holder",
+							"duration": 120,
+							"amplifier": 2
+						}
+					}
+				]
+			}
+		}
+	}
+}

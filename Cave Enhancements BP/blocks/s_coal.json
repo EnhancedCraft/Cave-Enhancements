@@ -1,0 +1,28 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:s_coal"
+		},
+		"components": {
+			"minecraft:destroy_time": 1000,
+			"minecraft:explosion_resistance": 1,
+			"minecraft:loot": "loot_tables/coal_loot.json",
+			"minecraft:on_player_destroyed": {
+				"event": "destroy"
+			},
+			"tag:ores:easy": {}
+		},
+		"events": {
+			"destroy": {
+				"run_command": {
+					"command": [
+						"summon xp_orb",
+						"summon xp_orb"
+					]
+				}
+			}
+		}
+	}
+}

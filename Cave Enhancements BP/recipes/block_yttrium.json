@@ -1,0 +1,25 @@
+//bridge-file-version: #38
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:block_yttrium"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "ores:yttrium_ingot"
+			}
+		},
+		"result": {
+			"item": "ores:yttrium_block"
+		}
+	}
+}

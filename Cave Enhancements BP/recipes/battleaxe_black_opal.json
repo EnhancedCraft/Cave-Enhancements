@@ -1,0 +1,31 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:battleaxe_black_opal"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XXX",
+			"XOX",
+			" O"
+		],
+		"key": {
+			"X": {
+				"item": "ores:black_opal"
+			},
+			"O": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": [
+			{
+				"item": "ores:black_opal_battleaxe",
+				"count": 1
+			}
+		]
+	}
+}

@@ -1,0 +1,15 @@
+//bridge-file-version: #17
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "ores:smelt_titanium"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "ores:titanium_ore",
+		"output": "ores:titanium_ingot"
+	}
+}

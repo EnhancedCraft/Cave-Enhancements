@@ -1,0 +1,31 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:centrifuge"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"NCN",
+			"NNN",
+			"CCC"
+		],
+		"key": {
+			"N": {
+				"item": "ores:nickel_ingot"
+			},
+			"C": {
+				"item": "ores:compressed_cobblestone"
+			}
+		},
+		"result": [
+			{
+				"item": "ores:centrifuge",
+				"count": 1
+			}
+		]
+	}
+}

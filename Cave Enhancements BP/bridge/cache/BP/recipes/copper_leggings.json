@@ -1,0 +1,196 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1/recipes/copper_leggings.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "390c73ed_aded_4b28_b8da_b1f3c16f344b",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ores:copper_leggings"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"XXX",
+							"X X",
+							"X X"
+						],
+						"key": {
+							"X": {
+								"item": "ores:copper_chain_link"
+							}
+						},
+						"result": {
+							"item": "ores:copper_leggings"
+						}
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:copper_leggings"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"XXX",
+								"X X",
+								"X X"
+							],
+							"key": {
+								"X": {
+									"item": "ores:copper_chain_link"
+								}
+							},
+							"result": {
+								"item": "ores:copper_leggings"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:copper_leggings"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:copper_leggings"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"XXX",
+								"X X",
+								"X X"
+							],
+							"key": {
+								"X": {
+									"item": "ores:copper_chain_link"
+								}
+							},
+							"result": {
+								"item": "ores:copper_leggings"
+							}
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:copper_leggings"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"XXX",
+								"X X",
+								"X X"
+							],
+							"key": {
+								"X": {
+									"item": "ores:copper_chain_link"
+								}
+							},
+							"result": {
+								"item": "ores:copper_leggings"
+							}
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"XXX",
+							"X X",
+							"X X"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:copper_leggings"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"XXX",
+								"X X",
+								"X X"
+							],
+							"key": {
+								"X": {
+									"item": "ores:copper_chain_link"
+								}
+							},
+							"result": {
+								"item": "ores:copper_leggings"
+							}
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"X": {
+										"item": "ores:copper_chain_link"
+									}
+								},
+								"key": "X",
+								"is_minified": true,
+								"children": {
+									"item": "ores:copper_chain_link"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:copper_leggings"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"XXX",
+								"X X",
+								"X X"
+							],
+							"key": {
+								"X": {
+									"item": "ores:copper_chain_link"
+								}
+							},
+							"result": {
+								"item": "ores:copper_leggings"
+							}
+						},
+						"key": "result",
+						"is_minified": true,
+						"children": {
+							"item": "ores:copper_leggings"
+						}
+					}
+				]
+			}
+		]
+	}
+}

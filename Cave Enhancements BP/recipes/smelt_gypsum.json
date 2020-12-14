@@ -1,0 +1,15 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "ores:smelt_gypsum"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "ores:nether_gypsum_ore",
+		"output": "ores:gypsum_ingot"
+	}
+}

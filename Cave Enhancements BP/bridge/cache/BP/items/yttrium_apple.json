@@ -1,0 +1,694 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1/items/yttrium_apple.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "088b8967_8598_4689_9b99_d502234b676a",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ores:yttrium_apple",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:use_duration": 1.6,
+							"minecraft:foil": false,
+							"minecraft:food": {
+								"nutrition": 4,
+								"saturation_modifier": "supernatural",
+								"can_always_eat": true,
+								"on_consume": {
+									"event": "consumed",
+									"target": "self"
+								}
+							},
+							"minecraft:use_animation": "eat",
+							"minecraft:display_name": {
+								"value": "Yttrium Apple"
+							},
+							"minecraft:icon": {
+								"texture": "yttriumapple"
+							}
+						},
+						"events": {
+							"consumed": {
+								"sequence": [
+									{
+										"add_mob_effect": {
+											"effect": "regeneration",
+											"duration": 300,
+											"amplifier": 1,
+											"target": "holder"
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "slow_falling",
+											"duration": 200,
+											"amplifier": 1,
+											"target": "holder"
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "jump_boost",
+											"target": "holder",
+											"duration": 200,
+											"amplifier": 2
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "instant_health",
+											"target": "holder",
+											"duration": 20,
+											"amplifier": 3
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:yttrium_apple",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:foil": false,
+								"minecraft:food": {
+									"nutrition": 4,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:display_name": {
+									"value": "Yttrium Apple"
+								},
+								"minecraft:icon": {
+									"texture": "yttriumapple"
+								}
+							},
+							"events": {
+								"consumed": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "regeneration",
+												"duration": 300,
+												"amplifier": 1,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "slow_falling",
+												"duration": 200,
+												"amplifier": 1,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "jump_boost",
+												"target": "holder",
+												"duration": 200,
+												"amplifier": 2
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "instant_health",
+												"target": "holder",
+												"duration": 20,
+												"amplifier": 3
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:yttrium_apple",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:yttrium_apple",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:foil": false,
+								"minecraft:food": {
+									"nutrition": 4,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:display_name": {
+									"value": "Yttrium Apple"
+								},
+								"minecraft:icon": {
+									"texture": "yttriumapple"
+								}
+							},
+							"events": {
+								"consumed": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "regeneration",
+												"duration": 300,
+												"amplifier": 1,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "slow_falling",
+												"duration": 200,
+												"amplifier": 1,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "jump_boost",
+												"target": "holder",
+												"duration": 200,
+												"amplifier": 2
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "instant_health",
+												"target": "holder",
+												"duration": 20,
+												"amplifier": 3
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"data": "1.6",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"data": "false",
+								"key": "minecraft:foil"
+							},
+							{
+								"key": "minecraft:food",
+								"is_minified": true,
+								"children": {
+									"nutrition": 4,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								}
+							},
+							{
+								"data": "eat",
+								"key": "minecraft:use_animation"
+							},
+							{
+								"open": {
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 1.6,
+									"minecraft:foil": false,
+									"minecraft:food": {
+										"nutrition": 4,
+										"saturation_modifier": "supernatural",
+										"can_always_eat": true,
+										"on_consume": {
+											"event": "consumed",
+											"target": "self"
+										}
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:display_name": {
+										"value": "Yttrium Apple"
+									},
+									"minecraft:icon": {
+										"texture": "yttriumapple"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Yttrium Apple"
+								}
+							},
+							{
+								"open": {
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 1.6,
+									"minecraft:foil": false,
+									"minecraft:food": {
+										"nutrition": 4,
+										"saturation_modifier": "supernatural",
+										"can_always_eat": true,
+										"on_consume": {
+											"event": "consumed",
+											"target": "self"
+										}
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:display_name": {
+										"value": "Yttrium Apple"
+									},
+									"minecraft:icon": {
+										"texture": "yttriumapple"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "yttriumapple"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:yttrium_apple",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:foil": false,
+								"minecraft:food": {
+									"nutrition": 4,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:display_name": {
+									"value": "Yttrium Apple"
+								},
+								"minecraft:icon": {
+									"texture": "yttriumapple"
+								}
+							},
+							"events": {
+								"consumed": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "regeneration",
+												"duration": 300,
+												"amplifier": 1,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "slow_falling",
+												"duration": 200,
+												"amplifier": 1,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "jump_boost",
+												"target": "holder",
+												"duration": 200,
+												"amplifier": 2
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "instant_health",
+												"target": "holder",
+												"duration": 20,
+												"amplifier": 3
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"consumed": {
+										"sequence": [
+											{
+												"add_mob_effect": {
+													"effect": "regeneration",
+													"duration": 300,
+													"amplifier": 1,
+													"target": "holder"
+												}
+											},
+											{
+												"add_mob_effect": {
+													"effect": "slow_falling",
+													"duration": 200,
+													"amplifier": 1,
+													"target": "holder"
+												}
+											},
+											{
+												"add_mob_effect": {
+													"effect": "jump_boost",
+													"target": "holder",
+													"duration": 200,
+													"amplifier": 2
+												}
+											},
+											{
+												"add_mob_effect": {
+													"effect": "instant_health",
+													"target": "holder",
+													"duration": 20,
+													"amplifier": 3
+												}
+											}
+										]
+									}
+								},
+								"key": "consumed",
+								"children": [
+									{
+										"open": {
+											"sequence": [
+												{
+													"add_mob_effect": {
+														"effect": "regeneration",
+														"duration": 300,
+														"amplifier": 1,
+														"target": "holder"
+													}
+												},
+												{
+													"add_mob_effect": {
+														"effect": "slow_falling",
+														"duration": 200,
+														"amplifier": 1,
+														"target": "holder"
+													}
+												},
+												{
+													"add_mob_effect": {
+														"effect": "jump_boost",
+														"target": "holder",
+														"duration": 200,
+														"amplifier": 2
+													}
+												},
+												{
+													"add_mob_effect": {
+														"effect": "instant_health",
+														"target": "holder",
+														"duration": 20,
+														"amplifier": 3
+													}
+												}
+											]
+										},
+										"key": "sequence",
+										"children": [
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "regeneration",
+															"duration": 300,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "slow_falling",
+															"duration": 200,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "jump_boost",
+															"target": "holder",
+															"duration": 200,
+															"amplifier": 2
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "instant_health",
+															"target": "holder",
+															"duration": 20,
+															"amplifier": 3
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "regeneration",
+																"duration": 300,
+																"amplifier": 1,
+																"target": "holder"
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "regeneration",
+															"duration": 300,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "regeneration",
+															"duration": 300,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "slow_falling",
+															"duration": 200,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "jump_boost",
+															"target": "holder",
+															"duration": 200,
+															"amplifier": 2
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "instant_health",
+															"target": "holder",
+															"duration": 20,
+															"amplifier": 3
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "slow_falling",
+																"duration": 200,
+																"amplifier": 1,
+																"target": "holder"
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "slow_falling",
+															"duration": 200,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "regeneration",
+															"duration": 300,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "slow_falling",
+															"duration": 200,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "jump_boost",
+															"target": "holder",
+															"duration": 200,
+															"amplifier": 2
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "instant_health",
+															"target": "holder",
+															"duration": 20,
+															"amplifier": 3
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "jump_boost",
+																"target": "holder",
+																"duration": 200,
+																"amplifier": 2
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "jump_boost",
+															"target": "holder",
+															"duration": 200,
+															"amplifier": 2
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "regeneration",
+															"duration": 300,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "slow_falling",
+															"duration": 200,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "jump_boost",
+															"target": "holder",
+															"duration": 200,
+															"amplifier": 2
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "instant_health",
+															"target": "holder",
+															"duration": 20,
+															"amplifier": 3
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "instant_health",
+																"target": "holder",
+																"duration": 20,
+																"amplifier": 3
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "instant_health",
+															"target": "holder",
+															"duration": 20,
+															"amplifier": 3
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

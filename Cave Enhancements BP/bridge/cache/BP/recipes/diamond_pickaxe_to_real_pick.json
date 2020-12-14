@@ -1,0 +1,196 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1/recipes/diamond_pickaxe_to_real_pick.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "228798f0_6cf4_4f7c_bcd9_b8be280d3eb3",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "ores:diamond_pickaxe_to_real_pick"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"ingredients": [
+							{
+								"item": "minecraft:diamond_pickaxe",
+								"count": 1
+							}
+						],
+						"result": [
+							{
+								"item": "ores:diamond_pickaxe",
+								"count": 1
+							}
+						]
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "ores:diamond_pickaxe_to_real_pick"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"ingredients": [
+							{
+								"item": "minecraft:diamond_pickaxe",
+								"count": 1
+							}
+						],
+						"result": [
+							{
+								"item": "ores:diamond_pickaxe",
+								"count": 1
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shapeless",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:diamond_pickaxe_to_real_pick"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"ingredients": [
+								{
+									"item": "minecraft:diamond_pickaxe",
+									"count": 1
+								}
+							],
+							"result": [
+								{
+									"item": "ores:diamond_pickaxe",
+									"count": 1
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:diamond_pickaxe_to_real_pick"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:diamond_pickaxe_to_real_pick"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"ingredients": [
+								{
+									"item": "minecraft:diamond_pickaxe",
+									"count": 1
+								}
+							],
+							"result": [
+								{
+									"item": "ores:diamond_pickaxe",
+									"count": 1
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:diamond_pickaxe_to_real_pick"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"ingredients": [
+								{
+									"item": "minecraft:diamond_pickaxe",
+									"count": 1
+								}
+							],
+							"result": [
+								{
+									"item": "ores:diamond_pickaxe",
+									"count": 1
+								}
+							]
+						},
+						"key": "ingredients",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "minecraft:diamond_pickaxe",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:diamond_pickaxe",
+									"count": 1
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:diamond_pickaxe_to_real_pick"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"ingredients": [
+								{
+									"item": "minecraft:diamond_pickaxe",
+									"count": 1
+								}
+							],
+							"result": [
+								{
+									"item": "ores:diamond_pickaxe",
+									"count": 1
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "ores:diamond_pickaxe",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "ores:diamond_pickaxe",
+									"count": 1
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

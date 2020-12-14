@@ -1,0 +1,17 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:end_diamond_ore",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 1800,
+			"minecraft:friction": 1,
+			"minecraft:explosion_resistance": 34,
+			"minecraft:loot": "loot_tables/end_diamond_loot.json",
+			"tag:ores:medium": {}
+		}
+	}
+}

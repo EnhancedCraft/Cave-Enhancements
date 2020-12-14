@@ -1,0 +1,32 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ores:kyanite_hammer",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:stacked_by_data": true,
+			"minecraft:enchantable": {
+				"slot": "sword",
+				"value": 10
+			},
+			"minecraft:durability": {
+				"max_durability": 1000
+			},
+			"minecraft:icon": {
+				"texture": "kyanitehammer"
+			},
+			"minecraft:damage": 5.6,
+			"minecraft:display_name": {
+				"value": "Kyanite Hammer"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
+			}
+		}
+	}
+}

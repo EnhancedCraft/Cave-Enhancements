@@ -1,0 +1,17 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:amber_ore",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 600,
+			"minecraft:friction": 1,
+			"minecraft:explosion_resistance": 8,
+			"minecraft:loot": "loot_tables/amber_loot.json",
+			"tag:ores:easy": {}
+		}
+	}
+}

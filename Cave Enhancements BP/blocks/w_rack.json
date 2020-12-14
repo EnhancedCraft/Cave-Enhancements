@@ -1,0 +1,15 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:w_rack"
+		},
+		"components": {
+			"minecraft:destroy_time": 2,
+			"minecraft:explosion_resistance": 2,
+			"minecraft:loot": "loot_tables/w_rack_loot.json",
+			"minecraft:display_name": "Warped Netherrack"
+		}
+	}
+}

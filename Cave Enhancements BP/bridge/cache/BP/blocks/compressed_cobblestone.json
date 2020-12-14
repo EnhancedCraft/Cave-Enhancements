@@ -1,0 +1,81 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\blocks\\compressed_cobblestone.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "276667e3_83ae_424f_b9fa_6e726b71b844",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:block": {
+						"description": {
+							"identifier": "ores:compressed_cobblestone"
+						},
+						"components": {
+							"minecraft:destroy_time": 10,
+							"minecraft:explosion_resistance": 25,
+							"minecraft:loot": "loot_tables/compressed_cobble_loot.json",
+							"tag:ores:easy": {}
+						},
+						"events": {}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:compressed_cobblestone"
+							},
+							"components": {
+								"minecraft:destroy_time": 10,
+								"minecraft:explosion_resistance": 25,
+								"minecraft:loot": "loot_tables/compressed_cobble_loot.json",
+								"tag:ores:easy": {}
+							},
+							"events": {}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:compressed_cobblestone"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:compressed_cobblestone"
+							},
+							"components": {
+								"minecraft:destroy_time": 10,
+								"minecraft:explosion_resistance": 25,
+								"minecraft:loot": "loot_tables/compressed_cobble_loot.json",
+								"tag:ores:easy": {}
+							},
+							"events": {}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 10,
+							"minecraft:explosion_resistance": 25,
+							"minecraft:loot": "loot_tables/compressed_cobble_loot.json",
+							"tag:ores:easy": {}
+						}
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {}
+					}
+				]
+			}
+		]
+	}
+}

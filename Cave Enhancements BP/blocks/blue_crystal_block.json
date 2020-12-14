@@ -1,0 +1,16 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:blue_crystal_block"
+		},
+		"components": {
+			"minecraft:destroy_time": 5,
+			"minecraft:block_light_emission": 1,
+			"minecraft:explosion_resistance": 1,
+			"minecraft:loot": "loot_tables/blue_crystal_loot.json",
+			"tag:ores:easy": {}
+		}
+	}
+}

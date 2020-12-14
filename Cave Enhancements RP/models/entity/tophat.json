@@ -1,0 +1,24 @@
+{
+	"format_version": "1.10.0",
+	"geometry.tophat": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 2,
+		"visible_bounds_height": 4,
+		"visible_bounds_offset": [0, 2, 0],
+		"bones": [
+			{
+				"name": "hat",
+				"pivot": [5, 1, 0],
+				"cubes": [
+					{"origin": [-4, 0, -4], "size": [9, 0, 10], "uv": [0, 13]},
+					{"origin": [4, 0, -4], "size": [1, 13, 7], "uv": [33, 33]},
+					{"origin": [-3, 0, -4], "size": [8, 13, 1], "uv": [0, 36]},
+					{"origin": [-4, 0, -4], "size": [1, 13, 8], "uv": [0, 15]},
+					{"origin": [-4, 0, -4], "size": [9, 13, 2], "uv": [18, 23]},
+					{"origin": [-5, 0, -4], "size": [11, 1, 12], "uv": [0, 0]}
+				]
+			}
+		]
+	}
+}

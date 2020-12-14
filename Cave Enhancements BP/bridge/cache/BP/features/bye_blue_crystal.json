@@ -1,0 +1,181 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1/features/bye_blue_crystal.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "862a6213_0f92_4b72_ab88_3b96aa381ee4",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:ore_feature": {
+						"description": {
+							"identifier": "ores:bye_blue_crystal"
+						},
+						"count": 1,
+						"places_block": {
+							"name": "minecraft:air",
+							"states": {}
+						},
+						"may_replace": [
+							{
+								"name": "ores:blue_crystal",
+								"states": {}
+							},
+							{
+								"name": "ores:cave_grass",
+								"states": {}
+							}
+						]
+					}
+				},
+				"key": "minecraft:ore_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:bye_blue_crystal"
+							},
+							"count": 1,
+							"places_block": {
+								"name": "minecraft:air",
+								"states": {}
+							},
+							"may_replace": [
+								{
+									"name": "ores:blue_crystal",
+									"states": {}
+								},
+								{
+									"name": "ores:cave_grass",
+									"states": {}
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:bye_blue_crystal"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:bye_blue_crystal"
+							},
+							"count": 1,
+							"places_block": {
+								"name": "minecraft:air",
+								"states": {}
+							},
+							"may_replace": [
+								{
+									"name": "ores:blue_crystal",
+									"states": {}
+								},
+								{
+									"name": "ores:cave_grass",
+									"states": {}
+								}
+							]
+						},
+						"data": "1",
+						"key": "count"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:bye_blue_crystal"
+							},
+							"count": 1,
+							"places_block": {
+								"name": "minecraft:air",
+								"states": {}
+							},
+							"may_replace": [
+								{
+									"name": "ores:blue_crystal",
+									"states": {}
+								},
+								{
+									"name": "ores:cave_grass",
+									"states": {}
+								}
+							]
+						},
+						"key": "places_block",
+						"is_minified": true,
+						"children": {
+							"name": "minecraft:air",
+							"states": {}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:bye_blue_crystal"
+							},
+							"count": 1,
+							"places_block": {
+								"name": "minecraft:air",
+								"states": {}
+							},
+							"may_replace": [
+								{
+									"name": "ores:blue_crystal",
+									"states": {}
+								},
+								{
+									"name": "ores:cave_grass",
+									"states": {}
+								}
+							]
+						},
+						"key": "may_replace",
+						"children": [
+							{
+								"open": [
+									{
+										"name": "ores:blue_crystal",
+										"states": {}
+									},
+									{
+										"name": "ores:cave_grass",
+										"states": {}
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"name": "ores:blue_crystal",
+									"states": {}
+								}
+							},
+							{
+								"open": [
+									{
+										"name": "ores:blue_crystal",
+										"states": {}
+									},
+									{
+										"name": "ores:cave_grass",
+										"states": {}
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"name": "ores:cave_grass",
+									"states": {}
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

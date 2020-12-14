@@ -1,0 +1,33 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ores:voidstone_battleaxe",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:stacked_by_data": true,
+			"minecraft:damage": 18,
+			"minecraft:durability": {
+				"max_durability": 3100
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
+			},
+			"minecraft:enchantable": {
+				"slot": "sword",
+				"value": 10
+			},
+			"minecraft:weapon": {},
+			"minecraft:display_name": {
+				"value": "Voidstone Battleaxe"
+			},
+			"minecraft:icon": {
+				"texture": "voidstonebattleaxe"
+			}
+		}
+	}
+}

@@ -1,0 +1,268 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Cave Enhancements BP\\manifest.json",
+	"file_type": "manifest_bp",
+	"format_version": 1,
+	"file_uuid": "de265b7e_d90f_4b0f_8c5a_78a6556babe3",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "2",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 2,
+					"header": {
+						"name": "Cave Enhancements V1.3 BP",
+						"description": "pack.description",
+						"uuid": "da4dcd25-2b79-4440-9b2b-185fbdf49862",
+						"version": [
+							6,
+							0,
+							0
+						],
+						"min_engine_version": [
+							1,
+							13,
+							0
+						]
+					},
+					"modules": [
+						{
+							"type": "data",
+							"uuid": "b8f4354e-d56e-4537-a18d-f13f66724250",
+							"version": [
+								6,
+								0,
+								0
+							]
+						}
+					],
+					"dependencies": [
+						{
+							"version": [
+								6,
+								0,
+								0
+							],
+							"uuid": "2bc74bdc-5b4e-4f04-8bf0-7f91239eaf0d"
+						}
+					]
+				},
+				"key": "header",
+				"children": [
+					{
+						"data": "Cave Enhancements V1.3 BP",
+						"key": "name"
+					},
+					{
+						"data": "pack.description",
+						"key": "description"
+					},
+					{
+						"data": "da4dcd25-2b79-4440-9b2b-185fbdf49862",
+						"key": "uuid"
+					},
+					{
+						"open": {
+							"name": "Cave Enhancements V1.3 BP",
+							"description": "pack.description",
+							"uuid": "da4dcd25-2b79-4440-9b2b-185fbdf49862",
+							"version": [
+								6,
+								0,
+								0
+							],
+							"min_engine_version": [
+								1,
+								13,
+								0
+							]
+						},
+						"key": "version",
+						"is_minified": true,
+						"children": [
+							6,
+							0,
+							0
+						]
+					},
+					{
+						"key": "min_engine_version",
+						"is_minified": true,
+						"children": [
+							1,
+							13,
+							0
+						]
+					}
+				]
+			},
+			{
+				"open": {
+					"format_version": 2,
+					"header": {
+						"name": "Cave Enhancements V1.3 BP",
+						"description": "pack.description",
+						"uuid": "da4dcd25-2b79-4440-9b2b-185fbdf49862",
+						"version": [
+							6,
+							0,
+							0
+						],
+						"min_engine_version": [
+							1,
+							13,
+							0
+						]
+					},
+					"modules": [
+						{
+							"type": "data",
+							"uuid": "b8f4354e-d56e-4537-a18d-f13f66724250",
+							"version": [
+								6,
+								0,
+								0
+							]
+						}
+					],
+					"dependencies": [
+						{
+							"version": [
+								6,
+								0,
+								0
+							],
+							"uuid": "2bc74bdc-5b4e-4f04-8bf0-7f91239eaf0d"
+						}
+					]
+				},
+				"key": "modules",
+				"children": [
+					{
+						"open": [
+							{
+								"type": "data",
+								"uuid": "b8f4354e-d56e-4537-a18d-f13f66724250",
+								"version": [
+									6,
+									0,
+									0
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "data",
+								"key": "type"
+							},
+							{
+								"data": "b8f4354e-d56e-4537-a18d-f13f66724250",
+								"key": "uuid"
+							},
+							{
+								"open": {
+									"type": "data",
+									"uuid": "b8f4354e-d56e-4537-a18d-f13f66724250",
+									"version": [
+										6,
+										0,
+										0
+									]
+								},
+								"key": "version",
+								"is_minified": true,
+								"children": [
+									6,
+									0,
+									0
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"open": {
+					"format_version": 2,
+					"header": {
+						"name": "Cave Enhancements V1.3 BP",
+						"description": "pack.description",
+						"uuid": "da4dcd25-2b79-4440-9b2b-185fbdf49862",
+						"version": [
+							6,
+							0,
+							0
+						],
+						"min_engine_version": [
+							1,
+							13,
+							0
+						]
+					},
+					"modules": [
+						{
+							"type": "data",
+							"uuid": "b8f4354e-d56e-4537-a18d-f13f66724250",
+							"version": [
+								6,
+								0,
+								0
+							]
+						}
+					],
+					"dependencies": [
+						{
+							"version": [
+								6,
+								0,
+								0
+							],
+							"uuid": "2bc74bdc-5b4e-4f04-8bf0-7f91239eaf0d"
+						}
+					]
+				},
+				"key": "dependencies",
+				"children": [
+					{
+						"open": [
+							{
+								"version": [
+									6,
+									0,
+									0
+								],
+								"uuid": "2bc74bdc-5b4e-4f04-8bf0-7f91239eaf0d"
+							}
+						],
+						"children": [
+							{
+								"open": {
+									"version": [
+										6,
+										0,
+										0
+									],
+									"uuid": "2bc74bdc-5b4e-4f04-8bf0-7f91239eaf0d"
+								},
+								"key": "version",
+								"is_minified": true,
+								"children": [
+									6,
+									0,
+									0
+								]
+							},
+							{
+								"data": "2bc74bdc-5b4e-4f04-8bf0-7f91239eaf0d",
+								"key": "uuid"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

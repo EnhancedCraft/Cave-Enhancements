@@ -1,0 +1,17 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:zincolium_ore",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 6,
+			"minecraft:friction": 1,
+			"minecraft:explosion_resistance": 200,
+			"minecraft:loot": "loot_tables/zincolium_loot.json",
+			"tag:ores:medium": {}
+		}
+	}
+}

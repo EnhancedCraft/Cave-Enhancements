@@ -1,0 +1,2779 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Cave Enhancements RP\\blocks.json",
+	"file_type": "client_block",
+	"format_version": 1,
+	"file_uuid": "67a84355_43f1_4f2b_87ae_5c87f5e5282d",
+	"file_version": 152,
+	"cache_content": {
+		"children": [
+			{
+				"key": "format_version",
+				"is_minified": true,
+				"children": [
+					1,
+					1,
+					0
+				]
+			},
+			{
+				"key": "ores:adamantite_block",
+				"is_minified": true,
+				"children": {
+					"textures": "adamantiteblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:adamantite_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "adamantite",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:aluminium_block",
+				"is_minified": true,
+				"children": {
+					"textures": "aluminiumblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:amber_block",
+				"is_minified": true,
+				"children": {
+					"textures": "amberblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:amber_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "amber",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:amethyst_block",
+				"is_minified": true,
+				"children": {
+					"textures": "amethystblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:amethyst_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "amethyst",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:bauxite_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "bauxite",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:black_opal_block",
+				"is_minified": true,
+				"children": {
+					"textures": "blackopalblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:black_opal_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "blackopal",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:calcite_block",
+				"is_minified": true,
+				"children": {
+					"textures": "calciteblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:calcite_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "calcite",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:celestine_block",
+				"is_minified": true,
+				"children": {
+					"textures": "celestineblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:celestine_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "celestine",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:cinnabar_block",
+				"is_minified": true,
+				"children": {
+					"textures": "cinnabarblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:cinnabar_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "cinnabar",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:cobalt_block",
+				"is_minified": true,
+				"children": {
+					"textures": "cobaltblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:cobalt_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "cobalt",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:copper_block",
+				"is_minified": true,
+				"children": {
+					"textures": "copperblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:copper_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "copper",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:dragon_glass_block",
+				"is_minified": true,
+				"children": {
+					"textures": "dragonglassblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:dragon_glass_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "dragonglass",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:end_diamond_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "enddiamond",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:end_plutonium_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "endplutonium",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:end_yttrium_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "enyttrium",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:flurite_block",
+				"is_minified": true,
+				"children": {
+					"textures": "fluriteblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:flurite_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "flurite",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:fossil_stone_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "fossilstone",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:garnet_block",
+				"is_minified": true,
+				"children": {
+					"textures": "garnetblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:gypsum_block",
+				"is_minified": true,
+				"children": {
+					"textures": "gypsumblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:garnet_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "garnet",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:hematite_block",
+				"is_minified": true,
+				"children": {
+					"textures": "hematiteblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:hematite_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "hematite",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:jade_block",
+				"is_minified": true,
+				"children": {
+					"textures": "jadeblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:jade_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "jade",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:kryptonite_block",
+				"is_minified": true,
+				"children": {
+					"textures": "kryptoniteblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:kyanite_block",
+				"is_minified": true,
+				"children": {
+					"textures": "kyaniteblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:kryptonite_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "kryptonite",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:lava_stone_block",
+				"is_minified": true,
+				"children": {
+					"textures": "lavastoneblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:lava_stone_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "lavastone",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:lead_block",
+				"is_minified": true,
+				"children": {
+					"textures": "leadblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:lead_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "lead",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:magnetite_block",
+				"is_minified": true,
+				"children": {
+					"textures": "magnetiteblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:magnetite_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "magnetite",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:mica_block",
+				"is_minified": true,
+				"children": {
+					"textures": "micablock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:mica_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "mica",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:nether_diamond_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "netherdiamond",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:nether_emerald_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "netheremerald",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:nether_gypsum_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "nethergypsum",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:nether_kyanite_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "netherkyanite",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:nether_sulfur_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "nethersulfur",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:nether_tin_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "nethertin",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:nether_topaz_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "nethertopaz",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:nether_zinc_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "netherzinc",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:nickel_block",
+				"is_minified": true,
+				"children": {
+					"textures": "nickelblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:nickel_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "nickel",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:ocean_stone_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "oceanstone",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:opal_block",
+				"is_minified": true,
+				"children": {
+					"textures": "opalblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:opal_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "opal",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:painite_block",
+				"is_minified": true,
+				"children": {
+					"textures": "painiteblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:painite_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "painite",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:platnium_block",
+				"is_minified": true,
+				"children": {
+					"textures": "platniumblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:platnium_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "platnium",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:plutonium_block",
+				"is_minified": true,
+				"children": {
+					"textures": "plutoniumblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:prismarite_block",
+				"is_minified": true,
+				"children": {
+					"textures": "prismariteblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:prismarite_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "prismarite",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:prolinite_block",
+				"is_minified": true,
+				"children": {
+					"textures": "proliniteblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:prolinite_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "prolinite",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:pyrite_block",
+				"is_minified": true,
+				"children": {
+					"textures": "pyriteblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:pyrite_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "pyrite",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:ruby_block",
+				"is_minified": true,
+				"children": {
+					"textures": "rubyblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:ruby_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "ruby",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:sapphire_block",
+				"is_minified": true,
+				"children": {
+					"textures": "sapphireblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:sapphire_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "sapphire",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:sulfer_block",
+				"is_minified": true,
+				"children": {
+					"textures": "sulferblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:silver_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "silver",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:sypmium_block",
+				"is_minified": true,
+				"children": {
+					"textures": "sypmiumblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:sypmium_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "sypmium",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:tin_block",
+				"is_minified": true,
+				"children": {
+					"textures": "tinblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:tanzanite_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "tanzanite",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:topaz_block",
+				"is_minified": true,
+				"children": {
+					"textures": "topazblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:titanium_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "titanium",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:tungsten_block",
+				"is_minified": true,
+				"children": {
+					"textures": "tungstenblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:tungsten_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "tungsten",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:uranium_block",
+				"is_minified": true,
+				"children": {
+					"textures": "uraniumblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:uranium_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "uranium",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:void_stone_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "voidstone",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:yttrium_block",
+				"is_minified": true,
+				"children": {
+					"textures": "yttriumblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:zinc_block",
+				"is_minified": true,
+				"children": {
+					"textures": "zincblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:zincolium_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "zincolium",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:tanzanite_block",
+				"is_minified": true,
+				"children": {
+					"textures": "tanzaniteblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"open": {
+					"format_version": [
+						1,
+						1,
+						0
+					],
+					"ores:adamantite_block": {
+						"textures": "adamantiteblock",
+						"sound": "metal"
+					},
+					"ores:adamantite_ore": {
+						"textures": "adamantite",
+						"sound": "metal"
+					},
+					"ores:aluminium_block": {
+						"textures": "aluminiumblock",
+						"sound": "metal"
+					},
+					"ores:amber_block": {
+						"textures": "amberblock",
+						"sound": "metal"
+					},
+					"ores:amber_ore": {
+						"textures": "amber",
+						"sound": "stone"
+					},
+					"ores:amethyst_block": {
+						"textures": "amethystblock",
+						"sound": "metal"
+					},
+					"ores:amethyst_ore": {
+						"textures": "amethyst",
+						"sound": "stone"
+					},
+					"ores:bauxite_ore": {
+						"textures": "bauxite",
+						"sound": "stone"
+					},
+					"ores:black_opal_block": {
+						"textures": "blackopalblock",
+						"sound": "metal"
+					},
+					"ores:black_opal_ore": {
+						"textures": "blackopal",
+						"sound": "metal"
+					},
+					"ores:calcite_block": {
+						"textures": "calciteblock",
+						"sound": "metal"
+					},
+					"ores:calcite_ore": {
+						"textures": "calcite",
+						"sound": "stone"
+					},
+					"ores:celestine_block": {
+						"textures": "celestineblock",
+						"sound": "metal"
+					},
+					"ores:celestine_ore": {
+						"textures": "celestine",
+						"sound": "metal"
+					},
+					"ores:cinnabar_block": {
+						"textures": "cinnabarblock",
+						"sound": "metal"
+					},
+					"ores:cinnabar_ore": {
+						"textures": "cinnabar",
+						"sound": "stone"
+					},
+					"ores:cobalt_block": {
+						"textures": "cobaltblock",
+						"sound": "metal"
+					},
+					"ores:cobalt_ore": {
+						"textures": "cobalt",
+						"sound": "stone"
+					},
+					"ores:copper_block": {
+						"textures": "copperblock",
+						"sound": "metal"
+					},
+					"ores:copper_ore": {
+						"textures": "copper",
+						"sound": "metal"
+					},
+					"ores:dragon_glass_block": {
+						"textures": "dragonglassblock",
+						"sound": "metal"
+					},
+					"ores:dragon_glass_ore": {
+						"textures": "dragonglass",
+						"sound": "metal"
+					},
+					"ores:end_diamond_ore": {
+						"textures": "enddiamond",
+						"sound": "stone"
+					},
+					"ores:end_plutonium_ore": {
+						"textures": "endplutonium",
+						"sound": "stone"
+					},
+					"ores:end_yttrium_ore": {
+						"textures": "enyttrium",
+						"sound": "metal"
+					},
+					"ores:flurite_block": {
+						"textures": "fluriteblock",
+						"sound": "metal"
+					},
+					"ores:flurite_ore": {
+						"textures": "flurite",
+						"sound": "stone"
+					},
+					"ores:fossil_stone_ore": {
+						"textures": "fossilstone",
+						"sound": "stone"
+					},
+					"ores:garnet_block": {
+						"textures": "garnetblock",
+						"sound": "metal"
+					},
+					"ores:gypsum_block": {
+						"textures": "gypsumblock",
+						"sound": "metal"
+					},
+					"ores:garnet_ore": {
+						"textures": "garnet",
+						"sound": "metal"
+					},
+					"ores:hematite_block": {
+						"textures": "hematiteblock",
+						"sound": "metal"
+					},
+					"ores:hematite_ore": {
+						"textures": "hematite",
+						"sound": "metal"
+					},
+					"ores:jade_block": {
+						"textures": "jadeblock",
+						"sound": "metal"
+					},
+					"ores:jade_ore": {
+						"textures": "jade",
+						"sound": "stone"
+					},
+					"ores:kryptonite_block": {
+						"textures": "kryptoniteblock",
+						"sound": "metal"
+					},
+					"ores:kyanite_block": {
+						"textures": "kyaniteblock",
+						"sound": "metal"
+					},
+					"ores:kryptonite_ore": {
+						"textures": "kryptonite",
+						"sound": "metal"
+					},
+					"ores:lava_stone_block": {
+						"textures": "lavastoneblock",
+						"sound": "metal"
+					},
+					"ores:lava_stone_ore": {
+						"textures": "lavastone",
+						"sound": "metal"
+					},
+					"ores:lead_block": {
+						"textures": "leadblock",
+						"sound": "metal"
+					},
+					"ores:lead_ore": {
+						"textures": "lead",
+						"sound": "stone"
+					},
+					"ores:magnetite_block": {
+						"textures": "magnetiteblock",
+						"sound": "metal"
+					},
+					"ores:magnetite_ore": {
+						"textures": "magnetite",
+						"sound": "metal"
+					},
+					"ores:mica_block": {
+						"textures": "micablock",
+						"sound": "metal"
+					},
+					"ores:mica_ore": {
+						"textures": "mica",
+						"sound": "stone"
+					},
+					"ores:nether_diamond_ore": {
+						"textures": "netherdiamond",
+						"sound": "stone"
+					},
+					"ores:nether_emerald_ore": {
+						"textures": "netheremerald",
+						"sound": "stone"
+					},
+					"ores:nether_gypsum_ore": {
+						"textures": "nethergypsum",
+						"sound": "stone"
+					},
+					"ores:nether_kyanite_ore": {
+						"textures": "netherkyanite",
+						"sound": "metal"
+					},
+					"ores:nether_sulfur_ore": {
+						"textures": "nethersulfur",
+						"sound": "stone"
+					},
+					"ores:nether_tin_ore": {
+						"textures": "nethertin",
+						"sound": "metal"
+					},
+					"ores:nether_topaz_ore": {
+						"textures": "nethertopaz",
+						"sound": "metal"
+					},
+					"ores:nether_zinc_ore": {
+						"textures": "netherzinc",
+						"sound": "metal"
+					},
+					"ores:nickel_block": {
+						"textures": "nickelblock",
+						"sound": "metal"
+					},
+					"ores:nickel_ore": {
+						"textures": "nickel",
+						"sound": "metal"
+					},
+					"ores:ocean_stone_ore": {
+						"textures": "oceanstone",
+						"sound": "stone"
+					},
+					"ores:opal_block": {
+						"textures": "opalblock",
+						"sound": "metal"
+					},
+					"ores:opal_ore": {
+						"textures": "opal",
+						"sound": "stone"
+					},
+					"ores:painite_block": {
+						"textures": "painiteblock",
+						"sound": "metal"
+					},
+					"ores:painite_ore": {
+						"textures": "painite",
+						"sound": "metal"
+					},
+					"ores:platnium_block": {
+						"textures": "platniumblock",
+						"sound": "metal"
+					},
+					"ores:platnium_ore": {
+						"textures": "platnium",
+						"sound": "metal"
+					},
+					"ores:plutonium_block": {
+						"textures": "plutoniumblock",
+						"sound": "metal"
+					},
+					"ores:prismarite_block": {
+						"textures": "prismariteblock",
+						"sound": "metal"
+					},
+					"ores:prismarite_ore": {
+						"textures": "prismarite",
+						"sound": "stone"
+					},
+					"ores:prolinite_block": {
+						"textures": "proliniteblock",
+						"sound": "metal"
+					},
+					"ores:prolinite_ore": {
+						"textures": "prolinite",
+						"sound": "stone"
+					},
+					"ores:pyrite_block": {
+						"textures": "pyriteblock",
+						"sound": "metal"
+					},
+					"ores:pyrite_ore": {
+						"textures": "pyrite",
+						"sound": "stone"
+					},
+					"ores:ruby_block": {
+						"textures": "rubyblock",
+						"sound": "metal"
+					},
+					"ores:ruby_ore": {
+						"textures": "ruby",
+						"sound": "stone"
+					},
+					"ores:sapphire_block": {
+						"textures": "sapphireblock",
+						"sound": "metal"
+					},
+					"ores:sapphire_ore": {
+						"textures": "sapphire",
+						"sound": "stone"
+					},
+					"ores:sulfer_block": {
+						"textures": "sulferblock",
+						"sound": "metal"
+					},
+					"ores:silver_ore": {
+						"textures": "silver",
+						"sound": "metal"
+					},
+					"ores:sypmium_block": {
+						"textures": "sypmiumblock",
+						"sound": "metal"
+					},
+					"ores:sypmium_ore": {
+						"textures": "sypmium",
+						"sound": "stone"
+					},
+					"ores:tin_block": {
+						"textures": "tinblock",
+						"sound": "metal"
+					},
+					"ores:tanzanite_ore": {
+						"textures": "tanzanite",
+						"sound": "metal"
+					},
+					"ores:topaz_block": {
+						"textures": "topazblock",
+						"sound": "metal"
+					},
+					"ores:titanium_ore": {
+						"textures": "titanium",
+						"sound": "metal"
+					},
+					"ores:tungsten_block": {
+						"textures": "tungstenblock",
+						"sound": "metal"
+					},
+					"ores:tungsten_ore": {
+						"textures": "tungsten",
+						"sound": "metal"
+					},
+					"ores:uranium_block": {
+						"textures": "uraniumblock",
+						"sound": "metal"
+					},
+					"ores:uranium_ore": {
+						"textures": "uranium",
+						"sound": "stone"
+					},
+					"ores:void_stone_ore": {
+						"textures": "voidstone",
+						"sound": "stone"
+					},
+					"ores:yttrium_block": {
+						"textures": "yttriumblock",
+						"sound": "metal"
+					},
+					"ores:zinc_block": {
+						"textures": "zincblock",
+						"sound": "metal"
+					},
+					"ores:zincolium_ore": {
+						"textures": "zincolium",
+						"sound": "metal"
+					},
+					"ores:tanzanite_block": {
+						"textures": "tanzaniteblock",
+						"sound": "metal"
+					},
+					"ores:stalagmite": {
+						"textures": "gg",
+						"sound": "stone"
+					},
+					"ores:i_stone": {
+						"textures": "istone",
+						"sound": "stone"
+					},
+					"ores:i_coal": {
+						"textures": "icoal",
+						"sound": "stone"
+					},
+					"ores:i_iron": {
+						"textures": "iiron",
+						"sound": "stone"
+					},
+					"ores:i_gold": {
+						"textures": "igold",
+						"sound": "stone"
+					},
+					"ores:i_lapis": {
+						"textures": "ilapis",
+						"sound": "stone"
+					},
+					"ores:i_redstone": {
+						"textures": "iredstone",
+						"sound": "stone"
+					},
+					"ores:i_diamond": {
+						"textures": "idiamond",
+						"sound": "stone"
+					},
+					"ores:i_granite": {
+						"textures": "igranite",
+						"sound": "stone"
+					},
+					"ores:i_andesite": {
+						"textures": "iandesite",
+						"sound": "stone"
+					},
+					"ores:i_diorite": {
+						"textures": "idiorite",
+						"sound": "stone"
+					},
+					"ores:j_stone": {
+						"textures": "jstone",
+						"sound": "stone"
+					},
+					"ores:j_granite": {
+						"textures": "jgranite",
+						"sound": "stone"
+					},
+					"ores:j_andesite": {
+						"textures": "jandesite",
+						"sound": "stone"
+					},
+					"ores:j_diorite": {
+						"textures": "jdiorite",
+						"sound": "stone"
+					},
+					"ores:j_coal": {
+						"textures": "jcoal",
+						"sound": "stone"
+					},
+					"ores:j_iron": {
+						"textures": "jiron",
+						"sound": "stone"
+					},
+					"ores:j_gold": {
+						"textures": "jgold",
+						"sound": "stone"
+					},
+					"ores:j_lapis": {
+						"textures": "jlapis",
+						"sound": "stone"
+					},
+					"ores:j_redstone": {
+						"textures": "jredstone",
+						"sound": "stone"
+					},
+					"ores:j_diamond": {
+						"textures": "jdiamond",
+						"sound": "stone"
+					},
+					"ores:mud_block": {
+						"textures": "mudblock",
+						"sound": "gravel"
+					},
+					"ores:s_stone": {
+						"textures": "sstone",
+						"sound": "stone"
+					},
+					"ores:s_granite": {
+						"textures": "sgranite",
+						"sound": "stone"
+					},
+					"ores:s_andesite": {
+						"textures": "sandesite",
+						"sound": "stone"
+					},
+					"ores:s_diorite": {
+						"textures": "sdiorite",
+						"sound": "stone"
+					},
+					"ores:s_coal": {
+						"textures": "scoal",
+						"sound": "stone"
+					},
+					"ores:s_iron": {
+						"textures": "siron",
+						"sound": "stone"
+					},
+					"ores:s_gold": {
+						"textures": "sgold",
+						"sound": "stone"
+					},
+					"ores:s_lapis": {
+						"textures": "slapis",
+						"sound": "stone"
+					},
+					"ores:s_redstone": {
+						"textures": "sredstone",
+						"sound": "stone"
+					},
+					"ores:s_diamond": {
+						"textures": "sdiamond",
+						"sound": "stone"
+					},
+					"ores:blue_mushroom": {
+						"textures": "bluemushroom",
+						"sound": "vines"
+					},
+					"ores:yellow_crystal_block": {
+						"textures": "yellowcrystalblock",
+						"sound": "glass"
+					},
+					"ores:blue_crystal_block": {
+						"textures": "bluecrystalblock",
+						"sound": "glass"
+					},
+					"ores:red_crystal_block": {
+						"textures": "redcrystalblock",
+						"sound": "glass"
+					},
+					"ores:l_stone": {
+						"textures": "lstone",
+						"sound": "stone"
+					},
+					"ores:cold_stone": {
+						"textures": "coldstone",
+						"sound": "stone"
+					},
+					"ores:m_stone": {
+						"textures": {
+							"up": "mstonetop",
+							"side": "mstoneside",
+							"down": "mstonebottem"
+						},
+						"sound": "stone"
+					},
+					"ores:gm_stone": {
+						"textures": {
+							"up": "gmstonetop",
+							"side": "gmstoneside",
+							"down": "gmstonebottem"
+						},
+						"sound": "stone"
+					},
+					"ores:compressor": {
+						"textures": {
+							"up": "compressortop",
+							"side": "compressorside",
+							"down": "compressorside"
+						},
+						"sound": "stone"
+					},
+					"ores:r_dirt": {
+						"textures": {
+							"up": "toproot",
+							"side": "rdirt",
+							"down": "toproot"
+						},
+						"sound": "gravel"
+					},
+					"ores:compressed_cobblestone": {
+						"textures": "compressedcobblestone",
+						"sound": "stone"
+					},
+					"ores:oil_block": {
+						"textures": "oilblock",
+						"sound": "metal"
+					},
+					"ores:cave_grass": {
+						"textures": "cavegrass",
+						"sound": "grass"
+					},
+					"ores:cave_grass_glow": {
+						"textures": "cavegrassglow",
+						"sound": "grass"
+					},
+					"ores:laser": {
+						"textures": "laser",
+						"sound": "vines"
+					},
+					"ores:roof": {
+						"textures": "roof",
+						"sound": "stone"
+					},
+					"ores:marble": {
+						"textures": "marble",
+						"sound": "stone"
+					},
+					"ores:molten_stone": {
+						"textures": "moltenstone",
+						"sound": "stone"
+					},
+					"ores:limestone": {
+						"textures": "limestone",
+						"sound": "stone"
+					},
+					"ores:w_rack": {
+						"textures": "wrack",
+						"sound": "stone"
+					},
+					"ores:c_rack": {
+						"textures": "crack",
+						"sound": "stone"
+					},
+					"ores:b_rack": {
+						"textures": "brack",
+						"sound": "stone"
+					},
+					"ores:s_rack": {
+						"textures": "srack",
+						"sound": "stone"
+					},
+					"ores:prismarine_crystal": {
+						"textures": "crystal",
+						"sound": "glass"
+					},
+					"ores:icicle": {
+						"textures": "ice",
+						"sound": "glass"
+					},
+					"ores:slush": {
+						"textures": "slush",
+						"sound": "grass"
+					},
+					"ores:end_grass": {
+						"textures": {
+							"up": "etop",
+							"side": "eside",
+							"down": "end_stone"
+						}
+					},
+					"ores:spread": {
+						"textures": "spread",
+						"sound": "nylium"
+					},
+					"ores:glowing_grape_bush": {
+						"sound": "grass",
+						"textures": "glowing_grape_crop"
+					},
+					"ores:glowing_grape_non": {
+						"textures": "glowing_grape_non",
+						"sound": "grass"
+					},
+					"ores:package_cave_base": {
+						"textures": {
+							"up": "packagetop",
+							"down": "packagebottom",
+							"side": "packageside"
+						},
+						"sound": "metal"
+					},
+					"ores:long_vine": {
+						"textures": "vinelong",
+						"sound": "grass"
+					},
+					"ores:centrifuge": {
+						"textures": {
+							"up": "centrifuge",
+							"side": "packageside",
+							"down": "packagebottom"
+						},
+						"sound": "metal"
+					},
+					"ores:glowing_grass": {
+						"textures": {
+							"up": "ggrasstop",
+							"down": "ggrassbottom",
+							"side": "ggrassside"
+						},
+						"sound": "gravel"
+					},
+					"ores:purple_mushroom": {
+						"textures": "purplemushroom",
+						"sound": "grass"
+					},
+					"ores:blue_crystal": {
+						"textures": "bluecrystal",
+						"sound": "glass"
+					},
+					"ores:glowing_mushroom": {
+						"textures": "glowingmushroom",
+						"sound": "grass"
+					},
+					"ores:moss": {
+						"textures": "moss",
+						"sound": "grass"
+					},
+					"ores:cinquanta_ore": {
+						"textures": "cinquanta",
+						"sound": "stone"
+					},
+					"ores:marble_brick": {
+						"textures": "marblebrick",
+						"sound": "brick"
+					},
+					"ores:alloy_foundry": {
+						"textures": "alloy",
+						"sound": "metal"
+					}
+				},
+				"key": "ores:stalagmite",
+				"is_minified": true,
+				"children": {
+					"textures": "gg",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:i_stone",
+				"is_minified": true,
+				"children": {
+					"textures": "istone",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:i_coal",
+				"is_minified": true,
+				"children": {
+					"textures": "icoal",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:i_iron",
+				"is_minified": true,
+				"children": {
+					"textures": "iiron",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:i_gold",
+				"is_minified": true,
+				"children": {
+					"textures": "igold",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:i_lapis",
+				"is_minified": true,
+				"children": {
+					"textures": "ilapis",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:i_redstone",
+				"is_minified": true,
+				"children": {
+					"textures": "iredstone",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:i_diamond",
+				"is_minified": true,
+				"children": {
+					"textures": "idiamond",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:i_granite",
+				"is_minified": true,
+				"children": {
+					"textures": "igranite",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:i_andesite",
+				"is_minified": true,
+				"children": {
+					"textures": "iandesite",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:i_diorite",
+				"is_minified": true,
+				"children": {
+					"textures": "idiorite",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:j_stone",
+				"is_minified": true,
+				"children": {
+					"textures": "jstone",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:j_granite",
+				"is_minified": true,
+				"children": {
+					"textures": "jgranite",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:j_andesite",
+				"is_minified": true,
+				"children": {
+					"textures": "jandesite",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:j_diorite",
+				"is_minified": true,
+				"children": {
+					"textures": "jdiorite",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:j_coal",
+				"is_minified": true,
+				"children": {
+					"textures": "jcoal",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:j_iron",
+				"is_minified": true,
+				"children": {
+					"textures": "jiron",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:j_gold",
+				"is_minified": true,
+				"children": {
+					"textures": "jgold",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:j_lapis",
+				"is_minified": true,
+				"children": {
+					"textures": "jlapis",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:j_redstone",
+				"is_minified": true,
+				"children": {
+					"textures": "jredstone",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:j_diamond",
+				"is_minified": true,
+				"children": {
+					"textures": "jdiamond",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:mud_block",
+				"is_minified": true,
+				"children": {
+					"textures": "mudblock",
+					"sound": "gravel"
+				}
+			},
+			{
+				"key": "ores:s_stone",
+				"is_minified": true,
+				"children": {
+					"textures": "sstone",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:s_granite",
+				"is_minified": true,
+				"children": {
+					"textures": "sgranite",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:s_andesite",
+				"is_minified": true,
+				"children": {
+					"textures": "sandesite",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:s_diorite",
+				"is_minified": true,
+				"children": {
+					"textures": "sdiorite",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:s_coal",
+				"is_minified": true,
+				"children": {
+					"textures": "scoal",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:s_iron",
+				"is_minified": true,
+				"children": {
+					"textures": "siron",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:s_gold",
+				"is_minified": true,
+				"children": {
+					"textures": "sgold",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:s_lapis",
+				"is_minified": true,
+				"children": {
+					"textures": "slapis",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:s_redstone",
+				"is_minified": true,
+				"children": {
+					"textures": "sredstone",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:s_diamond",
+				"is_minified": true,
+				"children": {
+					"textures": "sdiamond",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:blue_mushroom",
+				"is_minified": true,
+				"children": {
+					"textures": "bluemushroom",
+					"sound": "vines"
+				}
+			},
+			{
+				"key": "ores:yellow_crystal_block",
+				"is_minified": true,
+				"children": {
+					"textures": "yellowcrystalblock",
+					"sound": "glass"
+				}
+			},
+			{
+				"key": "ores:blue_crystal_block",
+				"is_minified": true,
+				"children": {
+					"textures": "bluecrystalblock",
+					"sound": "glass"
+				}
+			},
+			{
+				"key": "ores:red_crystal_block",
+				"is_minified": true,
+				"children": {
+					"textures": "redcrystalblock",
+					"sound": "glass"
+				}
+			},
+			{
+				"key": "ores:l_stone",
+				"is_minified": true,
+				"children": {
+					"textures": "lstone",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:cold_stone",
+				"is_minified": true,
+				"children": {
+					"textures": "coldstone",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:m_stone",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "mstonetop",
+						"side": "mstoneside",
+						"down": "mstonebottem"
+					},
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:gm_stone",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "gmstonetop",
+						"side": "gmstoneside",
+						"down": "gmstonebottem"
+					},
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:compressor",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "compressortop",
+						"side": "compressorside",
+						"down": "compressorside"
+					},
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:r_dirt",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "toproot",
+						"side": "rdirt",
+						"down": "toproot"
+					},
+					"sound": "gravel"
+				}
+			},
+			{
+				"key": "ores:compressed_cobblestone",
+				"is_minified": true,
+				"children": {
+					"textures": "compressedcobblestone",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:oil_block",
+				"is_minified": true,
+				"children": {
+					"textures": "oilblock",
+					"sound": "metal"
+				}
+			},
+			{
+				"key": "ores:cave_grass",
+				"is_minified": true,
+				"children": {
+					"textures": "cavegrass",
+					"sound": "grass"
+				}
+			},
+			{
+				"key": "ores:cave_grass_glow",
+				"is_minified": true,
+				"children": {
+					"textures": "cavegrassglow",
+					"sound": "grass"
+				}
+			},
+			{
+				"key": "ores:laser",
+				"is_minified": true,
+				"children": {
+					"textures": "laser",
+					"sound": "vines"
+				}
+			},
+			{
+				"key": "ores:roof",
+				"is_minified": true,
+				"children": {
+					"textures": "roof",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:marble",
+				"is_minified": true,
+				"children": {
+					"textures": "marble",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:molten_stone",
+				"is_minified": true,
+				"children": {
+					"textures": "moltenstone",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:limestone",
+				"is_minified": true,
+				"children": {
+					"textures": "limestone",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:w_rack",
+				"is_minified": true,
+				"children": {
+					"textures": "wrack",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:c_rack",
+				"is_minified": true,
+				"children": {
+					"textures": "crack",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:b_rack",
+				"is_minified": true,
+				"children": {
+					"textures": "brack",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:s_rack",
+				"is_minified": true,
+				"children": {
+					"textures": "srack",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:prismarine_crystal",
+				"is_minified": true,
+				"children": {
+					"textures": "crystal",
+					"sound": "glass"
+				}
+			},
+			{
+				"key": "ores:icicle",
+				"is_minified": true,
+				"children": {
+					"textures": "ice",
+					"sound": "glass"
+				}
+			},
+			{
+				"key": "ores:slush",
+				"is_minified": true,
+				"children": {
+					"textures": "slush",
+					"sound": "grass"
+				}
+			},
+			{
+				"key": "ores:end_grass",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "etop",
+						"side": "eside",
+						"down": "end_stone"
+					}
+				}
+			},
+			{
+				"key": "ores:spread",
+				"is_minified": true,
+				"children": {
+					"textures": "spread",
+					"sound": "nylium"
+				}
+			},
+			{
+				"key": "ores:glowing_grape_bush",
+				"is_minified": true,
+				"children": {
+					"sound": "grass",
+					"textures": "glowing_grape_crop"
+				}
+			},
+			{
+				"key": "ores:glowing_grape_non",
+				"is_minified": true,
+				"children": {
+					"textures": "glowing_grape_non",
+					"sound": "grass"
+				}
+			},
+			{
+				"key": "ores:package_cave_base",
+				"children": [
+					{
+						"open": {
+							"textures": {
+								"up": "packagetop",
+								"down": "packagebottom",
+								"side": "packageside"
+							},
+							"sound": "metal"
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "packagetop",
+							"down": "packagebottom",
+							"side": "packageside"
+						}
+					},
+					{
+						"data": "metal",
+						"key": "sound"
+					}
+				]
+			},
+			{
+				"key": "ores:long_vine",
+				"is_minified": true,
+				"children": {
+					"textures": "vinelong",
+					"sound": "grass"
+				}
+			},
+			{
+				"key": "ores:centrifuge",
+				"children": [
+					{
+						"open": {
+							"textures": {
+								"up": "centrifuge",
+								"side": "packageside",
+								"down": "packagebottom"
+							},
+							"sound": "metal"
+						},
+						"key": "textures",
+						"is_minified": true,
+						"children": {
+							"up": "centrifuge",
+							"side": "packageside",
+							"down": "packagebottom"
+						}
+					},
+					{
+						"data": "metal",
+						"key": "sound"
+					}
+				]
+			},
+			{
+				"key": "ores:glowing_grass",
+				"is_minified": true,
+				"children": {
+					"textures": {
+						"up": "ggrasstop",
+						"down": "ggrassbottom",
+						"side": "ggrassside"
+					},
+					"sound": "gravel"
+				}
+			},
+			{
+				"key": "ores:purple_mushroom",
+				"is_minified": true,
+				"children": {
+					"textures": "purplemushroom",
+					"sound": "grass"
+				}
+			},
+			{
+				"key": "ores:blue_crystal",
+				"is_minified": true,
+				"children": {
+					"textures": "bluecrystal",
+					"sound": "glass"
+				}
+			},
+			{
+				"key": "ores:glowing_mushroom",
+				"is_minified": true,
+				"children": {
+					"textures": "glowingmushroom",
+					"sound": "grass"
+				}
+			},
+			{
+				"key": "ores:moss",
+				"is_minified": true,
+				"children": {
+					"textures": "moss",
+					"sound": "grass"
+				}
+			},
+			{
+				"key": "ores:cinquanta_ore",
+				"is_minified": true,
+				"children": {
+					"textures": "cinquanta",
+					"sound": "stone"
+				}
+			},
+			{
+				"key": "ores:marble_brick",
+				"is_minified": true,
+				"children": {
+					"textures": "marblebrick",
+					"sound": "brick"
+				}
+			},
+			{
+				"open": {
+					"format_version": [
+						1,
+						1,
+						0
+					],
+					"ores:adamantite_block": {
+						"textures": "adamantiteblock",
+						"sound": "metal"
+					},
+					"ores:adamantite_ore": {
+						"textures": "adamantite",
+						"sound": "metal"
+					},
+					"ores:aluminium_block": {
+						"textures": "aluminiumblock",
+						"sound": "metal"
+					},
+					"ores:amber_block": {
+						"textures": "amberblock",
+						"sound": "metal"
+					},
+					"ores:amber_ore": {
+						"textures": "amber",
+						"sound": "stone"
+					},
+					"ores:amethyst_block": {
+						"textures": "amethystblock",
+						"sound": "metal"
+					},
+					"ores:amethyst_ore": {
+						"textures": "amethyst",
+						"sound": "stone"
+					},
+					"ores:bauxite_ore": {
+						"textures": "bauxite",
+						"sound": "stone"
+					},
+					"ores:black_opal_block": {
+						"textures": "blackopalblock",
+						"sound": "metal"
+					},
+					"ores:black_opal_ore": {
+						"textures": "blackopal",
+						"sound": "metal"
+					},
+					"ores:calcite_block": {
+						"textures": "calciteblock",
+						"sound": "metal"
+					},
+					"ores:calcite_ore": {
+						"textures": "calcite",
+						"sound": "stone"
+					},
+					"ores:celestine_block": {
+						"textures": "celestineblock",
+						"sound": "metal"
+					},
+					"ores:celestine_ore": {
+						"textures": "celestine",
+						"sound": "metal"
+					},
+					"ores:cinnabar_block": {
+						"textures": "cinnabarblock",
+						"sound": "metal"
+					},
+					"ores:cinnabar_ore": {
+						"textures": "cinnabar",
+						"sound": "stone"
+					},
+					"ores:cobalt_block": {
+						"textures": "cobaltblock",
+						"sound": "metal"
+					},
+					"ores:cobalt_ore": {
+						"textures": "cobalt",
+						"sound": "stone"
+					},
+					"ores:copper_block": {
+						"textures": "copperblock",
+						"sound": "metal"
+					},
+					"ores:copper_ore": {
+						"textures": "copper",
+						"sound": "metal"
+					},
+					"ores:dragon_glass_block": {
+						"textures": "dragonglassblock",
+						"sound": "metal"
+					},
+					"ores:dragon_glass_ore": {
+						"textures": "dragonglass",
+						"sound": "metal"
+					},
+					"ores:end_diamond_ore": {
+						"textures": "enddiamond",
+						"sound": "stone"
+					},
+					"ores:end_plutonium_ore": {
+						"textures": "endplutonium",
+						"sound": "stone"
+					},
+					"ores:end_yttrium_ore": {
+						"textures": "enyttrium",
+						"sound": "metal"
+					},
+					"ores:flurite_block": {
+						"textures": "fluriteblock",
+						"sound": "metal"
+					},
+					"ores:flurite_ore": {
+						"textures": "flurite",
+						"sound": "stone"
+					},
+					"ores:fossil_stone_ore": {
+						"textures": "fossilstone",
+						"sound": "stone"
+					},
+					"ores:garnet_block": {
+						"textures": "garnetblock",
+						"sound": "metal"
+					},
+					"ores:gypsum_block": {
+						"textures": "gypsumblock",
+						"sound": "metal"
+					},
+					"ores:garnet_ore": {
+						"textures": "garnet",
+						"sound": "metal"
+					},
+					"ores:hematite_block": {
+						"textures": "hematiteblock",
+						"sound": "metal"
+					},
+					"ores:hematite_ore": {
+						"textures": "hematite",
+						"sound": "metal"
+					},
+					"ores:jade_block": {
+						"textures": "jadeblock",
+						"sound": "metal"
+					},
+					"ores:jade_ore": {
+						"textures": "jade",
+						"sound": "stone"
+					},
+					"ores:kryptonite_block": {
+						"textures": "kryptoniteblock",
+						"sound": "metal"
+					},
+					"ores:kyanite_block": {
+						"textures": "kyaniteblock",
+						"sound": "metal"
+					},
+					"ores:kryptonite_ore": {
+						"textures": "kryptonite",
+						"sound": "metal"
+					},
+					"ores:lava_stone_block": {
+						"textures": "lavastoneblock",
+						"sound": "metal"
+					},
+					"ores:lava_stone_ore": {
+						"textures": "lavastone",
+						"sound": "metal"
+					},
+					"ores:lead_block": {
+						"textures": "leadblock",
+						"sound": "metal"
+					},
+					"ores:lead_ore": {
+						"textures": "lead",
+						"sound": "stone"
+					},
+					"ores:magnetite_block": {
+						"textures": "magnetiteblock",
+						"sound": "metal"
+					},
+					"ores:magnetite_ore": {
+						"textures": "magnetite",
+						"sound": "metal"
+					},
+					"ores:mica_block": {
+						"textures": "micablock",
+						"sound": "metal"
+					},
+					"ores:mica_ore": {
+						"textures": "mica",
+						"sound": "stone"
+					},
+					"ores:nether_diamond_ore": {
+						"textures": "netherdiamond",
+						"sound": "stone"
+					},
+					"ores:nether_emerald_ore": {
+						"textures": "netheremerald",
+						"sound": "stone"
+					},
+					"ores:nether_gypsum_ore": {
+						"textures": "nethergypsum",
+						"sound": "stone"
+					},
+					"ores:nether_kyanite_ore": {
+						"textures": "netherkyanite",
+						"sound": "metal"
+					},
+					"ores:nether_sulfur_ore": {
+						"textures": "nethersulfur",
+						"sound": "stone"
+					},
+					"ores:nether_tin_ore": {
+						"textures": "nethertin",
+						"sound": "metal"
+					},
+					"ores:nether_topaz_ore": {
+						"textures": "nethertopaz",
+						"sound": "metal"
+					},
+					"ores:nether_zinc_ore": {
+						"textures": "netherzinc",
+						"sound": "metal"
+					},
+					"ores:nickel_block": {
+						"textures": "nickelblock",
+						"sound": "metal"
+					},
+					"ores:nickel_ore": {
+						"textures": "nickel",
+						"sound": "metal"
+					},
+					"ores:ocean_stone_ore": {
+						"textures": "oceanstone",
+						"sound": "stone"
+					},
+					"ores:opal_block": {
+						"textures": "opalblock",
+						"sound": "metal"
+					},
+					"ores:opal_ore": {
+						"textures": "opal",
+						"sound": "stone"
+					},
+					"ores:painite_block": {
+						"textures": "painiteblock",
+						"sound": "metal"
+					},
+					"ores:painite_ore": {
+						"textures": "painite",
+						"sound": "metal"
+					},
+					"ores:platnium_block": {
+						"textures": "platniumblock",
+						"sound": "metal"
+					},
+					"ores:platnium_ore": {
+						"textures": "platnium",
+						"sound": "metal"
+					},
+					"ores:plutonium_block": {
+						"textures": "plutoniumblock",
+						"sound": "metal"
+					},
+					"ores:prismarite_block": {
+						"textures": "prismariteblock",
+						"sound": "metal"
+					},
+					"ores:prismarite_ore": {
+						"textures": "prismarite",
+						"sound": "stone"
+					},
+					"ores:prolinite_block": {
+						"textures": "proliniteblock",
+						"sound": "metal"
+					},
+					"ores:prolinite_ore": {
+						"textures": "prolinite",
+						"sound": "stone"
+					},
+					"ores:pyrite_block": {
+						"textures": "pyriteblock",
+						"sound": "metal"
+					},
+					"ores:pyrite_ore": {
+						"textures": "pyrite",
+						"sound": "stone"
+					},
+					"ores:ruby_block": {
+						"textures": "rubyblock",
+						"sound": "metal"
+					},
+					"ores:ruby_ore": {
+						"textures": "ruby",
+						"sound": "stone"
+					},
+					"ores:sapphire_block": {
+						"textures": "sapphireblock",
+						"sound": "metal"
+					},
+					"ores:sapphire_ore": {
+						"textures": "sapphire",
+						"sound": "stone"
+					},
+					"ores:sulfer_block": {
+						"textures": "sulferblock",
+						"sound": "metal"
+					},
+					"ores:silver_ore": {
+						"textures": "silver",
+						"sound": "metal"
+					},
+					"ores:sypmium_block": {
+						"textures": "sypmiumblock",
+						"sound": "metal"
+					},
+					"ores:sypmium_ore": {
+						"textures": "sypmium",
+						"sound": "stone"
+					},
+					"ores:tin_block": {
+						"textures": "tinblock",
+						"sound": "metal"
+					},
+					"ores:tanzanite_ore": {
+						"textures": "tanzanite",
+						"sound": "metal"
+					},
+					"ores:topaz_block": {
+						"textures": "topazblock",
+						"sound": "metal"
+					},
+					"ores:titanium_ore": {
+						"textures": "titanium",
+						"sound": "metal"
+					},
+					"ores:tungsten_block": {
+						"textures": "tungstenblock",
+						"sound": "metal"
+					},
+					"ores:tungsten_ore": {
+						"textures": "tungsten",
+						"sound": "metal"
+					},
+					"ores:uranium_block": {
+						"textures": "uraniumblock",
+						"sound": "metal"
+					},
+					"ores:uranium_ore": {
+						"textures": "uranium",
+						"sound": "stone"
+					},
+					"ores:void_stone_ore": {
+						"textures": "voidstone",
+						"sound": "stone"
+					},
+					"ores:yttrium_block": {
+						"textures": "yttriumblock",
+						"sound": "metal"
+					},
+					"ores:zinc_block": {
+						"textures": "zincblock",
+						"sound": "metal"
+					},
+					"ores:zincolium_ore": {
+						"textures": "zincolium",
+						"sound": "metal"
+					},
+					"ores:tanzanite_block": {
+						"textures": "tanzaniteblock",
+						"sound": "metal"
+					},
+					"ores:stalagmite": {
+						"textures": "gg",
+						"sound": "stone"
+					},
+					"ores:i_stone": {
+						"textures": "istone",
+						"sound": "stone"
+					},
+					"ores:i_coal": {
+						"textures": "icoal",
+						"sound": "stone"
+					},
+					"ores:i_iron": {
+						"textures": "iiron",
+						"sound": "stone"
+					},
+					"ores:i_gold": {
+						"textures": "igold",
+						"sound": "stone"
+					},
+					"ores:i_lapis": {
+						"textures": "ilapis",
+						"sound": "stone"
+					},
+					"ores:i_redstone": {
+						"textures": "iredstone",
+						"sound": "stone"
+					},
+					"ores:i_diamond": {
+						"textures": "idiamond",
+						"sound": "stone"
+					},
+					"ores:i_granite": {
+						"textures": "igranite",
+						"sound": "stone"
+					},
+					"ores:i_andesite": {
+						"textures": "iandesite",
+						"sound": "stone"
+					},
+					"ores:i_diorite": {
+						"textures": "idiorite",
+						"sound": "stone"
+					},
+					"ores:j_stone": {
+						"textures": "jstone",
+						"sound": "stone"
+					},
+					"ores:j_granite": {
+						"textures": "jgranite",
+						"sound": "stone"
+					},
+					"ores:j_andesite": {
+						"textures": "jandesite",
+						"sound": "stone"
+					},
+					"ores:j_diorite": {
+						"textures": "jdiorite",
+						"sound": "stone"
+					},
+					"ores:j_coal": {
+						"textures": "jcoal",
+						"sound": "stone"
+					},
+					"ores:j_iron": {
+						"textures": "jiron",
+						"sound": "stone"
+					},
+					"ores:j_gold": {
+						"textures": "jgold",
+						"sound": "stone"
+					},
+					"ores:j_lapis": {
+						"textures": "jlapis",
+						"sound": "stone"
+					},
+					"ores:j_redstone": {
+						"textures": "jredstone",
+						"sound": "stone"
+					},
+					"ores:j_diamond": {
+						"textures": "jdiamond",
+						"sound": "stone"
+					},
+					"ores:mud_block": {
+						"textures": "mudblock",
+						"sound": "gravel"
+					},
+					"ores:s_stone": {
+						"textures": "sstone",
+						"sound": "stone"
+					},
+					"ores:s_granite": {
+						"textures": "sgranite",
+						"sound": "stone"
+					},
+					"ores:s_andesite": {
+						"textures": "sandesite",
+						"sound": "stone"
+					},
+					"ores:s_diorite": {
+						"textures": "sdiorite",
+						"sound": "stone"
+					},
+					"ores:s_coal": {
+						"textures": "scoal",
+						"sound": "stone"
+					},
+					"ores:s_iron": {
+						"textures": "siron",
+						"sound": "stone"
+					},
+					"ores:s_gold": {
+						"textures": "sgold",
+						"sound": "stone"
+					},
+					"ores:s_lapis": {
+						"textures": "slapis",
+						"sound": "stone"
+					},
+					"ores:s_redstone": {
+						"textures": "sredstone",
+						"sound": "stone"
+					},
+					"ores:s_diamond": {
+						"textures": "sdiamond",
+						"sound": "stone"
+					},
+					"ores:blue_mushroom": {
+						"textures": "bluemushroom",
+						"sound": "vines"
+					},
+					"ores:yellow_crystal_block": {
+						"textures": "yellowcrystalblock",
+						"sound": "glass"
+					},
+					"ores:blue_crystal_block": {
+						"textures": "bluecrystalblock",
+						"sound": "glass"
+					},
+					"ores:red_crystal_block": {
+						"textures": "redcrystalblock",
+						"sound": "glass"
+					},
+					"ores:l_stone": {
+						"textures": "lstone",
+						"sound": "stone"
+					},
+					"ores:cold_stone": {
+						"textures": "coldstone",
+						"sound": "stone"
+					},
+					"ores:m_stone": {
+						"textures": {
+							"up": "mstonetop",
+							"side": "mstoneside",
+							"down": "mstonebottem"
+						},
+						"sound": "stone"
+					},
+					"ores:gm_stone": {
+						"textures": {
+							"up": "gmstonetop",
+							"side": "gmstoneside",
+							"down": "gmstonebottem"
+						},
+						"sound": "stone"
+					},
+					"ores:compressor": {
+						"textures": {
+							"up": "compressortop",
+							"side": "compressorside",
+							"down": "compressorside"
+						},
+						"sound": "stone"
+					},
+					"ores:r_dirt": {
+						"textures": {
+							"up": "toproot",
+							"side": "rdirt",
+							"down": "toproot"
+						},
+						"sound": "gravel"
+					},
+					"ores:compressed_cobblestone": {
+						"textures": "compressedcobblestone",
+						"sound": "stone"
+					},
+					"ores:oil_block": {
+						"textures": "oilblock",
+						"sound": "metal"
+					},
+					"ores:cave_grass": {
+						"textures": "cavegrass",
+						"sound": "grass"
+					},
+					"ores:cave_grass_glow": {
+						"textures": "cavegrassglow",
+						"sound": "grass"
+					},
+					"ores:laser": {
+						"textures": "laser",
+						"sound": "vines"
+					},
+					"ores:roof": {
+						"textures": "roof",
+						"sound": "stone"
+					},
+					"ores:marble": {
+						"textures": "marble",
+						"sound": "stone"
+					},
+					"ores:molten_stone": {
+						"textures": "moltenstone",
+						"sound": "stone"
+					},
+					"ores:limestone": {
+						"textures": "limestone",
+						"sound": "stone"
+					},
+					"ores:w_rack": {
+						"textures": "wrack",
+						"sound": "stone"
+					},
+					"ores:c_rack": {
+						"textures": "crack",
+						"sound": "stone"
+					},
+					"ores:b_rack": {
+						"textures": "brack",
+						"sound": "stone"
+					},
+					"ores:s_rack": {
+						"textures": "srack",
+						"sound": "stone"
+					},
+					"ores:prismarine_crystal": {
+						"textures": "crystal",
+						"sound": "glass"
+					},
+					"ores:icicle": {
+						"textures": "ice",
+						"sound": "glass"
+					},
+					"ores:slush": {
+						"textures": "slush",
+						"sound": "grass"
+					},
+					"ores:end_grass": {
+						"textures": {
+							"up": "etop",
+							"side": "eside",
+							"down": "end_stone"
+						}
+					},
+					"ores:spread": {
+						"textures": "spread",
+						"sound": "nylium"
+					},
+					"ores:glowing_grape_bush": {
+						"sound": "grass",
+						"textures": "glowing_grape_crop"
+					},
+					"ores:glowing_grape_non": {
+						"textures": "glowing_grape_non",
+						"sound": "grass"
+					},
+					"ores:package_cave_base": {
+						"textures": {
+							"up": "packagetop",
+							"down": "packagebottom",
+							"side": "packageside"
+						},
+						"sound": "metal"
+					},
+					"ores:long_vine": {
+						"textures": "vinelong",
+						"sound": "grass"
+					},
+					"ores:centrifuge": {
+						"textures": {
+							"up": "centrifuge",
+							"side": "packageside",
+							"down": "packagebottom"
+						},
+						"sound": "metal"
+					},
+					"ores:glowing_grass": {
+						"textures": {
+							"up": "ggrasstop",
+							"down": "ggrassbottom",
+							"side": "ggrassside"
+						},
+						"sound": "gravel"
+					},
+					"ores:purple_mushroom": {
+						"textures": "purplemushroom",
+						"sound": "grass"
+					},
+					"ores:blue_crystal": {
+						"textures": "bluecrystal",
+						"sound": "glass"
+					},
+					"ores:glowing_mushroom": {
+						"textures": "glowingmushroom",
+						"sound": "grass"
+					},
+					"ores:moss": {
+						"textures": "moss",
+						"sound": "grass"
+					},
+					"ores:cinquanta_ore": {
+						"textures": "cinquanta",
+						"sound": "stone"
+					},
+					"ores:marble_brick": {
+						"textures": "marblebrick",
+						"sound": "brick"
+					},
+					"ores:alloy_foundry": {
+						"textures": "alloy",
+						"sound": "metal"
+					}
+				},
+				"key": "ores:alloy_foundry",
+				"is_minified": true,
+				"children": {
+					"textures": "alloy",
+					"sound": "metal"
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,36 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:glowing_grass"
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:explosion_resistance": 2,
+			"minecraft:loot": "loot_tables/g_grass_loot.json",
+			"minecraft:ticking": {
+				"range": [
+					1,
+					1
+				],
+				"looping": false,
+				"on_tick": {
+					"event": "biome",
+					"target": "other"
+				}
+			}
+		},
+		"events": {
+			"biome": {
+				"run_command": {
+					"command": [
+						"fill ~~~ ~50 ~3 ~40 ores:glowing_grass 0 replace stone 0",
+						"fill ~~~ ~ 20~-5 ~39 ores:glowing_grass 0 replace stone 0"
+					]
+				}
+			}
+		}
+	}
+}

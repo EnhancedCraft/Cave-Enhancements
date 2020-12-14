@@ -1,0 +1,264 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\blocks\\garnet_ore.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "7b3a30d4_2ae2_4c44_a894_21e2e8562ad8",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "ores:garnet_ore",
+							"is_experimental": false
+						},
+						"components": {
+							"minecraft:destroy_time": 1400,
+							"minecraft:friction": 1,
+							"minecraft:explosion_resistance": 10,
+							"minecraft:loot": "loot_tables/garnet_loot.json",
+							"minecraft:on_player_destroyed": {
+								"event": "destroy"
+							},
+							"tag:ores:easy": {}
+						},
+						"events": {
+							"destroy": {
+								"run_command": {
+									"command": [
+										"summon xp_orb",
+										"summon xp_orb"
+									]
+								}
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "ores:garnet_ore",
+							"is_experimental": false
+						},
+						"components": {
+							"minecraft:destroy_time": 1400,
+							"minecraft:friction": 1,
+							"minecraft:explosion_resistance": 10,
+							"minecraft:loot": "loot_tables/garnet_loot.json",
+							"minecraft:on_player_destroyed": {
+								"event": "destroy"
+							},
+							"tag:ores:easy": {}
+						},
+						"events": {
+							"destroy": {
+								"run_command": {
+									"command": [
+										"summon xp_orb",
+										"summon xp_orb"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:garnet_ore",
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:destroy_time": 1400,
+								"minecraft:friction": 1,
+								"minecraft:explosion_resistance": 10,
+								"minecraft:loot": "loot_tables/garnet_loot.json",
+								"minecraft:on_player_destroyed": {
+									"event": "destroy"
+								},
+								"tag:ores:easy": {}
+							},
+							"events": {
+								"destroy": {
+									"run_command": {
+										"command": [
+											"summon xp_orb",
+											"summon xp_orb"
+										]
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:garnet_ore",
+							"is_experimental": false
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:garnet_ore",
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:destroy_time": 1400,
+								"minecraft:friction": 1,
+								"minecraft:explosion_resistance": 10,
+								"minecraft:loot": "loot_tables/garnet_loot.json",
+								"minecraft:on_player_destroyed": {
+									"event": "destroy"
+								},
+								"tag:ores:easy": {}
+							},
+							"events": {
+								"destroy": {
+									"run_command": {
+										"command": [
+											"summon xp_orb",
+											"summon xp_orb"
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:destroy_time": 1400,
+									"minecraft:friction": 1,
+									"minecraft:explosion_resistance": 10,
+									"minecraft:loot": "loot_tables/garnet_loot.json",
+									"minecraft:on_player_destroyed": {
+										"event": "destroy"
+									},
+									"tag:ores:easy": {}
+								},
+								"data": "1400",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"data": "1",
+								"key": "minecraft:friction"
+							},
+							{
+								"data": "10",
+								"key": "minecraft:explosion_resistance"
+							},
+							{
+								"data": "loot_tables/garnet_loot.json",
+								"key": "minecraft:loot"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 1400,
+									"minecraft:friction": 1,
+									"minecraft:explosion_resistance": 10,
+									"minecraft:loot": "loot_tables/garnet_loot.json",
+									"minecraft:on_player_destroyed": {
+										"event": "destroy"
+									},
+									"tag:ores:easy": {}
+								},
+								"key": "minecraft:on_player_destroyed",
+								"is_minified": true,
+								"children": {
+									"event": "destroy"
+								}
+							},
+							{
+								"key": "tag:ores:easy",
+								"is_minified": true,
+								"children": {}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:garnet_ore",
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:destroy_time": 1400,
+								"minecraft:friction": 1,
+								"minecraft:explosion_resistance": 10,
+								"minecraft:loot": "loot_tables/garnet_loot.json",
+								"minecraft:on_player_destroyed": {
+									"event": "destroy"
+								},
+								"tag:ores:easy": {}
+							},
+							"events": {
+								"destroy": {
+									"run_command": {
+										"command": [
+											"summon xp_orb",
+											"summon xp_orb"
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"destroy": {
+										"run_command": {
+											"command": [
+												"summon xp_orb",
+												"summon xp_orb"
+											]
+										}
+									}
+								},
+								"key": "destroy",
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"summon xp_orb",
+													"summon xp_orb"
+												]
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"summon xp_orb",
+														"summon xp_orb"
+													]
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"summon xp_orb",
+													"summon xp_orb"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

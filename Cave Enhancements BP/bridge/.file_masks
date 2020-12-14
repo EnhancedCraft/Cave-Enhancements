@@ -1,0 +1,5798 @@
+{
+	"BP/manifest.json": {
+		"data": {}
+	},
+	"RP/ifest.json": {
+		"data": {}
+	},
+	"BP/entities/player.json": {
+		"data": {
+			"item_component@353c61ad_0073_4183_b612_7aca4280b58d": {
+				"minecraft:entity": {
+					"component_groups": {
+						"bridge:default_player": {},
+						"bridge:equipped_353c61ad_0073_4183_b612_7aca4280b58d": {}
+					},
+					"events": {
+						"bridge:on_reset_player": {
+							"add": {
+								"component_groups": [
+									"bridge:default_player"
+								]
+							}
+						},
+						"bridge:on_equipped_353c61ad_0073_4183_b612_7aca4280b58d": {
+							"add": {
+								"component_groups": [
+									"bridge:equipped_353c61ad_0073_4183_b612_7aca4280b58d"
+								]
+							}
+						},
+						"bridge:on_unequipped_353c61ad_0073_4183_b612_7aca4280b58d": {
+							"remove": {
+								"component_groups": [
+									"bridge:equipped_353c61ad_0073_4183_b612_7aca4280b58d"
+								]
+							}
+						}
+					}
+				}
+			},
+			"item_component@general": {
+				"minecraft:entity": {
+					"description": {
+						"animations": {
+							"bridge_custom_item_behavior": "controller.animation.bridge_custom_item_behavior"
+						},
+						"scripts": {
+							"animate": [
+								"bridge_custom_item_behavior"
+							]
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/animation_controllers/bridge/custom_item_behavior.json": {
+		"data": {
+			"f50c1a41_7f7c_452d_942c_71bc36e7034f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"26694dc2_0130_467c_ba3b_575126acfb83": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"7d96725b_f9b2_40d8_97d1_ad62dd338876": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"90c10ea6_19c4_45d1_896a_0274fbe4eec2": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"15e51b7a_414d_4cb6_8c3b_13eb0a5b6e82": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"661ec2ec_3e98_403b_aeb6_6f448480e973": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"f0236c23_bda3_49c2_9bcb_e14decc9dd99": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"5d99f042_e3cf_470e_81ab_f80e2ac08ace": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"4dd74737_bf89_4f68_8ebe_f2e70c01cf38": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"46161c2d_ca5a_4c35_84f1_9ecf95aded1c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"92168ca8_54b9_4e9a_8fa5_1aa21a5d74ae": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"173a2434_1efa_416e_9f7d_4fdb05452cb1": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"5a326160_df0a_4bf7_90d9_5eedb655ed0b": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"623be42d_bc3b_4ef6_b896_2fa75cc0b4e7": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"340a30dd_c3a3_46f9_8cf6_85a535ac4076": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"ee7f4e8d_543c_4c92_8bad_0acb043afabe": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a2723359_f5c5_46a9_8eb7_24ce502c0620": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"2ed9f08f_f976_4c25_b02a_81ec7747076c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"95140c6e_717f_40a4_8386_c76dbc4d8945": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"0b8cab28_48d0_4b9b_9ff6_2fc3cb1ff0d1": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"20f3a6f8_3c4c_4421_a363_3f8a739d7ecf": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"cdd672b7_73b4_464a_b05e_5c6d17bccf00": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"1c91d5dc_dca6_47b9_a046_2cf45961f75c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6dbc0e6a_b801_4a39_97d7_54ccf32acc52": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"d6912fd9_1b0c_42df_91fb_4b5463e876b9": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"fc7157d5_2d77_413e_ba82_c58c0f4ad1ec": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"ec535882_c1bd_45fe_94c8_e5873e0d97bb": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"3b636c6c_18b7_4526_a78d_1f929ad0a9ba": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"0399443d_a87c_4373_8b26_062d0bd083ab": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"cc1bc392_0c1c_4d77_b69a_eb8bd2e9b569": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"4d7d260a_79c0_4ccb_8d2e_6aeff559395f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"934f09db_fa95_41d5_8fed_a0c244b4b510": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"7410bc29_06e2_4706_a6ac_d488f1195f4f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"3520337f_1d3f_4f6c_8c64_63ec71370b94": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"581f3a81_a226_4d53_adac_d11d762a3f81": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"fccdf91d_20fa_4aae_bd1f_c12353df1fb9": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"64003cb3_c0eb_4bed_b5b6_5f03a4265430": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a8de0738_cac9_455b_aeb9_8f6350538356": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"0fc609b8_37d0_41b9_982b_b8e2f4053174": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a5a85e24_c042_4c72_8765_ee7dbf747740": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"502fc75c_9cb2_49b4_99c6_9aa334c3bcbf": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"ae6ce0c4_7e0c_42c2_9317_a98b2cddda23": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"ef2571fa_266d_469a_9e52_5118720095ee": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"b60edfe2_8fc1_44ed_b440_99f901259aa3": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"65ddec08_3c0f_4812_b8c9_8cc48aad5007": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"87047a03_06da_4464_86a1_bf1a2745f075": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6bc0b1ce_b6d6_4ab5_a127_5f2901f024dc": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"959afec1_7e46_468c_a862_1c9603ca777e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"77e1df53_b6df_4cd6_ba13_6964b54fa170": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"63ecaeda_56a6_4bbf_9707_c2e8c144151f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"b0767b95_ae7a_4d30_8ac6_5e679ac8230a": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"7b499fd2_242a_40b3_a3a1_a3d7b9a5620d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"bc10523d_5499_4ed6_b253_414b14af9fb7": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"084a1cfb_7852_4e2c_b2f3_e541a73c1fd8": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"2e29de78_cee1_4e9c_9714_030a745cd5d1": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"ca79f9f5_db94_467d_bf86_625fe115d26e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"632014b9_0ffd_4c5c_861e_6ef4e4ca9a46": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"5ad1cacc_3760_42b8_bb56_539186fa85e7": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"895dffbb_de1a_467f_9214_24fbe7881fee": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"cfcda09c_668b_4e90_af88_2e4401a90503": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"ca49b78c_6f6e_44ac_84e5_10847c100c84": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"65653089_c666_4f75_bbf9_a58c1182a544": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"371dbd4a_6b03_476b_a937_cec2f93899b1": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"f12451cb_cf84_4001_b621_9560fd918750": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"99e0582e_70a4_4727_b193_4684d91b2cd0": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"4684a28a_36ea_46e9_b673_d3f094e5de09": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"3a511a2d_1399_4b06_8320_be4aa8724f4f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"4020a19f_aaac_4e67_9827_2066dcd41a7c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"7aa13411_4de1_473d_b0ac_073cafd34a80": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"10d9c925_c9c3_4486_9a65_ceb057aed523": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a6b5c0ce_8380_415b_90fd_c70d491dd199": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"5953e507_65d5_4d43_a308_1aef080739a2": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"ec2c9b70_804b_457a_b464_3736fce1766f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"cb97df5d_834f_4ae7_acc7_58a1c7a05ae7": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"f0707a88_0a8a_472c_87d3_f483161983f2": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"be7fbe82_15ad_457c_93c1_29421a7bb1f8": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"b8f199f0_dddd_48b8_b2cd_7a1458f25810": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"98c28a73_65e0_4af9_9538_7f7286354d89": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"341d1dfc_7d0f_4019_b29b_8b1333db59de": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"60058556_c83f_4d28_9428_2f7689856284": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"5bfcb877_822a_4b66_bdae_a8ee4dd7f1e0": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"105edd42_e4b1_4913_8903_ff3c4baad8e7": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"50eba88f_9efe_4689_bde4_85fe4cff8506": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"75ebd734_3789_49ae_b73a_594f15e0cb6e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"89bc3db8_3ea8_44ab_a087_1507044a48f5": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"18dda4f0_5b0f_48a6_a574_19cd26fe5a28": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"e813f1ab_871d_49dd_9014_691c6e7696f1": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a1544aae_28e9_482b_9d88_77512fc82488": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"aeb32085_2cbf_47a6_8e3a_d5ab695fcbba": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"f1a0a9c6_dcb3_4d13_8c39_9cb6bf8097ef": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"34211304_d198_4dbf_9128_6abc80b1de93": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"0fff987e_b773_4834_8109_07e4385b6e12": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"889645c8_488e_4f2d_966d_7833b07601ed": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"e8fc1b83_2306_427e_bef9_5aa116f70597": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"d3f674a1_a6d4_43cb_adb0_3e194b9ee6c3": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"eb6c7c72_f2b6_43f3_b07e_d0dd728f7512": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"8ae4781d_2d58_4c49_8027_1ccdbfaa645a": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"5b1175a4_4d26_42a6_b57d_05c3e032cdc9": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"7a20a015_91ed_4f4d_bbdc_ee74cada3b67": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"8b4d324b_e688_4fd6_8995_79742ba7ecf0": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"3092f5fe_90bf_4492_a247_936b6f0281eb": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"4063d9ce_8762_4c5f_a09a_7fc89d42ec16": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"3098420b_42b5_4f06_bd32_cc9317106ec0": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"153108ac_5b19_4421_af48_7900ae0046ce": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"787e6f67_d2c0_4eb5_b8e9_03d337ee0ee7": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"18e16373_c3fc_4748_b13b_53140fe70929": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"5e197010_75a1_4e2f_974a_1e5b74ac8ab0": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"aa349303_a3bc_408d_a901_b5600ab4e8b0": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"5660386d_4d9c_4447_b7a5_8d2d04bc7499": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"368a2a93_8d04_4423_ba3d_3e11763f95da": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"50ef61ba_4ab6_45d4_8203_4602c191eaa2": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"15489acc_1dd8_4669_93f9_2fb1dfe28291": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"856aeffb_b798_4b92_8316_8708f0155204": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"fcca9a39_90ac_43fb_a929_253036662538": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"775ab841_7ae6_428f_93e9_a04534b1e1ae": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"3bb09ef5_c14c_4408_a512_e8233eb417aa": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"07f0bef3_9e7b_48d8_bba7_15775312cdfa": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"c930bd1f_1fd8_4165_b137_0ec971b74c3e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"40fb67c7_ba46_412c_9d3c_2df6fd618409": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"af8ff1b2_77cf_4525_9086_584c61f58fe5": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"69ffb0bb_ca25_4b1c_8ebc_40c1bf217141": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"1a5acaa3_f0a9_46b6_9869_d8b0cd5a1701": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a7db3c16_1537_4db9_895a_3f413278012e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"15839832_1978_43c3_a48b_34c138468a17": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"f0a9bdcb_a627_4cf6_a504_f2b80085a203": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"8e2294ca_6439_404c_b867_6de4e032463b": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"22e96f10_e276_4de9_a0ef_c18c97f8051b": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"3994d99d_196e_413a_9363_99116688fb32": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"7f4514cd_c68d_4418_a243_aeb846426cce": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"4f82a7b4_0c5b_4dd2_bc80_b49e5c4515fa": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"88243643_f016_46ee_8cf7_6f758eec11b0": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"ab5a776a_7ed7_4a65_ac0a_12fe4c15aa54": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"509633c1_57dd_4a3c_b900_fcb2663eac56": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"3b1a04d0_c33e_4166_899e_ceb5a8747f0a": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"d2328c27_f503_4202_a99f_4e475bd9c9a7": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"b7edc679_7782_4124_9de4_acfd1a366e16": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"dbcd4b47_d7f4_4022_9495_1401e89d2bd0": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6aee74d8_fb1f_4ebb_ac2d_55260d8b2a28": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"23dc5f90_be2f_4c79_bb6e_76ea2977d297": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"bd4057dd_9f14_48f4_82a7_360dd2a00878": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"3ec6c51f_1bee_4994_9bb4_5f05a5e706e0": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6dae5676_c38b_4bd7_b525_070fadeb9330": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"55cce637_8f90_4c40_bbd4_175638dde5a4": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"353c61ad_0073_4183_b612_7aca4280b58d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {
+								"transitions": [
+									{
+										"holds_kryptonite_apple": "query.get_equipped_item_name(0, 0) == 'kryptonite_apple'"
+									}
+								],
+								"on_entry": [
+									"@s bridge:on_reset_player"
+								]
+							},
+							"holds_kryptonite_apple": {
+								"transitions": [
+									{
+										"default": "query.get_equipped_item_name(0, 0) != 'kryptonite_apple'"
+									}
+								],
+								"on_entry": [
+									"@s bridge:on_equipped_353c61ad_0073_4183_b612_7aca4280b58d",
+									"/say Eat this apple to get powers?? You must survive the poison to get them. Made By Warhead ;)"
+								],
+								"on_exit": [
+									"@s bridge:on_unequipped_353c61ad_0073_4183_b612_7aca4280b58d"
+								]
+							}
+						}
+					}
+				}
+			},
+			"b28c4c96_197f_4153_bab1_185cee0f0bf3": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"626467cc_45bf_4c1f_b318_81d1164da84e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"86daf49a_59f2_463e_9c6c_7c3b1a85406c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"12fe8322_516c_4ed2_a18f_46530aefd710": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"620a9797_db57_4431_aba3_97014af53786": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"256c2010_7ae5_41db_954d_b23b2fa6c697": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"38aca78d_e7d1_4b5c_96a3_62256ce59451": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"8e9d554f_c4ca_49be_be0e_cbd5107b912f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"9b1cecd9_838a_49b2_9d0a_29cdfc0dfa5c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"61627d32_08d2_4d65_9381_38632e92a5b3": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"96ab628a_6f4a_43bc_aa95_dda28cb816ba": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a1b9d7f4_8cac_4e41_9df9_42218c71fa98": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"d672355c_f493_4db4_adcd_0c9017024d0a": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"4d17b9f8_f715_423a_b274_ec19581cd65c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"e4deea56_8286_418f_ae42_e79c50460f43": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"f06b9aa6_878f_4ad8_a95e_e73d0dd4e475": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"b3f0e6b4_2a41_4ecb_bc98_fbde0c8530e8": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"152d0471_0cb8_4f8f_ad92_b1b9bec1e3cb": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"759ce203_a11c_4e97_ac94_f1bf6e890313": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"cdc3bbae_f47c_4d92_bf54_8acc8df05cf6": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6d350868_e28f_40d3_bd85_fefeccd7193e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6cb345a2_0079_42f9_9f00_a9b242fcad81": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"e90a9b90_753c_4747_a003_0e0a8bb6eabc": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"9d83c148_7269_4d1c_934a_5754882504bd": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"55185949_3a88_4325_82d6_deb063fcbcf7": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"e4a3906e_93c9_4bcb_8509_dae69afd9a78": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"236b4167_3adc_4723_bbce_462b72511af2": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"c612e44a_25ab_4e36_ace4_fc5832a45a92": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"d68a6fa7_b371_475c_ac55_d61cc555dd02": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"160a2bdd_48a6_4305_bb58_5afbe205c2cf": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"75d9e2df_8981_40ac_a8e4_ab49e9158ada": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"46cdb6b5_5d4a_4b98_b96d_e47dfe316ab2": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"138e24e8_1d41_4fc3_9ca0_0a931dcf99aa": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"784d3996_173c_4292_85fa_91fd1209fbd9": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a37deb3f_7d8f_434a_8e9f_1fec40f454af": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"ebf50919_6d83_4484_a4b2_aef78db12f3b": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"d578a546_8d63_451d_9c30_df784dc8b95d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"f14c3ad2_9def_4934_9fa9_0afe2a2f0e83": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6babc0cc_a395_417a_a326_c2a3fda2675b": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"0450370f_0e1e_459a_8a0b_e28a127a6acd": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6246339f_2d7e_43dc_abdc_116aeeb64a5a": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6c32976f_df84_4b66_b62e_1a4ffeee9ab6": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6199cb83_1059_4f05_84ee_6d3af2efcf98": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"949459fd_8a7f_4c73_92ac_ac3dd9ec2ca8": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"0638deec_89f7_4b09_84b7_a6a8639ead21": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"d3d785a1_30bb_4c88_9403_061d225eb032": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6ab53201_f3e5_47da_b7bb_96ff6a76f5c0": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"4f4bf7cc_23f6_4ce6_8147_6b668f3681ad": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"4d3e6f46_2723_42a9_bfe2_4640c599eca8": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"0cac848e_8b49_4d3d_95ac_1d0d5b86026e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6f17f137_7e20_40ad_a4b2_129952e95420": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"15ce9745_c4eb_4f93_8644_0dd57e42a3dc": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"3f01241e_19ca_4319_8bcb_6e7346cd5487": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6727d698_56e1_40e3_923e_b5f816feca2d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"07dca84d_5ad7_4484_8732_28218afe807c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"db06ef7c_3e2b_43b5_89c2_b56ea2d5957e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"77bd1f0d_e87e_499c_8607_501f5b4a2da9": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"70e85911_f87b_4daf_a75b_9d53fc941233": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"e840a837_c60b_4a5f_ae68_550be96c4b46": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"92ce693f_e917_4479_824a_40ccb7fc6439": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"e11de77e_36a2_426f_b901_4df1b28e7ab1": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a3d2169c_8e34_4f7d_bd55_c62cec41e7d3": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"f30437af_c834_4b6e_a985_4b3b7cc8b1f4": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6071eb6b_8b26_4849_b013_e06ecb8299b7": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"3b1af0fc_e1f1_48d1_96f2_8ddeb9aca29f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"4054da77_9294_40d0_a280_7495b5f1515e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"977bd07c_0137_467a_9383_b229f14a164c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"b7f4d51a_105e_4a23_abf2_4947c8e19458": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"7e7d499a_8dda_4072_81d2_9afdb4779759": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"91514cd0_52a1_4ef1_b429_2e2989c4659d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"91c89c27_834a_4202_b72a_69d8c21caa8e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6538f1c6_e000_49da_b9d5_1480a8ea6882": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"071a4d98_c7e4_4205_8c61_7c3ce914dd35": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"877e048f_1fcb_4d2f_9050_3a2c9f48959d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"194ffd26_9df7_4a97_907d_f16280b72ab2": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"38656b49_5002_4c02_95cd_613c982cbeb3": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"de30e35b_a43f_4332_bec5_89bafe90e702": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"61573e44_1d73_44b1_8e2e_650a69a29d34": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"ca4c311a_d518_47b6_b240_1c73efa01a7b": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"236b7f2c_d3ad_41dc_8763_dec5a622c25b": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a7cfe187_81f3_4f33_b12b_2e83f1706833": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"96aa3a71_4b81_4721_bfb0_f02cdb7c0342": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"58701a8a_48de_48ad_aaf7_b4db225634fe": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"7705b3e3_ed1c_467c_aaf4_a2177abd085d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"186ae237_700e_42e1_844b_c18f1d1965ed": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"9eb0ae75_f97e_4174_994f_c62d75f3787c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"28d618e9_43b2_4fdc_a8d6_5824b31a427c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"5d167076_f297_4c67_8737_9da1a32f938b": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"0e557cbc_07c3_4913_8709_cc441770b521": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"4f9f4378_7a68_44b8_8289_7bb4a2499135": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"4e0c42bc_68f5_4cae_ab2b_13658cb59fbd": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6f2e24f2_7afa_491e_88c4_1ae70a715905": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"c0f62836_7a3a_4bd4_9ce1_b7fe871dd22f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"325c5143_8f23_44f8_a8d5_72d74802a13f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"964cf2b4_3cf2_4d16_8e3e_425f0943cc19": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"db178829_9867_43bb_ac9b_efca27975c59": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"f9effead_d93e_40cb_a781_08997042d942": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"c5ce12da_f326_4d9c_b843_6983990a73cb": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"16bb3df5_e3e0_4a08_a838_4a1f4f091eca": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6b80a75b_137b_4e9c_8ed1_e9ebfb5af065": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"bd0ecfc0_9ded_444b_8e51_05260c80c7c4": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"2d0dca86_f1fc_4d3e_9e52_ec3afd7abf61": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"21825079_ae95_415f_bf29_83fdf4f8ab38": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"267df635_4b42_42bd_a669_4d6ffcaf1067": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"01a08da1_473c_4b96_a2bc_2b12e197203e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"ad0ef542_fde2_439c_9a6b_8ec3946c2e87": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"bc8e0e2b_eef9_477e_b3e5_36e0f22fbf7c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"7a1f26e9_989b_4b79_9d06_fe840624511f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"9eeaff2b_643e_4d0d_bdd2_b5e7a9d200dd": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"441eacd8_ff8d_4e24_a5f8_0986b76b9ea1": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"63b81a9a_673d_45e6_876a_beb6b429f806": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"80a6b8a4_0be8_48ad_abf6_035844e4dcd3": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"e7f8f6d3_4935_4acd_88a5_d3b68e8d4492": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"f74f7e18_ede6_40de_b61a_29a898d3c03f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"ddb6079b_206e_4158_ab93_cdcc5998b3e1": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"c8f5a8bd_afd4_4b1b_a2bc_4b6eef6084db": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"1930f1c8_4429_4fd1_bf9d_9aa4268da84c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"e0f05f9a_8ccb_4b2c_a487_84e9a582d224": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"4893d604_b0f3_447f_ba80_6d9954e615a2": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"788ab09c_689b_404b_8a1d_c5fafb6121f1": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"08519568_700d_436a_a85a_c59686da7a63": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"088b8967_8598_4689_9b99_d502234b676a": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"81434ceb_40b2_4ea4_b202_a51b61c1e2be": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"4eb5c087_0680_460d_b8fd_7885a3f496ba": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"3a3bedc1_49dc_4a2d_8f88_cdc1b78f2ccf": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"5a1b2db4_0479_4e59_ac03_3434e7e8fa72": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"938d461d_8842_4fbf_a486_7df32dbda689": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"8ff6425d_bbcb_45cb_81ad_974de33d12ee": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"0437bbac_7706_4d2a_b767_2ebd4f339fc0": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"b99b5ddd_2b8d_40c7_8e23_4cf7fd23f47e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"30b1852c_ff9d_4866_8786_a96483e2b1c7": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"d6041b12_d468_4a28_8c85_69e876b88c69": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"18515885_db6c_4ab5_bb88_e0702408287f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"f2ece68d_09ed_49f1_a10b_9ee57f762bf0": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"877fa282_eaf2_497f_8e1d_a701577feefa": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"7ac1ae91_a338_4609_96fd_d63588766301": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"fc18471c_61b5_426e_91ad_037f3df60d3a": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"24570da2_39ff_495b_9633_ca8bffd61d9f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"f81212c6_018b_4388_a6bc_a72df40b57d7": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"4fded621_a39c_49ee_874b_685e48e5ab57": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"2d559784_aeaf_46a1_a921_ab9db1d0054b": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"29aaae00_3b5e_4cd8_b12e_95c2ecaf85cb": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"c1f039e5_2002_41b2_b8e3_988139a1e889": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"c33325bd_09d0_4831_9599_abdf4329ce94": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"f7e5edcb_4c58_46ce_87ec_aaa8a8fe2c13": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"b1a01c03_fe67_4aab_8adb_75bf7347ca6e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"976688c1_91a3_438d_88aa_4d549db089c6": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"36b1a308_9e62_445b_9b31_d661389de169": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a3ced37f_62e6_4294_8fef_c1e2d952f891": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"a1d80213_5ead_417b_8bfd_a8f1c21ce2f7": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"98cf8eb4_762a_46b8_9155_e73a7f1da682": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"7ab39bac_5a05_4fd6_8737_cfd906dd7ec2": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/items/adamantite_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/adamantite_hammer.json": {
+		"data": {}
+	},
+	"BP/items/adamantite_sickle.json": {
+		"data": {}
+	},
+	"BP/items/adamantite_sword.json": {
+		"data": {}
+	},
+	"BP/items/aluminium_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/aluminium_hammer.json": {
+		"data": {}
+	},
+	"BP/items/aluminium_sickle.json": {
+		"data": {}
+	},
+	"BP/items/aluminium_sword.json": {
+		"data": {}
+	},
+	"BP/items/amber_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/amber_hammer.json": {
+		"data": {}
+	},
+	"BP/items/amber_sickle.json": {
+		"data": {}
+	},
+	"BP/items/amber_sword.json": {
+		"data": {}
+	},
+	"BP/items/amethyst_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/amethyst_hammer.json": {
+		"data": {}
+	},
+	"BP/items/amethyst_sickle.json": {
+		"data": {}
+	},
+	"BP/items/amethyst_sword.json": {
+		"data": {}
+	},
+	"BP/items/black_opal_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/black_opal_hammer.json": {
+		"data": {}
+	},
+	"BP/items/black_opal_sickle.json": {
+		"data": {}
+	},
+	"BP/items/black_opal_sword.json": {
+		"data": {}
+	},
+	"BP/items/calcite_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/calcite_hammer.json": {
+		"data": {}
+	},
+	"BP/items/calcite_sickle.json": {
+		"data": {}
+	},
+	"BP/items/calcite_sword.json": {
+		"data": {}
+	},
+	"BP/items/celestine_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/celestine_hammer.json": {
+		"data": {}
+	},
+	"BP/items/celestine_sickle.json": {
+		"data": {}
+	},
+	"BP/items/celestine_sword.json": {
+		"data": {}
+	},
+	"BP/items/cinnabar_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/cinnabar_hammer.json": {
+		"data": {}
+	},
+	"BP/items/cinnabar_sickle.json": {
+		"data": {}
+	},
+	"BP/items/cinnabar_sword.json": {
+		"data": {}
+	},
+	"BP/items/cobalt_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/cobalt_boots.json": {
+		"data": {}
+	},
+	"BP/items/cobalt_chestplate.json": {
+		"data": {}
+	},
+	"BP/items/cobalt_hammer.json": {
+		"data": {}
+	},
+	"BP/items/cobalt_helmet.json": {
+		"data": {}
+	},
+	"BP/items/cobalt_leggings.json": {
+		"data": {}
+	},
+	"BP/items/cobalt_sickle.json": {
+		"data": {}
+	},
+	"BP/items/cobalt_sword.json": {
+		"data": {}
+	},
+	"BP/items/copper_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/copper_boots.json": {
+		"data": {}
+	},
+	"BP/items/copper_chestplate.json": {
+		"data": {}
+	},
+	"BP/items/copper_hammer.json": {
+		"data": {}
+	},
+	"BP/items/copper_helmet.json": {
+		"data": {}
+	},
+	"BP/items/copper_leggings.json": {
+		"data": {}
+	},
+	"BP/items/copper_sickle.json": {
+		"data": {}
+	},
+	"BP/items/copper_sword.json": {
+		"data": {}
+	},
+	"BP/items/dragon_glass_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/dragon_glass_hammer.json": {
+		"data": {}
+	},
+	"BP/items/dragon_glass_sickle.json": {
+		"data": {}
+	},
+	"BP/items/dragon_glass_sword.json": {
+		"data": {}
+	},
+	"BP/items/emerald_boots.json": {
+		"data": {}
+	},
+	"BP/items/flurite_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/flurite_hammer.json": {
+		"data": {}
+	},
+	"BP/items/flurite_sickle.json": {
+		"data": {}
+	},
+	"BP/items/flurite_sword.json": {
+		"data": {}
+	},
+	"BP/items/garnet_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/garnet_hammer.json": {
+		"data": {}
+	},
+	"BP/items/garnet_sickle.json": {
+		"data": {}
+	},
+	"BP/items/garnet_sword.json": {
+		"data": {}
+	},
+	"BP/items/gypsum_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/gypsum_hammer.json": {
+		"data": {}
+	},
+	"BP/items/gypsum_sickle.json": {
+		"data": {}
+	},
+	"BP/items/gypsum_sword.json": {
+		"data": {}
+	},
+	"BP/items/hematite_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/hematite_hammer.json": {
+		"data": {}
+	},
+	"BP/items/hematite_sickle.json": {
+		"data": {}
+	},
+	"BP/items/hematite_sword.json": {
+		"data": {}
+	},
+	"BP/items/iron_pickaxe.json": {
+		"data": {}
+	},
+	"BP/items/jade_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/jade_hammer.json": {
+		"data": {}
+	},
+	"BP/items/jade_sickle.json": {
+		"data": {}
+	},
+	"BP/items/jade_sword.json": {
+		"data": {}
+	},
+	"BP/items/kryptonite_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/kryptonite_hammer.json": {
+		"data": {}
+	},
+	"BP/items/kryptonite_sickle.json": {
+		"data": {}
+	},
+	"BP/items/kryptonite_sword.json": {
+		"data": {}
+	},
+	"BP/items/kyanite_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/kyanite_hammer.json": {
+		"data": {}
+	},
+	"BP/items/kyanite_sickle.json": {
+		"data": {}
+	},
+	"BP/items/kyanite_sword.json": {
+		"data": {}
+	},
+	"BP/items/lavastone_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/lavastone_hammer.json": {
+		"data": {}
+	},
+	"BP/items/lavastone_sickle.json": {
+		"data": {}
+	},
+	"BP/items/lavastone_sword.json": {
+		"data": {}
+	},
+	"BP/items/lead_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/lead_hammer.json": {
+		"data": {}
+	},
+	"BP/items/lead_sickle.json": {
+		"data": {}
+	},
+	"BP/items/lead_sword.json": {
+		"data": {}
+	},
+	"BP/items/magnetite_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/magnetite_hammer.json": {
+		"data": {}
+	},
+	"BP/items/magnetite_sickle.json": {
+		"data": {}
+	},
+	"BP/items/magnetite_sword.json": {
+		"data": {}
+	},
+	"BP/items/mica_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/mica_hammer.json": {
+		"data": {}
+	},
+	"BP/items/mica_sickle.json": {
+		"data": {}
+	},
+	"BP/items/mica_sword.json": {
+		"data": {}
+	},
+	"BP/items/nickel_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/nickel_hammer.json": {
+		"data": {}
+	},
+	"BP/items/nickel_sickle.json": {
+		"data": {}
+	},
+	"BP/items/nickel_sword.json": {
+		"data": {}
+	},
+	"BP/items/opal_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/opal_hammer.json": {
+		"data": {}
+	},
+	"BP/items/opal_sickle.json": {
+		"data": {}
+	},
+	"BP/items/opal_sword.json": {
+		"data": {}
+	},
+	"BP/items/painite_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/painite_hammer.json": {
+		"data": {}
+	},
+	"BP/items/painite_sickle.json": {
+		"data": {}
+	},
+	"BP/items/painite_sword.json": {
+		"data": {}
+	},
+	"BP/items/platnium_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/platnium_hammer.json": {
+		"data": {}
+	},
+	"BP/items/platnium_sickle.json": {
+		"data": {}
+	},
+	"BP/items/platnium_sword.json": {
+		"data": {}
+	},
+	"BP/items/plutonium_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/plutonium_hammer.json": {
+		"data": {}
+	},
+	"BP/items/plutonium_sickle.json": {
+		"data": {}
+	},
+	"BP/items/plutonium_sword.json": {
+		"data": {}
+	},
+	"BP/items/purple_boots.json": {
+		"data": {}
+	},
+	"BP/items/purple_chestplate.json": {
+		"data": {}
+	},
+	"BP/items/purple_helmet.json": {
+		"data": {}
+	},
+	"BP/items/purple_leggings.json": {
+		"data": {}
+	},
+	"BP/items/ruby_boots.json": {
+		"data": {}
+	},
+	"BP/items/ruby_chestplate.json": {
+		"data": {}
+	},
+	"BP/items/ruby_helmet.json": {
+		"data": {}
+	},
+	"BP/items/ruby_leggings.json": {
+		"data": {}
+	},
+	"BP/items/stone_pickaxe.json": {
+		"data": {}
+	},
+	"BP/items/wooden_pickaxe.json": {
+		"data": {}
+	},
+	"BP/loot_tables/w_rack_loot.json": {
+		"data": {}
+	},
+	"BP/blocks/w_rack.json": {
+		"data": {}
+	},
+	"BP/loot_tables/c_rack_loot.json": {
+		"data": {}
+	},
+	"BP/blocks/c_rack.json": {
+		"data": {}
+	},
+	"BP/loot_tables/b_rack.json": {
+		"data": {}
+	},
+	"BP/blocks/b_rack.json": {
+		"data": {}
+	},
+	"BP/loot_tables/s_rack_loot.json": {
+		"data": {}
+	},
+	"BP/blocks/s_rack.json": {
+		"data": {}
+	},
+	"RP/tures/terrain_texture.json": {
+		"data": {}
+	},
+	"RP/cks.json": {
+		"data": {}
+	},
+	"BP/features/warped_stone_gen.json": {
+		"data": {}
+	},
+	"BP/feature_rules/warped_stone_gen_real.json": {
+		"data": {}
+	},
+	"BP/features/crimson_stone_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/crimson_stone_gen.json": {
+		"data": {}
+	},
+	"BP/features/basalt_stone_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/basalt_stone_gen.json": {
+		"data": {}
+	},
+	"BP/features/soul_netherrack_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/soul_netherrack_gen.json": {
+		"data": {}
+	},
+	"BP/items/adamantite_apple.json": {
+		"data": {}
+	},
+	"BP/items/aluminium_apple.json": {
+		"data": {}
+	},
+	"BP/items/amber_apple.json": {
+		"data": {}
+	},
+	"BP/items/amethyst_apple.json": {
+		"data": {}
+	},
+	"BP/items/black_opal_apple.json": {
+		"data": {}
+	},
+	"BP/items/calcite_apple.json": {
+		"data": {}
+	},
+	"BP/items/celestine_apple.json": {
+		"data": {}
+	},
+	"BP/items/cinnabar_apple.json": {
+		"data": {}
+	},
+	"BP/items/cobalt_apple.json": {
+		"data": {}
+	},
+	"BP/items/copper_apple.json": {
+		"data": {}
+	},
+	"BP/items/dragon_glass_apple.json": {
+		"data": {}
+	},
+	"BP/items/flurite_apple.json": {
+		"data": {}
+	},
+	"BP/items/gypsum_apple.json": {
+		"data": {}
+	},
+	"BP/items/hematite_apple.json": {
+		"data": {}
+	},
+	"BP/items/jade_apple.json": {
+		"data": {}
+	},
+	"BP/items/kryptonite_apple.json": {
+		"data": {}
+	},
+	"BP/items/kyanite_apple.json": {
+		"data": {}
+	},
+	"BP/items/lavastone_apple.json": {
+		"data": {}
+	},
+	"BP/items/lead_apple.json": {
+		"data": {}
+	},
+	"BP/items/magnetite_apple.json": {
+		"data": {}
+	},
+	"BP/items/mica_apple.json": {
+		"data": {}
+	},
+	"BP/items/nickel_apple.json": {
+		"data": {}
+	},
+	"BP/items/opal_apple.json": {
+		"data": {}
+	},
+	"BP/items/painite_apple.json": {
+		"data": {}
+	},
+	"BP/items/platnium_apple.json": {
+		"data": {}
+	},
+	"BP/items/plutonium_apple.json": {
+		"data": {}
+	},
+	"BP/items/adamantite_ingot.json": {
+		"data": {}
+	},
+	"BP/items/aluminium_ingot.json": {
+		"data": {}
+	},
+	"BP/items/amber.json": {
+		"data": {}
+	},
+	"BP/items/amethyst_gemstone.json": {
+		"data": {}
+	},
+	"BP/items/black_opal.json": {
+		"data": {}
+	},
+	"BP/items/calcite_crystal.json": {
+		"data": {}
+	},
+	"BP/items/celestine_ingot.json": {
+		"data": {}
+	},
+	"BP/items/cinnabar_ingot.json": {
+		"data": {}
+	},
+	"BP/items/cobalt_gemstone.json": {
+		"data": {}
+	},
+	"BP/items/copper_ingot.json": {
+		"data": {}
+	},
+	"BP/items/dragon_glass_crystal.json": {
+		"data": {}
+	},
+	"BP/items/emerald_chestplate.json": {
+		"data": {}
+	},
+	"BP/items/emerald_helmet.json": {
+		"data": {}
+	},
+	"BP/items/emerald_leggings.json": {
+		"data": {}
+	},
+	"BP/items/flurite_crystal.json": {
+		"data": {}
+	},
+	"BP/items/galaxy_boots.json": {
+		"data": {}
+	},
+	"BP/items/galaxy_chestplate.json": {
+		"data": {}
+	},
+	"BP/items/galaxy_helmet.json": {
+		"data": {}
+	},
+	"BP/items/galaxy_leggings.json": {
+		"data": {}
+	},
+	"BP/items/garnet_gemstone.json": {
+		"data": {}
+	},
+	"BP/items/gypsum_ingot.json": {
+		"data": {}
+	},
+	"BP/items/hematite_ingot.json": {
+		"data": {}
+	},
+	"BP/items/jade_gemstone.json": {
+		"data": {}
+	},
+	"BP/items/kryptonite_crystal.json": {
+		"data": {}
+	},
+	"BP/items/kyanite_ingot.json": {
+		"data": {}
+	},
+	"BP/items/lavastone.json": {
+		"data": {}
+	},
+	"BP/items/lead_ingot.json": {
+		"data": {}
+	},
+	"BP/items/magnetite_ingot.json": {
+		"data": {}
+	},
+	"BP/items/mica_crystal.json": {
+		"data": {}
+	},
+	"BP/items/mud.json": {
+		"data": {}
+	},
+	"BP/items/nickel_ingot.json": {
+		"data": {}
+	},
+	"BP/items/oil.json": {
+		"data": {}
+	},
+	"BP/items/opal.json": {
+		"data": {}
+	},
+	"BP/items/painite_gemstone.json": {
+		"data": {}
+	},
+	"BP/items/platnium_ingot.json": {
+		"data": {}
+	},
+	"BP/items/plutonium_ingot.json": {
+		"data": {}
+	},
+	"BP/items/roots.json": {
+		"data": {}
+	},
+	"BP/blocks/adamantite_block.json": {
+		"data": {}
+	},
+	"BP/blocks/adamantite_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/amber_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/amethyst_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/bauxite_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/black_opal_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/calcite_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/celestine_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/cinnabar_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/cobalt_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/compressed_cobblestone.json": {
+		"data": {}
+	},
+	"BP/blocks/copper_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/dragon_glass_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/end_diamond_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/end_plutonium_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/end_yttrium_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/flurite_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/garnet_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/hematite_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/i_coal.json": {
+		"data": {}
+	},
+	"BP/blocks/prismarine_crystal.json": {
+		"data": {
+			"component@bridge:rotate_on_place": {
+				"minecraft:block": {
+					"description": {
+						"properties": {
+							"bridge:block_rotation": [
+								0,
+								1,
+								2,
+								3,
+								4,
+								5
+							]
+						}
+					},
+					"permutations": [
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 0",
+							"components": {
+								"minecraft:rotation": [
+									0,
+									0,
+									0
+								]
+							}
+						},
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 1",
+							"components": {
+								"minecraft:rotation": [
+									0,
+									0,
+									180
+								]
+							}
+						},
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 2",
+							"components": {
+								"minecraft:rotation": [
+									90,
+									0,
+									0
+								]
+							}
+						},
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 3",
+							"components": {
+								"minecraft:rotation": [
+									-90,
+									0,
+									0
+								]
+							}
+						},
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 4",
+							"components": {
+								"minecraft:rotation": [
+									0,
+									0,
+									-90
+								]
+							}
+						},
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 5",
+							"components": {
+								"minecraft:rotation": [
+									0,
+									0,
+									90
+								]
+							}
+						}
+					],
+					"components": {
+						"minecraft:on_player_placing": {
+							"event": "bridge:update_rotation"
+						}
+					},
+					"events": {
+						"bridge:update_rotation": {
+							"set_block_property": {
+								"bridge:block_rotation": "query.cardinal_player_facing"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/blocks/i_diamond.json": {
+		"data": {}
+	},
+	"BP/blocks/i_gold.json": {
+		"data": {}
+	},
+	"BP/blocks/i_iron.json": {
+		"data": {}
+	},
+	"BP/blocks/i_lapis.json": {
+		"data": {}
+	},
+	"BP/blocks/i_redstone.json": {
+		"data": {}
+	},
+	"BP/blocks/j_diamond.json": {
+		"data": {}
+	},
+	"BP/blocks/j_gold.json": {
+		"data": {}
+	},
+	"BP/blocks/j_iron.json": {
+		"data": {}
+	},
+	"BP/blocks/j_lapis.json": {
+		"data": {}
+	},
+	"BP/blocks/j_redstone.json": {
+		"data": {}
+	},
+	"BP/blocks/j_stone.json": {
+		"data": {}
+	},
+	"BP/blocks/jade_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/kryptonite_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/lava_stone_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/lead_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/magnetite_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/mica_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/nether_diamond_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/nether_emerald_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/nether_gypsum_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/nether_kyanite_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/nether_tin_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/nether_topaz_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/nether_zinc_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/nickel_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/ocean_stone_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/oil_block.json": {
+		"data": {}
+	},
+	"BP/blocks/opal_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/painite_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/platnium_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/prismarite_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/prolinite_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/pyrite_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/ruby_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/s_coal.json": {
+		"data": {}
+	},
+	"BP/blocks/s_diamond.json": {
+		"data": {}
+	},
+	"BP/blocks/s_gold.json": {
+		"data": {}
+	},
+	"BP/blocks/s_iron.json": {
+		"data": {}
+	},
+	"BP/blocks/s_lapis.json": {
+		"data": {}
+	},
+	"BP/blocks/s_redstone.json": {
+		"data": {}
+	},
+	"BP/blocks/sapphire_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/silver_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/sypmium_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/tanzanite_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/titanium_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/tungsten_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/uranium_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/void_stone_ore.json": {
+		"data": {}
+	},
+	"BP/items/diamond_pickaxe.json": {
+		"data": {}
+	},
+	"RP/tures/item_texture.json": {
+		"data": {}
+	},
+	"BP/blocks/icecle.json": {
+		"data": {
+			"component@bridge:rotate_on_place": {
+				"minecraft:block": {
+					"description": {
+						"properties": {
+							"bridge:block_rotation": [
+								0,
+								1,
+								2,
+								3,
+								4,
+								5
+							]
+						}
+					},
+					"permutations": [
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 0",
+							"components": {
+								"minecraft:rotation": [
+									0,
+									0,
+									0
+								]
+							}
+						},
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 1",
+							"components": {
+								"minecraft:rotation": [
+									0,
+									0,
+									180
+								]
+							}
+						},
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 2",
+							"components": {
+								"minecraft:rotation": [
+									90,
+									0,
+									0
+								]
+							}
+						},
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 3",
+							"components": {
+								"minecraft:rotation": [
+									-90,
+									0,
+									0
+								]
+							}
+						},
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 4",
+							"components": {
+								"minecraft:rotation": [
+									0,
+									0,
+									-90
+								]
+							}
+						},
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 5",
+							"components": {
+								"minecraft:rotation": [
+									0,
+									0,
+									90
+								]
+							}
+						}
+					],
+					"components": {
+						"minecraft:on_player_placing": {
+							"event": "bridge:update_rotation"
+						}
+					},
+					"events": {
+						"bridge:update_rotation": {
+							"set_block_property": {
+								"bridge:block_rotation": "query.cardinal_player_facing"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/animation_controllers/player.json": {
+		"data": {}
+	},
+	"BP/feature_rules/cave_grass_gen.json": {
+		"data": {}
+	},
+	"BP/features/crystal_feature_test.json": {
+		"data": {}
+	},
+	"BP/feature_rules/crystal_gen_test.json": {
+		"data": {}
+	},
+	"BP/features/crystal_feature_test_2.json": {
+		"data": {}
+	},
+	"BP/feature_rules/crystal_gen_test_2.json": {
+		"data": {}
+	},
+	"BP/features/bye_blue_crystal.json": {
+		"data": {}
+	},
+	"BP/feature_rules/gone.json": {
+		"data": {}
+	},
+	"BP/features/giant_cave_feature.json": {
+		"data": {}
+	},
+	"BP/blocks/slush.json": {
+		"data": {
+			"component@bridge:log_rotate_on_place": {
+				"minecraft:block": {
+					"description": {
+						"properties": {
+							"bridge:block_rotation": [
+								0,
+								1,
+								2
+							]
+						}
+					},
+					"permutations": [
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 0",
+							"components": {
+								"minecraft:rotation": [
+									0,
+									0,
+									0
+								]
+							}
+						},
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 1",
+							"components": {
+								"minecraft:rotation": [
+									90,
+									0,
+									0
+								]
+							}
+						},
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 2",
+							"components": {
+								"minecraft:rotation": [
+									0,
+									0,
+									90
+								]
+							}
+						}
+					],
+					"components": {
+						"minecraft:on_player_placing": {
+							"event": "bridge:update_rotation"
+						}
+					},
+					"events": {
+						"bridge:update_rotation": {
+							"set_block_property": {
+								"bridge:block_rotation": "Math.floor(query.cardinal_player_facing / 2)"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/features/slush_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/slush_gen.json": {
+		"data": {}
+	},
+	"BP/features/giant_cave_feature_mini.json": {
+		"data": {}
+	},
+	"BP/feature_rules/giant_cave_gen_mini.json": {
+		"data": {}
+	},
+	"RP/achables/tophat.json": {
+		"data": {}
+	},
+	"RP/achables/tophat_player.json": {
+		"data": {}
+	},
+	"BP/blocks/fossil_stone_ore.json": {
+		"data": {}
+	},
+	"BP/items/prolinite_apple.json": {
+		"data": {}
+	},
+	"BP/items/prolinite_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/prolinite_gemstone.json": {
+		"data": {}
+	},
+	"BP/items/prolinite_hammer.json": {
+		"data": {}
+	},
+	"BP/items/prolinite_sickle.json": {
+		"data": {}
+	},
+	"BP/items/prolinite_sword.json": {
+		"data": {}
+	},
+	"BP/items/pyrite_apple.json": {
+		"data": {}
+	},
+	"BP/items/pyrite_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/pyrite_hammer.json": {
+		"data": {}
+	},
+	"BP/items/pyrite_ingot.json": {
+		"data": {}
+	},
+	"BP/items/pyrite_sickle.json": {
+		"data": {}
+	},
+	"BP/items/pyrite_sword.json": {
+		"data": {}
+	},
+	"BP/items/ruby_apple.json": {
+		"data": {}
+	},
+	"BP/items/ruby_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/ruby_gemstone.json": {
+		"data": {}
+	},
+	"BP/items/ruby_hammer.json": {
+		"data": {}
+	},
+	"BP/items/ruby_sickle.json": {
+		"data": {}
+	},
+	"BP/items/ruby_sword.json": {
+		"data": {}
+	},
+	"BP/items/sapphire_apple.json": {
+		"data": {}
+	},
+	"BP/items/sapphire_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/sapphire_gemstone.json": {
+		"data": {}
+	},
+	"BP/items/sapphire_hammer.json": {
+		"data": {}
+	},
+	"BP/items/sapphire_sickle.json": {
+		"data": {}
+	},
+	"BP/items/sapphire_sword.json": {
+		"data": {}
+	},
+	"BP/items/silver_apple.json": {
+		"data": {}
+	},
+	"BP/items/silver_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/silver_hammer.json": {
+		"data": {}
+	},
+	"BP/items/silver_ingot.json": {
+		"data": {}
+	},
+	"BP/items/silver_sickle.json": {
+		"data": {}
+	},
+	"BP/items/silver_sword.json": {
+		"data": {}
+	},
+	"BP/blocks/end_grass.json": {
+		"data": {}
+	},
+	"RP/debug_screen.json": {
+		"data": {}
+	},
+	"BP/blocks/spread.json": {
+		"data": {}
+	},
+	"RP/tures/flipbook_textures.json": {
+		"data": {}
+	},
+	"BP/items/sypmium_apple.json": {
+		"data": {}
+	},
+	"BP/items/sypmium_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/sypmium_hammer.json": {
+		"data": {}
+	},
+	"BP/items/sypmium_ingot.json": {
+		"data": {}
+	},
+	"BP/items/sypmium_sickle.json": {
+		"data": {}
+	},
+	"BP/items/sypmium_sword.json": {
+		"data": {}
+	},
+	"BP/items/tanzanite_apple.json": {
+		"data": {}
+	},
+	"BP/items/tanzanite_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/tanzanite_gemstone.json": {
+		"data": {}
+	},
+	"BP/items/tanzanite_hammer.json": {
+		"data": {}
+	},
+	"BP/items/tanzanite_sickle.json": {
+		"data": {}
+	},
+	"BP/items/tanzanite_sword.json": {
+		"data": {}
+	},
+	"BP/items/tin_apple.json": {
+		"data": {}
+	},
+	"BP/items/tin_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/tin_hammer.json": {
+		"data": {}
+	},
+	"BP/items/tin_ingot.json": {
+		"data": {}
+	},
+	"BP/items/tin_sickle.json": {
+		"data": {}
+	},
+	"BP/items/tin_sword.json": {
+		"data": {}
+	},
+	"BP/items/titanium_apple.json": {
+		"data": {}
+	},
+	"BP/items/titanium_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/titanium_hammer.json": {
+		"data": {}
+	},
+	"BP/items/titanium_ingot.json": {
+		"data": {}
+	},
+	"BP/items/titanium_sickle.json": {
+		"data": {}
+	},
+	"BP/items/titanium_sword.json": {
+		"data": {}
+	},
+	"BP/items/topaz_apple.json": {
+		"data": {}
+	},
+	"BP/items/topaz_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/topaz_gemstone.json": {
+		"data": {}
+	},
+	"BP/items/topaz_hammer.json": {
+		"data": {}
+	},
+	"BP/items/topaz_sickle.json": {
+		"data": {}
+	},
+	"BP/items/topaz_sword.json": {
+		"data": {}
+	},
+	"BP/items/copper_chain_link.json": {
+		"data": {}
+	},
+	"BP/recipes/copper_boots.json": {
+		"data": {}
+	},
+	"BP/recipes/copper_leggings.json": {
+		"data": {}
+	},
+	"BP/recipes/copper_chestplate.json": {
+		"data": {}
+	},
+	"BP/recipes/copper_helmet.json": {
+		"data": {}
+	},
+	"BP/recipes/diamond_pickaxe_to_real_pick.json": {
+		"data": {}
+	},
+	"BP/items/tungsten_apple.json": {
+		"data": {}
+	},
+	"BP/items/tungsten_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/tungsten_gemstone.json": {
+		"data": {}
+	},
+	"BP/items/tungsten_hammer.json": {
+		"data": {}
+	},
+	"BP/items/tungsten_sickle.json": {
+		"data": {}
+	},
+	"BP/items/tungsten_sword.json": {
+		"data": {}
+	},
+	"BP/items/voidstone_apple.json": {
+		"data": {}
+	},
+	"BP/items/voidstone_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/voidstone_hammer.json": {
+		"data": {}
+	},
+	"BP/items/voidstone_ingot.json": {
+		"data": {}
+	},
+	"BP/items/voidstone_sickle.json": {
+		"data": {}
+	},
+	"BP/items/voidstone_sword.json": {
+		"data": {}
+	},
+	"BP/items/yttrium_apple.json": {
+		"data": {}
+	},
+	"BP/items/yttrium_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/yttrium_hammer.json": {
+		"data": {}
+	},
+	"BP/items/yttrium_ingot.json": {
+		"data": {}
+	},
+	"BP/items/yttrium_sickle.json": {
+		"data": {}
+	},
+	"BP/items/yttrium_sword.json": {
+		"data": {}
+	},
+	"BP/items/zinc_apple.json": {
+		"data": {}
+	},
+	"BP/items/zinc_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/zinc_hammer.json": {
+		"data": {}
+	},
+	"BP/items/zinc_ingot.json": {
+		"data": {}
+	},
+	"BP/items/zinc_sickle.json": {
+		"data": {}
+	},
+	"BP/items/zinc_sword.json": {
+		"data": {}
+	},
+	"BP/items/zincolium_apple.json": {
+		"data": {}
+	},
+	"BP/items/zincolium_battleaxe.json": {
+		"data": {}
+	},
+	"BP/items/zincolium_hammer.json": {
+		"data": {}
+	},
+	"BP/items/zincolium_ingot.json": {
+		"data": {}
+	},
+	"BP/items/zincolium_sickle.json": {
+		"data": {}
+	},
+	"BP/items/zincolium_sword.json": {
+		"data": {}
+	},
+	"BP/recipes/smelt_adamantite.json": {
+		"data": {}
+	},
+	"BP/recipes/smelt_aluminium.json": {
+		"data": {}
+	},
+	"BP/recipes/smelt_celestine.json": {
+		"data": {}
+	},
+	"BP/recipes/smelt_cinnabar.json": {
+		"data": {}
+	},
+	"BP/recipes/smelt_copper.json": {
+		"data": {}
+	},
+	"BP/recipes/smelt_gypsum.json": {
+		"data": {}
+	},
+	"BP/recipes/smelt_hematite.json": {
+		"data": {}
+	},
+	"BP/recipes/smelt_kyanite.json": {
+		"data": {}
+	},
+	"BP/recipes/smelt_lead.json": {
+		"data": {}
+	},
+	"BP/recipes/smelt_magnetite.json": {
+		"data": {}
+	},
+	"BP/recipes/smelt_nickel.json": {
+		"data": {}
+	},
+	"BP/recipes/smelt_platnium.json": {
+		"data": {}
+	},
+	"BP/recipes/smelt_plutonium.json": {
+		"data": {}
+	},
+	"BP/recipes/smelt_pyrite.json": {
+		"data": {}
+	},
+	"BP/recipes/smelt_silver.json": {
+		"data": {}
+	},
+	"BP/recipes/smelt_sypmium.json": {
+		"data": {}
+	},
+	"BP/recipes/smelt_tin.json": {
+		"data": {}
+	},
+	"BP/recipes/smelt_titanium.json": {
+		"data": {}
+	},
+	"BP/recipes/smelt_voidstone.json": {
+		"data": {}
+	},
+	"BP/recipes/smelt_yttrium.json": {
+		"data": {}
+	},
+	"BP/recipes/smelt_zinc.json": {
+		"data": {}
+	},
+	"BP/recipes/smelt_zincolium.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_adamantite.json": {
+		"data": {}
+	},
+	"BP/loot_tables/amber_loot.json": {
+		"data": {}
+	},
+	"BP/loot_tables/amethyst_loot.json": {
+		"data": {}
+	},
+	"BP/loot_tables/black_opal_loot.json": {
+		"data": {}
+	},
+	"BP/loot_tables/calcite_loot.json": {
+		"data": {}
+	},
+	"BP/loot_tables/cobalt_loot.json": {
+		"data": {}
+	},
+	"BP/loot_tables/dragon_glass_loot.json": {
+		"data": {}
+	},
+	"BP/loot_tables/flurite_loot.json": {
+		"data": {}
+	},
+	"BP/loot_tables/garnet_loot.json": {
+		"data": {}
+	},
+	"BP/loot_tables/jade_loot.json": {
+		"data": {}
+	},
+	"BP/loot_tables/kryptonite_loot.json": {
+		"data": {}
+	},
+	"BP/loot_tables/mica_loot.json": {
+		"data": {}
+	},
+	"BP/loot_tables/opal_loot.json": {
+		"data": {}
+	},
+	"BP/loot_tables/painite_loot.json": {
+		"data": {}
+	},
+	"BP/loot_tables/prismarite_loot.json": {
+		"data": {}
+	},
+	"BP/loot_tables/prolinite_loot.json": {
+		"data": {}
+	},
+	"BP/loot_tables/ruby_loot.json": {
+		"data": {}
+	},
+	"BP/loot_tables/sapphire_loot.json": {
+		"data": {}
+	},
+	"BP/loot_tables/tanzanite_loot.json": {
+		"data": {}
+	},
+	"BP/loot_tables/tungsten_loot.json": {
+		"data": {}
+	},
+	"BP/loot_tables/lava_stone_loot.json": {
+		"data": {}
+	},
+	"BP/loot_tables/nether_topaz_loot.json": {
+		"data": {}
+	},
+	"BP/recipes/block_adamantite.json": {
+		"data": {}
+	},
+	"BP/recipes/block_aluminium.json": {
+		"data": {}
+	},
+	"BP/recipes/block_amber.json": {
+		"data": {}
+	},
+	"BP/recipes/block_amethyst.json": {
+		"data": {}
+	},
+	"BP/recipes/block_calcite.json": {
+		"data": {}
+	},
+	"BP/recipes/block_celestine.json": {
+		"data": {}
+	},
+	"BP/recipes/block_cinnabar.json": {
+		"data": {}
+	},
+	"BP/recipes/block_cobalt.json": {
+		"data": {}
+	},
+	"BP/recipes/block_copper.json": {
+		"data": {}
+	},
+	"BP/recipes/block_dragon_glass.json": {
+		"data": {}
+	},
+	"BP/recipes/block_flurite.json": {
+		"data": {}
+	},
+	"BP/recipes/block_garnet.json": {
+		"data": {}
+	},
+	"BP/recipes/block_gypsum.json": {
+		"data": {}
+	},
+	"BP/recipes/block_hematite.json": {
+		"data": {}
+	},
+	"BP/recipes/block_jade.json": {
+		"data": {}
+	},
+	"BP/recipes/block_kryptonite.json": {
+		"data": {}
+	},
+	"BP/recipes/block_kyanite.json": {
+		"data": {}
+	},
+	"BP/recipes/block_lavastone.json": {
+		"data": {}
+	},
+	"BP/recipes/block_lead.json": {
+		"data": {}
+	},
+	"BP/recipes/block_magnetite.json": {
+		"data": {}
+	},
+	"BP/recipes/block_mica.json": {
+		"data": {}
+	},
+	"BP/recipes/block_nickel.json": {
+		"data": {}
+	},
+	"BP/recipes/block_opal.json": {
+		"data": {}
+	},
+	"BP/recipes/block_painite.json": {
+		"data": {}
+	},
+	"BP/recipes/block_platnium.json": {
+		"data": {}
+	},
+	"BP/recipes/block_plutonium.json": {
+		"data": {}
+	},
+	"BP/recipes/block_prismarite.json": {
+		"data": {}
+	},
+	"BP/recipes/block_prolinite.json": {
+		"data": {}
+	},
+	"BP/recipes/block_pyrite.json": {
+		"data": {}
+	},
+	"BP/recipes/block_ruby.json": {
+		"data": {}
+	},
+	"BP/recipes/block_sapphire.json": {
+		"data": {}
+	},
+	"BP/recipes/block_sulfer.json": {
+		"data": {}
+	},
+	"BP/recipes/block_sypmium.json": {
+		"data": {}
+	},
+	"BP/recipes/block_tanzanite.json": {
+		"data": {}
+	},
+	"BP/recipes/block_tin.json": {
+		"data": {}
+	},
+	"BP/recipes/block_topaz.json": {
+		"data": {}
+	},
+	"BP/recipes/block_tungsten.json": {
+		"data": {}
+	},
+	"BP/recipes/block_yttrium.json": {
+		"data": {}
+	},
+	"BP/recipes/block_zinc.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_aluminium.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_amber.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_amethyst.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_black_opal.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_calcite.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_celestine.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_cinnabar.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_cobalt.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_copper.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_dragon_glass.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_flurite.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_garnet.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_gypsum.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_hematite.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_jade.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_kryptonite.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_kyanite.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_lavastone.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_lead.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_magnetite.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_mica.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_nickel.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_opal.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_painite.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_platnium.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_plutonium.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_prismarite.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_prolinite.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_pyrite.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_ruby.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_sapphire.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_silver.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_sypmium.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_tanzanite.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_tin.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_titanium.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_topaz.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_tungsten.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_voidstone.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_yttrium.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_zinc.json": {
+		"data": {}
+	},
+	"BP/recipes/battleaxe_zincolium.json": {
+		"data": {}
+	},
+	"BP/recipes/compressor_craft.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_adamantite.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_aluminium.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_amber.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_amethyst.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_black_opal.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_calcite.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_celestine.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_cinnabar.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_cobalt.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_copper.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_dragon_glass.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_flurite.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_garnet.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_gypsum.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_hematite.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_jade.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_kryptonite.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_kyanite.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_lavastone.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_lead.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_magnetite.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_mica.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_nickel.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_opal.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_painite.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_platnium.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_plutonium.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_prismarite.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_prolinite.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_pyrite.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_ruby.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_sapphire.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_silver.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_sypmium.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_tanzanite.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_tin/.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_tin.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_titanium.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_topaz.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_tungsten.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_voidstone.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_yttrium.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_zinc.json": {
+		"data": {}
+	},
+	"BP/recipes/apple_zincolium.json": {
+		"data": {}
+	},
+	"BP/blocks/nether_sulfur_ore.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_adamantite.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_aluminium.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_amber.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_amethyst.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_black_opal.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_calcite.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_celestine.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_cinnabar.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_cobalt.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_copper.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_dragon_glass.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_flurite.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_garnet.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_gypsum.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_hematite.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_jade.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_kryptonite.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_kyanite.json": {
+		"data": {}
+	},
+	"RP/mation_controllers/miner.json": {
+		"data": {}
+	},
+	"RP/der_controllers/miner.json": {
+		"data": {}
+	},
+	"RP/mations/miner.json": {
+		"data": {}
+	},
+	"RP/ity/miner.json": {
+		"data": {}
+	},
+	"RP/els/entity/miner.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_lavastone.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_lead.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_magnetite.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_mica.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_nickel.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_opal.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_painite.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_platnium.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_plutonium.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_prismarite.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_prolinite.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_pyrite.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_ruby.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_sapphire.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_tin.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_titanium.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_topaz.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_tungsten.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_voidstone.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_yttrium.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_zinc.json": {
+		"data": {}
+	},
+	"BP/recipes/sword_zincolium.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_adamantite.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_aluminium.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_amber.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_amethyst.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_black_opal.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_calcite.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_celestine.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_cinnabar.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_cobalt.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_copper.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_dragon_glass.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_flurite.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_garnet.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_gypsum.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_hematite.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_jade.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_kryptonite.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_kyanite.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_lavastone.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_lead.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_magnetite.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_mica.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_nickel.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_opal.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_painite.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_platnium.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_plutonium.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_prismarite.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_prolinite.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_pyrite.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_ruby.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_sapphire.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_silver.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_sypmium.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_tanzanite.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_tin.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_titanium.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_topaz.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_tungsten.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_voidstone.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_yttrium.json": {
+		"data": {}
+	},
+	"BP/recipes/sickle_zincolium.json": {
+		"data": {}
+	},
+	"RP/manifest.json": {
+		"data": {}
+	},
+	"RP/ui/debug_screen.json": {
+		"data": {}
+	},
+	"BP/loot_tables/grape_harvest.json": {
+		"data": {}
+	},
+	"BP/blocks/glowing_grape_bush.json": {
+		"data": {
+			"component@bridge:rotate_on_place": {
+				"minecraft:block": {
+					"description": {
+						"properties": {
+							"bridge:block_rotation": [
+								0,
+								1,
+								2,
+								3,
+								4,
+								5
+							]
+						}
+					},
+					"permutations": [
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 0",
+							"components": {
+								"minecraft:rotation": [
+									0,
+									0,
+									0
+								]
+							}
+						},
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 1",
+							"components": {
+								"minecraft:rotation": [
+									0,
+									0,
+									180
+								]
+							}
+						},
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 2",
+							"components": {
+								"minecraft:rotation": [
+									90,
+									0,
+									0
+								]
+							}
+						},
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 3",
+							"components": {
+								"minecraft:rotation": [
+									-90,
+									0,
+									0
+								]
+							}
+						},
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 4",
+							"components": {
+								"minecraft:rotation": [
+									0,
+									0,
+									-90
+								]
+							}
+						},
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 5",
+							"components": {
+								"minecraft:rotation": [
+									0,
+									0,
+									90
+								]
+							}
+						}
+					],
+					"components": {
+						"minecraft:on_player_placing": {
+							"event": "bridge:update_rotation"
+						}
+					},
+					"events": {
+						"bridge:update_rotation": {
+							"set_block_property": {
+								"bridge:block_rotation": "query.cardinal_player_facing"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"RP/textures/terrain_texture.json": {
+		"data": {}
+	},
+	"RP/blocks.json": {
+		"data": {}
+	},
+	"BP/blocks/glowing_grape_non.json": {
+		"data": {
+			"component@bridge:rotate_on_place": {
+				"minecraft:block": {
+					"description": {
+						"properties": {
+							"bridge:block_rotation": [
+								0,
+								1,
+								2,
+								3,
+								4,
+								5
+							]
+						}
+					},
+					"permutations": [
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 0",
+							"components": {
+								"minecraft:rotation": [
+									0,
+									0,
+									0
+								]
+							}
+						},
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 1",
+							"components": {
+								"minecraft:rotation": [
+									0,
+									0,
+									180
+								]
+							}
+						},
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 2",
+							"components": {
+								"minecraft:rotation": [
+									90,
+									0,
+									0
+								]
+							}
+						},
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 3",
+							"components": {
+								"minecraft:rotation": [
+									-90,
+									0,
+									0
+								]
+							}
+						},
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 4",
+							"components": {
+								"minecraft:rotation": [
+									0,
+									0,
+									-90
+								]
+							}
+						},
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 5",
+							"components": {
+								"minecraft:rotation": [
+									0,
+									0,
+									90
+								]
+							}
+						}
+					],
+					"components": {
+						"minecraft:on_player_placing": {
+							"event": "bridge:update_rotation"
+						}
+					},
+					"events": {
+						"bridge:update_rotation": {
+							"set_block_property": {
+								"bridge:block_rotation": "query.cardinal_player_facing"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/items/glowing_grape.json": {
+		"data": {}
+	},
+	"RP/textures/item_texture.json": {
+		"data": {}
+	},
+	"BP/feature_rules/limestone_gen.json": {
+		"data": {}
+	},
+	"BP/features/grape_bush_feature.json": {
+		"data": {}
+	},
+	"BP/features/glowing_grape_scatter.json": {
+		"data": {}
+	},
+	"BP/feature_rules/grape_bush_gen.json": {
+		"data": {}
+	},
+	"RP/te RP/attachables/sebkar_helmet.json": {
+		"data": {}
+	},
+	"RP/te RP/attachables/sebkar_helmet.player.json": {
+		"data": {}
+	},
+	"RP/te RP/textures/item_texture.json": {
+		"data": {}
+	},
+	"RP/attachables/sebkar_helmet.json": {
+		"data": {}
+	},
+	"RP/attachables/sebkar_helmet.player.json": {
+		"data": {}
+	},
+	"BP/items/sebkar_helmet.json": {
+		"data": {}
+	},
+	"BP/feature_rules/giant_cave_gen.json": {
+		"data": {}
+	},
+	"BP/items/copper_pickaxe.json": {
+		"data": {}
+	},
+	"BP/items/nickel_pickaxe.json": {
+		"data": {}
+	},
+	"BP/items/garnet_pickaxe.json": {
+		"data": {}
+	},
+	"BP/items/hematite_pickaxe.json": {
+		"data": {}
+	},
+	"BP/items/jade_pickaxe.json": {
+		"data": {}
+	},
+	"BP/recipes/copper_pickaxe.json": {
+		"data": {}
+	},
+	"BP/recipes/nickel_pickaxe.json": {
+		"data": {}
+	},
+	"BP/recipes/garnet_pickaxe.json": {
+		"data": {}
+	},
+	"BP/recipes/hematite_pickaxe.json": {
+		"data": {}
+	},
+	"BP/recipes/jade_pickaxe.json": {
+		"data": {}
+	},
+	"BP/items/kyanite_pickaxe.json": {
+		"data": {}
+	},
+	"BP/items/opal_pickaxe.json": {
+		"data": {}
+	},
+	"BP/items/painite_pickaxe.json": {
+		"data": {}
+	},
+	"BP/items/voidstone_pickaxe.json": {
+		"data": {}
+	},
+	"BP/recipes/opal_pickaxe.json": {
+		"data": {}
+	},
+	"BP/recipes/painite_pickaxe.json": {
+		"data": {}
+	},
+	"BP/recipes/kyanite_pickaxe.json": {
+		"data": {}
+	},
+	"BP/recipes/voidstone_pickaxe.json": {
+		"data": {}
+	},
+	"BP/blocks/cave_grass.json": {
+		"data": {}
+	},
+	"BP/blocks/cave_grass_glow.json": {
+		"data": {}
+	},
+	"BP/blocks/package_cave_base.json": {
+		"data": {}
+	},
+	"BP/recipes/package_cave_base.json": {
+		"data": {}
+	},
+	"BP/blocks/long_vine.json": {
+		"data": {}
+	},
+	"BP/blocks/centrifuge.json": {
+		"data": {}
+	},
+	"BP/items/haste_potion.json": {
+		"data": {}
+	},
+	"BP/items/copper_dust.json": {
+		"data": {}
+	},
+	"BP/recipes/centrifuge.json": {
+		"data": {}
+	},
+	"BP/recipes/root_to_haste_potion.json": {
+		"data": {}
+	},
+	"BP/loot_tables/g_grass_loot.json": {
+		"data": {}
+	},
+	"BP/blocks/glowing_grass.json": {
+		"data": {}
+	},
+	"BP/blocks/purple_mushroom.json": {
+		"data": {}
+	},
+	"RP/splashes.json": {
+		"data": {}
+	},
+	"BP/blocks/stalagmite.json": {
+		"data": {}
+	},
+	"BP/blocks/blue_crystal.json": {
+		"data": {}
+	},
+	"RP/entity/dynamite.json": {
+		"data": {}
+	},
+	"BP/entities/dynamite.json": {
+		"data": {}
+	},
+	"BP/features/purple_mushroom_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/purple_mushroom_gen.json": {
+		"data": {}
+	},
+	"BP/features/stalagmite_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/stalagmite_gen.json": {
+		"data": {}
+	},
+	"BP/blocks/glowing_mushroom.json": {
+		"data": {}
+	},
+	"BP/features/glowing_mushroom_feature.json": {
+		"data": {}
+	},
+	"BP/feature_rules/glowing_mushroom_gen.json": {
+		"data": {}
+	},
+	"BP/blocks/moss.json": {
+		"data": {}
+	},
+	"BP/features/moss_feature_test.json": {
+		"data": {}
+	},
+	"BP/feature_rules/moss_gen_test.json": {
+		"data": {}
+	},
+	"RP/ui/start_screen.json": {
+		"data": {}
+	},
+	"BP/recipes/centrifuge_copper.json": {
+		"data": {}
+	},
+	"BP/recipes/centrifuge_copper_2.json": {
+		"data": {}
+	},
+	"BP/recipes/centrifuge_copper_3.json": {
+		"data": {}
+	},
+	"BP/recipes/centrifuge_nickel.json": {
+		"data": {}
+	},
+	"BP/recipes/centrifuge_nickel_2.json": {
+		"data": {}
+	},
+	"BP/recipes/centrifuge_nickel_3.json": {
+		"data": {}
+	},
+	"BP/loot_tables/molten_stone_loot.json": {
+		"data": {}
+	},
+	"BP/blocks/molten_stone.json": {
+		"data": {}
+	},
+	"BP/recipes/centrifuge_garnet.json": {
+		"data": {}
+	},
+	"BP/recipes/centrifuge_garnet_2.json": {
+		"data": {}
+	},
+	"BP/recipes/centrifuge_garnet_3.json": {
+		"data": {}
+	},
+	"BP/recipes/centrifuge_hematite.json": {
+		"data": {}
+	},
+	"BP/recipes/centrifuge_hematite_2.json": {
+		"data": {}
+	},
+	"BP/recipes/package_cave_base_copper.json": {
+		"data": {}
+	},
+	"BP/recipes/copper_dust.json": {
+		"data": {}
+	},
+	"BP/recipes/centrifuge_coal.json": {
+		"data": {}
+	},
+	"BP/loot_tables/cinquanta_loot.json": {
+		"data": {}
+	},
+	"BP/blocks/cinquanta_ore.json": {
+		"data": {}
+	},
+	"BP/loot_tables/alloy_loot.json": {
+		"data": {}
+	},
+	"BP/blocks/alloy_foundry.json": {
+		"data": {
+			"component@bridge:rotate_on_place": {
+				"minecraft:block": {
+					"description": {
+						"properties": {
+							"bridge:block_rotation": [
+								0,
+								1,
+								2,
+								3,
+								4,
+								5
+							]
+						}
+					},
+					"permutations": [
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 0",
+							"components": {
+								"minecraft:rotation": [
+									0,
+									0,
+									0
+								]
+							}
+						},
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 1",
+							"components": {
+								"minecraft:rotation": [
+									0,
+									0,
+									180
+								]
+							}
+						},
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 2",
+							"components": {
+								"minecraft:rotation": [
+									90,
+									0,
+									0
+								]
+							}
+						},
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 3",
+							"components": {
+								"minecraft:rotation": [
+									-90,
+									0,
+									0
+								]
+							}
+						},
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 4",
+							"components": {
+								"minecraft:rotation": [
+									0,
+									0,
+									-90
+								]
+							}
+						},
+						{
+							"condition": "query.block_property('bridge:block_rotation') == 5",
+							"components": {
+								"minecraft:rotation": [
+									0,
+									0,
+									90
+								]
+							}
+						}
+					],
+					"components": {
+						"minecraft:on_player_placing": {
+							"event": "bridge:update_rotation"
+						}
+					},
+					"events": {
+						"bridge:update_rotation": {
+							"set_block_property": {
+								"bridge:block_rotation": "query.cardinal_player_facing"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/entities/rock_gecko.json": {
+		"data": {}
+	},
+	"RP/entity/rock_gecko.json": {
+		"data": {}
+	},
+	"RP/render_controllers/rock_gecko.json": {
+		"data": {}
+	},
+	"BP/loot_tables/rock_geko_loot.json": {
+		"data": {}
+	}
+}

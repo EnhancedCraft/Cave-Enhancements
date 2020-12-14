@@ -1,0 +1,31 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.200",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:centrifuge_coal"
+		},
+		"tags": [
+			"centrifuge"
+		],
+		"pattern": [
+			"CIC",
+			"CIC",
+			"CIC"
+		],
+		"key": {
+			"C": {
+				"item": "minecraft:cobblestone"
+			},
+			"I": {
+				"item": "minecraft:dirt"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:coal",
+				"count": 2
+			}
+		]
+	}
+}

@@ -1,0 +1,18 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:end_plutonium_ore",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 1780,
+			"minecraft:friction": 1,
+			"minecraft:explosion_resistance": 17,
+			"minecraft:loot": "loot_tables/end_plutonium_loot.json",
+			"tag:ores:hard": {}
+		},
+		"events": {}
+	}
+}

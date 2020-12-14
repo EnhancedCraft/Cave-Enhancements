@@ -1,0 +1,101 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\recipes\\smelt_zincolium.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "0aae8bfe_79ce_4cfb_80d8_d977a8ed3f48",
+	"file_version": 21,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_furnace": {
+						"description": {
+							"identifier": "ores:smelt_zincolium"
+						},
+						"tags": [
+							"furnace",
+							"blast_furnace"
+						],
+						"input": "ores:zincolium_ore",
+						"output": "ores:zincolium_ingot"
+					}
+				},
+				"key": "minecraft:recipe_furnace",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:smelt_zincolium"
+							},
+							"tags": [
+								"furnace",
+								"blast_furnace"
+							],
+							"input": "ores:zincolium_ore",
+							"output": "ores:zincolium_ingot"
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:smelt_zincolium"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:smelt_zincolium"
+							},
+							"tags": [
+								"furnace",
+								"blast_furnace"
+							],
+							"input": "ores:zincolium_ore",
+							"output": "ores:zincolium_ingot"
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"furnace",
+							"blast_furnace"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:smelt_zincolium"
+							},
+							"tags": [
+								"furnace",
+								"blast_furnace"
+							],
+							"input": "ores:zincolium_ore",
+							"output": "ores:zincolium_ingot"
+						},
+						"data": "ores:zincolium_ore",
+						"key": "input"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:smelt_zincolium"
+							},
+							"tags": [
+								"furnace",
+								"blast_furnace"
+							],
+							"input": "ores:zincolium_ore",
+							"output": "ores:zincolium_ingot"
+						},
+						"data": "ores:zincolium_ingot",
+						"key": "output"
+					}
+				]
+			}
+		]
+	}
+}

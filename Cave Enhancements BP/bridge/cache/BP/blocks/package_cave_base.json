@@ -1,0 +1,246 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Cave Enhancements BP\\blocks\\package_cave_base.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "00733ad1_8300_45f9_ae69_44e68b1ba633",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "ores:package_cave_base"
+						},
+						"components": {
+							"minecraft:destroy_time": 3,
+							"minecraft:block_light_emission": 0.3,
+							"minecraft:explosion_resistance": 10,
+							"minecraft:on_interact": {
+								"event": "base",
+								"target": "self"
+							}
+						},
+						"events": {
+							"base": {
+								"run_command": {
+									"command": [
+										"structure load cavebase ~ ~ ~ 0_degrees none true"
+									],
+									"target": "self"
+								},
+								"set_block": {
+									"block_type": "minecraft:air"
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:package_cave_base"
+							},
+							"components": {
+								"minecraft:destroy_time": 3,
+								"minecraft:block_light_emission": 0.3,
+								"minecraft:explosion_resistance": 10,
+								"minecraft:on_interact": {
+									"event": "base",
+									"target": "self"
+								}
+							},
+							"events": {
+								"base": {
+									"run_command": {
+										"command": [
+											"structure load cavebase ~ ~ ~ 0_degrees none true"
+										],
+										"target": "self"
+									},
+									"set_block": {
+										"block_type": "minecraft:air"
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:package_cave_base"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:package_cave_base"
+							},
+							"components": {
+								"minecraft:destroy_time": 3,
+								"minecraft:block_light_emission": 0.3,
+								"minecraft:explosion_resistance": 10,
+								"minecraft:on_interact": {
+									"event": "base",
+									"target": "self"
+								}
+							},
+							"events": {
+								"base": {
+									"run_command": {
+										"command": [
+											"structure load cavebase ~ ~ ~ 0_degrees none true"
+										],
+										"target": "self"
+									},
+									"set_block": {
+										"block_type": "minecraft:air"
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "3",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"data": "0.3",
+								"key": "minecraft:block_light_emission"
+							},
+							{
+								"data": "10",
+								"key": "minecraft:explosion_resistance"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 3,
+									"minecraft:block_light_emission": 0.3,
+									"minecraft:explosion_resistance": 10,
+									"minecraft:on_interact": {
+										"event": "base",
+										"target": "self"
+									}
+								},
+								"key": "minecraft:on_interact",
+								"is_minified": true,
+								"children": {
+									"event": "base",
+									"target": "self"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:package_cave_base"
+							},
+							"components": {
+								"minecraft:destroy_time": 3,
+								"minecraft:block_light_emission": 0.3,
+								"minecraft:explosion_resistance": 10,
+								"minecraft:on_interact": {
+									"event": "base",
+									"target": "self"
+								}
+							},
+							"events": {
+								"base": {
+									"run_command": {
+										"command": [
+											"structure load cavebase ~ ~ ~ 0_degrees none true"
+										],
+										"target": "self"
+									},
+									"set_block": {
+										"block_type": "minecraft:air"
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"base": {
+										"run_command": {
+											"command": [
+												"structure load cavebase ~ ~ ~ 0_degrees none true"
+											],
+											"target": "self"
+										},
+										"set_block": {
+											"block_type": "minecraft:air"
+										}
+									}
+								},
+								"key": "base",
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"structure load cavebase ~ ~ ~ 0_degrees none true"
+												],
+												"target": "self"
+											},
+											"set_block": {
+												"block_type": "minecraft:air"
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"structure load cavebase ~ ~ ~ 0_degrees none true"
+													],
+													"target": "self"
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"structure load cavebase ~ ~ ~ 0_degrees none true"
+												]
+											},
+											{
+												"data": "self",
+												"key": "target"
+											}
+										]
+									},
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"structure load cavebase ~ ~ ~ 0_degrees none true"
+												],
+												"target": "self"
+											},
+											"set_block": {
+												"block_type": "minecraft:air"
+											}
+										},
+										"key": "set_block",
+										"is_minified": true,
+										"children": {
+											"block_type": "minecraft:air"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

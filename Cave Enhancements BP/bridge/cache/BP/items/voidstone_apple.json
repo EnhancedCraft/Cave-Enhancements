@@ -1,0 +1,838 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1/items/voidstone_apple.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "c8f5a8bd_afd4_4b1b_a2bc_4b6eef6084db",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ores:voidstone_apple",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:use_duration": 1.6,
+							"minecraft:foil": false,
+							"minecraft:food": {
+								"nutrition": 4,
+								"saturation_modifier": "supernatural",
+								"can_always_eat": true,
+								"on_consume": {
+									"event": "consumed",
+									"target": "self"
+								}
+							},
+							"minecraft:use_animation": "eat",
+							"minecraft:display_name": {
+								"value": "Voidstone Apple"
+							},
+							"minecraft:icon": {
+								"texture": "voidstoneapple"
+							}
+						},
+						"events": {
+							"consumed": {
+								"sequence": [
+									{
+										"add_mob_effect": {
+											"effect": "regeneration",
+											"duration": 180,
+											"amplifier": 2,
+											"target": "holder"
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "absorption",
+											"duration": 230,
+											"amplifier": 2,
+											"target": "holder"
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "fire_resistance",
+											"target": "holder",
+											"duration": 100,
+											"amplifier": 1
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "strength",
+											"target": "holder",
+											"duration": 190,
+											"amplifier": 1
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "levitation",
+											"target": "holder",
+											"duration": 6,
+											"amplifier": 0
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:voidstone_apple",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:foil": false,
+								"minecraft:food": {
+									"nutrition": 4,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:display_name": {
+									"value": "Voidstone Apple"
+								},
+								"minecraft:icon": {
+									"texture": "voidstoneapple"
+								}
+							},
+							"events": {
+								"consumed": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "regeneration",
+												"duration": 180,
+												"amplifier": 2,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "absorption",
+												"duration": 230,
+												"amplifier": 2,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "fire_resistance",
+												"target": "holder",
+												"duration": 100,
+												"amplifier": 1
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "strength",
+												"target": "holder",
+												"duration": 190,
+												"amplifier": 1
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "levitation",
+												"target": "holder",
+												"duration": 6,
+												"amplifier": 0
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:voidstone_apple",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:voidstone_apple",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:foil": false,
+								"minecraft:food": {
+									"nutrition": 4,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:display_name": {
+									"value": "Voidstone Apple"
+								},
+								"minecraft:icon": {
+									"texture": "voidstoneapple"
+								}
+							},
+							"events": {
+								"consumed": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "regeneration",
+												"duration": 180,
+												"amplifier": 2,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "absorption",
+												"duration": 230,
+												"amplifier": 2,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "fire_resistance",
+												"target": "holder",
+												"duration": 100,
+												"amplifier": 1
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "strength",
+												"target": "holder",
+												"duration": 190,
+												"amplifier": 1
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "levitation",
+												"target": "holder",
+												"duration": 6,
+												"amplifier": 0
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"data": "1.6",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"data": "false",
+								"key": "minecraft:foil"
+							},
+							{
+								"key": "minecraft:food",
+								"is_minified": true,
+								"children": {
+									"nutrition": 4,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								}
+							},
+							{
+								"data": "eat",
+								"key": "minecraft:use_animation"
+							},
+							{
+								"open": {
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 1.6,
+									"minecraft:foil": false,
+									"minecraft:food": {
+										"nutrition": 4,
+										"saturation_modifier": "supernatural",
+										"can_always_eat": true,
+										"on_consume": {
+											"event": "consumed",
+											"target": "self"
+										}
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:display_name": {
+										"value": "Voidstone Apple"
+									},
+									"minecraft:icon": {
+										"texture": "voidstoneapple"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Voidstone Apple"
+								}
+							},
+							{
+								"open": {
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 1.6,
+									"minecraft:foil": false,
+									"minecraft:food": {
+										"nutrition": 4,
+										"saturation_modifier": "supernatural",
+										"can_always_eat": true,
+										"on_consume": {
+											"event": "consumed",
+											"target": "self"
+										}
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:display_name": {
+										"value": "Voidstone Apple"
+									},
+									"minecraft:icon": {
+										"texture": "voidstoneapple"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "voidstoneapple"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:voidstone_apple",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:foil": false,
+								"minecraft:food": {
+									"nutrition": 4,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:display_name": {
+									"value": "Voidstone Apple"
+								},
+								"minecraft:icon": {
+									"texture": "voidstoneapple"
+								}
+							},
+							"events": {
+								"consumed": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "regeneration",
+												"duration": 180,
+												"amplifier": 2,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "absorption",
+												"duration": 230,
+												"amplifier": 2,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "fire_resistance",
+												"target": "holder",
+												"duration": 100,
+												"amplifier": 1
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "strength",
+												"target": "holder",
+												"duration": 190,
+												"amplifier": 1
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "levitation",
+												"target": "holder",
+												"duration": 6,
+												"amplifier": 0
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"consumed": {
+										"sequence": [
+											{
+												"add_mob_effect": {
+													"effect": "regeneration",
+													"duration": 180,
+													"amplifier": 2,
+													"target": "holder"
+												}
+											},
+											{
+												"add_mob_effect": {
+													"effect": "absorption",
+													"duration": 230,
+													"amplifier": 2,
+													"target": "holder"
+												}
+											},
+											{
+												"add_mob_effect": {
+													"effect": "fire_resistance",
+													"target": "holder",
+													"duration": 100,
+													"amplifier": 1
+												}
+											},
+											{
+												"add_mob_effect": {
+													"effect": "strength",
+													"target": "holder",
+													"duration": 190,
+													"amplifier": 1
+												}
+											},
+											{
+												"add_mob_effect": {
+													"effect": "levitation",
+													"target": "holder",
+													"duration": 6,
+													"amplifier": 0
+												}
+											}
+										]
+									}
+								},
+								"key": "consumed",
+								"children": [
+									{
+										"open": {
+											"sequence": [
+												{
+													"add_mob_effect": {
+														"effect": "regeneration",
+														"duration": 180,
+														"amplifier": 2,
+														"target": "holder"
+													}
+												},
+												{
+													"add_mob_effect": {
+														"effect": "absorption",
+														"duration": 230,
+														"amplifier": 2,
+														"target": "holder"
+													}
+												},
+												{
+													"add_mob_effect": {
+														"effect": "fire_resistance",
+														"target": "holder",
+														"duration": 100,
+														"amplifier": 1
+													}
+												},
+												{
+													"add_mob_effect": {
+														"effect": "strength",
+														"target": "holder",
+														"duration": 190,
+														"amplifier": 1
+													}
+												},
+												{
+													"add_mob_effect": {
+														"effect": "levitation",
+														"target": "holder",
+														"duration": 6,
+														"amplifier": 0
+													}
+												}
+											]
+										},
+										"key": "sequence",
+										"children": [
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "regeneration",
+															"duration": 180,
+															"amplifier": 2,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "absorption",
+															"duration": 230,
+															"amplifier": 2,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "fire_resistance",
+															"target": "holder",
+															"duration": 100,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "strength",
+															"target": "holder",
+															"duration": 190,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "levitation",
+															"target": "holder",
+															"duration": 6,
+															"amplifier": 0
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "regeneration",
+																"duration": 180,
+																"amplifier": 2,
+																"target": "holder"
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "regeneration",
+															"duration": 180,
+															"amplifier": 2,
+															"target": "holder"
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "regeneration",
+															"duration": 180,
+															"amplifier": 2,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "absorption",
+															"duration": 230,
+															"amplifier": 2,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "fire_resistance",
+															"target": "holder",
+															"duration": 100,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "strength",
+															"target": "holder",
+															"duration": 190,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "levitation",
+															"target": "holder",
+															"duration": 6,
+															"amplifier": 0
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "absorption",
+																"duration": 230,
+																"amplifier": 2,
+																"target": "holder"
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "absorption",
+															"duration": 230,
+															"amplifier": 2,
+															"target": "holder"
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "regeneration",
+															"duration": 180,
+															"amplifier": 2,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "absorption",
+															"duration": 230,
+															"amplifier": 2,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "fire_resistance",
+															"target": "holder",
+															"duration": 100,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "strength",
+															"target": "holder",
+															"duration": 190,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "levitation",
+															"target": "holder",
+															"duration": 6,
+															"amplifier": 0
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "fire_resistance",
+																"target": "holder",
+																"duration": 100,
+																"amplifier": 1
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "fire_resistance",
+															"target": "holder",
+															"duration": 100,
+															"amplifier": 1
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "regeneration",
+															"duration": 180,
+															"amplifier": 2,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "absorption",
+															"duration": 230,
+															"amplifier": 2,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "fire_resistance",
+															"target": "holder",
+															"duration": 100,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "strength",
+															"target": "holder",
+															"duration": 190,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "levitation",
+															"target": "holder",
+															"duration": 6,
+															"amplifier": 0
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "strength",
+																"target": "holder",
+																"duration": 190,
+																"amplifier": 1
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "strength",
+															"target": "holder",
+															"duration": 190,
+															"amplifier": 1
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "regeneration",
+															"duration": 180,
+															"amplifier": 2,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "absorption",
+															"duration": 230,
+															"amplifier": 2,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "fire_resistance",
+															"target": "holder",
+															"duration": 100,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "strength",
+															"target": "holder",
+															"duration": 190,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "levitation",
+															"target": "holder",
+															"duration": 6,
+															"amplifier": 0
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "levitation",
+																"target": "holder",
+																"duration": 6,
+																"amplifier": 0
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "levitation",
+															"target": "holder",
+															"duration": 6,
+															"amplifier": 0
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

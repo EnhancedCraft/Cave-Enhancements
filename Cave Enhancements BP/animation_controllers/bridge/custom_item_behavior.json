@@ -1,0 +1,33 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.bridge_custom_item_behavior": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"holds_kryptonite_apple": "query.get_equipped_item_name(0, 0) == 'kryptonite_apple'"
+						}
+					],
+					"on_entry": [
+						"@s bridge:on_reset_player"
+					]
+				},
+				"holds_kryptonite_apple": {
+					"transitions": [
+						{
+							"default": "query.get_equipped_item_name(0, 0) != 'kryptonite_apple'"
+						}
+					],
+					"on_entry": [
+						"@s bridge:on_equipped_353c61ad_0073_4183_b612_7aca4280b58d",
+						"/say Eat this apple to get powers?? You must survive the poison to get them. Made By Warhead ;)"
+					],
+					"on_exit": [
+						"@s bridge:on_unequipped_353c61ad_0073_4183_b612_7aca4280b58d"
+					]
+				}
+			}
+		}
+	}
+}

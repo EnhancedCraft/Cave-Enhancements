@@ -1,0 +1,351 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Cave Enhancements BP\\recipes\\centrifuge_copper_2.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "6e4d5588_8bba_496c_a07e_515d877c86b4",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.200",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.200",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ores:centrifuge_copper_2"
+						},
+						"tags": [
+							"centrifuge"
+						],
+						"pattern": [
+							"CPC",
+							"OFO",
+							"CPC"
+						],
+						"key": {
+							"C": {
+								"item": "minecraft:cobblestone"
+							},
+							"P": {
+								"item": "minecraft:coal"
+							},
+							"O": {
+								"item": "ores:compressed_cobblestone"
+							},
+							"F": {
+								"item": "minecraft:coal_block"
+							}
+						},
+						"result": [
+							{
+								"item": "ores:copper_ingot",
+								"count": 8
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:centrifuge_copper_2"
+							},
+							"tags": [
+								"centrifuge"
+							],
+							"pattern": [
+								"CPC",
+								"OFO",
+								"CPC"
+							],
+							"key": {
+								"C": {
+									"item": "minecraft:cobblestone"
+								},
+								"P": {
+									"item": "minecraft:coal"
+								},
+								"O": {
+									"item": "ores:compressed_cobblestone"
+								},
+								"F": {
+									"item": "minecraft:coal_block"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:copper_ingot",
+									"count": 8
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:centrifuge_copper_2"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:centrifuge_copper_2"
+							},
+							"tags": [
+								"centrifuge"
+							],
+							"pattern": [
+								"CPC",
+								"OFO",
+								"CPC"
+							],
+							"key": {
+								"C": {
+									"item": "minecraft:cobblestone"
+								},
+								"P": {
+									"item": "minecraft:coal"
+								},
+								"O": {
+									"item": "ores:compressed_cobblestone"
+								},
+								"F": {
+									"item": "minecraft:coal_block"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:copper_ingot",
+									"count": 8
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"centrifuge"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:centrifuge_copper_2"
+							},
+							"tags": [
+								"centrifuge"
+							],
+							"pattern": [
+								"CPC",
+								"OFO",
+								"CPC"
+							],
+							"key": {
+								"C": {
+									"item": "minecraft:cobblestone"
+								},
+								"P": {
+									"item": "minecraft:coal"
+								},
+								"O": {
+									"item": "ores:compressed_cobblestone"
+								},
+								"F": {
+									"item": "minecraft:coal_block"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:copper_ingot",
+									"count": 8
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"CPC",
+							"OFO",
+							"CPC"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:centrifuge_copper_2"
+							},
+							"tags": [
+								"centrifuge"
+							],
+							"pattern": [
+								"CPC",
+								"OFO",
+								"CPC"
+							],
+							"key": {
+								"C": {
+									"item": "minecraft:cobblestone"
+								},
+								"P": {
+									"item": "minecraft:coal"
+								},
+								"O": {
+									"item": "ores:compressed_cobblestone"
+								},
+								"F": {
+									"item": "minecraft:coal_block"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:copper_ingot",
+									"count": 8
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"C": {
+										"item": "minecraft:cobblestone"
+									},
+									"P": {
+										"item": "minecraft:coal"
+									},
+									"O": {
+										"item": "ores:compressed_cobblestone"
+									},
+									"F": {
+										"item": "minecraft:coal_block"
+									}
+								},
+								"key": "C",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:cobblestone"
+								}
+							},
+							{
+								"open": {
+									"C": {
+										"item": "minecraft:cobblestone"
+									},
+									"P": {
+										"item": "minecraft:coal"
+									},
+									"O": {
+										"item": "ores:compressed_cobblestone"
+									},
+									"F": {
+										"item": "minecraft:coal_block"
+									}
+								},
+								"key": "P",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:coal"
+								}
+							},
+							{
+								"open": {
+									"C": {
+										"item": "minecraft:cobblestone"
+									},
+									"P": {
+										"item": "minecraft:coal"
+									},
+									"O": {
+										"item": "ores:compressed_cobblestone"
+									},
+									"F": {
+										"item": "minecraft:coal_block"
+									}
+								},
+								"key": "O",
+								"is_minified": true,
+								"children": {
+									"item": "ores:compressed_cobblestone"
+								}
+							},
+							{
+								"open": {
+									"C": {
+										"item": "minecraft:cobblestone"
+									},
+									"P": {
+										"item": "minecraft:coal"
+									},
+									"O": {
+										"item": "ores:compressed_cobblestone"
+									},
+									"F": {
+										"item": "minecraft:coal_block"
+									}
+								},
+								"key": "F",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:coal_block"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:centrifuge_copper_2"
+							},
+							"tags": [
+								"centrifuge"
+							],
+							"pattern": [
+								"CPC",
+								"OFO",
+								"CPC"
+							],
+							"key": {
+								"C": {
+									"item": "minecraft:cobblestone"
+								},
+								"P": {
+									"item": "minecraft:coal"
+								},
+								"O": {
+									"item": "ores:compressed_cobblestone"
+								},
+								"F": {
+									"item": "minecraft:coal_block"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:copper_ingot",
+									"count": 8
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "ores:copper_ingot",
+										"count": 8
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "ores:copper_ingot",
+									"count": 8
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

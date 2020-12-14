@@ -1,0 +1,68 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\blocks\\nether_topaz_ore.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "a9661678_c98a_4eaa_b17e_e7324c748c03",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:block": {
+						"description": {
+							"identifier": "ores:nether_topaz_ore",
+							"is_experimental": false
+						},
+						"components": {
+							"minecraft:destroy_time": 1000,
+							"minecraft:friction": 1,
+							"minecraft:explosion_resistance": 60,
+							"minecraft:loot": "loot_tables/nether_topaz_loot.json",
+							"tag:ores:medium": {}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:nether_topaz_ore",
+							"is_experimental": false
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:nether_topaz_ore",
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:destroy_time": 1000,
+								"minecraft:friction": 1,
+								"minecraft:explosion_resistance": 60,
+								"minecraft:loot": "loot_tables/nether_topaz_loot.json",
+								"tag:ores:medium": {}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 1000,
+							"minecraft:friction": 1,
+							"minecraft:explosion_resistance": 60,
+							"minecraft:loot": "loot_tables/nether_topaz_loot.json",
+							"tag:ores:medium": {}
+						}
+					}
+				]
+			}
+		]
+	}
+}

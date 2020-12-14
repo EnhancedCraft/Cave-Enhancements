@@ -1,0 +1,17 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:nickel_ore",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 1000,
+			"minecraft:friction": 1,
+			"minecraft:explosion_resistance": 4,
+			"minecraft:loot": "loot_tables/nickel_loot.json",
+			"tag:ores:easy": {}
+		}
+	}
+}

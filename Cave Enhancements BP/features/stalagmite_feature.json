@@ -1,0 +1,15 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "ores:stalagmite_feature"
+		},
+		"places_block": {
+			"name": "ores:stalagmite",
+			"states": {}
+		},
+		"enforce_survivability_rules": true,
+		"enforce_placement_rules": true
+	}
+}

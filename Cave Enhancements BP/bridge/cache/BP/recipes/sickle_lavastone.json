@@ -1,0 +1,261 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Cave Enhancements BP\\recipes\\sickle_lavastone.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "2714deda_7ae3_472f_b6b1_dcf5715b9499",
+	"file_version": 18,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ores:sickle_lavastone"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"XXX",
+							"C  X",
+							"C"
+						],
+						"key": {
+							"X": {
+								"item": "ores:lavastone"
+							},
+							"C": {
+								"item": "minecraft:stick"
+							}
+						},
+						"result": [
+							{
+								"item": "ores:lavastone_sickle",
+								"count": 1
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:sickle_lavastone"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"XXX",
+								"C  X",
+								"C"
+							],
+							"key": {
+								"X": {
+									"item": "ores:lavastone"
+								},
+								"C": {
+									"item": "minecraft:stick"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:lavastone_sickle",
+									"count": 1
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:sickle_lavastone"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:sickle_lavastone"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"XXX",
+								"C  X",
+								"C"
+							],
+							"key": {
+								"X": {
+									"item": "ores:lavastone"
+								},
+								"C": {
+									"item": "minecraft:stick"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:lavastone_sickle",
+									"count": 1
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:sickle_lavastone"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"XXX",
+								"C  X",
+								"C"
+							],
+							"key": {
+								"X": {
+									"item": "ores:lavastone"
+								},
+								"C": {
+									"item": "minecraft:stick"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:lavastone_sickle",
+									"count": 1
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"XXX",
+							"C  X",
+							"C"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:sickle_lavastone"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"XXX",
+								"C  X",
+								"C"
+							],
+							"key": {
+								"X": {
+									"item": "ores:lavastone"
+								},
+								"C": {
+									"item": "minecraft:stick"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:lavastone_sickle",
+									"count": 1
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"X": {
+										"item": "ores:lavastone"
+									},
+									"C": {
+										"item": "minecraft:stick"
+									}
+								},
+								"key": "X",
+								"is_minified": true,
+								"children": {
+									"item": "ores:lavastone"
+								}
+							},
+							{
+								"open": {
+									"X": {
+										"item": "ores:lavastone"
+									},
+									"C": {
+										"item": "minecraft:stick"
+									}
+								},
+								"key": "C",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:stick"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:sickle_lavastone"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"XXX",
+								"C  X",
+								"C"
+							],
+							"key": {
+								"X": {
+									"item": "ores:lavastone"
+								},
+								"C": {
+									"item": "minecraft:stick"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:lavastone_sickle",
+									"count": 1
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "ores:lavastone_sickle",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "ores:lavastone_sickle",
+									"count": 1
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

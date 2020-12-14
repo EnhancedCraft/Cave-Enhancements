@@ -1,0 +1,17 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:magnetite_ore",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 1000,
+			"minecraft:friction": 2,
+			"minecraft:explosion_resistance": 20,
+			"minecraft:loot": "loot_tables/magnetite_loot.json",
+			"tag:ores:medium": {}
+		}
+	}
+}

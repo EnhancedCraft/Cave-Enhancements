@@ -1,0 +1,52 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:purple_mushroom"
+		},
+		"components": {
+			"minecraft:destroy_time": 0,
+			"minecraft:block_light_emission": 0.5,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:explosion_resistance": 0.6,
+			"minecraft:geometry": "geometry.mushroom",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "purplemushroom",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-1,
+					0,
+					-1
+				],
+				"size": [
+					2,
+					11,
+					4
+				]
+			},
+			"minecraft:entity_collision": false,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:stone",
+							"ores:s_stone",
+							"ores:j_stone",
+							"ores:i_stone",
+							"ores:coldstone"
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			}
+		},
+		"events": {}
+	}
+}

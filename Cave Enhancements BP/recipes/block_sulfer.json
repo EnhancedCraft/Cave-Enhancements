@@ -1,0 +1,25 @@
+//bridge-file-version: #32
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:block_sulfer"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "ores:sulfer"
+			}
+		},
+		"result": {
+			"item": "ores:sulfer_block"
+		}
+	}
+}

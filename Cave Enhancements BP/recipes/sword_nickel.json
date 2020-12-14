@@ -1,0 +1,28 @@
+//bridge-file-version: #22
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:sword_nickel"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X",
+			"X",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "ores:nickel_ingot"
+			}
+		},
+		"result": {
+			"item": "ores:nickel_sword"
+		}
+	}
+}

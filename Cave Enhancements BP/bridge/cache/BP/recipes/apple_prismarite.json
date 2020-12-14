@@ -1,0 +1,259 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\recipes\\apple_prismarite.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "1527cbdc_483c_4902_8514_76da6005fcb5",
+	"file_version": 26,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ores:apple_prismarite"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"###",
+							"#X#",
+							"###"
+						],
+						"key": {
+							"#": {
+								"item": "ores:prismarite_crystal"
+							},
+							"X": {
+								"item": "minecraft:apple"
+							}
+						},
+						"result": {
+							"item": "ores:prismarite_apple"
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ores:apple_prismarite"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"###",
+							"#X#",
+							"###"
+						],
+						"key": {
+							"#": {
+								"item": "ores:prismarite_crystal"
+							},
+							"X": {
+								"item": "minecraft:apple"
+							}
+						},
+						"result": {
+							"item": "ores:prismarite_apple"
+						}
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:apple_prismarite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"#X#",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:prismarite_crystal"
+								},
+								"X": {
+									"item": "minecraft:apple"
+								}
+							},
+							"result": {
+								"item": "ores:prismarite_apple"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:apple_prismarite"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:apple_prismarite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"#X#",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:prismarite_crystal"
+								},
+								"X": {
+									"item": "minecraft:apple"
+								}
+							},
+							"result": {
+								"item": "ores:prismarite_apple"
+							}
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:apple_prismarite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"#X#",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:prismarite_crystal"
+								},
+								"X": {
+									"item": "minecraft:apple"
+								}
+							},
+							"result": {
+								"item": "ores:prismarite_apple"
+							}
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"###",
+							"#X#",
+							"###"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:apple_prismarite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"#X#",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:prismarite_crystal"
+								},
+								"X": {
+									"item": "minecraft:apple"
+								}
+							},
+							"result": {
+								"item": "ores:prismarite_apple"
+							}
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"#": {
+										"item": "ores:prismarite_crystal"
+									},
+									"X": {
+										"item": "minecraft:apple"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "ores:prismarite_crystal"
+								}
+							},
+							{
+								"open": {
+									"#": {
+										"item": "ores:prismarite_crystal"
+									},
+									"X": {
+										"item": "minecraft:apple"
+									}
+								},
+								"key": "X",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:apple"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:apple_prismarite"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"#X#",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "ores:prismarite_crystal"
+								},
+								"X": {
+									"item": "minecraft:apple"
+								}
+							},
+							"result": {
+								"item": "ores:prismarite_apple"
+							}
+						},
+						"key": "result",
+						"is_minified": true,
+						"children": {
+							"item": "ores:prismarite_apple"
+						}
+					}
+				]
+			}
+		]
+	}
+}

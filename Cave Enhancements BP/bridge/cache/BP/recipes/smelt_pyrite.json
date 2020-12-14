@@ -1,0 +1,79 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\recipes\\smelt_pyrite.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "4f02befc_023e_4070_93de_f8593643a911",
+	"file_version": 14,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_furnace": {
+						"description": {
+							"identifier": "ores:smelt_pyrite"
+						},
+						"tags": [
+							"furnace",
+							"blast_furnace"
+						],
+						"input": "ores:pyrite_ore",
+						"output": "ores:pyrite_ingot"
+					}
+				},
+				"key": "minecraft:recipe_furnace",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:smelt_pyrite"
+							},
+							"tags": [
+								"furnace",
+								"blast_furnace"
+							],
+							"input": "ores:pyrite_ore",
+							"output": "ores:pyrite_ingot"
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:smelt_pyrite"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:smelt_pyrite"
+							},
+							"tags": [
+								"furnace",
+								"blast_furnace"
+							],
+							"input": "ores:pyrite_ore",
+							"output": "ores:pyrite_ingot"
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"furnace",
+							"blast_furnace"
+						]
+					},
+					{
+						"data": "ores:pyrite_ore",
+						"key": "input"
+					},
+					{
+						"data": "ores:pyrite_ingot",
+						"key": "output"
+					}
+				]
+			}
+		]
+	}
+}

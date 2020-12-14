@@ -1,0 +1,140 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1/features/basalt_stone_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "d9000890_fc70_4a88_8ccd_5914790ef42f",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:ore_feature": {
+						"description": {
+							"identifier": "ores:basalt_stone_feature"
+						},
+						"count": 150,
+						"places_block": {
+							"name": "ores:b_rack",
+							"states": {}
+						},
+						"may_replace": [
+							{
+								"name": "minecraft:netherrack",
+								"states": {}
+							}
+						]
+					}
+				},
+				"key": "minecraft:ore_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:basalt_stone_feature"
+							},
+							"count": 150,
+							"places_block": {
+								"name": "ores:b_rack",
+								"states": {}
+							},
+							"may_replace": [
+								{
+									"name": "minecraft:netherrack",
+									"states": {}
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:basalt_stone_feature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:basalt_stone_feature"
+							},
+							"count": 150,
+							"places_block": {
+								"name": "ores:b_rack",
+								"states": {}
+							},
+							"may_replace": [
+								{
+									"name": "minecraft:netherrack",
+									"states": {}
+								}
+							]
+						},
+						"data": "150",
+						"key": "count"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:basalt_stone_feature"
+							},
+							"count": 150,
+							"places_block": {
+								"name": "ores:b_rack",
+								"states": {}
+							},
+							"may_replace": [
+								{
+									"name": "minecraft:netherrack",
+									"states": {}
+								}
+							]
+						},
+						"key": "places_block",
+						"is_minified": true,
+						"children": {
+							"name": "ores:b_rack",
+							"states": {}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:basalt_stone_feature"
+							},
+							"count": 150,
+							"places_block": {
+								"name": "ores:b_rack",
+								"states": {}
+							},
+							"may_replace": [
+								{
+									"name": "minecraft:netherrack",
+									"states": {}
+								}
+							]
+						},
+						"key": "may_replace",
+						"children": [
+							{
+								"open": [
+									{
+										"name": "minecraft:netherrack",
+										"states": {}
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:netherrack",
+									"states": {}
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

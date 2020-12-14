@@ -1,0 +1,41 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ores:calcite_apple",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:stacked_by_data": true,
+			"minecraft:use_duration": 1.6,
+			"minecraft:foil": false,
+			"minecraft:food": {
+				"nutrition": 2,
+				"saturation_modifier": "supernatural",
+				"can_always_eat": true,
+				"on_consume": {
+					"event": "t",
+					"target": "self"
+				}
+			},
+			"minecraft:icon": {
+				"texture": "calciteapple"
+			},
+			"minecraft:use_animation": "eat",
+			"minecraft:display_name": {
+				"value": "Calcite Apple"
+			}
+		},
+		"events": {
+			"t": {
+				"add_mob_effect": {
+					"effect": "invisibility",
+					"target": "holder",
+					"duration": 30,
+					"amplifier": 0
+				}
+			}
+		}
+	}
+}

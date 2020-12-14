@@ -1,0 +1,33 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ores:tungsten_sword",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:stacked_by_data": true,
+			"minecraft:damage": 5.5,
+			"minecraft:durability": {
+				"max_durability": 1450
+			},
+			"minecraft:weapon": {},
+			"minecraft:enchantable": {
+				"slot": "sword",
+				"value": 10
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
+			},
+			"minecraft:display_name": {
+				"value": "Tungsten Sword"
+			},
+			"minecraft:icon": {
+				"texture": "tungstensword"
+			}
+		}
+	}
+}

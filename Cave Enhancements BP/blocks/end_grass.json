@@ -1,0 +1,14 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:end_grass"
+		},
+		"components": {
+			"minecraft:destroy_time": 2,
+			"minecraft:display_name": "End Grass",
+			"minecraft:explosion_resistance": 1
+		}
+	}
+}

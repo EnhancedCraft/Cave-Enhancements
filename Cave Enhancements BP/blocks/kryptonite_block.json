@@ -1,0 +1,17 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:kryptonite_block",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 18,
+			"minecraft:friction": 1,
+			"minecraft:block_light_emission": 0.6,
+			"minecraft:explosion_resistance": 200,
+			"minecraft:loot": "loot_tables/kryptonite_block_loot.json"
+		}
+	}
+}

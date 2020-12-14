@@ -1,0 +1,81 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\blocks\\magnetite_ore.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "e48ae40f_1aed_4f4c_be8e_ebb9a307c070",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:block": {
+						"description": {
+							"identifier": "ores:magnetite_ore",
+							"is_experimental": false
+						},
+						"components": {
+							"minecraft:destroy_time": 1000,
+							"minecraft:friction": 2,
+							"minecraft:explosion_resistance": 20,
+							"minecraft:loot": "loot_tables/magnetite_loot.json",
+							"tag:ores:medium": {}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:magnetite_ore",
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:destroy_time": 1000,
+								"minecraft:friction": 2,
+								"minecraft:explosion_resistance": 20,
+								"minecraft:loot": "loot_tables/magnetite_loot.json",
+								"tag:ores:medium": {}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:magnetite_ore",
+							"is_experimental": false
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:magnetite_ore",
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:destroy_time": 1000,
+								"minecraft:friction": 2,
+								"minecraft:explosion_resistance": 20,
+								"minecraft:loot": "loot_tables/magnetite_loot.json",
+								"tag:ores:medium": {}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 1000,
+							"minecraft:friction": 2,
+							"minecraft:explosion_resistance": 20,
+							"minecraft:loot": "loot_tables/magnetite_loot.json",
+							"tag:ores:medium": {}
+						}
+					}
+				]
+			}
+		]
+	}
+}

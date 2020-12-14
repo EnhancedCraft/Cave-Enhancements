@@ -1,0 +1,37 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ores:galaxy_leggings",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 9,
+				"slot": "armor_legs"
+			},
+			"minecraft:damageable": {
+				"max_damage": 125,
+				"damage_chance": {
+					"min": 60,
+					"max": 100
+				}
+			},
+			"minecraft:damage": 2,
+			"minecraft:armor": {
+				"protection": 5
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.legs"
+			},
+			"minecraft:icon": {
+				"texture": "ores_galaxy_leggings"
+			},
+			"minecraft:display_name": {
+				"value": "Galaxy Leggings DEVELOPER TESTING ONLY"
+			}
+		}
+	}
+}

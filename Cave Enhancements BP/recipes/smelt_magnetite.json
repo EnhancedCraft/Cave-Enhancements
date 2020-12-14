@@ -1,0 +1,15 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "ores:smelt_magnetite"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "ores:magnetite_ore",
+		"output": "ores:magnetite_ingot"
+	}
+}

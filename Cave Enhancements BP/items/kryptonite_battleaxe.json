@@ -1,0 +1,32 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ores:kryptonite_battleaxe",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:stacked_by_data": true,
+			"minecraft:enchantable": {
+				"slot": "sword",
+				"value": 10
+			},
+			"minecraft:durability": {
+				"max_durability": 5500
+			},
+			"minecraft:icon": {
+				"texture": "kryptonitebattleaxe"
+			},
+			"minecraft:damage": 32.1,
+			"minecraft:display_name": {
+				"value": "Kryptonite Battleaxe §132 Damage"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
+			}
+		}
+	}
+}

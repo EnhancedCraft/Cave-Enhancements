@@ -1,0 +1,567 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\blocks\\prismarine_crystal.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "8fcda109_0bc3_470f_91f5_d1245d562797",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "ores:prismarine_crystal"
+						},
+						"components": {
+							"minecraft:destroy_time": 1,
+							"minecraft:block_light_emission": 1,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:explosion_resistance": 2,
+							"minecraft:loot": "loot_tables/blue_crystal_loot.json",
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "crystal",
+									"render_method": "alpha_test"
+								}
+							},
+							"minecraft:geometry": "geometry.crystal",
+							"minecraft:placement_filter": {
+								"conditions": [
+									{
+										"block_filter": [
+											"minecraft:sand",
+											"minecraft:gravel",
+											"minecraft:stone"
+										],
+										"allowed_faces": [
+											"up"
+										]
+									}
+								]
+							},
+							"minecraft:pick_collision": {
+								"origin": [
+									-5,
+									0,
+									-5
+								],
+								"size": [
+									10,
+									2,
+									10
+								]
+							},
+							"bridge:rotate_on_place": {
+								"rotation_from": "player"
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:prismarine_crystal"
+							},
+							"components": {
+								"minecraft:destroy_time": 1,
+								"minecraft:block_light_emission": 1,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:explosion_resistance": 2,
+								"minecraft:loot": "loot_tables/blue_crystal_loot.json",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "crystal",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:geometry": "geometry.crystal",
+								"minecraft:placement_filter": {
+									"conditions": [
+										{
+											"block_filter": [
+												"minecraft:sand",
+												"minecraft:gravel",
+												"minecraft:stone"
+											],
+											"allowed_faces": [
+												"up"
+											]
+										}
+									]
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-5,
+										0,
+										-5
+									],
+									"size": [
+										10,
+										2,
+										10
+									]
+								},
+								"bridge:rotate_on_place": {
+									"rotation_from": "player"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:prismarine_crystal"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:prismarine_crystal"
+							},
+							"components": {
+								"minecraft:destroy_time": 1,
+								"minecraft:block_light_emission": 1,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:explosion_resistance": 2,
+								"minecraft:loot": "loot_tables/blue_crystal_loot.json",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "crystal",
+										"render_method": "alpha_test"
+									}
+								},
+								"minecraft:geometry": "geometry.crystal",
+								"minecraft:placement_filter": {
+									"conditions": [
+										{
+											"block_filter": [
+												"minecraft:sand",
+												"minecraft:gravel",
+												"minecraft:stone"
+											],
+											"allowed_faces": [
+												"up"
+											]
+										}
+									]
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-5,
+										0,
+										-5
+									],
+									"size": [
+										10,
+										2,
+										10
+									]
+								},
+								"bridge:rotate_on_place": {
+									"rotation_from": "player"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 1,
+									"minecraft:block_light_emission": 1,
+									"minecraft:block_light_absorption": 0,
+									"minecraft:explosion_resistance": 2,
+									"minecraft:loot": "loot_tables/blue_crystal_loot.json",
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "crystal",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:geometry": "geometry.crystal",
+									"minecraft:placement_filter": {
+										"conditions": [
+											{
+												"block_filter": [
+													"minecraft:sand",
+													"minecraft:gravel",
+													"minecraft:stone"
+												],
+												"allowed_faces": [
+													"up"
+												]
+											}
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-5,
+											0,
+											-5
+										],
+										"size": [
+											10,
+											2,
+											10
+										]
+									},
+									"bridge:rotate_on_place": {
+										"rotation_from": "player"
+									}
+								},
+								"data": "1",
+								"key": "minecraft:block_light_emission"
+							},
+							{
+								"data": "0.0",
+								"key": "minecraft:block_light_absorption"
+							},
+							{
+								"data": "2",
+								"key": "minecraft:explosion_resistance"
+							},
+							{
+								"data": "loot_tables/blue_crystal_loot.json",
+								"key": "minecraft:loot"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 1,
+									"minecraft:block_light_emission": 1,
+									"minecraft:block_light_absorption": 0,
+									"minecraft:explosion_resistance": 2,
+									"minecraft:loot": "loot_tables/blue_crystal_loot.json",
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "crystal",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:geometry": "geometry.crystal",
+									"minecraft:placement_filter": {
+										"conditions": [
+											{
+												"block_filter": [
+													"minecraft:sand",
+													"minecraft:gravel",
+													"minecraft:stone"
+												],
+												"allowed_faces": [
+													"up"
+												]
+											}
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-5,
+											0,
+											-5
+										],
+										"size": [
+											10,
+											2,
+											10
+										]
+									},
+									"bridge:rotate_on_place": {
+										"rotation_from": "player"
+									}
+								},
+								"key": "minecraft:material_instances",
+								"children": [
+									{
+										"open": {
+											"*": {
+												"texture": "crystal",
+												"render_method": "alpha_test"
+											}
+										},
+										"key": "*",
+										"is_minified": true,
+										"children": {
+											"texture": "crystal",
+											"render_method": "alpha_test"
+										}
+									}
+								]
+							},
+							{
+								"data": "geometry.crystal",
+								"key": "minecraft:geometry"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 1,
+									"minecraft:block_light_emission": 1,
+									"minecraft:block_light_absorption": 0,
+									"minecraft:explosion_resistance": 2,
+									"minecraft:loot": "loot_tables/blue_crystal_loot.json",
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "crystal",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:geometry": "geometry.crystal",
+									"minecraft:placement_filter": {
+										"conditions": [
+											{
+												"block_filter": [
+													"minecraft:sand",
+													"minecraft:gravel",
+													"minecraft:stone"
+												],
+												"allowed_faces": [
+													"up"
+												]
+											}
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-5,
+											0,
+											-5
+										],
+										"size": [
+											10,
+											2,
+											10
+										]
+									},
+									"bridge:rotate_on_place": {
+										"rotation_from": "player"
+									}
+								},
+								"key": "minecraft:placement_filter",
+								"children": [
+									{
+										"open": {
+											"conditions": [
+												{
+													"block_filter": [
+														"minecraft:sand",
+														"minecraft:gravel",
+														"minecraft:stone"
+													],
+													"allowed_faces": [
+														"up"
+													]
+												}
+											]
+										},
+										"key": "conditions",
+										"children": [
+											{
+												"open": [
+													{
+														"block_filter": [
+															"minecraft:sand",
+															"minecraft:gravel",
+															"minecraft:stone"
+														],
+														"allowed_faces": [
+															"up"
+														]
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"block_filter": [
+																"minecraft:sand",
+																"minecraft:gravel",
+																"minecraft:stone"
+															],
+															"allowed_faces": [
+																"up"
+															]
+														},
+														"key": "block_filter",
+														"is_minified": true,
+														"children": [
+															"minecraft:sand",
+															"minecraft:gravel",
+															"minecraft:stone"
+														]
+													},
+													{
+														"open": {
+															"block_filter": [
+																"minecraft:sand",
+																"minecraft:gravel",
+																"minecraft:stone"
+															],
+															"allowed_faces": [
+																"up"
+															]
+														},
+														"key": "allowed_faces",
+														"is_minified": true,
+														"children": [
+															"up"
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 1,
+									"minecraft:block_light_emission": 1,
+									"minecraft:block_light_absorption": 0,
+									"minecraft:explosion_resistance": 2,
+									"minecraft:loot": "loot_tables/blue_crystal_loot.json",
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "crystal",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:geometry": "geometry.crystal",
+									"minecraft:placement_filter": {
+										"conditions": [
+											{
+												"block_filter": [
+													"minecraft:sand",
+													"minecraft:gravel",
+													"minecraft:stone"
+												],
+												"allowed_faces": [
+													"up"
+												]
+											}
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-5,
+											0,
+											-5
+										],
+										"size": [
+											10,
+											2,
+											10
+										]
+									},
+									"bridge:rotate_on_place": {
+										"rotation_from": "player"
+									}
+								},
+								"key": "minecraft:pick_collision",
+								"children": [
+									{
+										"open": {
+											"origin": [
+												-5,
+												0,
+												-5
+											],
+											"size": [
+												10,
+												2,
+												10
+											]
+										},
+										"key": "origin",
+										"is_minified": true,
+										"children": [
+											-5,
+											0,
+											-5
+										]
+									},
+									{
+										"open": {
+											"origin": [
+												-5,
+												0,
+												-5
+											],
+											"size": [
+												10,
+												2,
+												10
+											]
+										},
+										"key": "size",
+										"is_minified": true,
+										"children": [
+											10,
+											2,
+											10
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 1,
+									"minecraft:block_light_emission": 1,
+									"minecraft:block_light_absorption": 0,
+									"minecraft:explosion_resistance": 2,
+									"minecraft:loot": "loot_tables/blue_crystal_loot.json",
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "crystal",
+											"render_method": "alpha_test"
+										}
+									},
+									"minecraft:geometry": "geometry.crystal",
+									"minecraft:placement_filter": {
+										"conditions": [
+											{
+												"block_filter": [
+													"minecraft:sand",
+													"minecraft:gravel",
+													"minecraft:stone"
+												],
+												"allowed_faces": [
+													"up"
+												]
+											}
+										]
+									},
+									"minecraft:pick_collision": {
+										"origin": [
+											-5,
+											0,
+											-5
+										],
+										"size": [
+											10,
+											2,
+											10
+										]
+									},
+									"bridge:rotate_on_place": {
+										"rotation_from": "player"
+									}
+								},
+								"key": "bridge:rotate_on_place",
+								"is_minified": true,
+								"children": {
+									"rotation_from": "player"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

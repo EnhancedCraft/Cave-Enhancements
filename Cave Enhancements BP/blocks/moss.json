@@ -1,0 +1,52 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:moss"
+		},
+		"components": {
+			"minecraft:destroy_time": 2,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:block_light_emission": 0.3,
+			"minecraft:explosion_resistance": 1,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "moss",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:geometry": "geometry.crystal",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:stone",
+							"ores:s_stone",
+							"ores:j_stone",
+							"ores:i_stone",
+							"ores:coldstone"
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:entity_collision": false,
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					8,
+					16
+				]
+			}
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,41 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:blue_crystal"
+		},
+		"components": {
+			"minecraft:block_light_emission": 1,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:destroy_time": 7,
+			"minecraft:explosion_resistance": 2,
+			"minecraft:geometry": "geometry.crystal",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "bluecrystal",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:entity_collision": false,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:stone",
+							"ores:i_stone",
+							"ores:coldstone",
+							"ores:s_stone",
+							"ores:j_stone"
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"tag:ores:biomestone": {}
+		},
+		"events": {}
+	}
+}

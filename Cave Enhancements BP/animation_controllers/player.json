@@ -1,0 +1,135 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.switch": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"on_timer": "query.is_chested && query.is_sheared"
+						},
+						{
+							"off_timer": "!query.is_chested && query.is_sheared"
+						}
+					]
+				},
+				"on_timer": {
+					"animations": [
+						"timer"
+					],
+					"transitions": [
+						{
+							"on": "query.all_animations_finished"
+						}
+					],
+					"on_entry": [
+						"@s event:on"
+					]
+				},
+				"on": {
+					"transitions": [
+						{
+							"off_timer": "query.is_sneaking && variable.attack_time > 0 && query.is_sheared"
+						}
+					]
+				},
+				"off_timer": {
+					"animations": [
+						"timer"
+					],
+					"transitions": [
+						{
+							"off": "query.all_animations_finished"
+						}
+					],
+					"on_entry": [
+						"@s event:off"
+					]
+				},
+				"off": {
+					"transitions": [
+						{
+							"on_timer": "query.is_sneaking && variable.attack_time > 0 && query.is_sheared"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.light": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"light": "query.is_chested"
+						}
+					]
+				},
+				"light": {
+					"transitions": [
+						{
+							"light_2": "query.is_chested"
+						},
+						{
+							"light_off": "!query.is_chested"
+						}
+					],
+					"on_entry": [
+						"/execute @s ~ ~ ~ detect ~ ~1 ~ air 0 fill ~-5 ~-4 ~-5 ~5 ~5 ~5 air 0 replace light_block 15",
+						"/execute @s ~ ~ ~ detect ~ ~1 ~ air 0 fill ~ ~ ~ ~ ~1 ~ light_block 15 replace air 0"
+					],
+					"on_exit": [
+						"/execute @s ~ ~ ~ detect ~ ~1 ~ air 0 fill ~-5 ~-4 ~-5 ~5 ~5 ~5 air 0 replace light_block 15",
+						"/execute @s ~ ~ ~ detect ~ ~1 ~ air 0 fill ~ ~ ~ ~ ~1 ~ light_block 15 replace air 0"
+					]
+				},
+				"light_2": {
+					"transitions": [
+						{
+							"light": "query.is_chested"
+						},
+						{
+							"light_off": "!query.is_chested"
+						}
+					],
+					"on_entry": [
+						"/execute @s ~ ~ ~ detect ~ ~1 ~ air 0 fill ~-5 ~-4 ~-5 ~5 ~5 ~5 air 0 replace light_block 15",
+						"/execute @s ~ ~ ~ detect ~ ~1 ~ air 0 fill ~ ~ ~ ~ ~1 ~ light_block 15 replace air 0"
+					],
+					"on_exit": [
+						"/execute @s ~ ~ ~ detect ~ ~1 ~ air 0 fill ~-5 ~-4 ~-5 ~5 ~5 ~5 air 0 replace light_block 15",
+						"/execute @s ~ ~ ~ detect ~ ~1 ~ air 0 fill ~ ~ ~ ~ ~1 ~ light_block 15 replace air 0"
+					]
+				},
+				"light_off": {
+					"transitions": [
+						{
+							"light_off_2": "!query.is_chested"
+						}
+					],
+					"on_entry": [
+						"/fill ~-5 ~-4 ~-5 ~3 ~3 ~3 air 0 replace light_block 15"
+					],
+					"on_exit": [
+						"/fill ~-5 ~-4 ~-5 ~3 ~3 ~3 air 0 replace light_block 15"
+					]
+				},
+				"light_off_2": {
+					"transitions": [
+						{
+							"light": "query.is_chested"
+						}
+					],
+					"on_entry": [
+						"/fill ~-5 ~-4 ~-5 ~3 ~3 ~3 air 0 replace light_block 15"
+					],
+					"on_exit": [
+						"/fill ~-5 ~-4 ~-5 ~3 ~3 ~3 air 0 replace light_block 15"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,261 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Cave Enhancements BP\\recipes\\centrifuge_nickel.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "2485d71c_d595_4e8c_94bc_01b1f02808d0",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.200",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.200",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ores:centrifuge_nickel"
+						},
+						"tags": [
+							"centrifuge"
+						],
+						"pattern": [
+							"CIC",
+							"CIC",
+							"CIC"
+						],
+						"key": {
+							"C": {
+								"item": "minecraft:cobblestone"
+							},
+							"I": {
+								"item": "minecraft:iron_ore"
+							}
+						},
+						"result": [
+							{
+								"item": "ores:nickel_ingot",
+								"count": 2
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:centrifuge_nickel"
+							},
+							"tags": [
+								"centrifuge"
+							],
+							"pattern": [
+								"CIC",
+								"CIC",
+								"CIC"
+							],
+							"key": {
+								"C": {
+									"item": "minecraft:cobblestone"
+								},
+								"I": {
+									"item": "minecraft:iron_ore"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:nickel_ingot",
+									"count": 2
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:centrifuge_nickel"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:centrifuge_nickel"
+							},
+							"tags": [
+								"centrifuge"
+							],
+							"pattern": [
+								"CIC",
+								"CIC",
+								"CIC"
+							],
+							"key": {
+								"C": {
+									"item": "minecraft:cobblestone"
+								},
+								"I": {
+									"item": "minecraft:iron_ore"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:nickel_ingot",
+									"count": 2
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"centrifuge"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:centrifuge_nickel"
+							},
+							"tags": [
+								"centrifuge"
+							],
+							"pattern": [
+								"CIC",
+								"CIC",
+								"CIC"
+							],
+							"key": {
+								"C": {
+									"item": "minecraft:cobblestone"
+								},
+								"I": {
+									"item": "minecraft:iron_ore"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:nickel_ingot",
+									"count": 2
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"CIC",
+							"CIC",
+							"CIC"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:centrifuge_nickel"
+							},
+							"tags": [
+								"centrifuge"
+							],
+							"pattern": [
+								"CIC",
+								"CIC",
+								"CIC"
+							],
+							"key": {
+								"C": {
+									"item": "minecraft:cobblestone"
+								},
+								"I": {
+									"item": "minecraft:iron_ore"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:nickel_ingot",
+									"count": 2
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"C": {
+										"item": "minecraft:cobblestone"
+									},
+									"I": {
+										"item": "minecraft:iron_ore"
+									}
+								},
+								"key": "C",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:cobblestone"
+								}
+							},
+							{
+								"open": {
+									"C": {
+										"item": "minecraft:cobblestone"
+									},
+									"I": {
+										"item": "minecraft:iron_ore"
+									}
+								},
+								"key": "I",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:iron_ore"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:centrifuge_nickel"
+							},
+							"tags": [
+								"centrifuge"
+							],
+							"pattern": [
+								"CIC",
+								"CIC",
+								"CIC"
+							],
+							"key": {
+								"C": {
+									"item": "minecraft:cobblestone"
+								},
+								"I": {
+									"item": "minecraft:iron_ore"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:nickel_ingot",
+									"count": 2
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "ores:nickel_ingot",
+										"count": 2
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "ores:nickel_ingot",
+									"count": 2
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

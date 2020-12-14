@@ -1,0 +1,290 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Cave Enhancements BP\\items\\purple_chestplate.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "af8ff1b2_77cf_4525_9086_584c61f58fe5",
+	"file_version": 7,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ores:purple_chestplate",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:enchantable": {
+								"value": 9,
+								"slot": "armor_torso"
+							},
+							"minecraft:damage": 2,
+							"minecraft:armor": {
+								"protection": 10
+							},
+							"minecraft:wearable": {
+								"slot": "slot.armor.chest"
+							},
+							"minecraft:durability": {
+								"max_durability": 2340,
+								"damage_chance": {
+									"min": 60,
+									"max": 100
+								}
+							},
+							"minecraft:icon": {
+								"texture": "purple_chestplate"
+							},
+							"minecraft:display_name": {
+								"value": "Tanzanite Chestplate "
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.chestplate"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:purple_chestplate",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:purple_chestplate",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:enchantable": {
+									"value": 9,
+									"slot": "armor_torso"
+								},
+								"minecraft:damage": 2,
+								"minecraft:armor": {
+									"protection": 10
+								},
+								"minecraft:wearable": {
+									"slot": "slot.armor.chest"
+								},
+								"minecraft:durability": {
+									"max_durability": 2340,
+									"damage_chance": {
+										"min": 60,
+										"max": 100
+									}
+								},
+								"minecraft:icon": {
+									"texture": "purple_chestplate"
+								},
+								"minecraft:display_name": {
+									"value": "Tanzanite Chestplate "
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.chestplate"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"key": "minecraft:enchantable",
+								"is_minified": true,
+								"children": {
+									"value": 9,
+									"slot": "armor_torso"
+								}
+							},
+							{
+								"data": "2",
+								"key": "minecraft:damage"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:enchantable": {
+										"value": 9,
+										"slot": "armor_torso"
+									},
+									"minecraft:damage": 2,
+									"minecraft:armor": {
+										"protection": 10
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.chest"
+									},
+									"minecraft:durability": {
+										"max_durability": 2340,
+										"damage_chance": {
+											"min": 60,
+											"max": 100
+										}
+									},
+									"minecraft:icon": {
+										"texture": "purple_chestplate"
+									},
+									"minecraft:display_name": {
+										"value": "Tanzanite Chestplate "
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.chestplate"
+									}
+								},
+								"key": "minecraft:armor",
+								"is_minified": true,
+								"children": {
+									"protection": 10
+								}
+							},
+							{
+								"key": "minecraft:wearable",
+								"is_minified": true,
+								"children": {
+									"slot": "slot.armor.chest"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:enchantable": {
+										"value": 9,
+										"slot": "armor_torso"
+									},
+									"minecraft:damage": 2,
+									"minecraft:armor": {
+										"protection": 10
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.chest"
+									},
+									"minecraft:durability": {
+										"max_durability": 2340,
+										"damage_chance": {
+											"min": 60,
+											"max": 100
+										}
+									},
+									"minecraft:icon": {
+										"texture": "purple_chestplate"
+									},
+									"minecraft:display_name": {
+										"value": "Tanzanite Chestplate "
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.chestplate"
+									}
+								},
+								"key": "minecraft:durability",
+								"is_minified": true,
+								"children": {
+									"max_durability": 2340,
+									"damage_chance": {
+										"min": 60,
+										"max": 100
+									}
+								}
+							},
+							{
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "purple_chestplate"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:enchantable": {
+										"value": 9,
+										"slot": "armor_torso"
+									},
+									"minecraft:damage": 2,
+									"minecraft:armor": {
+										"protection": 10
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.chest"
+									},
+									"minecraft:durability": {
+										"max_durability": 2340,
+										"damage_chance": {
+											"min": 60,
+											"max": 100
+										}
+									},
+									"minecraft:icon": {
+										"texture": "purple_chestplate"
+									},
+									"minecraft:display_name": {
+										"value": "Tanzanite Chestplate "
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.chestplate"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Tanzanite Chestplate "
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:enchantable": {
+										"value": 9,
+										"slot": "armor_torso"
+									},
+									"minecraft:damage": 2,
+									"minecraft:armor": {
+										"protection": 10
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.chest"
+									},
+									"minecraft:durability": {
+										"max_durability": 2340,
+										"damage_chance": {
+											"min": 60,
+											"max": 100
+										}
+									},
+									"minecraft:icon": {
+										"texture": "purple_chestplate"
+									},
+									"minecraft:display_name": {
+										"value": "Tanzanite Chestplate "
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.chestplate"
+									}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.chestplate"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,160 @@
+//bridge-file-version: #17
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ores:nickel_pickaxe",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:mining_speed": 1,
+			"minecraft:damage": 2,
+			"minecraft:enchantable": {
+				"value": 5,
+				"slot": "pickaxe"
+			},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": {
+					"0": {
+						"block": {
+							"tags": "query.any_tag('stone', 'metal', 'stone_pick_diggable')"
+						},
+						"speed": 6
+					},
+					"1": {
+						"block": "minecraft:ice",
+						"speed": 4
+					},
+					"2": {
+						"block": "minecraft:sandstone",
+						"speed": 4
+					},
+					"3": {
+						"block": {
+							"tags": "query.any_tag('ores:easy')"
+						},
+						"speed": 2150
+					},
+					"4": {
+						"block": {
+							"tags": "query.any_tag('ores:biomestone')"
+						},
+						"speed": 20
+					},
+					"5": {
+						"block": "ores:hematite_ore",
+						"speed": 1300
+					},
+					"6": {
+						"block": "ores:jade_ore",
+						"speed": 200
+					},
+					"7": {
+						"block": "minecraft:coal_ore",
+						"speed": 6
+					},
+					"8": {
+						"block": "minecraft:iron_ore",
+						"speed": 6
+					},
+					"9": {
+						"block": "minecraft:lapis_ore",
+						"speed": 6
+					},
+					"10": {
+						"block": "minecraft:cobblestone",
+						"speed": 6
+					},
+					"11": {
+						"block": "minecraft:furnace",
+						"speed": 6
+					},
+					"12": {
+						"block": "minecraft:stonecutter_block",
+						"speed": 6
+					},
+					"13": {
+						"block": "minecraft:dispenser",
+						"speed": 6
+					},
+					"14": {
+						"block": "minecraft:dropper",
+						"speed": 6
+					},
+					"15": {
+						"block": "minecraft:blast_furnace",
+						"speed": 6
+					},
+					"16": {
+						"block": "minecraft:lit_blast_furnace",
+						"speed": 6
+					},
+					"17": {
+						"block": "minecraft:nether_brick",
+						"speed": 6
+					},
+					"18": {
+						"block": "minecraft:observer",
+						"speed": 6
+					},
+					"19": {
+						"block": "minecraft:blackstone",
+						"speed": 6
+					},
+					"20": {
+						"block": "minecraft:piston",
+						"speed": 6
+					},
+					"21": {
+						"block": "minecraft:sticky_piston",
+						"speed": 6
+					},
+					"22": {
+						"block": "minecraft:end_stone",
+						"speed": 6
+					},
+					"23": {
+						"block": "minecraft:brewing_stand",
+						"speed": 6
+					},
+					"7_copy": {
+						"block": "minecraft:lit_furnace",
+						"speed": 6
+					},
+					"8_copy": {
+						"block": "minecraft:hopper",
+						"speed": 6
+					},
+					"9_copy": {
+						"block": "minecraft:netherrack",
+						"speed": 6
+					},
+					"10_copy": {
+						"block": "minecraft:quartz_ore",
+						"speed": 6
+					},
+					"11_copy": {
+						"block": "minecraft:nether_gold_ore",
+						"speed": 6
+					}
+				}
+			},
+			"minecraft:durability": {
+				"max_durability": 200
+			},
+			"minecraft:icon": {
+				"texture": "nickelpickaxe"
+			},
+			"minecraft:display_name": {
+				"value": "Nickel Pickaxe"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.pickaxe"
+			}
+		},
+		"events": {}
+	}
+}

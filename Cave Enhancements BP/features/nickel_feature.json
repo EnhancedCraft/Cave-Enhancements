@@ -1,0 +1,22 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "ores:nickel_feature"
+		},
+		"count": 7,
+		"places_block": {
+			"name": "ores:nickel_ore",
+			"states": {}
+		},
+		"may_replace": [
+			{
+				"name": "minecraft:stone",
+				"states": {
+					"stone_type": "stone"
+				}
+			}
+		]
+	}
+}

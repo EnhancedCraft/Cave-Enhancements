@@ -1,0 +1,18 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:adamantite_ore",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 2300,
+			"minecraft:friction": 1,
+			"minecraft:explosion_resistance": 600,
+			"minecraft:loot": "loot_tables/adamantite_loot.json",
+			"tag:ores:hard": {}
+		},
+		"events": {}
+	}
+}

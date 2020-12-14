@@ -1,0 +1,25 @@
+//bridge-file-version: #24
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:block_painite"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "ores:painite_gemstone"
+			}
+		},
+		"result": {
+			"item": "ores:painite_block"
+		}
+	}
+}

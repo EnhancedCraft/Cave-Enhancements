@@ -1,0 +1,16 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:topaz_block",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 6,
+			"minecraft:friction": 1,
+			"minecraft:explosion_resistance": 11,
+			"minecraft:loot": "loot_tables/topaz_block_loot.json"
+		}
+	}
+}

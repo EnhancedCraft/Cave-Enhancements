@@ -1,0 +1,79 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\recipes\\smelt_kyanite.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "d7ba677a_1072_45cb_ad48_88501fc3837a",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_furnace": {
+						"description": {
+							"identifier": "ores:smelt_kyanite"
+						},
+						"tags": [
+							"furnace",
+							"blast_furnace"
+						],
+						"input": "ores:nether_kyanite_ore",
+						"output": "ores:kyanite_ingot"
+					}
+				},
+				"key": "minecraft:recipe_furnace",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:smelt_kyanite"
+							},
+							"tags": [
+								"furnace",
+								"blast_furnace"
+							],
+							"input": "ores:nether_kyanite_ore",
+							"output": "ores:kyanite_ingot"
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:smelt_kyanite"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:smelt_kyanite"
+							},
+							"tags": [
+								"furnace",
+								"blast_furnace"
+							],
+							"input": "ores:nether_kyanite_ore",
+							"output": "ores:kyanite_ingot"
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"furnace",
+							"blast_furnace"
+						]
+					},
+					{
+						"data": "ores:nether_kyanite_ore",
+						"key": "input"
+					},
+					{
+						"data": "ores:kyanite_ingot",
+						"key": "output"
+					}
+				]
+			}
+		]
+	}
+}

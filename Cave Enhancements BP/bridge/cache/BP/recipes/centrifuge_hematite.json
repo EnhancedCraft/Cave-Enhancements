@@ -1,0 +1,303 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Cave Enhancements BP\\recipes\\centrifuge_hematite.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "412f4099_2bb8_4087_8eb0_903fce561d64",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.200",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.200",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ores:centrifuge_hematite"
+						},
+						"tags": [
+							"centrifuge"
+						],
+						"pattern": [
+							{},
+							"CIC",
+							"MCM"
+						],
+						"key": {
+							"C": {
+								"item": "ores:compressed_cobblestone"
+							},
+							"I": {
+								"item": "minecraft:iron_ore"
+							},
+							"M": {
+								"item": "ores:molten_stone"
+							}
+						},
+						"result": [
+							{
+								"item": "ores:hematite_ingot",
+								"count": 2
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:centrifuge_hematite"
+							},
+							"tags": [
+								"centrifuge"
+							],
+							"pattern": [
+								{},
+								"CIC",
+								"MCM"
+							],
+							"key": {
+								"C": {
+									"item": "ores:compressed_cobblestone"
+								},
+								"I": {
+									"item": "minecraft:iron_ore"
+								},
+								"M": {
+									"item": "ores:molten_stone"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:hematite_ingot",
+									"count": 2
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:centrifuge_hematite"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:centrifuge_hematite"
+							},
+							"tags": [
+								"centrifuge"
+							],
+							"pattern": [
+								{},
+								"CIC",
+								"MCM"
+							],
+							"key": {
+								"C": {
+									"item": "ores:compressed_cobblestone"
+								},
+								"I": {
+									"item": "minecraft:iron_ore"
+								},
+								"M": {
+									"item": "ores:molten_stone"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:hematite_ingot",
+									"count": 2
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"centrifuge"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:centrifuge_hematite"
+							},
+							"tags": [
+								"centrifuge"
+							],
+							"pattern": [
+								{},
+								"CIC",
+								"MCM"
+							],
+							"key": {
+								"C": {
+									"item": "ores:compressed_cobblestone"
+								},
+								"I": {
+									"item": "minecraft:iron_ore"
+								},
+								"M": {
+									"item": "ores:molten_stone"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:hematite_ingot",
+									"count": 2
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							{},
+							"CIC",
+							"MCM"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:centrifuge_hematite"
+							},
+							"tags": [
+								"centrifuge"
+							],
+							"pattern": [
+								{},
+								"CIC",
+								"MCM"
+							],
+							"key": {
+								"C": {
+									"item": "ores:compressed_cobblestone"
+								},
+								"I": {
+									"item": "minecraft:iron_ore"
+								},
+								"M": {
+									"item": "ores:molten_stone"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:hematite_ingot",
+									"count": 2
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"C": {
+										"item": "ores:compressed_cobblestone"
+									},
+									"I": {
+										"item": "minecraft:iron_ore"
+									},
+									"M": {
+										"item": "ores:molten_stone"
+									}
+								},
+								"key": "C",
+								"is_minified": true,
+								"children": {
+									"item": "ores:compressed_cobblestone"
+								}
+							},
+							{
+								"open": {
+									"C": {
+										"item": "ores:compressed_cobblestone"
+									},
+									"I": {
+										"item": "minecraft:iron_ore"
+									},
+									"M": {
+										"item": "ores:molten_stone"
+									}
+								},
+								"key": "I",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:iron_ore"
+								}
+							},
+							{
+								"open": {
+									"C": {
+										"item": "ores:compressed_cobblestone"
+									},
+									"I": {
+										"item": "minecraft:iron_ore"
+									},
+									"M": {
+										"item": "ores:molten_stone"
+									}
+								},
+								"key": "M",
+								"is_minified": true,
+								"children": {
+									"item": "ores:molten_stone"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:centrifuge_hematite"
+							},
+							"tags": [
+								"centrifuge"
+							],
+							"pattern": [
+								{},
+								"CIC",
+								"MCM"
+							],
+							"key": {
+								"C": {
+									"item": "ores:compressed_cobblestone"
+								},
+								"I": {
+									"item": "minecraft:iron_ore"
+								},
+								"M": {
+									"item": "ores:molten_stone"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:hematite_ingot",
+									"count": 2
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "ores:hematite_ingot",
+										"count": 2
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "ores:hematite_ingot",
+									"count": 2
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,97 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\blocks\\nether_diamond_ore.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "bd646950_c179_4227_9a1f_e9313d38b4e3",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:block": {
+						"description": {
+							"identifier": "ores:nether_diamond_ore",
+							"is_experimental": false
+						},
+						"components": {
+							"minecraft:destroy_time": 1000,
+							"minecraft:friction": 1,
+							"minecraft:explosion_resistance": 35,
+							"minecraft:loot": "loot_tables/nether_diamond_loot.json",
+							"tag:ores:medium": {}
+						}
+					}
+				},
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:block": {
+						"description": {
+							"identifier": "ores:nether_diamond_ore",
+							"is_experimental": false
+						},
+						"components": {
+							"minecraft:destroy_time": 1000,
+							"minecraft:friction": 1,
+							"minecraft:explosion_resistance": 35,
+							"minecraft:loot": "loot_tables/nether_diamond_loot.json",
+							"tag:ores:medium": {}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:nether_diamond_ore",
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:destroy_time": 1000,
+								"minecraft:friction": 1,
+								"minecraft:explosion_resistance": 35,
+								"minecraft:loot": "loot_tables/nether_diamond_loot.json",
+								"tag:ores:medium": {}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:nether_diamond_ore",
+							"is_experimental": false
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:nether_diamond_ore",
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:destroy_time": 1000,
+								"minecraft:friction": 1,
+								"minecraft:explosion_resistance": 35,
+								"minecraft:loot": "loot_tables/nether_diamond_loot.json",
+								"tag:ores:medium": {}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 1000,
+							"minecraft:friction": 1,
+							"minecraft:explosion_resistance": 35,
+							"minecraft:loot": "loot_tables/nether_diamond_loot.json",
+							"tag:ores:medium": {}
+						}
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,26 @@
+//bridge-file-version: #0
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:emerald_helmet"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XXX",
+			"X X"
+		],
+		"key": {
+			"X": {
+				"item": "minecraft:emerald"
+			}
+		},
+		"result": [
+			{
+				"item": "ores:emerald_helmet"
+			}
+		]
+	}
+}

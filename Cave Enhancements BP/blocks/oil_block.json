@@ -1,0 +1,31 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:oil_block"
+		},
+		"components": {
+			"minecraft:destroy_time": 1000,
+			"minecraft:flammable": {
+				"burn_odds": 10,
+				"flame_odds": 10
+			},
+			"minecraft:explosion_resistance": 1,
+			"minecraft:loot": "loot_tables/oil_block_loot.json",
+			"minecraft:on_player_destroyed": {
+				"event": "destroy"
+			},
+			"tag:ores:easy": {}
+		},
+		"events": {
+			"destroy": {
+				"run_command": {
+					"command": [
+						"summon xp_orb"
+					]
+				}
+			}
+		}
+	}
+}

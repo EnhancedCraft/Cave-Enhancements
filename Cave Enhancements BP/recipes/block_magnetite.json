@@ -1,0 +1,25 @@
+//bridge-file-version: #20
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:block_magnetite"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "ores:magnetite_ingot"
+			}
+		},
+		"result": {
+			"item": "ores:magnetite_block"
+		}
+	}
+}

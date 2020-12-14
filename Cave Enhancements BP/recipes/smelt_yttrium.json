@@ -1,0 +1,15 @@
+//bridge-file-version: #20
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "ores:smelt_yttrium"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "ores:end_yttrium_ore",
+		"output": "ores:yttrium_ingot"
+	}
+}

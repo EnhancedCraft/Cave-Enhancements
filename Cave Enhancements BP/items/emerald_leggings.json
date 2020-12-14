@@ -1,0 +1,40 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ores:emerald_leggings",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 9,
+				"slot": "armor_legs"
+			},
+			"minecraft:damage": 2,
+			"minecraft:armor": {
+				"protection": 8
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.legs"
+			},
+			"minecraft:durability": {
+				"max_damage": 540,
+				"damage_chance": {
+					"min": 60,
+					"max": 100
+				}
+			},
+			"minecraft:icon": {
+				"texture": "ores_emerald_leggings"
+			},
+			"minecraft:display_name": {
+				"value": "Emerald Leggings"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.leggings"
+			}
+		}
+	}
+}

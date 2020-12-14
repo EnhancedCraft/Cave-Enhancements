@@ -1,0 +1,15 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "ores:smelt_s_iron"
+		},
+		"tags": [
+			"blast_furnace",
+			"furnace"
+		],
+		"input": "ores:s_iron",
+		"output": "minecraft:iron_ingot"
+	}
+}

@@ -1,0 +1,90 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\recipes\\smelt_gypsum.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "e09a8b8c_11e1_4d13_97c3_50bab22ed9c6",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_furnace": {
+						"description": {
+							"identifier": "ores:smelt_gypsum"
+						},
+						"tags": [
+							"furnace",
+							"blast_furnace"
+						],
+						"input": "ores:nether_gypsum_ore",
+						"output": "ores:gypsum_ingot"
+					}
+				},
+				"key": "minecraft:recipe_furnace",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:smelt_gypsum"
+							},
+							"tags": [
+								"furnace",
+								"blast_furnace"
+							],
+							"input": "ores:nether_gypsum_ore",
+							"output": "ores:gypsum_ingot"
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:smelt_gypsum"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:smelt_gypsum"
+							},
+							"tags": [
+								"furnace",
+								"blast_furnace"
+							],
+							"input": "ores:nether_gypsum_ore",
+							"output": "ores:gypsum_ingot"
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"furnace",
+							"blast_furnace"
+						]
+					},
+					{
+						"data": "ores:nether_gypsum_ore",
+						"key": "input"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:smelt_gypsum"
+							},
+							"tags": [
+								"furnace",
+								"blast_furnace"
+							],
+							"input": "ores:nether_gypsum_ore",
+							"output": "ores:gypsum_ingot"
+						},
+						"data": "ores:gypsum_ingot",
+						"key": "output"
+					}
+				]
+			}
+		]
+	}
+}

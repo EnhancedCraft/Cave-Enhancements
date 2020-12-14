@@ -1,0 +1,77 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\blocks\\b_rack.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "2ab29578_54f7_43cf_ac0d_490ee3f479b1",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "ores:b_rack"
+						},
+						"components": {
+							"minecraft:destroy_time": 2,
+							"minecraft:explosion_resistance": 2,
+							"minecraft:loot": "loot_tables/b_rack.json",
+							"minecraft:display_name": "Basalt Netherrack",
+							"tag:ores:biomestone": {}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:b_rack"
+							},
+							"components": {
+								"minecraft:destroy_time": 2,
+								"minecraft:explosion_resistance": 2,
+								"minecraft:loot": "loot_tables/b_rack.json",
+								"minecraft:display_name": "Basalt Netherrack",
+								"tag:ores:biomestone": {}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:b_rack"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:b_rack"
+							},
+							"components": {
+								"minecraft:destroy_time": 2,
+								"minecraft:explosion_resistance": 2,
+								"minecraft:loot": "loot_tables/b_rack.json",
+								"minecraft:display_name": "Basalt Netherrack",
+								"tag:ores:biomestone": {}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 2,
+							"minecraft:explosion_resistance": 2,
+							"minecraft:loot": "loot_tables/b_rack.json",
+							"minecraft:display_name": "Basalt Netherrack",
+							"tag:ores:biomestone": {}
+						}
+					}
+				]
+			}
+		]
+	}
+}

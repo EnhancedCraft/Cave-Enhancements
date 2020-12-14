@@ -1,0 +1,303 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Cave Enhancements BP\\recipes\\centrifuge_garnet_2.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "684755ae_ba56_4d00_a1d6_127f67837828",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.200",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.200",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "ores:centrifuge_garnet_2"
+						},
+						"tags": [
+							"centrifuge"
+						],
+						"pattern": [
+							"CIC",
+							"COC",
+							"CIC"
+						],
+						"key": {
+							"C": {
+								"item": "ores:molten_stone"
+							},
+							"I": {
+								"item": "minecraft:coal"
+							},
+							"O": {
+								"item": "minecraft:coal_block"
+							}
+						},
+						"result": [
+							{
+								"item": "ores:garnet_gemstone",
+								"count": 4
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:centrifuge_garnet_2"
+							},
+							"tags": [
+								"centrifuge"
+							],
+							"pattern": [
+								"CIC",
+								"COC",
+								"CIC"
+							],
+							"key": {
+								"C": {
+									"item": "ores:molten_stone"
+								},
+								"I": {
+									"item": "minecraft:coal"
+								},
+								"O": {
+									"item": "minecraft:coal_block"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:garnet_gemstone",
+									"count": 4
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:centrifuge_garnet_2"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:centrifuge_garnet_2"
+							},
+							"tags": [
+								"centrifuge"
+							],
+							"pattern": [
+								"CIC",
+								"COC",
+								"CIC"
+							],
+							"key": {
+								"C": {
+									"item": "ores:molten_stone"
+								},
+								"I": {
+									"item": "minecraft:coal"
+								},
+								"O": {
+									"item": "minecraft:coal_block"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:garnet_gemstone",
+									"count": 4
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"centrifuge"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:centrifuge_garnet_2"
+							},
+							"tags": [
+								"centrifuge"
+							],
+							"pattern": [
+								"CIC",
+								"COC",
+								"CIC"
+							],
+							"key": {
+								"C": {
+									"item": "ores:molten_stone"
+								},
+								"I": {
+									"item": "minecraft:coal"
+								},
+								"O": {
+									"item": "minecraft:coal_block"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:garnet_gemstone",
+									"count": 4
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"CIC",
+							"COC",
+							"CIC"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:centrifuge_garnet_2"
+							},
+							"tags": [
+								"centrifuge"
+							],
+							"pattern": [
+								"CIC",
+								"COC",
+								"CIC"
+							],
+							"key": {
+								"C": {
+									"item": "ores:molten_stone"
+								},
+								"I": {
+									"item": "minecraft:coal"
+								},
+								"O": {
+									"item": "minecraft:coal_block"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:garnet_gemstone",
+									"count": 4
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"C": {
+										"item": "ores:molten_stone"
+									},
+									"I": {
+										"item": "minecraft:coal"
+									},
+									"O": {
+										"item": "minecraft:coal_block"
+									}
+								},
+								"key": "C",
+								"is_minified": true,
+								"children": {
+									"item": "ores:molten_stone"
+								}
+							},
+							{
+								"open": {
+									"C": {
+										"item": "ores:molten_stone"
+									},
+									"I": {
+										"item": "minecraft:coal"
+									},
+									"O": {
+										"item": "minecraft:coal_block"
+									}
+								},
+								"key": "I",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:coal"
+								}
+							},
+							{
+								"open": {
+									"C": {
+										"item": "ores:molten_stone"
+									},
+									"I": {
+										"item": "minecraft:coal"
+									},
+									"O": {
+										"item": "minecraft:coal_block"
+									}
+								},
+								"key": "O",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:coal_block"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:centrifuge_garnet_2"
+							},
+							"tags": [
+								"centrifuge"
+							],
+							"pattern": [
+								"CIC",
+								"COC",
+								"CIC"
+							],
+							"key": {
+								"C": {
+									"item": "ores:molten_stone"
+								},
+								"I": {
+									"item": "minecraft:coal"
+								},
+								"O": {
+									"item": "minecraft:coal_block"
+								}
+							},
+							"result": [
+								{
+									"item": "ores:garnet_gemstone",
+									"count": 4
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "ores:garnet_gemstone",
+										"count": 4
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "ores:garnet_gemstone",
+									"count": 4
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,629 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1/items/topaz_apple.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "21825079_ae95_415f_bf29_83fdf4f8ab38",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ores:topaz_apple",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:use_duration": 1.6,
+							"minecraft:foil": false,
+							"minecraft:food": {
+								"nutrition": 4,
+								"saturation_modifier": "supernatural",
+								"can_always_eat": true,
+								"on_consume": {
+									"event": "consumed",
+									"target": "self"
+								}
+							},
+							"minecraft:use_animation": "eat",
+							"minecraft:display_name": {
+								"value": "Topaz Apple"
+							},
+							"minecraft:icon": {
+								"texture": "topazapple"
+							}
+						},
+						"events": {
+							"consumed": {
+								"sequence": [
+									{
+										"add_mob_effect": {
+											"effect": "fire_resistance",
+											"duration": 340,
+											"amplifier": 1,
+											"target": "holder"
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "regeneration",
+											"duration": 160,
+											"amplifier": 1,
+											"target": "holder"
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "saturation",
+											"target": "holder",
+											"duration": 100,
+											"amplifier": 1
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "haste",
+											"target": "holder",
+											"duration": 130,
+											"amplifier": 0
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:topaz_apple",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:foil": false,
+								"minecraft:food": {
+									"nutrition": 4,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:display_name": {
+									"value": "Topaz Apple"
+								},
+								"minecraft:icon": {
+									"texture": "topazapple"
+								}
+							},
+							"events": {
+								"consumed": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "fire_resistance",
+												"duration": 340,
+												"amplifier": 1,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "regeneration",
+												"duration": 160,
+												"amplifier": 1,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "saturation",
+												"target": "holder",
+												"duration": 100,
+												"amplifier": 1
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "haste",
+												"target": "holder",
+												"duration": 130,
+												"amplifier": 0
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:topaz_apple",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:topaz_apple",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:foil": false,
+								"minecraft:food": {
+									"nutrition": 4,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:display_name": {
+									"value": "Topaz Apple"
+								},
+								"minecraft:icon": {
+									"texture": "topazapple"
+								}
+							},
+							"events": {
+								"consumed": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "fire_resistance",
+												"duration": 340,
+												"amplifier": 1,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "regeneration",
+												"duration": 160,
+												"amplifier": 1,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "saturation",
+												"target": "holder",
+												"duration": 100,
+												"amplifier": 1
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "haste",
+												"target": "holder",
+												"duration": 130,
+												"amplifier": 0
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:use_duration": 1.6,
+							"minecraft:foil": false,
+							"minecraft:food": {
+								"nutrition": 4,
+								"saturation_modifier": "supernatural",
+								"can_always_eat": true,
+								"on_consume": {
+									"event": "consumed",
+									"target": "self"
+								}
+							},
+							"minecraft:use_animation": "eat",
+							"minecraft:display_name": {
+								"value": "Topaz Apple"
+							},
+							"minecraft:icon": {
+								"texture": "topazapple"
+							}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:topaz_apple",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:foil": false,
+								"minecraft:food": {
+									"nutrition": 4,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:display_name": {
+									"value": "Topaz Apple"
+								},
+								"minecraft:icon": {
+									"texture": "topazapple"
+								}
+							},
+							"events": {
+								"consumed": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "fire_resistance",
+												"duration": 340,
+												"amplifier": 1,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "regeneration",
+												"duration": 160,
+												"amplifier": 1,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "saturation",
+												"target": "holder",
+												"duration": 100,
+												"amplifier": 1
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "haste",
+												"target": "holder",
+												"duration": 130,
+												"amplifier": 0
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"consumed": {
+										"sequence": [
+											{
+												"add_mob_effect": {
+													"effect": "fire_resistance",
+													"duration": 340,
+													"amplifier": 1,
+													"target": "holder"
+												}
+											},
+											{
+												"add_mob_effect": {
+													"effect": "regeneration",
+													"duration": 160,
+													"amplifier": 1,
+													"target": "holder"
+												}
+											},
+											{
+												"add_mob_effect": {
+													"effect": "saturation",
+													"target": "holder",
+													"duration": 100,
+													"amplifier": 1
+												}
+											},
+											{
+												"add_mob_effect": {
+													"effect": "haste",
+													"target": "holder",
+													"duration": 130,
+													"amplifier": 0
+												}
+											}
+										]
+									}
+								},
+								"key": "consumed",
+								"children": [
+									{
+										"open": {
+											"sequence": [
+												{
+													"add_mob_effect": {
+														"effect": "fire_resistance",
+														"duration": 340,
+														"amplifier": 1,
+														"target": "holder"
+													}
+												},
+												{
+													"add_mob_effect": {
+														"effect": "regeneration",
+														"duration": 160,
+														"amplifier": 1,
+														"target": "holder"
+													}
+												},
+												{
+													"add_mob_effect": {
+														"effect": "saturation",
+														"target": "holder",
+														"duration": 100,
+														"amplifier": 1
+													}
+												},
+												{
+													"add_mob_effect": {
+														"effect": "haste",
+														"target": "holder",
+														"duration": 130,
+														"amplifier": 0
+													}
+												}
+											]
+										},
+										"key": "sequence",
+										"children": [
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "fire_resistance",
+															"duration": 340,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "regeneration",
+															"duration": 160,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "saturation",
+															"target": "holder",
+															"duration": 100,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "haste",
+															"target": "holder",
+															"duration": 130,
+															"amplifier": 0
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "fire_resistance",
+																"duration": 340,
+																"amplifier": 1,
+																"target": "holder"
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "fire_resistance",
+															"duration": 340,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "fire_resistance",
+															"duration": 340,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "regeneration",
+															"duration": 160,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "saturation",
+															"target": "holder",
+															"duration": 100,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "haste",
+															"target": "holder",
+															"duration": 130,
+															"amplifier": 0
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "regeneration",
+																"duration": 160,
+																"amplifier": 1,
+																"target": "holder"
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "regeneration",
+															"duration": 160,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "fire_resistance",
+															"duration": 340,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "regeneration",
+															"duration": 160,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "saturation",
+															"target": "holder",
+															"duration": 100,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "haste",
+															"target": "holder",
+															"duration": 130,
+															"amplifier": 0
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "saturation",
+																"target": "holder",
+																"duration": 100,
+																"amplifier": 1
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "saturation",
+															"target": "holder",
+															"duration": 100,
+															"amplifier": 1
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "fire_resistance",
+															"duration": 340,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "regeneration",
+															"duration": 160,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "saturation",
+															"target": "holder",
+															"duration": 100,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "haste",
+															"target": "holder",
+															"duration": 130,
+															"amplifier": 0
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "haste",
+																"target": "holder",
+																"duration": 130,
+																"amplifier": 0
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "haste",
+															"target": "holder",
+															"duration": 130,
+															"amplifier": 0
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

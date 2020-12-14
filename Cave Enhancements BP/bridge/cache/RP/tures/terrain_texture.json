@@ -1,0 +1,2122 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Cave Enhancements Beta 1\\textures\\terrain_texture.json",
+	"file_type": "terrain_texture",
+	"format_version": 1,
+	"file_uuid": "9dddba05_30e7_43f0_8c81_6e0de62b8d8e",
+	"file_version": 124,
+	"cache_content": {
+		"children": [
+			{
+				"data": "bridgeRP",
+				"key": "resource_pack_name"
+			},
+			{
+				"data": "atlas.terrain",
+				"key": "texture_name"
+			},
+			{
+				"data": "8",
+				"key": "padding"
+			},
+			{
+				"data": "4",
+				"key": "num_mip_levels"
+			},
+			{
+				"open": {
+					"resource_pack_name": "bridgeRP",
+					"texture_name": "atlas.terrain",
+					"padding": 8,
+					"num_mip_levels": 4,
+					"texture_data": {
+						"adamantite": {
+							"textures": "textures/blocks/adamantite"
+						},
+						"adamantiteblock": {
+							"textures": "textures/blocks/adamantiteblock"
+						},
+						"aluminiumblock": {
+							"textures": "textures/blocks/aluminiumblock"
+						},
+						"amber": {
+							"textures": "textures/blocks/amber"
+						},
+						"amberblock": {
+							"textures": "textures/blocks/amberblock"
+						},
+						"amethyst": {
+							"textures": "textures/blocks/amethyst"
+						},
+						"amethystblock": {
+							"textures": "textures/blocks/amethystblock"
+						},
+						"bauxite": {
+							"textures": "textures/blocks/bauxite"
+						},
+						"blackopal": {
+							"textures": "textures/blocks/blackopal"
+						},
+						"blackopalblock": {
+							"textures": "textures/blocks/blackopalblock"
+						},
+						"calcite": {
+							"textures": "textures/blocks/calcite"
+						},
+						"calciteblock": {
+							"textures": "textures/blocks/calciteblock"
+						},
+						"celestine": {
+							"textures": "textures/blocks/celestine"
+						},
+						"celestineblock": {
+							"textures": "textures/blocks/celestineblock"
+						},
+						"cinnabar": {
+							"textures": "textures/blocks/cinnabar"
+						},
+						"cinnabarblock": {
+							"textures": "textures/blocks/cinnabarblock"
+						},
+						"cobalt": {
+							"textures": "textures/blocks/cobalt"
+						},
+						"cobaltblock": {
+							"textures": "textures/blocks/cobaltblock"
+						},
+						"copper": {
+							"textures": "textures/blocks/copper"
+						},
+						"copperblock": {
+							"textures": "textures/blocks/copperblock"
+						},
+						"dragonglass": {
+							"textures": "textures/blocks/dragonglass"
+						},
+						"dragonglassblock": {
+							"textures": "textures/blocks/dragonglassblock"
+						},
+						"enddiamond": {
+							"textures": "textures/blocks/enddiamond"
+						},
+						"endplutonium": {
+							"textures": "textures/blocks/endplutonium"
+						},
+						"enyttrium": {
+							"textures": "textures/blocks/enyttrium"
+						},
+						"flurite": {
+							"textures": "textures/blocks/flurite"
+						},
+						"fluriteblock": {
+							"textures": "textures/blocks/fluriteblock"
+						},
+						"fossilstone": {
+							"textures": "textures/blocks/fossilstone"
+						},
+						"garnet": {
+							"textures": "textures/blocks/garnet"
+						},
+						"garnetblock": {
+							"textures": "textures/blocks/garnetblock"
+						},
+						"gypsumblock": {
+							"textures": "textures/blocks/gypsumblock"
+						},
+						"hematite": {
+							"textures": "textures/blocks/hematite"
+						},
+						"hematiteblock": {
+							"textures": "textures/blocks/hematiteblock"
+						},
+						"jade": {
+							"textures": "textures/blocks/jade"
+						},
+						"jadeblock": {
+							"textures": "textures/blocks/jadeblock"
+						},
+						"kryptonite": {
+							"textures": "textures/blocks/kryptonite"
+						},
+						"kryptoniteblock": {
+							"textures": "textures/blocks/kryptoniteblock"
+						},
+						"kyaniteblock": {
+							"textures": "textures/blocks/kyaniteblock"
+						},
+						"lavastone": {
+							"textures": "textures/blocks/lavastone"
+						},
+						"lavastoneblock": {
+							"textures": "textures/blocks/lavastoneblock"
+						},
+						"lead": {
+							"textures": "textures/blocks/lead"
+						},
+						"leadblock": {
+							"textures": "textures/blocks/leadblock"
+						},
+						"magnetite": {
+							"textures": "textures/blocks/magnetite"
+						},
+						"magnetiteblock": {
+							"textures": "textures/blocks/magnetiteblock"
+						},
+						"mica": {
+							"textures": "textures/blocks/mica"
+						},
+						"micablock": {
+							"textures": "textures/blocks/micablock"
+						},
+						"netherdiamond": {
+							"textures": "textures/blocks/netherdiamond"
+						},
+						"netheremerald": {
+							"textures": "textures/blocks/netheremerald"
+						},
+						"nethergypsum": {
+							"textures": "textures/blocks/nethergypsum"
+						},
+						"netherkyanite": {
+							"textures": "textures/blocks/netherkyanite"
+						},
+						"nethersulfur": {
+							"textures": "textures/blocks/nethersulfur"
+						},
+						"nethertin": {
+							"textures": "textures/blocks/nethertin"
+						},
+						"nethertopaz": {
+							"textures": "textures/blocks/nethertopaz"
+						},
+						"netherzinc": {
+							"textures": "textures/blocks/netherzinc"
+						},
+						"nickel": {
+							"textures": "textures/blocks/nickel"
+						},
+						"nickelblock": {
+							"textures": "textures/blocks/nickelblock"
+						},
+						"oceanstone": {
+							"textures": "textures/blocks/oceanstone"
+						},
+						"opal": {
+							"textures": "textures/blocks/opal"
+						},
+						"opalblock": {
+							"textures": "textures/blocks/opalblock"
+						},
+						"painite": {
+							"textures": "textures/blocks/painite"
+						},
+						"painiteblock": {
+							"textures": "textures/blocks/painiteblock"
+						},
+						"platnium": {
+							"textures": "textures/blocks/platnium"
+						},
+						"platniumblock": {
+							"textures": "textures/blocks/platniumblock"
+						},
+						"plutoniumblock": {
+							"textures": "textures/blocks/plutoniumblock"
+						},
+						"prismarite": {
+							"textures": "textures/blocks/prismarite"
+						},
+						"prismariteblock": {
+							"textures": "textures/blocks/prismariteblock"
+						},
+						"prolinite": {
+							"textures": "textures/blocks/prolinite"
+						},
+						"proliniteblock": {
+							"textures": "textures/blocks/proliniteblock"
+						},
+						"pyrite": {
+							"textures": "textures/blocks/pyrite"
+						},
+						"pyriteblock": {
+							"textures": "textures/blocks/pyriteblock"
+						},
+						"ruby": {
+							"textures": "textures/blocks/ruby"
+						},
+						"rubyblock": {
+							"textures": "textures/blocks/rubyblock"
+						},
+						"sapphire": {
+							"textures": "textures/blocks/sapphire"
+						},
+						"sapphireblock": {
+							"textures": "textures/blocks/sapphireblock"
+						},
+						"silver": {
+							"textures": "textures/blocks/silver"
+						},
+						"sulferblock": {
+							"textures": "textures/blocks/sulferblock"
+						},
+						"sypmium": {
+							"textures": "textures/blocks/sypmium"
+						},
+						"sypmiumblock": {
+							"textures": "textures/blocks/sypmiumblock"
+						},
+						"tanzanite": {
+							"textures": "textures/blocks/tanzanite"
+						},
+						"tanzaniteblock": {
+							"textures": "textures/blocks/tanzaniteblock"
+						},
+						"tinblock": {
+							"textures": "textures/blocks/tinblock"
+						},
+						"titanium": {
+							"textures": "textures/blocks/titanium"
+						},
+						"topazblock": {
+							"textures": "textures/blocks/topazblock"
+						},
+						"tungsten": {
+							"textures": "textures/blocks/tungsten"
+						},
+						"tungstenblock": {
+							"textures": "textures/blocks/tungstenblock"
+						},
+						"uranium": {
+							"textures": "textures/blocks/uranium"
+						},
+						"uraniumblock": {
+							"textures": "textures/blocks/uraniumblock"
+						},
+						"voidstone": {
+							"textures": "textures/blocks/voidstone"
+						},
+						"yttriumblock": {
+							"textures": "textures/blocks/yttriumblock"
+						},
+						"zincblock": {
+							"textures": "textures/blocks/zincblock"
+						},
+						"zincolium": {
+							"textures": "textures/blocks/zincolium"
+						},
+						"stalagmite": {
+							"textures": "textures/blocks/stalagmite"
+						},
+						"icoal": {
+							"textures": "textures/blocks/icoal"
+						},
+						"coldstone": {
+							"textures": "textures/blocks/coldstone"
+						},
+						"iiron": {
+							"textures": "textures/blocks/iiron"
+						},
+						"igold": {
+							"textures": "textures/blocks/igold"
+						},
+						"iredstone": {
+							"textures": "textures/items/iredstone"
+						},
+						"ilapis": {
+							"textures": "textures/blocks/ilapis"
+						},
+						"idiamond": {
+							"textures": "textures/blocks/idiamond"
+						},
+						"istone": {
+							"textures": "textures/blocks/istone"
+						},
+						"jcoal": {
+							"textures": "textures/blocks/jcoal"
+						},
+						"igranite": {
+							"textures": "textures/blocks/igranite"
+						},
+						"iandesite": {
+							"textures": "textures/blocks/iandesite"
+						},
+						"idiorite": {
+							"textures": "textures/blocks/idiorite"
+						},
+						"jiron": {
+							"textures": "txtures/blocks/jiron"
+						},
+						"jgold": {
+							"textures": "textures/blocks/jgold"
+						},
+						"jredstone": {
+							"textures": "textures/blocks/jredstone"
+						},
+						"jlapis": {
+							"textures": "textures/blocks/jlapis"
+						},
+						"jdiamond": {
+							"textures": "textures/blocks/jdiamond"
+						},
+						"jstone": {
+							"textures": "textures/blocks/jstone"
+						},
+						"rdirt": {
+							"textures": "textures/blocks/rdirt"
+						},
+						"mudside": {
+							"textures": "textures/blocks/mudside"
+						},
+						"jgranite": {
+							"textures": "textures/blocks/jgranite"
+						},
+						"jandesite": {
+							"textures": "textures/blocks/jandesite"
+						},
+						"jdiorite": {
+							"textures": "textures/blocks/jdiorite"
+						},
+						"sstone": {
+							"textures": "textures/blocks/sstone"
+						},
+						"sgranite": {
+							"textures": "textures/blocks/sgranite"
+						},
+						"sdiorite": {
+							"textures": "textures/blocks/sdiorite"
+						},
+						"sandesite": {
+							"textures": "textures/blocks/sandesite"
+						},
+						"scoal": {
+							"textures": "textures/blocks/scoal"
+						},
+						"siron": {
+							"textures": "textures/blocks/siron"
+						},
+						"sdiamond": {
+							"textures": "textures/blocks/sdiamond"
+						},
+						"sredstone": {
+							"textures": "textures/blocks/sredstone"
+						},
+						"slapis": {
+							"textures": "textures/blocks/slapis"
+						},
+						"sgold": {
+							"textures": "textures/blocks/sgold"
+						},
+						"mstoneside": {
+							"textures": "textures/blocks/mstoneside"
+						},
+						"bluecrystalblock": {
+							"textures": "textures/blocks/bluecrystalblock"
+						},
+						"redcrystalblock": {
+							"textures": "textures/blocks/redcrystalblock"
+						},
+						"yellowcrystalblock": {
+							"textures": "textures/blocks/yellowcrystalblock"
+						},
+						"bluemushroom": {
+							"textures": "textures/blocks/bluemushroom"
+						},
+						"lstone": {
+							"textures": "textures/blocks/lstone"
+						},
+						"mudtop": {
+							"textures": "textures/blocks/mudtop"
+						},
+						"mstonetop": {
+							"textures": "textures/blocks/mstonetop"
+						},
+						"mstonebottem": {
+							"textures": "textures/blocks/mstonebottem"
+						},
+						"toproot": {
+							"textures": "textures/blocks/toproot"
+						},
+						"gmstoneside": {
+							"textures": "textures/blocks/gmstoneside"
+						},
+						"gmstonetop": {
+							"textures": "textures/blocks/gmstonetop"
+						},
+						"gmstonebottem": {
+							"textures": "textures/blocks/gmstonebottem"
+						},
+						"compressorside": {
+							"textures": "textures/blocks/compressorside"
+						},
+						"compressortop": {
+							"textures": "textures/blocks/compressortop"
+						},
+						"compressedcobblestone": {
+							"textures": "textures/blocks/compressedcobblestone"
+						},
+						"oilblock": {
+							"textures": "textures/blocks/oilblock"
+						},
+						"cavegrass": {
+							"textures": "textures/blocks/cavegrass"
+						},
+						"cavegrassglow": {
+							"textures": "textures/blocks/cavegrassglow"
+						},
+						"laser": {
+							"textures": "textures/blocks/laser"
+						},
+						"roof": {
+							"textures": "textures/blocks/roof"
+						},
+						"marble": {
+							"textures": "textures/blocks/marble"
+						},
+						"moltenstone": {
+							"textures": "textures/blocks/moltenstone"
+						},
+						"limestone": {
+							"textures": "textures/blocks/limestone"
+						},
+						"mudblock": {
+							"textures": "textures/blocks/mudblock"
+						},
+						"wrack": {
+							"textures": "textures/blocks/wrack"
+						},
+						"crack": {
+							"textures": "textures/blocks/crack"
+						},
+						"brack": {
+							"textures": "textures/blocks/brack"
+						},
+						"srack": {
+							"textures": "textures/blocks/srack"
+						},
+						"crystal": {
+							"textures": "textures/blocks/crystal"
+						},
+						"crystal2": {
+							"textures": "textures/blocks/crystal2"
+						},
+						"ice": {
+							"textures": "textures/blocks/ice"
+						},
+						"slush": {
+							"textures": "textures/blocks/slush"
+						},
+						"etop": {
+							"textures": "textures/blocks/etop"
+						},
+						"eside": {
+							"textures": "textures/blocks/eside"
+						}
+					}
+				},
+				"key": "texture_data",
+				"children": [
+					{
+						"key": "adamantite",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/adamantite"
+						}
+					},
+					{
+						"key": "adamantiteblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/adamantiteblock"
+						}
+					},
+					{
+						"key": "aluminiumblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/aluminiumblock"
+						}
+					},
+					{
+						"key": "amber",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/amber"
+						}
+					},
+					{
+						"key": "amberblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/amberblock"
+						}
+					},
+					{
+						"key": "amethyst",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/amethyst"
+						}
+					},
+					{
+						"key": "amethystblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/amethystblock"
+						}
+					},
+					{
+						"key": "bauxite",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/bauxite"
+						}
+					},
+					{
+						"key": "blackopal",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/blackopal"
+						}
+					},
+					{
+						"key": "blackopalblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/blackopalblock"
+						}
+					},
+					{
+						"key": "calcite",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/calcite"
+						}
+					},
+					{
+						"key": "calciteblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/calciteblock"
+						}
+					},
+					{
+						"key": "celestine",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/celestine"
+						}
+					},
+					{
+						"key": "celestineblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/celestineblock"
+						}
+					},
+					{
+						"key": "cinnabar",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/cinnabar"
+						}
+					},
+					{
+						"key": "cinnabarblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/cinnabarblock"
+						}
+					},
+					{
+						"key": "cobalt",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/cobalt"
+						}
+					},
+					{
+						"key": "cobaltblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/cobaltblock"
+						}
+					},
+					{
+						"key": "copper",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/copper"
+						}
+					},
+					{
+						"key": "copperblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/copperblock"
+						}
+					},
+					{
+						"key": "dragonglass",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/dragonglass"
+						}
+					},
+					{
+						"key": "dragonglassblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/dragonglassblock"
+						}
+					},
+					{
+						"key": "enddiamond",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/enddiamond"
+						}
+					},
+					{
+						"key": "endplutonium",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/endplutonium"
+						}
+					},
+					{
+						"key": "enyttrium",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/enyttrium"
+						}
+					},
+					{
+						"key": "flurite",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/flurite"
+						}
+					},
+					{
+						"key": "fluriteblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/fluriteblock"
+						}
+					},
+					{
+						"key": "fossilstone",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/fossilstone"
+						}
+					},
+					{
+						"key": "garnet",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/garnet"
+						}
+					},
+					{
+						"key": "garnetblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/garnetblock"
+						}
+					},
+					{
+						"key": "gypsumblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/gypsumblock"
+						}
+					},
+					{
+						"key": "hematite",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/hematite"
+						}
+					},
+					{
+						"key": "hematiteblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/hematiteblock"
+						}
+					},
+					{
+						"key": "jade",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/jade"
+						}
+					},
+					{
+						"key": "jadeblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/jadeblock"
+						}
+					},
+					{
+						"key": "kryptonite",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/kryptonite"
+						}
+					},
+					{
+						"key": "kryptoniteblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/kryptoniteblock"
+						}
+					},
+					{
+						"key": "kyaniteblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/kyaniteblock"
+						}
+					},
+					{
+						"key": "lavastone",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/lavastone"
+						}
+					},
+					{
+						"key": "lavastoneblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/lavastoneblock"
+						}
+					},
+					{
+						"key": "lead",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/lead"
+						}
+					},
+					{
+						"key": "leadblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/leadblock"
+						}
+					},
+					{
+						"key": "magnetite",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/magnetite"
+						}
+					},
+					{
+						"key": "magnetiteblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/magnetiteblock"
+						}
+					},
+					{
+						"key": "mica",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/mica"
+						}
+					},
+					{
+						"key": "micablock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/micablock"
+						}
+					},
+					{
+						"key": "netherdiamond",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/netherdiamond"
+						}
+					},
+					{
+						"key": "netheremerald",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/netheremerald"
+						}
+					},
+					{
+						"key": "nethergypsum",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/nethergypsum"
+						}
+					},
+					{
+						"key": "netherkyanite",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/netherkyanite"
+						}
+					},
+					{
+						"open": {
+							"adamantite": {
+								"textures": "textures/blocks/adamantite"
+							},
+							"adamantiteblock": {
+								"textures": "textures/blocks/adamantiteblock"
+							},
+							"aluminiumblock": {
+								"textures": "textures/blocks/aluminiumblock"
+							},
+							"amber": {
+								"textures": "textures/blocks/amber"
+							},
+							"amberblock": {
+								"textures": "textures/blocks/amberblock"
+							},
+							"amethyst": {
+								"textures": "textures/blocks/amethyst"
+							},
+							"amethystblock": {
+								"textures": "textures/blocks/amethystblock"
+							},
+							"bauxite": {
+								"textures": "textures/blocks/bauxite"
+							},
+							"blackopal": {
+								"textures": "textures/blocks/blackopal"
+							},
+							"blackopalblock": {
+								"textures": "textures/blocks/blackopalblock"
+							},
+							"calcite": {
+								"textures": "textures/blocks/calcite"
+							},
+							"calciteblock": {
+								"textures": "textures/blocks/calciteblock"
+							},
+							"celestine": {
+								"textures": "textures/blocks/celestine"
+							},
+							"celestineblock": {
+								"textures": "textures/blocks/celestineblock"
+							},
+							"cinnabar": {
+								"textures": "textures/blocks/cinnabar"
+							},
+							"cinnabarblock": {
+								"textures": "textures/blocks/cinnabarblock"
+							},
+							"cobalt": {
+								"textures": "textures/blocks/cobalt"
+							},
+							"cobaltblock": {
+								"textures": "textures/blocks/cobaltblock"
+							},
+							"copper": {
+								"textures": "textures/blocks/copper"
+							},
+							"copperblock": {
+								"textures": "textures/blocks/copperblock"
+							},
+							"dragonglass": {
+								"textures": "textures/blocks/dragonglass"
+							},
+							"dragonglassblock": {
+								"textures": "textures/blocks/dragonglassblock"
+							},
+							"enddiamond": {
+								"textures": "textures/blocks/enddiamond"
+							},
+							"endplutonium": {
+								"textures": "textures/blocks/endplutonium"
+							},
+							"enyttrium": {
+								"textures": "textures/blocks/enyttrium"
+							},
+							"flurite": {
+								"textures": "textures/blocks/flurite"
+							},
+							"fluriteblock": {
+								"textures": "textures/blocks/fluriteblock"
+							},
+							"fossilstone": {
+								"textures": "textures/blocks/fossilstone"
+							},
+							"garnet": {
+								"textures": "textures/blocks/garnet"
+							},
+							"garnetblock": {
+								"textures": "textures/blocks/garnetblock"
+							},
+							"gypsumblock": {
+								"textures": "textures/blocks/gypsumblock"
+							},
+							"hematite": {
+								"textures": "textures/blocks/hematite"
+							},
+							"hematiteblock": {
+								"textures": "textures/blocks/hematiteblock"
+							},
+							"jade": {
+								"textures": "textures/blocks/jade"
+							},
+							"jadeblock": {
+								"textures": "textures/blocks/jadeblock"
+							},
+							"kryptonite": {
+								"textures": "textures/blocks/kryptonite"
+							},
+							"kryptoniteblock": {
+								"textures": "textures/blocks/kryptoniteblock"
+							},
+							"kyaniteblock": {
+								"textures": "textures/blocks/kyaniteblock"
+							},
+							"lavastone": {
+								"textures": "textures/blocks/lavastone"
+							},
+							"lavastoneblock": {
+								"textures": "textures/blocks/lavastoneblock"
+							},
+							"lead": {
+								"textures": "textures/blocks/lead"
+							},
+							"leadblock": {
+								"textures": "textures/blocks/leadblock"
+							},
+							"magnetite": {
+								"textures": "textures/blocks/magnetite"
+							},
+							"magnetiteblock": {
+								"textures": "textures/blocks/magnetiteblock"
+							},
+							"mica": {
+								"textures": "textures/blocks/mica"
+							},
+							"micablock": {
+								"textures": "textures/blocks/micablock"
+							},
+							"netherdiamond": {
+								"textures": "textures/blocks/netherdiamond"
+							},
+							"netheremerald": {
+								"textures": "textures/blocks/netheremerald"
+							},
+							"nethergypsum": {
+								"textures": "textures/blocks/nethergypsum"
+							},
+							"netherkyanite": {
+								"textures": "textures/blocks/netherkyanite"
+							},
+							"nethersulfur": {
+								"textures": "textures/blocks/nethersulfur"
+							},
+							"nethertin": {
+								"textures": "textures/blocks/nethertin"
+							},
+							"nethertopaz": {
+								"textures": "textures/blocks/nethertopaz"
+							},
+							"netherzinc": {
+								"textures": "textures/blocks/netherzinc"
+							},
+							"nickel": {
+								"textures": "textures/blocks/nickel"
+							},
+							"nickelblock": {
+								"textures": "textures/blocks/nickelblock"
+							},
+							"oceanstone": {
+								"textures": "textures/blocks/oceanstone"
+							},
+							"opal": {
+								"textures": "textures/blocks/opal"
+							},
+							"opalblock": {
+								"textures": "textures/blocks/opalblock"
+							},
+							"painite": {
+								"textures": "textures/blocks/painite"
+							},
+							"painiteblock": {
+								"textures": "textures/blocks/painiteblock"
+							},
+							"platnium": {
+								"textures": "textures/blocks/platnium"
+							},
+							"platniumblock": {
+								"textures": "textures/blocks/platniumblock"
+							},
+							"plutoniumblock": {
+								"textures": "textures/blocks/plutoniumblock"
+							},
+							"prismarite": {
+								"textures": "textures/blocks/prismarite"
+							},
+							"prismariteblock": {
+								"textures": "textures/blocks/prismariteblock"
+							},
+							"prolinite": {
+								"textures": "textures/blocks/prolinite"
+							},
+							"proliniteblock": {
+								"textures": "textures/blocks/proliniteblock"
+							},
+							"pyrite": {
+								"textures": "textures/blocks/pyrite"
+							},
+							"pyriteblock": {
+								"textures": "textures/blocks/pyriteblock"
+							},
+							"ruby": {
+								"textures": "textures/blocks/ruby"
+							},
+							"rubyblock": {
+								"textures": "textures/blocks/rubyblock"
+							},
+							"sapphire": {
+								"textures": "textures/blocks/sapphire"
+							},
+							"sapphireblock": {
+								"textures": "textures/blocks/sapphireblock"
+							},
+							"silver": {
+								"textures": "textures/blocks/silver"
+							},
+							"sulferblock": {
+								"textures": "textures/blocks/sulferblock"
+							},
+							"sypmium": {
+								"textures": "textures/blocks/sypmium"
+							},
+							"sypmiumblock": {
+								"textures": "textures/blocks/sypmiumblock"
+							},
+							"tanzanite": {
+								"textures": "textures/blocks/tanzanite"
+							},
+							"tanzaniteblock": {
+								"textures": "textures/blocks/tanzaniteblock"
+							},
+							"tinblock": {
+								"textures": "textures/blocks/tinblock"
+							},
+							"titanium": {
+								"textures": "textures/blocks/titanium"
+							},
+							"topazblock": {
+								"textures": "textures/blocks/topazblock"
+							},
+							"tungsten": {
+								"textures": "textures/blocks/tungsten"
+							},
+							"tungstenblock": {
+								"textures": "textures/blocks/tungstenblock"
+							},
+							"uranium": {
+								"textures": "textures/blocks/uranium"
+							},
+							"uraniumblock": {
+								"textures": "textures/blocks/uraniumblock"
+							},
+							"voidstone": {
+								"textures": "textures/blocks/voidstone"
+							},
+							"yttriumblock": {
+								"textures": "textures/blocks/yttriumblock"
+							},
+							"zincblock": {
+								"textures": "textures/blocks/zincblock"
+							},
+							"zincolium": {
+								"textures": "textures/blocks/zincolium"
+							},
+							"stalagmite": {
+								"textures": "textures/blocks/stalagmite"
+							},
+							"icoal": {
+								"textures": "textures/blocks/icoal"
+							},
+							"coldstone": {
+								"textures": "textures/blocks/coldstone"
+							},
+							"iiron": {
+								"textures": "textures/blocks/iiron"
+							},
+							"igold": {
+								"textures": "textures/blocks/igold"
+							},
+							"iredstone": {
+								"textures": "textures/items/iredstone"
+							},
+							"ilapis": {
+								"textures": "textures/blocks/ilapis"
+							},
+							"idiamond": {
+								"textures": "textures/blocks/idiamond"
+							},
+							"istone": {
+								"textures": "textures/blocks/istone"
+							},
+							"jcoal": {
+								"textures": "textures/blocks/jcoal"
+							},
+							"igranite": {
+								"textures": "textures/blocks/igranite"
+							},
+							"iandesite": {
+								"textures": "textures/blocks/iandesite"
+							},
+							"idiorite": {
+								"textures": "textures/blocks/idiorite"
+							},
+							"jiron": {
+								"textures": "txtures/blocks/jiron"
+							},
+							"jgold": {
+								"textures": "textures/blocks/jgold"
+							},
+							"jredstone": {
+								"textures": "textures/blocks/jredstone"
+							},
+							"jlapis": {
+								"textures": "textures/blocks/jlapis"
+							},
+							"jdiamond": {
+								"textures": "textures/blocks/jdiamond"
+							},
+							"jstone": {
+								"textures": "textures/blocks/jstone"
+							},
+							"rdirt": {
+								"textures": "textures/blocks/rdirt"
+							},
+							"mudside": {
+								"textures": "textures/blocks/mudside"
+							},
+							"jgranite": {
+								"textures": "textures/blocks/jgranite"
+							},
+							"jandesite": {
+								"textures": "textures/blocks/jandesite"
+							},
+							"jdiorite": {
+								"textures": "textures/blocks/jdiorite"
+							},
+							"sstone": {
+								"textures": "textures/blocks/sstone"
+							},
+							"sgranite": {
+								"textures": "textures/blocks/sgranite"
+							},
+							"sdiorite": {
+								"textures": "textures/blocks/sdiorite"
+							},
+							"sandesite": {
+								"textures": "textures/blocks/sandesite"
+							},
+							"scoal": {
+								"textures": "textures/blocks/scoal"
+							},
+							"siron": {
+								"textures": "textures/blocks/siron"
+							},
+							"sdiamond": {
+								"textures": "textures/blocks/sdiamond"
+							},
+							"sredstone": {
+								"textures": "textures/blocks/sredstone"
+							},
+							"slapis": {
+								"textures": "textures/blocks/slapis"
+							},
+							"sgold": {
+								"textures": "textures/blocks/sgold"
+							},
+							"mstoneside": {
+								"textures": "textures/blocks/mstoneside"
+							},
+							"bluecrystalblock": {
+								"textures": "textures/blocks/bluecrystalblock"
+							},
+							"redcrystalblock": {
+								"textures": "textures/blocks/redcrystalblock"
+							},
+							"yellowcrystalblock": {
+								"textures": "textures/blocks/yellowcrystalblock"
+							},
+							"bluemushroom": {
+								"textures": "textures/blocks/bluemushroom"
+							},
+							"lstone": {
+								"textures": "textures/blocks/lstone"
+							},
+							"mudtop": {
+								"textures": "textures/blocks/mudtop"
+							},
+							"mstonetop": {
+								"textures": "textures/blocks/mstonetop"
+							},
+							"mstonebottem": {
+								"textures": "textures/blocks/mstonebottem"
+							},
+							"toproot": {
+								"textures": "textures/blocks/toproot"
+							},
+							"gmstoneside": {
+								"textures": "textures/blocks/gmstoneside"
+							},
+							"gmstonetop": {
+								"textures": "textures/blocks/gmstonetop"
+							},
+							"gmstonebottem": {
+								"textures": "textures/blocks/gmstonebottem"
+							},
+							"compressorside": {
+								"textures": "textures/blocks/compressorside"
+							},
+							"compressortop": {
+								"textures": "textures/blocks/compressortop"
+							},
+							"compressedcobblestone": {
+								"textures": "textures/blocks/compressedcobblestone"
+							},
+							"oilblock": {
+								"textures": "textures/blocks/oilblock"
+							},
+							"cavegrass": {
+								"textures": "textures/blocks/cavegrass"
+							},
+							"cavegrassglow": {
+								"textures": "textures/blocks/cavegrassglow"
+							},
+							"laser": {
+								"textures": "textures/blocks/laser"
+							},
+							"roof": {
+								"textures": "textures/blocks/roof"
+							},
+							"marble": {
+								"textures": "textures/blocks/marble"
+							},
+							"moltenstone": {
+								"textures": "textures/blocks/moltenstone"
+							},
+							"limestone": {
+								"textures": "textures/blocks/limestone"
+							},
+							"mudblock": {
+								"textures": "textures/blocks/mudblock"
+							},
+							"wrack": {
+								"textures": "textures/blocks/wrack"
+							},
+							"crack": {
+								"textures": "textures/blocks/crack"
+							},
+							"brack": {
+								"textures": "textures/blocks/brack"
+							},
+							"srack": {
+								"textures": "textures/blocks/srack"
+							},
+							"crystal": {
+								"textures": "textures/blocks/crystal"
+							},
+							"crystal2": {
+								"textures": "textures/blocks/crystal2"
+							},
+							"ice": {
+								"textures": "textures/blocks/ice"
+							},
+							"slush": {
+								"textures": "textures/blocks/slush"
+							},
+							"etop": {
+								"textures": "textures/blocks/etop"
+							},
+							"eside": {
+								"textures": "textures/blocks/eside"
+							}
+						},
+						"key": "nethersulfur",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/nethersulfur"
+						}
+					},
+					{
+						"key": "nethertin",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/nethertin"
+						}
+					},
+					{
+						"key": "nethertopaz",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/nethertopaz"
+						}
+					},
+					{
+						"key": "netherzinc",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/netherzinc"
+						}
+					},
+					{
+						"key": "nickel",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/nickel"
+						}
+					},
+					{
+						"key": "nickelblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/nickelblock"
+						}
+					},
+					{
+						"key": "oceanstone",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/oceanstone"
+						}
+					},
+					{
+						"key": "opal",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/opal"
+						}
+					},
+					{
+						"key": "opalblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/opalblock"
+						}
+					},
+					{
+						"key": "painite",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/painite"
+						}
+					},
+					{
+						"key": "painiteblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/painiteblock"
+						}
+					},
+					{
+						"key": "platnium",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/platnium"
+						}
+					},
+					{
+						"key": "platniumblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/platniumblock"
+						}
+					},
+					{
+						"key": "plutoniumblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/plutoniumblock"
+						}
+					},
+					{
+						"key": "prismarite",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/prismarite"
+						}
+					},
+					{
+						"key": "prismariteblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/prismariteblock"
+						}
+					},
+					{
+						"key": "prolinite",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/prolinite"
+						}
+					},
+					{
+						"key": "proliniteblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/proliniteblock"
+						}
+					},
+					{
+						"key": "pyrite",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/pyrite"
+						}
+					},
+					{
+						"key": "pyriteblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/pyriteblock"
+						}
+					},
+					{
+						"key": "ruby",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/ruby"
+						}
+					},
+					{
+						"key": "rubyblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/rubyblock"
+						}
+					},
+					{
+						"key": "sapphire",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/sapphire"
+						}
+					},
+					{
+						"key": "sapphireblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/sapphireblock"
+						}
+					},
+					{
+						"key": "silver",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/silver"
+						}
+					},
+					{
+						"key": "sulferblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/sulferblock"
+						}
+					},
+					{
+						"key": "sypmium",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/sypmium"
+						}
+					},
+					{
+						"key": "sypmiumblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/sypmiumblock"
+						}
+					},
+					{
+						"key": "tanzanite",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/tanzanite"
+						}
+					},
+					{
+						"key": "tanzaniteblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/tanzaniteblock"
+						}
+					},
+					{
+						"key": "tinblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/tinblock"
+						}
+					},
+					{
+						"key": "titanium",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/titanium"
+						}
+					},
+					{
+						"key": "topazblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/topazblock"
+						}
+					},
+					{
+						"key": "tungsten",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/tungsten"
+						}
+					},
+					{
+						"key": "tungstenblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/tungstenblock"
+						}
+					},
+					{
+						"key": "uranium",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/uranium"
+						}
+					},
+					{
+						"key": "uraniumblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/uraniumblock"
+						}
+					},
+					{
+						"key": "voidstone",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/voidstone"
+						}
+					},
+					{
+						"key": "yttriumblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/yttriumblock"
+						}
+					},
+					{
+						"key": "zincblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/zincblock"
+						}
+					},
+					{
+						"key": "zincolium",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/zincolium"
+						}
+					},
+					{
+						"key": "stalagmite",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/stalagmite"
+						}
+					},
+					{
+						"key": "icoal",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/icoal"
+						}
+					},
+					{
+						"key": "coldstone",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/coldstone"
+						}
+					},
+					{
+						"key": "iiron",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/iiron"
+						}
+					},
+					{
+						"key": "igold",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/igold"
+						}
+					},
+					{
+						"key": "iredstone",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/iredstone"
+						}
+					},
+					{
+						"key": "ilapis",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/ilapis"
+						}
+					},
+					{
+						"key": "idiamond",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/idiamond"
+						}
+					},
+					{
+						"key": "istone",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/istone"
+						}
+					},
+					{
+						"key": "jcoal",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/jcoal"
+						}
+					},
+					{
+						"key": "igranite",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/igranite"
+						}
+					},
+					{
+						"key": "iandesite",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/iandesite"
+						}
+					},
+					{
+						"key": "idiorite",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/idiorite"
+						}
+					},
+					{
+						"key": "jiron",
+						"is_minified": true,
+						"children": {
+							"textures": "txtures/blocks/jiron"
+						}
+					},
+					{
+						"key": "jgold",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/jgold"
+						}
+					},
+					{
+						"key": "jredstone",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/jredstone"
+						}
+					},
+					{
+						"key": "jlapis",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/jlapis"
+						}
+					},
+					{
+						"key": "jdiamond",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/jdiamond"
+						}
+					},
+					{
+						"key": "jstone",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/jstone"
+						}
+					},
+					{
+						"key": "rdirt",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/rdirt"
+						}
+					},
+					{
+						"key": "mudside",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/mudside"
+						}
+					},
+					{
+						"key": "jgranite",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/jgranite"
+						}
+					},
+					{
+						"key": "jandesite",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/jandesite"
+						}
+					},
+					{
+						"key": "jdiorite",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/jdiorite"
+						}
+					},
+					{
+						"key": "sstone",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/sstone"
+						}
+					},
+					{
+						"key": "sgranite",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/sgranite"
+						}
+					},
+					{
+						"key": "sdiorite",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/sdiorite"
+						}
+					},
+					{
+						"key": "sandesite",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/sandesite"
+						}
+					},
+					{
+						"key": "scoal",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/scoal"
+						}
+					},
+					{
+						"key": "siron",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/siron"
+						}
+					},
+					{
+						"key": "sdiamond",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/sdiamond"
+						}
+					},
+					{
+						"key": "sredstone",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/sredstone"
+						}
+					},
+					{
+						"key": "slapis",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/slapis"
+						}
+					},
+					{
+						"key": "sgold",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/sgold"
+						}
+					},
+					{
+						"key": "mstoneside",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/mstoneside"
+						}
+					},
+					{
+						"key": "bluecrystalblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/bluecrystalblock"
+						}
+					},
+					{
+						"key": "redcrystalblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/redcrystalblock"
+						}
+					},
+					{
+						"key": "yellowcrystalblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/yellowcrystalblock"
+						}
+					},
+					{
+						"key": "bluemushroom",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/bluemushroom"
+						}
+					},
+					{
+						"key": "lstone",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/lstone"
+						}
+					},
+					{
+						"key": "mudtop",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/mudtop"
+						}
+					},
+					{
+						"key": "mstonetop",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/mstonetop"
+						}
+					},
+					{
+						"key": "mstonebottem",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/mstonebottem"
+						}
+					},
+					{
+						"key": "toproot",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/toproot"
+						}
+					},
+					{
+						"key": "gmstoneside",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/gmstoneside"
+						}
+					},
+					{
+						"key": "gmstonetop",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/gmstonetop"
+						}
+					},
+					{
+						"key": "gmstonebottem",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/gmstonebottem"
+						}
+					},
+					{
+						"key": "compressorside",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/compressorside"
+						}
+					},
+					{
+						"key": "compressortop",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/compressortop"
+						}
+					},
+					{
+						"key": "compressedcobblestone",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/compressedcobblestone"
+						}
+					},
+					{
+						"key": "oilblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/oilblock"
+						}
+					},
+					{
+						"key": "cavegrass",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/cavegrass"
+						}
+					},
+					{
+						"key": "cavegrassglow",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/cavegrassglow"
+						}
+					},
+					{
+						"key": "laser",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/laser"
+						}
+					},
+					{
+						"key": "roof",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/roof"
+						}
+					},
+					{
+						"key": "marble",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/marble"
+						}
+					},
+					{
+						"key": "moltenstone",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/moltenstone"
+						}
+					},
+					{
+						"key": "limestone",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/limestone"
+						}
+					},
+					{
+						"key": "mudblock",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/mudblock"
+						}
+					},
+					{
+						"key": "wrack",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/wrack"
+						}
+					},
+					{
+						"key": "crack",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/crack"
+						}
+					},
+					{
+						"key": "brack",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/brack"
+						}
+					},
+					{
+						"key": "srack",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/srack"
+						}
+					},
+					{
+						"key": "crystal",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/crystal"
+						}
+					},
+					{
+						"key": "crystal2",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/crystal2"
+						}
+					},
+					{
+						"key": "ice",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/ice"
+						}
+					},
+					{
+						"key": "slush",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/slush"
+						}
+					},
+					{
+						"key": "etop",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/etop"
+						}
+					},
+					{
+						"key": "eside",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/blocks/eside"
+						}
+					}
+				]
+			}
+		]
+	}
+}

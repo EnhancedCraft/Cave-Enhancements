@@ -1,0 +1,244 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Cave Enhancements BP\\blocks\\opal_ore.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "27ef5a9a_10e4_4e96_9530_f955cc42b64f",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "ores:opal_ore",
+							"is_experimental": false
+						},
+						"components": {
+							"minecraft:destroy_time": 1000,
+							"minecraft:friction": 1,
+							"minecraft:explosion_resistance": 15,
+							"minecraft:on_player_destroyed": {
+								"event": "destroy"
+							},
+							"minecraft:loot": "loot_tables/opal_loot.json",
+							"tag:ores:medium": {}
+						},
+						"events": {
+							"destroy": {
+								"run_command": {
+									"command": [
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb"
+									]
+								}
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "ores:opal_ore",
+							"is_experimental": false
+						},
+						"components": {
+							"minecraft:destroy_time": 1000,
+							"minecraft:friction": 1,
+							"minecraft:explosion_resistance": 15,
+							"minecraft:on_player_destroyed": {
+								"event": "destroy"
+							},
+							"minecraft:loot": "loot_tables/opal_loot.json",
+							"tag:ores:medium": {}
+						},
+						"events": {
+							"destroy": {
+								"run_command": {
+									"command": [
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb",
+										"summon xp_orb"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:opal_ore",
+							"is_experimental": false
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:opal_ore",
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:destroy_time": 1000,
+								"minecraft:friction": 1,
+								"minecraft:explosion_resistance": 15,
+								"minecraft:on_player_destroyed": {
+									"event": "destroy"
+								},
+								"minecraft:loot": "loot_tables/opal_loot.json",
+								"tag:ores:medium": {}
+							},
+							"events": {
+								"destroy": {
+									"run_command": {
+										"command": [
+											"summon xp_orb",
+											"summon xp_orb",
+											"summon xp_orb",
+											"summon xp_orb"
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1000",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"data": "1",
+								"key": "minecraft:friction"
+							},
+							{
+								"data": "15",
+								"key": "minecraft:explosion_resistance"
+							},
+							{
+								"open": {
+									"minecraft:destroy_time": 1000,
+									"minecraft:friction": 1,
+									"minecraft:explosion_resistance": 15,
+									"minecraft:on_player_destroyed": {
+										"event": "destroy"
+									},
+									"minecraft:loot": "loot_tables/opal_loot.json",
+									"tag:ores:medium": {}
+								},
+								"key": "minecraft:on_player_destroyed",
+								"is_minified": true,
+								"children": {
+									"event": "destroy"
+								}
+							},
+							{
+								"data": "loot_tables/opal_loot.json",
+								"key": "minecraft:loot"
+							},
+							{
+								"key": "tag:ores:medium",
+								"is_minified": true,
+								"children": {}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:opal_ore",
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:destroy_time": 1000,
+								"minecraft:friction": 1,
+								"minecraft:explosion_resistance": 15,
+								"minecraft:on_player_destroyed": {
+									"event": "destroy"
+								},
+								"minecraft:loot": "loot_tables/opal_loot.json",
+								"tag:ores:medium": {}
+							},
+							"events": {
+								"destroy": {
+									"run_command": {
+										"command": [
+											"summon xp_orb",
+											"summon xp_orb",
+											"summon xp_orb",
+											"summon xp_orb"
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"destroy": {
+										"run_command": {
+											"command": [
+												"summon xp_orb",
+												"summon xp_orb",
+												"summon xp_orb",
+												"summon xp_orb"
+											]
+										}
+									}
+								},
+								"key": "destroy",
+								"children": [
+									{
+										"open": {
+											"run_command": {
+												"command": [
+													"summon xp_orb",
+													"summon xp_orb",
+													"summon xp_orb",
+													"summon xp_orb"
+												]
+											}
+										},
+										"key": "run_command",
+										"children": [
+											{
+												"open": {
+													"command": [
+														"summon xp_orb",
+														"summon xp_orb",
+														"summon xp_orb",
+														"summon xp_orb"
+													]
+												},
+												"key": "command",
+												"is_minified": true,
+												"children": [
+													"summon xp_orb",
+													"summon xp_orb",
+													"summon xp_orb",
+													"summon xp_orb"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

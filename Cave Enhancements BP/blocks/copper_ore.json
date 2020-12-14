@@ -1,0 +1,17 @@
+//bridge-file-version: #15
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:copper_ore",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 900,
+			"minecraft:friction": 1,
+			"minecraft:explosion_resistance": 3,
+			"minecraft:loot": "loot_tables/copper_loot.json",
+			"tag:ores:easy": {}
+		}
+	}
+}

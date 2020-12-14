@@ -1,0 +1,177 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Cave Enhancements BP\\feature_rules\\limestone_gen.json",
+	"file_type": "feature_rule",
+	"format_version": 1,
+	"file_uuid": "a9989729_cb7e_4b95_903f_8b9f0b10196a",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:feature_rules": {
+						"description": {
+							"identifier": "ores:limestone_gen",
+							"places_feature": "ores:limestone_feature"
+						},
+						"conditions": {
+							"placement_pass": "underground_pass",
+							"minecraft:biome_filter": {
+								"any_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "ocean"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "deep"
+									}
+								]
+							}
+						},
+						"distribution": {
+							"iterations": 6,
+							"coordinate_eval_order": "zyx",
+							"x": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"y": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									64
+								]
+							},
+							"z": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:feature_rules",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:limestone_gen",
+							"places_feature": "ores:limestone_feature"
+						}
+					},
+					{
+						"key": "conditions",
+						"is_minified": true,
+						"children": {
+							"placement_pass": "underground_pass",
+							"minecraft:biome_filter": {
+								"any_of": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "ocean"
+									},
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "deep"
+									}
+								]
+							}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:limestone_gen",
+								"places_feature": "ores:limestone_feature"
+							},
+							"conditions": {
+								"placement_pass": "underground_pass",
+								"minecraft:biome_filter": {
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "ocean"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "deep"
+										}
+									]
+								}
+							},
+							"distribution": {
+								"iterations": 6,
+								"coordinate_eval_order": "zyx",
+								"x": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								},
+								"y": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										64
+									]
+								},
+								"z": {
+									"distribution": "uniform",
+									"extent": [
+										0,
+										16
+									]
+								}
+							}
+						},
+						"key": "distribution",
+						"is_minified": true,
+						"children": {
+							"iterations": 6,
+							"coordinate_eval_order": "zyx",
+							"x": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							},
+							"y": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									64
+								]
+							},
+							"z": {
+								"distribution": "uniform",
+								"extent": [
+									0,
+									16
+								]
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

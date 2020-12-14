@@ -1,0 +1,50 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Cave Enhancements Beta 1\\entity\\miner.json",
+	"file_type": "client_entity",
+	"format_version": 0,
+	"cache_content": {
+		"format_version": "1.8.0",
+		"minecraft:client_entity": {
+			"description": {
+				"identifier": "ores:miner",
+				"materials": {
+					"default": "villager"
+				},
+				"textures": {
+					"default": "textures/entity/miner"
+				},
+				"geometry": {
+					"default": "geometry.miner"
+				},
+				"scripts": {
+					"scale": 1
+				},
+				"animations": {
+					"general": "animation.miner.general",
+					"look_at_target": "animation.common.look_at_target",
+					"raise_arms": "animation.miner.raise_arms",
+					"move": "animation.miner.move"
+				},
+				"animation_controllers": [
+					{
+						"general": "controller.animation.miner.general"
+					},
+					{
+						"raise_arms": "controller.animation.miner_v2.raise_arms"
+					},
+					{
+						"move": "controller.animation.miner.move"
+					}
+				],
+				"render_controllers": [
+					"controller.render.miner"
+				],
+				"spawn_egg": {
+					"base_color": "#53443E",
+					"overlay_color": "#2E6854"
+				}
+			}
+		}
+	},
+	"file_uuid": "3f67a9fd_f317_4be6_947d_13e971da3451"
+}

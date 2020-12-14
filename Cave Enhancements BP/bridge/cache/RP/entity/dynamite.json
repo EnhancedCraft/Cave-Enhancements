@@ -1,0 +1,34 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Cave Enhancements RP\\entity\\dynamite.json",
+	"file_type": "client_entity",
+	"format_version": 0,
+	"cache_content": {
+		"format_version": "1.10.0",
+		"minecraft:client_entity": {
+			"description": {
+				"identifier": "ores:dynamite_projectile",
+				"materials": {
+					"default": "snowball"
+				},
+				"textures": {
+					"default": "textures/items/dynamite"
+				},
+				"geometry": {
+					"default": "geometry.item_sprite"
+				},
+				"render_controllers": [
+					"controller.render.item_sprite"
+				],
+				"animations": {
+					"flying": "animation.actor.billboard"
+				},
+				"scripts": {
+					"animate": [
+						"flying"
+					]
+				}
+			}
+		}
+	},
+	"file_uuid": "ff394a70_60bf_4c1c_916d_4f2cef1a2e46"
+}

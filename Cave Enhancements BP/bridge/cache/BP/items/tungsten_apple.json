@@ -1,0 +1,694 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1/items/tungsten_apple.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "441eacd8_ff8d_4e24_a5f8_0986b76b9ea1",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ores:tungsten_apple",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:use_duration": 1.6,
+							"minecraft:foil": false,
+							"minecraft:food": {
+								"nutrition": 4,
+								"saturation_modifier": "supernatural",
+								"can_always_eat": true,
+								"on_consume": {
+									"event": "consumed",
+									"target": "self"
+								}
+							},
+							"minecraft:use_animation": "eat",
+							"minecraft:display_name": {
+								"value": "Tungsten Apple"
+							},
+							"minecraft:icon": {
+								"texture": "tungstenapple"
+							}
+						},
+						"events": {
+							"consumed": {
+								"sequence": [
+									{
+										"add_mob_effect": {
+											"effect": "fire_resistance",
+											"duration": 200,
+											"amplifier": 1,
+											"target": "holder"
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "absorption",
+											"duration": 150,
+											"amplifier": 1,
+											"target": "holder"
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "jump_boost",
+											"target": "holder",
+											"duration": 140,
+											"amplifier": 1
+										}
+									},
+									{
+										"add_mob_effect": {
+											"effect": "strength",
+											"target": "holder",
+											"duration": 1,
+											"amplifier": 110
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:tungsten_apple",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:foil": false,
+								"minecraft:food": {
+									"nutrition": 4,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:display_name": {
+									"value": "Tungsten Apple"
+								},
+								"minecraft:icon": {
+									"texture": "tungstenapple"
+								}
+							},
+							"events": {
+								"consumed": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "fire_resistance",
+												"duration": 200,
+												"amplifier": 1,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "absorption",
+												"duration": 150,
+												"amplifier": 1,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "jump_boost",
+												"target": "holder",
+												"duration": 140,
+												"amplifier": 1
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "strength",
+												"target": "holder",
+												"duration": 1,
+												"amplifier": 110
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:tungsten_apple",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:tungsten_apple",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:foil": false,
+								"minecraft:food": {
+									"nutrition": 4,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:display_name": {
+									"value": "Tungsten Apple"
+								},
+								"minecraft:icon": {
+									"texture": "tungstenapple"
+								}
+							},
+							"events": {
+								"consumed": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "fire_resistance",
+												"duration": 200,
+												"amplifier": 1,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "absorption",
+												"duration": 150,
+												"amplifier": 1,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "jump_boost",
+												"target": "holder",
+												"duration": 140,
+												"amplifier": 1
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "strength",
+												"target": "holder",
+												"duration": 1,
+												"amplifier": 110
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"data": "1.6",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"data": "false",
+								"key": "minecraft:foil"
+							},
+							{
+								"key": "minecraft:food",
+								"is_minified": true,
+								"children": {
+									"nutrition": 4,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								}
+							},
+							{
+								"data": "eat",
+								"key": "minecraft:use_animation"
+							},
+							{
+								"open": {
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 1.6,
+									"minecraft:foil": false,
+									"minecraft:food": {
+										"nutrition": 4,
+										"saturation_modifier": "supernatural",
+										"can_always_eat": true,
+										"on_consume": {
+											"event": "consumed",
+											"target": "self"
+										}
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:display_name": {
+										"value": "Tungsten Apple"
+									},
+									"minecraft:icon": {
+										"texture": "tungstenapple"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Tungsten Apple"
+								}
+							},
+							{
+								"open": {
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 1.6,
+									"minecraft:foil": false,
+									"minecraft:food": {
+										"nutrition": 4,
+										"saturation_modifier": "supernatural",
+										"can_always_eat": true,
+										"on_consume": {
+											"event": "consumed",
+											"target": "self"
+										}
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:display_name": {
+										"value": "Tungsten Apple"
+									},
+									"minecraft:icon": {
+										"texture": "tungstenapple"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "tungstenapple"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:tungsten_apple",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:foil": false,
+								"minecraft:food": {
+									"nutrition": 4,
+									"saturation_modifier": "supernatural",
+									"can_always_eat": true,
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:display_name": {
+									"value": "Tungsten Apple"
+								},
+								"minecraft:icon": {
+									"texture": "tungstenapple"
+								}
+							},
+							"events": {
+								"consumed": {
+									"sequence": [
+										{
+											"add_mob_effect": {
+												"effect": "fire_resistance",
+												"duration": 200,
+												"amplifier": 1,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "absorption",
+												"duration": 150,
+												"amplifier": 1,
+												"target": "holder"
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "jump_boost",
+												"target": "holder",
+												"duration": 140,
+												"amplifier": 1
+											}
+										},
+										{
+											"add_mob_effect": {
+												"effect": "strength",
+												"target": "holder",
+												"duration": 1,
+												"amplifier": 110
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"consumed": {
+										"sequence": [
+											{
+												"add_mob_effect": {
+													"effect": "fire_resistance",
+													"duration": 200,
+													"amplifier": 1,
+													"target": "holder"
+												}
+											},
+											{
+												"add_mob_effect": {
+													"effect": "absorption",
+													"duration": 150,
+													"amplifier": 1,
+													"target": "holder"
+												}
+											},
+											{
+												"add_mob_effect": {
+													"effect": "jump_boost",
+													"target": "holder",
+													"duration": 140,
+													"amplifier": 1
+												}
+											},
+											{
+												"add_mob_effect": {
+													"effect": "strength",
+													"target": "holder",
+													"duration": 1,
+													"amplifier": 110
+												}
+											}
+										]
+									}
+								},
+								"key": "consumed",
+								"children": [
+									{
+										"open": {
+											"sequence": [
+												{
+													"add_mob_effect": {
+														"effect": "fire_resistance",
+														"duration": 200,
+														"amplifier": 1,
+														"target": "holder"
+													}
+												},
+												{
+													"add_mob_effect": {
+														"effect": "absorption",
+														"duration": 150,
+														"amplifier": 1,
+														"target": "holder"
+													}
+												},
+												{
+													"add_mob_effect": {
+														"effect": "jump_boost",
+														"target": "holder",
+														"duration": 140,
+														"amplifier": 1
+													}
+												},
+												{
+													"add_mob_effect": {
+														"effect": "strength",
+														"target": "holder",
+														"duration": 1,
+														"amplifier": 110
+													}
+												}
+											]
+										},
+										"key": "sequence",
+										"children": [
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "fire_resistance",
+															"duration": 200,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "absorption",
+															"duration": 150,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "jump_boost",
+															"target": "holder",
+															"duration": 140,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "strength",
+															"target": "holder",
+															"duration": 1,
+															"amplifier": 110
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "fire_resistance",
+																"duration": 200,
+																"amplifier": 1,
+																"target": "holder"
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "fire_resistance",
+															"duration": 200,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "fire_resistance",
+															"duration": 200,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "absorption",
+															"duration": 150,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "jump_boost",
+															"target": "holder",
+															"duration": 140,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "strength",
+															"target": "holder",
+															"duration": 1,
+															"amplifier": 110
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "absorption",
+																"duration": 150,
+																"amplifier": 1,
+																"target": "holder"
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "absorption",
+															"duration": 150,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "fire_resistance",
+															"duration": 200,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "absorption",
+															"duration": 150,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "jump_boost",
+															"target": "holder",
+															"duration": 140,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "strength",
+															"target": "holder",
+															"duration": 1,
+															"amplifier": 110
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "jump_boost",
+																"target": "holder",
+																"duration": 140,
+																"amplifier": 1
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "jump_boost",
+															"target": "holder",
+															"duration": 140,
+															"amplifier": 1
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"add_mob_effect": {
+															"effect": "fire_resistance",
+															"duration": 200,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "absorption",
+															"duration": 150,
+															"amplifier": 1,
+															"target": "holder"
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "jump_boost",
+															"target": "holder",
+															"duration": 140,
+															"amplifier": 1
+														}
+													},
+													{
+														"add_mob_effect": {
+															"effect": "strength",
+															"target": "holder",
+															"duration": 1,
+															"amplifier": 110
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"add_mob_effect": {
+																"effect": "strength",
+																"target": "holder",
+																"duration": 1,
+																"amplifier": 110
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "strength",
+															"target": "holder",
+															"duration": 1,
+															"amplifier": 110
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

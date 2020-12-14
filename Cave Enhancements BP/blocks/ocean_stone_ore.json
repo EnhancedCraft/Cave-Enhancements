@@ -1,0 +1,18 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:ocean_stone_ore",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 1000,
+			"minecraft:block_light_emission": 1,
+			"minecraft:friction": 1,
+			"minecraft:explosion_resistance": 10,
+			"minecraft:loot": "loot_tables/ocean_stone_loot.json",
+			"tag:ores:easy": {}
+		}
+	}
+}

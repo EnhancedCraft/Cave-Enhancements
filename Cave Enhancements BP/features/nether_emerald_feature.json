@@ -1,0 +1,20 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "ores:nether_emerald_feature"
+		},
+		"count": 2,
+		"places_block": {
+			"name": "ores:nether_emerald_ore",
+			"states": {}
+		},
+		"may_replace": [
+			{
+				"name": "minecraft:netherrack",
+				"states": {}
+			}
+		]
+	}
+}

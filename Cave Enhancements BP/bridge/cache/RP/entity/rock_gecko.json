@@ -1,0 +1,309 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Cave Enhancements RP\\entity\\rock_gecko.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "3dad2af0_3cbe_4e96_8c5f_743afd1ea31f",
+	"file_version": 11,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "ores:rock_gecko",
+							"textures": {
+								"basalt": "textures/entity/basalt_gecko",
+								"gravel": "textures/entity/gravel_gecko"
+							},
+							"geometry": {
+								"default": "geometry.rock_geko"
+							},
+							"animations": {
+								"walk": "animation.rock_geko.walk",
+								"look_at_target": "animation.common.look_at_target"
+							},
+							"scripts": {
+								"animate": [
+									{
+										"walk": "query.modified_move_speed"
+									},
+									"look_at_target"
+								]
+							},
+							"render_controllers": [
+								"controller.render.rock_gecko"
+							],
+							"enable_attachables": false,
+							"spawn_egg": {
+								"texture": "rock_gecko_spawn_egg"
+							},
+							"materials": {
+								"default": "fox"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:rock_gecko",
+								"textures": {
+									"basalt": "textures/entity/basalt_gecko",
+									"gravel": "textures/entity/gravel_gecko"
+								},
+								"geometry": {
+									"default": "geometry.rock_geko"
+								},
+								"animations": {
+									"walk": "animation.rock_geko.walk",
+									"look_at_target": "animation.common.look_at_target"
+								},
+								"scripts": {
+									"animate": [
+										{
+											"walk": "query.modified_move_speed"
+										},
+										"look_at_target"
+									]
+								},
+								"render_controllers": [
+									"controller.render.rock_gecko"
+								],
+								"enable_attachables": false,
+								"spawn_egg": {
+									"texture": "rock_gecko_spawn_egg"
+								},
+								"materials": {
+									"default": "fox"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "ores:rock_gecko",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "ores:rock_gecko",
+									"textures": {
+										"basalt": "textures/entity/basalt_gecko",
+										"gravel": "textures/entity/gravel_gecko"
+									},
+									"geometry": {
+										"default": "geometry.rock_geko"
+									},
+									"animations": {
+										"walk": "animation.rock_geko.walk",
+										"look_at_target": "animation.common.look_at_target"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "query.modified_move_speed"
+											},
+											"look_at_target"
+										]
+									},
+									"render_controllers": [
+										"controller.render.rock_gecko"
+									],
+									"enable_attachables": false,
+									"spawn_egg": {
+										"texture": "rock_gecko_spawn_egg"
+									},
+									"materials": {
+										"default": "fox"
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"basalt": "textures/entity/basalt_gecko",
+									"gravel": "textures/entity/gravel_gecko"
+								}
+							},
+							{
+								"open": {
+									"identifier": "ores:rock_gecko",
+									"textures": {
+										"basalt": "textures/entity/basalt_gecko",
+										"gravel": "textures/entity/gravel_gecko"
+									},
+									"geometry": {
+										"default": "geometry.rock_geko"
+									},
+									"animations": {
+										"walk": "animation.rock_geko.walk",
+										"look_at_target": "animation.common.look_at_target"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "query.modified_move_speed"
+											},
+											"look_at_target"
+										]
+									},
+									"render_controllers": [
+										"controller.render.rock_gecko"
+									],
+									"enable_attachables": false,
+									"spawn_egg": {
+										"texture": "rock_gecko_spawn_egg"
+									},
+									"materials": {
+										"default": "fox"
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.rock_geko"
+								}
+							},
+							{
+								"open": {
+									"identifier": "ores:rock_gecko",
+									"textures": {
+										"basalt": "textures/entity/basalt_gecko",
+										"gravel": "textures/entity/gravel_gecko"
+									},
+									"geometry": {
+										"default": "geometry.rock_geko"
+									},
+									"animations": {
+										"walk": "animation.rock_geko.walk",
+										"look_at_target": "animation.common.look_at_target"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "query.modified_move_speed"
+											},
+											"look_at_target"
+										]
+									},
+									"render_controllers": [
+										"controller.render.rock_gecko"
+									],
+									"enable_attachables": false,
+									"spawn_egg": {
+										"texture": "rock_gecko_spawn_egg"
+									},
+									"materials": {
+										"default": "fox"
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"walk": "animation.rock_geko.walk",
+									"look_at_target": "animation.common.look_at_target"
+								}
+							},
+							{
+								"open": {
+									"identifier": "ores:rock_gecko",
+									"textures": {
+										"basalt": "textures/entity/basalt_gecko",
+										"gravel": "textures/entity/gravel_gecko"
+									},
+									"geometry": {
+										"default": "geometry.rock_geko"
+									},
+									"animations": {
+										"walk": "animation.rock_geko.walk",
+										"look_at_target": "animation.common.look_at_target"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "query.modified_move_speed"
+											},
+											"look_at_target"
+										]
+									},
+									"render_controllers": [
+										"controller.render.rock_gecko"
+									],
+									"enable_attachables": false,
+									"spawn_egg": {
+										"texture": "rock_gecko_spawn_egg"
+									},
+									"materials": {
+										"default": "fox"
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												{
+													"walk": "query.modified_move_speed"
+												},
+												"look_at_target"
+											]
+										},
+										"key": "animate",
+										"children": [
+											{
+												"open": [
+													{
+														"walk": "query.modified_move_speed"
+													},
+													"look_at_target"
+												],
+												"is_minified": true,
+												"children": {
+													"walk": "query.modified_move_speed"
+												}
+											},
+											{
+												"data": "look_at_target"
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.rock_gecko"
+								]
+							},
+							{
+								"data": "false",
+								"key": "enable_attachables"
+							},
+							{
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "rock_gecko_spawn_egg"
+								}
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "fox"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,34 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:package_cave_base"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"RRR",
+			"RHR",
+			"CCC"
+		],
+		"key": {
+			"R": {
+				"item": "minecraft:redstone"
+			},
+			"H": {
+				"item": "ores:hematite_block"
+			},
+			"C": {
+				"item": "ores:compressed_cobblestone"
+			}
+		},
+		"result": [
+			{
+				"item": "ores:package_cave_base",
+				"count": 1
+			}
+		]
+	}
+}

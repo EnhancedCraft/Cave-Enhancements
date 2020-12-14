@@ -1,0 +1,469 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Cave Enhancements BP\\items\\haste_potion.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "98cf8eb4_762a_46b8_9155_e73a7f1da682",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ores:haste_potion",
+							"category": "items"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:stacked_by_data": true,
+							"minecraft:use_duration": 1.6,
+							"minecraft:potion": {
+								"type": "regular"
+							},
+							"minecraft:use_animation": "drink",
+							"minecraft:display_name": {
+								"value": "Potion Of Haste II"
+							},
+							"minecraft:icon": {
+								"texture": "hastepotion"
+							},
+							"minecraft:food": {
+								"on_consume": {
+									"event": "drink",
+									"target": "self"
+								},
+								"nutrition": 0,
+								"can_always_eat": true
+							}
+						},
+						"events": {
+							"drink": {
+								"add_mob_effect": {
+									"effect": "haste",
+									"target": "holder",
+									"duration": 60,
+									"amplifier": 1
+								},
+								"transform_item": {
+									"transform": "minecraft:glass_bottle"
+								}
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "ores:haste_potion",
+							"category": "items"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:stacked_by_data": true,
+							"minecraft:use_duration": 1.6,
+							"minecraft:potion": {
+								"type": "regular"
+							},
+							"minecraft:use_animation": "drink",
+							"minecraft:display_name": {
+								"value": "Potion Of Haste II"
+							},
+							"minecraft:icon": {
+								"texture": "hastepotion"
+							},
+							"minecraft:food": {
+								"on_consume": {
+									"event": "drink",
+									"target": "self"
+								},
+								"nutrition": 0,
+								"can_always_eat": true
+							}
+						},
+						"events": {
+							"drink": {
+								"add_mob_effect": {
+									"effect": "haste",
+									"target": "holder",
+									"duration": 60,
+									"amplifier": 1
+								},
+								"transform_item": {
+									"transform": "minecraft:glass_bottle"
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:haste_potion",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:potion": {
+									"type": "regular"
+								},
+								"minecraft:use_animation": "drink",
+								"minecraft:display_name": {
+									"value": "Potion Of Haste II"
+								},
+								"minecraft:icon": {
+									"texture": "hastepotion"
+								},
+								"minecraft:food": {
+									"on_consume": {
+										"event": "drink",
+										"target": "self"
+									},
+									"nutrition": 0,
+									"can_always_eat": true
+								}
+							},
+							"events": {
+								"drink": {
+									"add_mob_effect": {
+										"effect": "haste",
+										"target": "holder",
+										"duration": 60,
+										"amplifier": 1
+									},
+									"transform_item": {
+										"transform": "minecraft:glass_bottle"
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:haste_potion",
+							"category": "items"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:haste_potion",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:potion": {
+									"type": "regular"
+								},
+								"minecraft:use_animation": "drink",
+								"minecraft:display_name": {
+									"value": "Potion Of Haste II"
+								},
+								"minecraft:icon": {
+									"texture": "hastepotion"
+								},
+								"minecraft:food": {
+									"on_consume": {
+										"event": "drink",
+										"target": "self"
+									},
+									"nutrition": 0,
+									"can_always_eat": true
+								}
+							},
+							"events": {
+								"drink": {
+									"add_mob_effect": {
+										"effect": "haste",
+										"target": "holder",
+										"duration": 60,
+										"amplifier": 1
+									},
+									"transform_item": {
+										"transform": "minecraft:glass_bottle"
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"data": "1.6",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 1.6,
+									"minecraft:potion": {
+										"type": "regular"
+									},
+									"minecraft:use_animation": "drink",
+									"minecraft:display_name": {
+										"value": "Potion Of Haste II"
+									},
+									"minecraft:icon": {
+										"texture": "hastepotion"
+									},
+									"minecraft:food": {
+										"on_consume": {
+											"event": "drink",
+											"target": "self"
+										},
+										"nutrition": 0,
+										"can_always_eat": true
+									}
+								},
+								"key": "minecraft:potion",
+								"is_minified": true,
+								"children": {
+									"type": "regular"
+								}
+							},
+							{
+								"data": "drink",
+								"key": "minecraft:use_animation"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 1.6,
+									"minecraft:potion": {
+										"type": "regular"
+									},
+									"minecraft:use_animation": "drink",
+									"minecraft:display_name": {
+										"value": "Potion Of Haste II"
+									},
+									"minecraft:icon": {
+										"texture": "hastepotion"
+									},
+									"minecraft:food": {
+										"on_consume": {
+											"event": "drink",
+											"target": "self"
+										},
+										"nutrition": 0,
+										"can_always_eat": true
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Potion Of Haste II"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 1.6,
+									"minecraft:potion": {
+										"type": "regular"
+									},
+									"minecraft:use_animation": "drink",
+									"minecraft:display_name": {
+										"value": "Potion Of Haste II"
+									},
+									"minecraft:icon": {
+										"texture": "hastepotion"
+									},
+									"minecraft:food": {
+										"on_consume": {
+											"event": "drink",
+											"target": "self"
+										},
+										"nutrition": 0,
+										"can_always_eat": true
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "hastepotion"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 1.6,
+									"minecraft:potion": {
+										"type": "regular"
+									},
+									"minecraft:use_animation": "drink",
+									"minecraft:display_name": {
+										"value": "Potion Of Haste II"
+									},
+									"minecraft:icon": {
+										"texture": "hastepotion"
+									},
+									"minecraft:food": {
+										"on_consume": {
+											"event": "drink",
+											"target": "self"
+										},
+										"nutrition": 0,
+										"can_always_eat": true
+									}
+								},
+								"key": "minecraft:food",
+								"children": [
+									{
+										"open": {
+											"on_consume": {
+												"event": "drink",
+												"target": "self"
+											},
+											"nutrition": 0,
+											"can_always_eat": true
+										},
+										"key": "on_consume",
+										"is_minified": true,
+										"children": {
+											"event": "drink",
+											"target": "self"
+										}
+									},
+									{
+										"data": "0",
+										"key": "nutrition"
+									},
+									{
+										"data": "true",
+										"key": "can_always_eat"
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:haste_potion",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:potion": {
+									"type": "regular"
+								},
+								"minecraft:use_animation": "drink",
+								"minecraft:display_name": {
+									"value": "Potion Of Haste II"
+								},
+								"minecraft:icon": {
+									"texture": "hastepotion"
+								},
+								"minecraft:food": {
+									"on_consume": {
+										"event": "drink",
+										"target": "self"
+									},
+									"nutrition": 0,
+									"can_always_eat": true
+								}
+							},
+							"events": {
+								"drink": {
+									"add_mob_effect": {
+										"effect": "haste",
+										"target": "holder",
+										"duration": 60,
+										"amplifier": 1
+									},
+									"transform_item": {
+										"transform": "minecraft:glass_bottle"
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"drink": {
+										"add_mob_effect": {
+											"effect": "haste",
+											"target": "holder",
+											"duration": 60,
+											"amplifier": 1
+										},
+										"transform_item": {
+											"transform": "minecraft:glass_bottle"
+										}
+									}
+								},
+								"key": "drink",
+								"children": [
+									{
+										"open": {
+											"add_mob_effect": {
+												"effect": "haste",
+												"target": "holder",
+												"duration": 60,
+												"amplifier": 1
+											},
+											"transform_item": {
+												"transform": "minecraft:glass_bottle"
+											}
+										},
+										"key": "add_mob_effect",
+										"is_minified": true,
+										"children": {
+											"effect": "haste",
+											"target": "holder",
+											"duration": 60,
+											"amplifier": 1
+										}
+									},
+									{
+										"open": {
+											"add_mob_effect": {
+												"effect": "haste",
+												"target": "holder",
+												"duration": 60,
+												"amplifier": 1
+											},
+											"transform_item": {
+												"transform": "minecraft:glass_bottle"
+											}
+										},
+										"key": "transform_item",
+										"is_minified": true,
+										"children": {
+											"transform": "minecraft:glass_bottle"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

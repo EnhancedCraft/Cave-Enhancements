@@ -1,0 +1,62 @@
+{
+	"file_path": "C:\\Users\\Jacob\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Ore Generation Public Test 1\\blocks\\j_stone.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "5c3154e7_3ebd_4665_bf75_ffacc1ce4929",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:block": {
+						"description": {
+							"identifier": "ores:j_stone"
+						},
+						"components": {
+							"minecraft:destroy_time": 7,
+							"minecraft:explosion_resistance": 1,
+							"minecraft:loot": "loot_tables/stone_loot.json",
+							"tag:ores:biomestone": {}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:j_stone"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:j_stone"
+							},
+							"components": {
+								"minecraft:destroy_time": 7,
+								"minecraft:explosion_resistance": 1,
+								"minecraft:loot": "loot_tables/stone_loot.json",
+								"tag:ores:biomestone": {}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 7,
+							"minecraft:explosion_resistance": 1,
+							"minecraft:loot": "loot_tables/stone_loot.json",
+							"tag:ores:biomestone": {}
+						}
+					}
+				]
+			}
+		]
+	}
+}

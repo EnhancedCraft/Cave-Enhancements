@@ -1,0 +1,4421 @@
+{
+	"entity": {
+		"BP/entities/player.json": {
+			"events": [
+				"bridge:on_reset_player",
+				"bridge:on_equipped_687aa522_956f_467d_80a7_9c11b00ba874",
+				"bridge:on_unequipped_687aa522_956f_467d_80a7_9c11b00ba874",
+				"minecraft:gain_bad_omen",
+				"minecraft:clear_add_bad_omen",
+				"minecraft:trigger_raid",
+				"ores:shift",
+				"ores:unshift"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:player"
+			],
+			"animation_references": [
+				"bridge_custom_item_behavior",
+				"start",
+				"torch",
+				"ntorch",
+				"water",
+				"nwater",
+				"switch",
+				"light",
+				"timer"
+			],
+			"families": [
+				"player"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/dynamite.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"ores:dynamite_projectile"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/rock_gecko.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:ageable_grow_up",
+				"minecraft:on_tame"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"ores:rock_gecko"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"item": {
+		"BP/items/adamantite_battleaxe.json": {
+			"identifiers": [
+				"ores:adamantite_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/adamantite_hammer.json": {
+			"identifiers": [
+				"ores:adamantite_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/adamantite_sickle.json": {
+			"identifiers": [
+				"ores:adamantite_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/adamantite_sword.json": {
+			"identifiers": [
+				"ores:adamantite_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/aluminium_battleaxe.json": {
+			"identifiers": [
+				"ores:aluminium_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/aluminium_hammer.json": {
+			"identifiers": [
+				"ores:aluminium_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/aluminium_sickle.json": {
+			"identifiers": [
+				"ores:aluminium_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/aluminium_sword.json": {
+			"identifiers": [
+				"ores:aluminium_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/amber_battleaxe.json": {
+			"identifiers": [
+				"ores:amber_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/amber_hammer.json": {
+			"identifiers": [
+				"ores:amber_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/amber_sickle.json": {
+			"identifiers": [
+				"ores:amber_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/amber_sword.json": {
+			"identifiers": [
+				"ores:amber_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/amethyst_battleaxe.json": {
+			"identifiers": [
+				"ores:amethyst_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/amethyst_hammer.json": {
+			"identifiers": [
+				"ores:amethyst_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/amethyst_sickle.json": {
+			"identifiers": [
+				"ores:amethyst_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/amethyst_sword.json": {
+			"identifiers": [
+				"ores:amethyst_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/black_opal_battleaxe.json": {
+			"identifiers": [
+				"ores:black_opal_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/black_opal_hammer.json": {
+			"identifiers": [
+				"ores:black_opal_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/black_opal_sickle.json": {
+			"identifiers": [
+				"ores:black_opal_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/black_opal_sword.json": {
+			"identifiers": [
+				"ores:black_opal_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/calcite_battleaxe.json": {
+			"identifiers": [
+				"ores:calcite_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/calcite_hammer.json": {
+			"identifiers": [
+				"ores:calcite_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/calcite_sickle.json": {
+			"identifiers": [
+				"ores:calcite_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/calcite_sword.json": {
+			"identifiers": [
+				"ores:calcite_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/celestine_battleaxe.json": {
+			"identifiers": [
+				"ores:celestine_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/celestine_hammer.json": {
+			"identifiers": [
+				"ores:celestine_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/celestine_sickle.json": {
+			"identifiers": [
+				"ores:celestine_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/celestine_sword.json": {
+			"identifiers": [
+				"ores:celestine_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/cinnabar_battleaxe.json": {
+			"identifiers": [
+				"ores:cinnabar_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/cinnabar_hammer.json": {
+			"identifiers": [
+				"ores:cinnabar_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/cinnabar_sickle.json": {
+			"identifiers": [
+				"ores:cinnabar_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/cinnabar_sword.json": {
+			"identifiers": [
+				"ores:cinnabar_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/cobalt_battleaxe.json": {
+			"identifiers": [
+				"ores:cobalt_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/cobalt_boots.json": {
+			"identifiers": [
+				"ores:cobalt_boots"
+			],
+			"custom_commands": []
+		},
+		"BP/items/cobalt_chestplate.json": {
+			"identifiers": [
+				"ores:cobalt_chestplate"
+			],
+			"custom_commands": []
+		},
+		"BP/items/cobalt_hammer.json": {
+			"identifiers": [
+				"ores:cobalt_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/cobalt_helmet.json": {
+			"identifiers": [
+				"ores:cobalt_helmet"
+			],
+			"custom_commands": []
+		},
+		"BP/items/cobalt_leggings.json": {
+			"identifiers": [
+				"ores:cobalt_leggings"
+			],
+			"custom_commands": []
+		},
+		"BP/items/cobalt_sickle.json": {
+			"identifiers": [
+				"ores:cobalt_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/cobalt_sword.json": {
+			"identifiers": [
+				"ores:cobalt_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/copper_battleaxe.json": {
+			"identifiers": [
+				"ores:copper_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/copper_boots.json": {
+			"identifiers": [
+				"ores:copper_boots"
+			],
+			"custom_commands": []
+		},
+		"BP/items/copper_chestplate.json": {
+			"identifiers": [
+				"ores:copper_chestplate"
+			],
+			"custom_commands": []
+		},
+		"BP/items/copper_hammer.json": {
+			"identifiers": [
+				"ores:copper_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/copper_helmet.json": {
+			"identifiers": [
+				"ores:copper_helmet"
+			],
+			"custom_commands": []
+		},
+		"BP/items/copper_leggings.json": {
+			"identifiers": [
+				"ores:copper_leggings"
+			],
+			"custom_commands": []
+		},
+		"BP/items/copper_sickle.json": {
+			"identifiers": [
+				"ores:copper_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/copper_sword.json": {
+			"identifiers": [
+				"ores:copper_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/dragon_glass_battleaxe.json": {
+			"identifiers": [
+				"ores:dragon_glass_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/dragon_glass_hammer.json": {
+			"identifiers": [
+				"ores:dragon_glass_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/dragon_glass_sickle.json": {
+			"identifiers": [
+				"ores:dragon_glass_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/dragon_glass_sword.json": {
+			"identifiers": [
+				"ores:dragon_glass_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/emerald_boots.json": {
+			"identifiers": [
+				"ores:emerald_boots"
+			],
+			"custom_commands": []
+		},
+		"BP/items/flurite_battleaxe.json": {
+			"identifiers": [
+				"ores:flurite_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/flurite_hammer.json": {
+			"identifiers": [
+				"ores:flurite_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/flurite_sickle.json": {
+			"identifiers": [
+				"ores:flurite_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/flurite_sword.json": {
+			"identifiers": [
+				"ores:flurite_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/garnet_battleaxe.json": {
+			"identifiers": [
+				"ores:garnet_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/garnet_hammer.json": {
+			"identifiers": [
+				"ores:garnet_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/garnet_sickle.json": {
+			"identifiers": [
+				"ores:garnet_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/garnet_sword.json": {
+			"identifiers": [
+				"ores:garnet_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/gypsum_battleaxe.json": {
+			"identifiers": [
+				"ores:gypsum_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/gypsum_hammer.json": {
+			"identifiers": [
+				"ores:gypsum_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/gypsum_sickle.json": {
+			"identifiers": [
+				"ores:gypsum_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/gypsum_sword.json": {
+			"identifiers": [
+				"ores:gypsum_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/hematite_battleaxe.json": {
+			"identifiers": [
+				"ores:hematite_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/hematite_hammer.json": {
+			"identifiers": [
+				"ores:hematite_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/hematite_sickle.json": {
+			"identifiers": [
+				"ores:hematite_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/hematite_sword.json": {
+			"identifiers": [
+				"ores:hematite_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/iron_pickaxe.json": {
+			"identifiers": [
+				"ores:iron_pickaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/jade_battleaxe.json": {
+			"identifiers": [
+				"ores:jade_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/jade_hammer.json": {
+			"identifiers": [
+				"ores:jade_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/jade_sickle.json": {
+			"identifiers": [
+				"ores:jade_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/jade_sword.json": {
+			"identifiers": [
+				"ores:jade_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/kryptonite_battleaxe.json": {
+			"identifiers": [
+				"ores:kryptonite_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/kryptonite_hammer.json": {
+			"identifiers": [
+				"ores:kryptonite_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/kryptonite_sickle.json": {
+			"identifiers": [
+				"ores:kryptonite_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/kryptonite_sword.json": {
+			"identifiers": [
+				"ores:kryptonite_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/kyanite_battleaxe.json": {
+			"identifiers": [
+				"ores:kyanite_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/kyanite_hammer.json": {
+			"identifiers": [
+				"ores:kyanite_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/kyanite_sickle.json": {
+			"identifiers": [
+				"ores:kyanite_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/kyanite_sword.json": {
+			"identifiers": [
+				"ores:kyanite_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/lavastone_battleaxe.json": {
+			"identifiers": [
+				"ores:lavastone_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/lavastone_hammer.json": {
+			"identifiers": [
+				"ores:lavastone_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/lavastone_sickle.json": {
+			"identifiers": [
+				"ores:lavastone_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/lavastone_sword.json": {
+			"identifiers": [
+				"ores:lavastone_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/lead_battleaxe.json": {
+			"identifiers": [
+				"ores:lead_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/lead_hammer.json": {
+			"identifiers": [
+				"ores:lead_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/lead_sickle.json": {
+			"identifiers": [
+				"ores:lead_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/lead_sword.json": {
+			"identifiers": [
+				"ores:lead_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/magnetite_battleaxe.json": {
+			"identifiers": [
+				"ores:magnetite_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/magnetite_hammer.json": {
+			"identifiers": [
+				"ores:magnetite_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/magnetite_sickle.json": {
+			"identifiers": [
+				"ores:magnetite_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/magnetite_sword.json": {
+			"identifiers": [
+				"ores:magnetite_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/mica_battleaxe.json": {
+			"identifiers": [
+				"ores:mica_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/mica_hammer.json": {
+			"identifiers": [
+				"ores:mica_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/mica_sickle.json": {
+			"identifiers": [
+				"ores:mica_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/mica_sword.json": {
+			"identifiers": [
+				"ores:mica_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/nickel_battleaxe.json": {
+			"identifiers": [
+				"ores:nickel_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/nickel_hammer.json": {
+			"identifiers": [
+				"ores:nickel_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/nickel_sickle.json": {
+			"identifiers": [
+				"ores:nickel_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/nickel_sword.json": {
+			"identifiers": [
+				"ores:nickel_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/opal_battleaxe.json": {
+			"identifiers": [
+				"ores:opal_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/opal_hammer.json": {
+			"identifiers": [
+				"ores:opal_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/opal_sickle.json": {
+			"identifiers": [
+				"ores:opal_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/opal_sword.json": {
+			"identifiers": [
+				"ores:opal_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/painite_battleaxe.json": {
+			"identifiers": [
+				"ores:painite_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/painite_hammer.json": {
+			"identifiers": [
+				"ores:painite_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/painite_sickle.json": {
+			"identifiers": [
+				"ores:painite_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/painite_sword.json": {
+			"identifiers": [
+				"ores:painite_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/platnium_battleaxe.json": {
+			"identifiers": [
+				"ores:platnium_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/platnium_hammer.json": {
+			"identifiers": [
+				"ores:platnium_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/platnium_sickle.json": {
+			"identifiers": [
+				"ores:platnium_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/platnium_sword.json": {
+			"identifiers": [
+				"ores:platnium_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/plutonium_battleaxe.json": {
+			"identifiers": [
+				"ores:plutonium_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/plutonium_hammer.json": {
+			"identifiers": [
+				"ores:plutonium_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/plutonium_sickle.json": {
+			"identifiers": [
+				"ores:plutonium_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/plutonium_sword.json": {
+			"identifiers": [
+				"ores:plutonium_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purple_boots.json": {
+			"identifiers": [
+				"ores:purple_boots"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purple_chestplate.json": {
+			"identifiers": [
+				"ores:purple_chestplate"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purple_helmet.json": {
+			"identifiers": [
+				"ores:purple_helmet"
+			],
+			"custom_commands": []
+		},
+		"BP/items/purple_leggings.json": {
+			"identifiers": [
+				"ores:purple_leggings"
+			],
+			"custom_commands": []
+		},
+		"BP/items/ruby_boots.json": {
+			"identifiers": [
+				"ores:ruby_boots"
+			],
+			"custom_commands": []
+		},
+		"BP/items/ruby_chestplate.json": {
+			"identifiers": [
+				"ores:ruby_chestplate"
+			],
+			"custom_commands": []
+		},
+		"BP/items/ruby_helmet.json": {
+			"identifiers": [
+				"ores:ruby_helmet"
+			],
+			"custom_commands": []
+		},
+		"BP/items/ruby_leggings.json": {
+			"identifiers": [
+				"ores:ruby_leggings"
+			],
+			"custom_commands": []
+		},
+		"BP/items/stone_pickaxe.json": {
+			"identifiers": [
+				"ores:stone_pickaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/wooden_pickaxe.json": {
+			"identifiers": [
+				"ores:wooden_pickaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/adamantite_apple.json": {
+			"identifiers": [
+				"ores:adamantite_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/aluminium_apple.json": {
+			"identifiers": [
+				"ores:aluminium_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/amber_apple.json": {
+			"identifiers": [
+				"ores:amber_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/amethyst_apple.json": {
+			"identifiers": [
+				"ores:amethyst_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/black_opal_apple.json": {
+			"identifiers": [
+				"ores:black_opal_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/calcite_apple.json": {
+			"identifiers": [
+				"ores:calcite_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/celestine_apple.json": {
+			"identifiers": [
+				"ores:celestine_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/cinnabar_apple.json": {
+			"identifiers": [
+				"ores:cinnabar_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/cobalt_apple.json": {
+			"identifiers": [
+				"ores:cobalt_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/copper_apple.json": {
+			"identifiers": [
+				"ores:copper_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/dragon_glass_apple.json": {
+			"identifiers": [
+				"ores:dragon_glass_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/flurite_apple.json": {
+			"identifiers": [
+				"ores:flurite_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/gypsum_apple.json": {
+			"identifiers": [
+				"ores:gypsum_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/hematite_apple.json": {
+			"identifiers": [
+				"ores:hematite_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/jade_apple.json": {
+			"identifiers": [
+				"ores:jade_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/kryptonite_apple.json": {
+			"identifiers": [
+				"ores:kryptonite_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/kyanite_apple.json": {
+			"identifiers": [
+				"ores:kyanite_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/lavastone_apple.json": {
+			"identifiers": [
+				"ores:lavastone_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/lead_apple.json": {
+			"identifiers": [
+				"ores:lead_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/magnetite_apple.json": {
+			"identifiers": [
+				"ores:magnetite_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/mica_apple.json": {
+			"identifiers": [
+				"ores:mica_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/nickel_apple.json": {
+			"identifiers": [
+				"ores:nickel_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/opal_apple.json": {
+			"identifiers": [
+				"ores:opal_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/painite_apple.json": {
+			"identifiers": [
+				"ores:painite_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/platnium_apple.json": {
+			"identifiers": [
+				"ores:platnium_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/plutonium_apple.json": {
+			"identifiers": [
+				"ores:plutonium_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/adamantite_ingot.json": {
+			"identifiers": [
+				"ores:adamantite_ingot"
+			],
+			"custom_commands": []
+		},
+		"BP/items/aluminium_ingot.json": {
+			"identifiers": [
+				"ores:aluminium_ingot"
+			],
+			"custom_commands": []
+		},
+		"BP/items/amber.json": {
+			"identifiers": [
+				"ores:amber"
+			],
+			"custom_commands": []
+		},
+		"BP/items/amethyst_gemstone.json": {
+			"identifiers": [
+				"ores:amethyst_gemstone"
+			],
+			"custom_commands": []
+		},
+		"BP/items/black_opal.json": {
+			"identifiers": [
+				"ores:black_opal"
+			],
+			"custom_commands": []
+		},
+		"BP/items/calcite_crystal.json": {
+			"identifiers": [
+				"ores:calcite_crystal"
+			],
+			"custom_commands": []
+		},
+		"BP/items/celestine_ingot.json": {
+			"identifiers": [
+				"ores:celestine_ingot"
+			],
+			"custom_commands": []
+		},
+		"BP/items/cinnabar_ingot.json": {
+			"identifiers": [
+				"ores:cinnabar_ingot"
+			],
+			"custom_commands": []
+		},
+		"BP/items/cobalt_gemstone.json": {
+			"identifiers": [
+				"ores:cobalt_gemstone"
+			],
+			"custom_commands": []
+		},
+		"BP/items/copper_ingot.json": {
+			"identifiers": [
+				"ores:copper_ingot"
+			],
+			"custom_commands": []
+		},
+		"BP/items/dragon_glass_crystal.json": {
+			"identifiers": [
+				"ores:dragon_glass_crystal"
+			],
+			"custom_commands": []
+		},
+		"BP/items/emerald_chestplate.json": {
+			"identifiers": [
+				"ores:emerald_chestplate"
+			],
+			"custom_commands": []
+		},
+		"BP/items/emerald_helmet.json": {
+			"identifiers": [
+				"ores:emerald_helmet"
+			],
+			"custom_commands": []
+		},
+		"BP/items/emerald_leggings.json": {
+			"identifiers": [
+				"ores:emerald_leggings"
+			],
+			"custom_commands": []
+		},
+		"BP/items/flurite_crystal.json": {
+			"identifiers": [
+				"ores:flurite_crystal"
+			],
+			"custom_commands": []
+		},
+		"BP/items/galaxy_boots.json": {
+			"identifiers": [
+				"ores:galaxy_boots"
+			],
+			"custom_commands": []
+		},
+		"BP/items/galaxy_chestplate.json": {
+			"identifiers": [
+				"ores:galaxy_chestplate"
+			],
+			"custom_commands": []
+		},
+		"BP/items/galaxy_helmet.json": {
+			"identifiers": [
+				"ores:galaxy_helmet"
+			],
+			"custom_commands": []
+		},
+		"BP/items/galaxy_leggings.json": {
+			"identifiers": [
+				"ores:galaxy_leggings"
+			],
+			"custom_commands": []
+		},
+		"BP/items/garnet_gemstone.json": {
+			"identifiers": [
+				"ores:garnet_gemstone"
+			],
+			"custom_commands": []
+		},
+		"BP/items/gypsum_ingot.json": {
+			"identifiers": [
+				"ores:gypsum_ingot"
+			],
+			"custom_commands": []
+		},
+		"BP/items/hematite_ingot.json": {
+			"identifiers": [
+				"ores:hematite_ingot"
+			],
+			"custom_commands": []
+		},
+		"BP/items/jade_gemstone.json": {
+			"identifiers": [
+				"ores:jade_gemstone"
+			],
+			"custom_commands": []
+		},
+		"BP/items/kryptonite_crystal.json": {
+			"identifiers": [
+				"ores:kryptonite_crystal"
+			],
+			"custom_commands": []
+		},
+		"BP/items/kyanite_ingot.json": {
+			"identifiers": [
+				"ores:kyanite_ingot"
+			],
+			"custom_commands": []
+		},
+		"BP/items/lavastone.json": {
+			"identifiers": [
+				"ores:lavastone"
+			],
+			"custom_commands": []
+		},
+		"BP/items/lead_ingot.json": {
+			"identifiers": [
+				"ores:lead_ingot"
+			],
+			"custom_commands": []
+		},
+		"BP/items/magnetite_ingot.json": {
+			"identifiers": [
+				"ores:magnetite_ingot"
+			],
+			"custom_commands": []
+		},
+		"BP/items/mica_crystal.json": {
+			"identifiers": [
+				"ores:mica_crystal"
+			],
+			"custom_commands": []
+		},
+		"BP/items/mud.json": {
+			"identifiers": [
+				"ores:mud"
+			],
+			"custom_commands": []
+		},
+		"BP/items/nickel_ingot.json": {
+			"identifiers": [
+				"ores:nickel_ingot"
+			],
+			"custom_commands": []
+		},
+		"BP/items/oil.json": {
+			"identifiers": [
+				"ores:oil"
+			],
+			"custom_commands": []
+		},
+		"BP/items/opal.json": {
+			"identifiers": [
+				"ores:opal"
+			],
+			"custom_commands": []
+		},
+		"BP/items/painite_gemstone.json": {
+			"identifiers": [
+				"ores:painite_gemstone"
+			],
+			"custom_commands": []
+		},
+		"BP/items/platnium_ingot.json": {
+			"identifiers": [
+				"ores:platnium_ingot"
+			],
+			"custom_commands": []
+		},
+		"BP/items/plutonium_ingot.json": {
+			"identifiers": [
+				"ores:plutonium_ingot"
+			],
+			"custom_commands": []
+		},
+		"BP/items/roots.json": {
+			"identifiers": [
+				"ores:roots"
+			],
+			"custom_commands": []
+		},
+		"BP/items/diamond_pickaxe.json": {
+			"identifiers": [
+				"ores:diamond_pickaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/prolinite_apple.json": {
+			"identifiers": [
+				"ores:prolinite_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/prolinite_battleaxe.json": {
+			"identifiers": [
+				"ores:prolinite_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/prolinite_gemstone.json": {
+			"identifiers": [
+				"ores:prolinite_gemstone"
+			],
+			"custom_commands": []
+		},
+		"BP/items/prolinite_hammer.json": {
+			"identifiers": [
+				"ores:prolinite_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/prolinite_sickle.json": {
+			"identifiers": [
+				"ores:prolinite_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/prolinite_sword.json": {
+			"identifiers": [
+				"ores:prolinite_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pyrite_apple.json": {
+			"identifiers": [
+				"ores:pyrite_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pyrite_battleaxe.json": {
+			"identifiers": [
+				"ores:pyrite_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pyrite_hammer.json": {
+			"identifiers": [
+				"ores:pyrite_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pyrite_ingot.json": {
+			"identifiers": [
+				"ores:pyrite_ingot"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pyrite_sickle.json": {
+			"identifiers": [
+				"ores:pyrite_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/pyrite_sword.json": {
+			"identifiers": [
+				"ores:pyrite_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/ruby_apple.json": {
+			"identifiers": [
+				"ores:ruby_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/ruby_battleaxe.json": {
+			"identifiers": [
+				"ores:ruby_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/ruby_gemstone.json": {
+			"identifiers": [
+				"ores:ruby_gemstone"
+			],
+			"custom_commands": []
+		},
+		"BP/items/ruby_hammer.json": {
+			"identifiers": [
+				"ores:ruby_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/ruby_sickle.json": {
+			"identifiers": [
+				"ores:ruby_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/ruby_sword.json": {
+			"identifiers": [
+				"ores:ruby_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/sapphire_apple.json": {
+			"identifiers": [
+				"ores:sapphire_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/sapphire_battleaxe.json": {
+			"identifiers": [
+				"ores:sapphire_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/sapphire_gemstone.json": {
+			"identifiers": [
+				"ores:sapphire_gemstone"
+			],
+			"custom_commands": []
+		},
+		"BP/items/sapphire_hammer.json": {
+			"identifiers": [
+				"ores:sapphire_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/sapphire_sickle.json": {
+			"identifiers": [
+				"ores:sapphire_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/sapphire_sword.json": {
+			"identifiers": [
+				"ores:sapphire_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/silver_apple.json": {
+			"identifiers": [
+				"ores:silver_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/silver_battleaxe.json": {
+			"identifiers": [
+				"ores:silver_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/silver_hammer.json": {
+			"identifiers": [
+				"ores:silver_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/silver_ingot.json": {
+			"identifiers": [
+				"ores:silver_ingot"
+			],
+			"custom_commands": []
+		},
+		"BP/items/silver_sickle.json": {
+			"identifiers": [
+				"ores:silver_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/silver_sword.json": {
+			"identifiers": [
+				"ores:silver_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/sypmium_apple.json": {
+			"identifiers": [
+				"ores:sypmium_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/sypmium_battleaxe.json": {
+			"identifiers": [
+				"ores:sypmium_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/sypmium_hammer.json": {
+			"identifiers": [
+				"ores:sypmium_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/sypmium_ingot.json": {
+			"identifiers": [
+				"ores:sypmium_ingot"
+			],
+			"custom_commands": []
+		},
+		"BP/items/sypmium_sickle.json": {
+			"identifiers": [
+				"ores:sypmium_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/sypmium_sword.json": {
+			"identifiers": [
+				"ores:sypmium_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tanzanite_apple.json": {
+			"identifiers": [
+				"ores:tanzanite_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tanzanite_battleaxe.json": {
+			"identifiers": [
+				"ores:tanzanite_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tanzanite_gemstone.json": {
+			"identifiers": [
+				"ores:tanzanite_gemstone"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tanzanite_hammer.json": {
+			"identifiers": [
+				"ores:tanzanite_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tanzanite_sickle.json": {
+			"identifiers": [
+				"ores:tanzanite_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tanzanite_sword.json": {
+			"identifiers": [
+				"ores:tanzanite_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tin_apple.json": {
+			"identifiers": [
+				"ores:tin_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tin_battleaxe.json": {
+			"identifiers": [
+				"ores:tin_battleaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tin_hammer.json": {
+			"identifiers": [
+				"ores:tin_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tin_ingot.json": {
+			"identifiers": [
+				"ores:tin_ingot"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tin_sickle.json": {
+			"identifiers": [
+				"ores:tin_sickle"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tin_sword.json": {
+			"identifiers": [
+				"ores:tin_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/titanium_apple.json": {
+			"identifiers": [
+				"ores:titanium_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/titanium_battleaxe.json": {
+			"identifiers": [
+				"ores:titanium_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/titanium_hammer.json": {
+			"identifiers": [
+				"ores:titanium_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/titanium_ingot.json": {
+			"identifiers": [
+				"ores:titanium_ingot"
+			],
+			"custom_commands": []
+		},
+		"BP/items/titanium_sickle.json": {
+			"identifiers": [
+				"ores:titanium_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/titanium_sword.json": {
+			"identifiers": [
+				"ores:titanium_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/topaz_apple.json": {
+			"identifiers": [
+				"ores:topaz_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/topaz_battleaxe.json": {
+			"identifiers": [
+				"ores:topaz_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/topaz_gemstone.json": {
+			"identifiers": [
+				"ores:topaz_gemstone"
+			],
+			"custom_commands": []
+		},
+		"BP/items/topaz_hammer.json": {
+			"identifiers": [
+				"ores:topaz_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/topaz_sickle.json": {
+			"identifiers": [
+				"ores:topaz_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/topaz_sword.json": {
+			"identifiers": [
+				"ores:topaz_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/copper_chain_link.json": {
+			"identifiers": [
+				"ores:copper_chain_link"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tungsten_apple.json": {
+			"identifiers": [
+				"ores:tungsten_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tungsten_battleaxe.json": {
+			"identifiers": [
+				"ores:tungsten_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tungsten_gemstone.json": {
+			"identifiers": [
+				"ores:tungsten_gemstone"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tungsten_hammer.json": {
+			"identifiers": [
+				"ores:tungsten_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tungsten_sickle.json": {
+			"identifiers": [
+				"ores:tungsten_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/tungsten_sword.json": {
+			"identifiers": [
+				"ores:tungsten_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/voidstone_apple.json": {
+			"identifiers": [
+				"ores:voidstone_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/voidstone_battleaxe.json": {
+			"identifiers": [
+				"ores:yttrium_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/voidstone_hammer.json": {
+			"identifiers": [
+				"ores:voidstone_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/voidstone_ingot.json": {
+			"identifiers": [
+				"ores:voidstone_ingot"
+			],
+			"custom_commands": []
+		},
+		"BP/items/voidstone_sickle.json": {
+			"identifiers": [
+				"ores:voidstone_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/voidstone_sword.json": {
+			"identifiers": [
+				"ores:voidstone_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/yttrium_apple.json": {
+			"identifiers": [
+				"ores:yttrium_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/yttrium_battleaxe.json": {
+			"identifiers": [
+				"ores:zinc_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/yttrium_hammer.json": {
+			"identifiers": [
+				"ores:yttrium_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/yttrium_ingot.json": {
+			"identifiers": [
+				"ores:yttrium_ingot"
+			],
+			"custom_commands": []
+		},
+		"BP/items/yttrium_sickle.json": {
+			"identifiers": [
+				"ores:yttrium_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/yttrium_sword.json": {
+			"identifiers": [
+				"ores:yttrium_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/zinc_apple.json": {
+			"identifiers": [
+				"ores:zinc_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/zinc_battleaxe.json": {
+			"identifiers": [
+				"ores:zincolium_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/zinc_hammer.json": {
+			"identifiers": [
+				"ores:zinc_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/zinc_ingot.json": {
+			"identifiers": [
+				"ores:zinc_ingot"
+			],
+			"custom_commands": []
+		},
+		"BP/items/zinc_sickle.json": {
+			"identifiers": [
+				"ores:zinc_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/zinc_sword.json": {
+			"identifiers": [
+				"ores:zinc_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/zincolium_apple.json": {
+			"identifiers": [
+				"ores:zincolium_apple"
+			],
+			"custom_commands": []
+		},
+		"BP/items/zincolium_battleaxe.json": {
+			"identifiers": [
+				"ores:zincolium_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/zincolium_hammer.json": {
+			"identifiers": [
+				"ores:zincolium_hammer"
+			],
+			"custom_commands": []
+		},
+		"BP/items/zincolium_ingot.json": {
+			"identifiers": [
+				"ores:zincolium_ingot"
+			],
+			"custom_commands": []
+		},
+		"BP/items/zincolium_sickle.json": {
+			"identifiers": [
+				"ores:zincolium_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/zincolium_sword.json": {
+			"identifiers": [
+				"ores:zincolium_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/glowing_grape.json": {
+			"identifiers": [
+				"ores:glowing_grape"
+			],
+			"custom_commands": []
+		},
+		"BP/items/sebkar_helmet.json": {
+			"identifiers": [
+				"ores:sebkar_helmet"
+			],
+			"custom_commands": []
+		},
+		"BP/items/copper_pickaxe.json": {
+			"identifiers": [
+				"ores:copper_pickaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/nickel_pickaxe.json": {
+			"identifiers": [
+				"ores:nickel_pickaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/garnet_pickaxe.json": {
+			"identifiers": [
+				"ores:garnet_pickaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/hematite_pickaxe.json": {
+			"identifiers": [
+				"ores:hematite_pickaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/jade_pickaxe.json": {
+			"identifiers": [
+				"ores:jade_pickaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/kyanite_pickaxe.json": {
+			"identifiers": [
+				"ores:kyanite_pickaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/opal_pickaxe.json": {
+			"identifiers": [
+				"ores:opal_pickaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/painite_pickaxe.json": {
+			"identifiers": [
+				"ores:painite_pickaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/voidstone_pickaxe.json": {
+			"identifiers": [
+				"ores:voidstone_pickaxe"
+			],
+			"custom_commands": []
+		},
+		"BP/items/haste_potion.json": {
+			"identifiers": [
+				"ores:haste_potion"
+			],
+			"custom_commands": []
+		},
+		"BP/items/copper_dust.json": {
+			"identifiers": [
+				"ores:copper_dust"
+			],
+			"custom_commands": []
+		}
+	},
+	"block": {
+		"BP/blocks/w_rack.json": {
+			"identifiers": [
+				"ores:w_rack"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/c_rack.json": {
+			"identifiers": [
+				"ores:c_rack"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/b_rack.json": {
+			"identifiers": [
+				"ores:b_rack"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/s_rack.json": {
+			"identifiers": [
+				"ores:s_rack"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/adamantite_block.json": {
+			"identifiers": [
+				"ores:adamantite_block"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/adamantite_ore.json": {
+			"identifiers": [
+				"ores:adamantite_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/amber_ore.json": {
+			"identifiers": [
+				"ores:amber_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/amethyst_ore.json": {
+			"identifiers": [
+				"ores:amethyst_ore"
+			],
+			"events": [
+				"destroy"
+			],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/bauxite_ore.json": {
+			"identifiers": [
+				"ores:bauxite_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/black_opal_ore.json": {
+			"identifiers": [
+				"ores:black_opal_ore"
+			],
+			"events": [
+				"destroy"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/calcite_ore.json": {
+			"identifiers": [
+				"ores:calcite_ore"
+			],
+			"events": [
+				"destroy"
+			],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/celestine_ore.json": {
+			"identifiers": [
+				"ores:celestine_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/cinnabar_ore.json": {
+			"identifiers": [
+				"ores:cinnabar_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/cobalt_ore.json": {
+			"identifiers": [
+				"ores:cobalt_ore"
+			],
+			"events": [
+				"destroy"
+			],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/compressed_cobblestone.json": {
+			"identifiers": [
+				"ores:compressed_cobblestone"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/copper_ore.json": {
+			"identifiers": [
+				"ores:copper_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/dragon_glass_ore.json": {
+			"identifiers": [
+				"ores:dragon_glass_ore"
+			],
+			"events": [
+				"destroy"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/end_diamond_ore.json": {
+			"identifiers": [
+				"ores:end_diamond_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/end_plutonium_ore.json": {
+			"identifiers": [
+				"ores:end_plutonium_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/end_yttrium_ore.json": {
+			"identifiers": [
+				"ores:end_yttrium_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/flurite_ore.json": {
+			"identifiers": [
+				"ores:flurite_ore"
+			],
+			"events": [
+				"destroy"
+			],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/garnet_ore.json": {
+			"identifiers": [
+				"ores:garnet_ore"
+			],
+			"events": [
+				"destroy"
+			],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/hematite_ore.json": {
+			"identifiers": [
+				"ores:hematite_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/i_coal.json": {
+			"identifiers": [
+				"ores:i_coal"
+			],
+			"events": [
+				"destroy"
+			],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/prismarine_crystal.json": {
+			"identifiers": [
+				"ores:prismarine_crystal"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/i_diamond.json": {
+			"identifiers": [
+				"ores:i_diamond"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/i_gold.json": {
+			"identifiers": [
+				"ores:i_gold"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/i_iron.json": {
+			"identifiers": [
+				"ores:i_iron"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/i_lapis.json": {
+			"identifiers": [
+				"ores:i_lapis"
+			],
+			"events": [
+				"destroy"
+			],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/i_redstone.json": {
+			"identifiers": [
+				"ores:i_redstone"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/j_diamond.json": {
+			"identifiers": [
+				"ores:j_diamond"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/j_gold.json": {
+			"identifiers": [
+				"ores:j_gold"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/j_iron.json": {
+			"identifiers": [
+				"ores:j_iron"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/j_lapis.json": {
+			"identifiers": [
+				"ores:j_lapis"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/j_redstone.json": {
+			"identifiers": [
+				"ores:j_redstone"
+			],
+			"events": [
+				"destroy"
+			],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/j_stone.json": {
+			"identifiers": [
+				"ores:j_stone"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/jade_ore.json": {
+			"identifiers": [
+				"ores:jade_ore"
+			],
+			"events": [
+				"destroy"
+			],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/kryptonite_ore.json": {
+			"identifiers": [
+				"ores:kryptonite_ore"
+			],
+			"events": [
+				"destroy"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/lava_stone_ore.json": {
+			"identifiers": [
+				"ores:lava_stone_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/lead_ore.json": {
+			"identifiers": [
+				"ores:lead_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/magnetite_ore.json": {
+			"identifiers": [
+				"ores:magnetite_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/mica_ore.json": {
+			"identifiers": [
+				"ores:mica_ore"
+			],
+			"events": [
+				"destroy"
+			],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/nether_diamond_ore.json": {
+			"identifiers": [
+				"ores:nether_diamond_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/nether_emerald_ore.json": {
+			"identifiers": [
+				"ores:nether_emerald_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/nether_gypsum_ore.json": {
+			"identifiers": [
+				"ores:nether_gypsum_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/nether_kyanite_ore.json": {
+			"identifiers": [
+				"ores:nether_kyanite_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/nether_tin_ore.json": {
+			"identifiers": [
+				"ores:nether_tin_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/nether_topaz_ore.json": {
+			"identifiers": [
+				"ores:nether_topaz_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/nether_zinc_ore.json": {
+			"identifiers": [
+				"ores:nether_zinc_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/nickel_ore.json": {
+			"identifiers": [
+				"ores:nickel_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/ocean_stone_ore.json": {
+			"identifiers": [
+				"ores:ocean_stone_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/oil_block.json": {
+			"identifiers": [
+				"ores:oil_block"
+			],
+			"events": [
+				"destroy"
+			],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/opal_ore.json": {
+			"identifiers": [
+				"ores:opal_ore"
+			],
+			"events": [
+				"destroy"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/painite_ore.json": {
+			"identifiers": [
+				"ores:painite_ore"
+			],
+			"events": [
+				"destroy"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/platnium_ore.json": {
+			"identifiers": [
+				"ores:platnium_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/prismarite_ore.json": {
+			"identifiers": [
+				"ores:prismarite_ore"
+			],
+			"events": [
+				"destroy"
+			],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/prolinite_ore.json": {
+			"identifiers": [
+				"ores:prolinite_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/pyrite_ore.json": {
+			"identifiers": [
+				"ores:pyrite_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/ruby_ore.json": {
+			"identifiers": [
+				"ores:ruby_ore"
+			],
+			"events": [
+				"destroy"
+			],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/s_coal.json": {
+			"identifiers": [
+				"ores:s_coal"
+			],
+			"events": [
+				"destroy"
+			],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/s_diamond.json": {
+			"identifiers": [
+				"ores:s_diamond"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/s_gold.json": {
+			"identifiers": [
+				"ores:s_gold"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/s_iron.json": {
+			"identifiers": [
+				"ores:s_iron"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/s_lapis.json": {
+			"identifiers": [
+				"ores:s_lapis"
+			],
+			"events": [
+				"destroy"
+			],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/s_redstone.json": {
+			"identifiers": [
+				"ores:s_redstone"
+			],
+			"events": [
+				"destroy"
+			],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/sapphire_ore.json": {
+			"identifiers": [
+				"ores:sapphire_ore"
+			],
+			"events": [
+				"destroy"
+			],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/silver_ore.json": {
+			"identifiers": [
+				"ores:silver_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/sypmium_ore.json": {
+			"identifiers": [
+				"ores:sypmium_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/tanzanite_ore.json": {
+			"identifiers": [
+				"ores:tanzanite_ore"
+			],
+			"events": [
+				"destroy"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/titanium_ore.json": {
+			"identifiers": [
+				"ores:titanium_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/tungsten_ore.json": {
+			"identifiers": [
+				"ores:tungsten_ore"
+			],
+			"events": [
+				"destroy"
+			],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/uranium_ore.json": {
+			"identifiers": [
+				"ores:uranium_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/void_stone_ore.json": {
+			"identifiers": [
+				"ores:void_stone_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/icecle.json": {
+			"identifiers": [
+				"ores:icicle"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/slush.json": {
+			"identifiers": [
+				"ores:slush"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/fossil_stone_ore.json": {
+			"identifiers": [
+				"ores:fossil_stone_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/end_grass.json": {
+			"identifiers": [
+				"ores:end_grass"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/spread.json": {
+			"identifiers": [
+				"ores:spread"
+			],
+			"events": [
+				"test"
+			],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/nether_sulfur_ore.json": {
+			"identifiers": [
+				"ores:nether_sulfur_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_components": []
+		},
+		"BP/blocks/glowing_grape_bush.json": {
+			"identifiers": [
+				"ores:glowing_grape_bush"
+			],
+			"events": [
+				"interact"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": [
+				"bridge:rotate_on_place"
+			]
+		},
+		"BP/blocks/glowing_grape_non.json": {
+			"identifiers": [
+				"ores:glowing_grape_non"
+			],
+			"events": [
+				"grow"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": [
+				"bridge:rotate_on_place"
+			]
+		},
+		"BP/blocks/cave_grass.json": {
+			"identifiers": [
+				"ores:cave_grass"
+			],
+			"events": [
+				"ores:glow"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/cave_grass_glow.json": {
+			"identifiers": [
+				"ores:cave_grass_glow"
+			],
+			"events": [
+				"ores:normal"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/package_cave_base.json": {
+			"identifiers": [
+				"ores:package_cave_base"
+			],
+			"events": [
+				"base"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/long_vine.json": {
+			"identifiers": [
+				"ores:long_vine"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/centrifuge.json": {
+			"identifiers": [
+				"ores:centrifuge"
+			],
+			"events": [],
+			"recipe_tags": [
+				"centrifuge"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/glowing_grass.json": {
+			"identifiers": [
+				"ores:glowing_grass"
+			],
+			"events": [
+				"biome"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/purple_mushroom.json": {
+			"identifiers": [
+				"ores:purple_mushroom"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/stalagmite.json": {
+			"identifiers": [
+				"ores:stalagmite"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/blue_crystal.json": {
+			"identifiers": [
+				"ores:blue_crystal"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/glowing_mushroom.json": {
+			"identifiers": [
+				"ores:glowing_mushroom"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/moss.json": {
+			"identifiers": [
+				"ores:moss"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/molten_stone.json": {
+			"identifiers": [
+				"ores:molten_stone"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/cinquanta_ore.json": {
+			"identifiers": [
+				"ores:cinquanta_ore"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/alloy_foundry.json": {
+			"identifiers": [
+				"ores:alloy_foundry"
+			],
+			"events": [],
+			"recipe_tags": [
+				"alloy"
+			],
+			"custom_commands": [],
+			"custom_components": [
+				"bridge:rotate_on_place"
+			]
+		}
+	},
+	"feature": {
+		"BP/features/warped_stone_gen.json": {
+			"identifiers": [
+				"ores:warped_stone_gen"
+			]
+		},
+		"BP/features/crimson_stone_feature.json": {
+			"identifiers": [
+				"ores:crimson_stone_feature"
+			]
+		},
+		"BP/features/basalt_stone_feature.json": {
+			"identifiers": [
+				"ores:basalt_stone_feature"
+			]
+		},
+		"BP/features/soul_netherrack_feature.json": {
+			"identifiers": [
+				"ores:soul_netherrack_feature"
+			]
+		},
+		"BP/features/crystal_feature_test.json": {
+			"identifiers": [
+				"ores:moss_feature_test"
+			]
+		},
+		"BP/features/crystal_feature_test_2.json": {
+			"identifiers": [
+				"ores:crystal_feature_test_2"
+			]
+		},
+		"BP/features/bye_blue_crystal.json": {
+			"identifiers": [
+				"ores:bye_blue_crystal"
+			]
+		},
+		"BP/features/giant_cave_feature.json": {
+			"identifiers": [
+				"ores:giant_cave_feature"
+			]
+		},
+		"BP/features/slush_feature.json": {
+			"identifiers": [
+				"ores:slush_feature"
+			]
+		},
+		"BP/features/giant_cave_feature_mini.json": {
+			"identifiers": [
+				"ores:giant_cave_feature_mini"
+			]
+		},
+		"BP/features/grape_bush_feature.json": {
+			"identifiers": [
+				"ores:grape_bush_feature"
+			]
+		},
+		"BP/features/glowing_grape_scatter.json": {
+			"identifiers": [
+				"ores:glowing_grape_scatter"
+			]
+		},
+		"BP/features/purple_mushroom_feature.json": {
+			"identifiers": [
+				"ores:glowing_grove_feature_test"
+			]
+		},
+		"BP/features/stalagmite_feature.json": {
+			"identifiers": [
+				"ores:stalagmite_feature"
+			]
+		},
+		"BP/features/glowing_mushroom_feature.json": {
+			"identifiers": [
+				"ores:glowing_mushroom_feature"
+			]
+		},
+		"BP/features/moss_feature_test.json": {
+			"identifiers": [
+				"ores:moss_feature_test"
+			]
+		}
+	},
+	"feature_rule": {
+		"BP/feature_rules/warped_stone_gen_real.json": {
+			"identifiers": [
+				"ores:warped_stone_gen_real"
+			]
+		},
+		"BP/feature_rules/crimson_stone_gen.json": {
+			"identifiers": [
+				"ores:crimson_stone_gen"
+			]
+		},
+		"BP/feature_rules/basalt_stone_gen.json": {
+			"identifiers": [
+				"ores:basalt_stone_gen"
+			]
+		},
+		"BP/feature_rules/soul_netherrack_gen.json": {
+			"identifiers": [
+				"ores:soul_netherrack_gen"
+			]
+		},
+		"BP/feature_rules/cave_grass_gen.json": {
+			"identifiers": [
+				"ores:grape_bush_gen"
+			]
+		},
+		"BP/feature_rules/crystal_gen_test.json": {
+			"identifiers": [
+				"ores:moss_gen_test"
+			]
+		},
+		"BP/feature_rules/crystal_gen_test_2.json": {
+			"identifiers": [
+				"ores:crystal_gen_test_2"
+			]
+		},
+		"BP/feature_rules/gone.json": {
+			"identifiers": [
+				"ores:gone"
+			]
+		},
+		"BP/feature_rules/slush_gen.json": {
+			"identifiers": [
+				"ores:slush_gen"
+			]
+		},
+		"BP/feature_rules/giant_cave_gen_mini.json": {
+			"identifiers": [
+				"ores:giant_cave_gen_mini"
+			]
+		},
+		"BP/feature_rules/limestone_gen.json": {
+			"identifiers": [
+				"ores:limestone_gen"
+			]
+		},
+		"BP/feature_rules/grape_bush_gen.json": {
+			"identifiers": [
+				"ores:grape_bush_gen"
+			]
+		},
+		"BP/feature_rules/giant_cave_gen.json": {
+			"identifiers": [
+				"ores:giant_cave_gen"
+			]
+		},
+		"BP/feature_rules/purple_mushroom_gen.json": {
+			"identifiers": [
+				"ores:glowing_grove_gen_test"
+			]
+		},
+		"BP/feature_rules/stalagmite_gen.json": {
+			"identifiers": [
+				"ores:stalagmite_gen"
+			]
+		},
+		"BP/feature_rules/glowing_mushroom_gen.json": {
+			"identifiers": [
+				"ores:glowing_mushroom_gen"
+			]
+		},
+		"BP/feature_rules/moss_gen_test.json": {
+			"identifiers": [
+				"ores:moss_gen_test"
+			]
+		}
+	},
+	"function": {
+		"353c61ad_0073_4183_b612_7aca4280b58d": {},
+		"2e590868_5a45_4f94_9a6e_23134defa82f": {},
+		"0d037653_c682_4dad_8756_0aee07b59204": {},
+		"150ba5cc_7138_4cce_8291_a13df8178ec1": {},
+		"230b6120_3cfa_49a5_8227_35bef700438e": {},
+		"787f3880_3a1b_479a_95ae_a663a8285336": {},
+		"5072d1ea_cc85_47ca_a142_ab1da353cd5c": {},
+		"00733ad1_8300_45f9_ae69_44e68b1ba633": {},
+		"bd4db473_16b9_4fc8_808e_b52d80ed63b8": {},
+		"27ef5a9a_10e4_4e96_9530_f955cc42b64f": {},
+		"169882b1_8d91_4dde_bb7a_b57fb468a927": {}
+	},
+	"attachable": {
+		"RP/achables/tophat.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/achables/tophat_player.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/te RP/attachables/sebkar_helmet.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/te RP/attachables/sebkar_helmet.player.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/sebkar_helmet.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/sebkar_helmet.player.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		}
+	},
+	"animation_controller": {
+		"BP/animation_controllers/player.json": {
+			"ids": [
+				"controller.animation.switch",
+				"controller.animation.light"
+			],
+			"custom_commands": []
+		}
+	},
+	"recipe": {
+		"BP/recipes/copper_boots.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/copper_leggings.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/copper_chestplate.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/copper_helmet.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/diamond_pickaxe_to_real_pick.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/smelt_adamantite.json": {
+			"tags": [
+				"furnace",
+				"blast_furnace"
+			]
+		},
+		"BP/recipes/smelt_aluminium.json": {
+			"tags": [
+				"furnace",
+				"blast_furnace"
+			]
+		},
+		"BP/recipes/smelt_celestine.json": {
+			"tags": [
+				"furnace",
+				"blast_furnace"
+			]
+		},
+		"BP/recipes/smelt_cinnabar.json": {
+			"tags": [
+				"furnace",
+				"blast_furnace"
+			]
+		},
+		"BP/recipes/smelt_copper.json": {
+			"tags": [
+				"furnace",
+				"blast_furnace"
+			]
+		},
+		"BP/recipes/smelt_gypsum.json": {
+			"tags": [
+				"furnace",
+				"blast_furnace"
+			]
+		},
+		"BP/recipes/smelt_hematite.json": {
+			"tags": [
+				"furnace",
+				"blast_furnace"
+			]
+		},
+		"BP/recipes/smelt_kyanite.json": {
+			"tags": [
+				"furnace",
+				"blast_furnace"
+			]
+		},
+		"BP/recipes/smelt_lead.json": {
+			"tags": [
+				"furnace",
+				"blast_furnace"
+			]
+		},
+		"BP/recipes/smelt_magnetite.json": {
+			"tags": [
+				"furnace",
+				"blast_furnace"
+			]
+		},
+		"BP/recipes/smelt_nickel.json": {
+			"tags": [
+				"furnace",
+				"blast_furnace"
+			]
+		},
+		"BP/recipes/smelt_platnium.json": {
+			"tags": [
+				"furnace",
+				"blast_furnace"
+			]
+		},
+		"BP/recipes/smelt_plutonium.json": {
+			"tags": [
+				"furnace",
+				"blast_furnace"
+			]
+		},
+		"BP/recipes/smelt_pyrite.json": {
+			"tags": [
+				"furnace",
+				"blast_furnace"
+			]
+		},
+		"BP/recipes/smelt_silver.json": {
+			"tags": [
+				"furnace",
+				"blast_furnace"
+			]
+		},
+		"BP/recipes/smelt_sypmium.json": {
+			"tags": [
+				"furnace",
+				"blast_furnace"
+			]
+		},
+		"BP/recipes/smelt_tin.json": {
+			"tags": [
+				"furnace",
+				"blast_furnace"
+			]
+		},
+		"BP/recipes/smelt_titanium.json": {
+			"tags": [
+				"furnace",
+				"blast_furnace"
+			]
+		},
+		"BP/recipes/smelt_voidstone.json": {
+			"tags": [
+				"furnace",
+				"blast_furnace"
+			]
+		},
+		"BP/recipes/smelt_yttrium.json": {
+			"tags": [
+				"furnace",
+				"blast_furnace"
+			]
+		},
+		"BP/recipes/smelt_zinc.json": {
+			"tags": [
+				"furnace",
+				"blast_furnace"
+			]
+		},
+		"BP/recipes/smelt_zincolium.json": {
+			"tags": [
+				"furnace",
+				"blast_furnace"
+			]
+		},
+		"BP/recipes/battleaxe_adamantite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_adamantite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_aluminium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_amber.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_amethyst.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_calcite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_celestine.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_cinnabar.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_cobalt.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_copper.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_dragon_glass.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_flurite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_garnet.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_gypsum.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_hematite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_jade.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_kryptonite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_kyanite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_lavastone.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_lead.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_magnetite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_mica.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_nickel.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_opal.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_painite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_platnium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_plutonium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_prismarite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_prolinite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_pyrite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_ruby.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_sapphire.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_sulfer.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_sypmium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_tanzanite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_tin.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_topaz.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_tungsten.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_yttrium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/block_zinc.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_aluminium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_amber.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_amethyst.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_black_opal.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_calcite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_celestine.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_cinnabar.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_cobalt.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_copper.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_dragon_glass.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_flurite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_garnet.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_gypsum.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_hematite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_jade.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_kryptonite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_kyanite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_lavastone.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_lead.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_magnetite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_mica.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_nickel.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_opal.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_painite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_platnium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_plutonium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_prismarite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_prolinite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_pyrite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_ruby.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_sapphire.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_silver.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_sypmium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_tanzanite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_tin.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_titanium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_topaz.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_tungsten.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_voidstone.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_yttrium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_zinc.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/battleaxe_zincolium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/compressor_craft.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_adamantite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_aluminium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_amber.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_amethyst.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_black_opal.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_calcite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_celestine.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_cinnabar.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_cobalt.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_copper.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_dragon_glass.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_flurite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_garnet.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_gypsum.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_hematite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_jade.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_kryptonite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_kyanite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_lavastone.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_lead.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_magnetite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_mica.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_nickel.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_opal.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_painite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_platnium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_plutonium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_prismarite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_prolinite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_pyrite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_ruby.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_sapphire.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_silver.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_sypmium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_tanzanite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_tin/.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_tin.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_titanium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_topaz.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_tungsten.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_voidstone.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_yttrium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_zinc.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/apple_zincolium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_adamantite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_aluminium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_amber.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_amethyst.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_black_opal.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_calcite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_celestine.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_cinnabar.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_cobalt.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_copper.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_dragon_glass.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_flurite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_garnet.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_gypsum.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_hematite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_jade.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_kryptonite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_kyanite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_lavastone.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_lead.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_magnetite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_mica.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_nickel.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_opal.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_painite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_platnium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_plutonium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_prismarite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_prolinite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_pyrite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_ruby.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_sapphire.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_tin.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_titanium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_topaz.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_tungsten.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_voidstone.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_yttrium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_zinc.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sword_zincolium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_adamantite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_aluminium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_amber.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_amethyst.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_black_opal.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_calcite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_celestine.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_cinnabar.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_cobalt.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_copper.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_dragon_glass.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_flurite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_garnet.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_gypsum.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_hematite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_jade.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_kryptonite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_kyanite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_lavastone.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_lead.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_magnetite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_mica.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_nickel.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_opal.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_painite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_platnium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_plutonium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_prismarite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_prolinite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_pyrite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_ruby.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_sapphire.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_silver.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_sypmium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_tanzanite.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_tin.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_titanium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_topaz.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_tungsten.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_voidstone.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_yttrium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/sickle_zincolium.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/copper_pickaxe.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/nickel_pickaxe.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/garnet_pickaxe.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/hematite_pickaxe.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/jade_pickaxe.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/opal_pickaxe.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/painite_pickaxe.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/kyanite_pickaxe.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/voidstone_pickaxe.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/package_cave_base.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/centrifuge.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/root_to_haste_potion.json": {
+			"tags": [
+				"brewing_stand"
+			]
+		},
+		"BP/recipes/centrifuge_copper.json": {
+			"tags": [
+				"centrifuge"
+			]
+		},
+		"BP/recipes/centrifuge_copper_2.json": {
+			"tags": [
+				"centrifuge"
+			]
+		},
+		"BP/recipes/centrifuge_copper_3.json": {
+			"tags": [
+				"centrifuge"
+			]
+		},
+		"BP/recipes/centrifuge_nickel.json": {
+			"tags": [
+				"centrifuge"
+			]
+		},
+		"BP/recipes/centrifuge_nickel_2.json": {
+			"tags": [
+				"centrifuge"
+			]
+		},
+		"BP/recipes/centrifuge_nickel_3.json": {
+			"tags": [
+				"centrifuge"
+			]
+		},
+		"BP/recipes/centrifuge_garnet.json": {
+			"tags": [
+				"centrifuge"
+			]
+		},
+		"BP/recipes/centrifuge_garnet_2.json": {
+			"tags": [
+				"centrifuge"
+			]
+		},
+		"BP/recipes/centrifuge_garnet_3.json": {
+			"tags": [
+				"centrifuge"
+			]
+		},
+		"BP/recipes/centrifuge_hematite.json": {
+			"tags": [
+				"centrifuge"
+			]
+		},
+		"BP/recipes/centrifuge_hematite_2.json": {
+			"tags": [
+				"centrifuge"
+			]
+		},
+		"BP/recipes/package_cave_base_copper.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/copper_dust.json": {
+			"tags": [
+				"compressor"
+			]
+		},
+		"BP/recipes/centrifuge_coal.json": {
+			"tags": [
+				"centrifuge"
+			]
+		}
+	},
+	"client_entity": {
+		"RP/ity/miner.json": {
+			"identifiers": [
+				"ores:miner"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"general",
+				"look_at_target",
+				"raise_arms",
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/dynamite.json": {
+			"identifiers": [
+				"ores:dynamite_projectile"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"flying"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/rock_gecko.json": {
+			"identifiers": [
+				"ores:rock_gecko"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"basalt",
+				"gravel"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		}
+	},
+	"rp_animation_controller": {
+		"RP/mation_controllers/miner.json": {
+			"ids": [
+				"controller.animation.miner.baby",
+				"controller.animation.miner.general",
+				"controller.animation.miner.move"
+			]
+		}
+	},
+	"rp_animation": {
+		"RP/mations/miner.json": {
+			"ids": [
+				"animation.miner.baby_transform",
+				"animation.miner.general",
+				"animation.miner.general.v1.0",
+				"animation.miner.get_in_bed",
+				"animation.miner.move",
+				"animation.miner.raise_arms"
+			]
+		}
+	},
+	"render_controller": {
+		"RP/der_controllers/miner.json": {
+			"ids": [
+				"controller.render.miner"
+			]
+		},
+		"RP/render_controllers/rock_gecko.json": {
+			"ids": [
+				"controller.render.rock_gecko"
+			]
+		}
+	},
+	"entity_model": {
+		"RP/els/entity/miner.json": {
+			"identifiers": [
+				"geometry.miner"
+			]
+		}
+	},
+	"sound_definition": {}
+}

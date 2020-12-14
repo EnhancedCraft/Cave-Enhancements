@@ -1,0 +1,17 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:uranium_ore",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 1000,
+			"minecraft:friction": 1,
+			"minecraft:explosion_resistance": 8,
+			"minecraft:loot": "loot_tables/uranium_loot.json",
+			"tag:ores:easy": {}
+		}
+	}
+}
