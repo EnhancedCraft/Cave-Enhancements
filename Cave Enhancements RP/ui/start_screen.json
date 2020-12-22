@@ -97,7 +97,7 @@
 		"type": "label",
 		"color": "$main_header_text_color",
 		"layer": 2,
-		"text": "Developers Version",
+		"text": "V1.4",
 		"size": [
 			"default",
 			10
