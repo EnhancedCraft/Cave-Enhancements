@@ -1,0 +1,22 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ores:platnium_alloy"
+    },
+    "tags": [
+      "alloy"
+    ],
+    "pattern": [
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "ores:platnium_ingot"
+      }
+    },
+    "result": {
+      "item": "ores:platnium_alloy"
+    }
+  }
+}

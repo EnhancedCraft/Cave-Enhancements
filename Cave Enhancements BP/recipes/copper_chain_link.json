@@ -1,0 +1,24 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.200",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "ores:copper_chain_link"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "ores:copper_ingot",
+				"count": 1
+			}
+		],
+		"result": [
+			{
+				"item": "ores:copper_chain_link",
+				"count": 2
+			}
+		]
+	}
+}

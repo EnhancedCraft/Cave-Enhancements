@@ -1,4 +1,4 @@
-//bridge-file-version: #23
+//bridge-file-version: #25
 {
 	"format_version": "1.13.0",
 	"minecraft:ore_feature": {
@@ -429,6 +429,14 @@
 			},
 			{
 				"name": "ores:glowing_grass",
+				"states": {}
+			},
+			{
+				"name": "ores:bare_roots",
+				"states": {}
+			},
+			{
+				"name": "ores:molten_stone",
 				"states": {}
 			}
 		]

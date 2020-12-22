@@ -1,0 +1,26 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:tanzanite_boots"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X X",
+			"X X"
+		],
+		"key": {
+			"X": {
+				"item": "ores:tanzanite_gemstone"
+			}
+		},
+		"result": [
+			{
+				"item": "ores:purple_boots"
+			}
+		]
+	}
+}

@@ -1,4 +1,4 @@
-//bridge-file-version: #3
+//bridge-file-version: #4
 {
 	"namespace": "start",
 	"feedback_icon": {
@@ -97,7 +97,7 @@
 		"type": "label",
 		"color": "$main_header_text_color",
 		"layer": 2,
-		"text": "V1.3",
+		"text": "Developers Version",
 		"size": [
 			"default",
 			10

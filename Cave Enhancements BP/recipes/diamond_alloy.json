@@ -1,0 +1,22 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ores:diamond_alloy"
+    },
+    "tags": [
+      "alloy"
+    ],
+    "pattern": [
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "result": {
+      "item": "ores:diamond_alloy"
+    }
+  }
+}

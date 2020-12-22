@@ -1,0 +1,62 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "ores:nether_cave_generation",
+			"places_feature": "ores:giant_nether_cave_feature"
+		},
+		"conditions": {
+			"placement_pass": "underground_pass",
+			"minecraft:biome_filter": {
+				"any_of": [
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "warped_forest"
+					},
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "crimson_forest"
+					},
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "basalt_deltas"
+					},
+					{
+						"test": "has_biome_tag",
+						"operator": "==",
+						"value": "soulsand_valley"
+					}
+				]
+			}
+		},
+		"distribution": {
+			"iterations": 1,
+			"coordinate_eval_order": "zyx",
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					5,
+					26
+				]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					0,
+					16
+				]
+			}
+		}
+	}
+}

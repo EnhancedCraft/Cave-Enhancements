@@ -1,0 +1,45 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.rock_gecko": {
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+				"Array.skins[query.variant]"
+			],
+			"arrays": {
+				"textures": {
+					"array.skins": [
+						"Texture.basalt",
+						"Texture.gravel",
+						"Texture.stone",
+						"Texture.netherrack",
+						"Texture.endstone",
+						"Texture.andisite",
+						"Texture.blackstone",
+						"Texture.calcite",
+						"Texture.diorite",
+						"Texture.granite",
+						"Texture.magma",
+						"Texture.obsidian",
+						"Texture.prismarine_0",
+						"Texture.prismarine_1",
+						"Texture.prismarine_2",
+						"Texture.prismarine_3",
+						"Texture.redsandstone",
+						"Texture.sandstone",
+						"Texture.tuff",
+						"Texture.marble",
+						"Texture.limestone",
+						"Texure.dripstone"
+					]
+				}
+			}
+		}
+	}
+}

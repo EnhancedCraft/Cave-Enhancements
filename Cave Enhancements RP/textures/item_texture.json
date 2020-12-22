@@ -1,4 +1,4 @@
-//bridge-file-version: #0
+//bridge-file-version: #5
 {
 	"resource_pack_name": "bridgeRP",
 	"texture_name": "atlas.items",
@@ -959,6 +959,21 @@
 		},
 		"rock_gecko_spawn_egg": {
 			"textures": "textures/items/rock_gecko_spawn_egg"
+		},
+		"hematitealloy": {
+			"textures": "textures/items/hematitealloy"
+		},
+		"platniumalloy": {
+			"textures": "textures/items/platniumalloy"
+		},
+		"sypmiumalloy": {
+			"textures": "textures/items/sypmiumalloy"
+		},
+		"tungstenalloy": {
+			"textures": "textures/items/tungstenalloy"
+		},
+		"diamondalloy": {
+			"textures": "textures/items/diamondalloy"
 		}
 	}
 }

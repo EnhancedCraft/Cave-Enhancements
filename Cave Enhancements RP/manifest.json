@@ -1,12 +1,12 @@
-//bridge-file-version: #20
+//bridge-file-version: #21
 {
 	"format_version": 2,
 	"header": {
-		"name": "Cave Enhancements V1.3 RP",
+		"name": "Cave Enhancements V1.4 RP",
 		"description": "pack.description",
 		"uuid": "2bc74bdc-5b4e-4f04-8bf0-7f91239eaf0d",
 		"version": [
-			6,
+			7,
 			0,
 			0
 		],
@@ -21,7 +21,7 @@
 			"type": "resources",
 			"uuid": "77f3e2ec-64c8-4488-befb-d78f7d240c29",
 			"version": [
-				6,
+				7,
 				0,
 				0
 			]
@@ -29,9 +29,14 @@
 	],
 	"subpacks": [
 		{
-			"folder_name": "panorama",
-			"name": "The Caves",
+			"folder_name": "novariants",
+			"name": "Few Variants",
 			"memory_tier": 1
+		},
+		{
+			"folder_name": "morevariants",
+			"name": "More Variants",
+			"memory_tier": 2
 		}
 	]
 }

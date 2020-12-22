@@ -1,0 +1,39 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:bare_roots"
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:loot": "loot_tables/r_dirt_loot.json",
+			"minecraft:geometry": "geometry.crystal",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "roots",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:stone",
+							"ores:s_stone",
+							"ores:i_stone",
+							"ores:coldstone",
+							"ores:j_stone"
+						],
+						"allowed_faces": [
+							"down"
+						]
+					}
+				]
+			},
+			"minecraft:entity_collision": false
+		},
+		"events": {}
+	}
+}

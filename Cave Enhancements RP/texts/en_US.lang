@@ -1,4 +1,4 @@
-##bridge-file-version: #124
+##bridge-file-version: #126
 ####pack.name=Ores + RP
 pack.description=Made By Warhead
 tile.ores:opal_ore.name=Opal Ore
@@ -282,7 +282,7 @@ tips.game.25=Warhead actually failed the first time he tried making cave biomes.
 tips.game.26=Warhead created cave biomes as a competition to "The Cave Update" addon. Don't worry no hate anymore.
 tips.game.27=Who's Warhead? Warhead is the creator of the addon and actually disappeared for a month at one point in development.
 tips.game.28=Warhead started creating addons after he discovered how to make blocks by retexturing the "Modern Blocks" addon!
-tips.game.29=1.16.100 is reccomended for playing this addon as that is the latest version of the game. 
+tips.game.29=1.16.200 is reccomended for playing this addon as that is the latest version of the game. 
 tips.game.30=Did you know that creating all the items alone took 3 months?
 tips.game.31=I hope these keep you entertained while loading. 
 tips.game.32=Why not watch a movie while loading reccomended that the movie is 3 hours long. 
@@ -302,7 +302,7 @@ tips.game.45=Background Pictures taken by Gekocaretaker!
 tips.game.46=Please don't use this on realms. 
 tips.game.47=Holiday Creator Features ENABLED!!
 tips.game.48=Cave Enhancements could be on Java one day you know..
-tips.game.49=Dynamite should be in this addon.. 
+tips.game.49=Dynamite should be in this addon...
 tips.game.50=The reason why there are no mobs really is because YOU need to submit your own on discord!
 tips.game.51=The Nether is very strange with this addon. Please be careful when interacting with the Nether. 
 tips.game.52=End caves are cool........ right? 
@@ -335,3 +335,6 @@ tile.ores:s_rack.name=Soul Netherrack
 tile.ores:c_rack.name=Crimson Netherrack
 tile.ores:alloy_foundry.name=Alloy Foundry
 item.spawn_egg.entity.ores:rock_gecko.name=Spawn Rock Gecko
+tile.ores:end_moss.name=End Moss
+tile.ores:oil_block.name= Oil Block
+entity.unknown.name=Rock Gecko

@@ -1,0 +1,1212 @@
+//bridge-file-version: #9
+{
+	"namespace": "tabbed_upsell",
+	"rating_screen": {
+		"type": "image",
+		"anchor_from": "left_middle",
+		"anchor_to": "left_middle",
+		"texture": "textures/ui/rating_screen",
+		"layer": 3,
+		"size": [
+			32,
+			16
+		]
+	},
+	"uhc": {
+		"type": "stack_panel",
+		"size": [
+			"100%",
+			"100%c"
+		],
+		"controls": [
+			{
+				"imagen_panel": {
+					"type": "panel",
+					"size": [
+						"100%",
+						"100%c"
+					],
+					"controls": [
+						{
+							"furni_imagen": {
+								"type": "image",
+								"size": [
+									256,
+									128
+								],
+								"texture": "textures/interface/logo"
+							}
+						}
+					]
+				}
+			},
+			{
+				"cave_description": {
+					"type": "label",
+					"color": "$body_text_color",
+					"size": [
+						"100%-4px",
+						"default"
+					],
+					"text": "This addon completely changes the underground! With 300+ items, NEW cave generation, 50 ores, realistic torches, and much more! Your Minecraft experience will be changed like never before. Your caving experience will be truly enhanced. This is not a recreation of the 1.17 Caves And Cliffs Update. Make sure to read this guide fully to truly understand this addon. (All files regarding Cave Enhancements belongs to Warhead and the dev team)
+
+What's New In The Caves?
+
+NEW Cave Generation!",
+					"font_type": "smooth",
+					"bindings": [
+						{
+							"binding_name": "#patch_description",
+							"binding_type": "global"
+						},
+						{
+							"binding_type": "global",
+							"binding_condition": "once",
+							"binding_name": "#tts_dialog_body"
+						}
+					],
+					"property_bag": {
+						"#tts_dialog_body": "#patch_description"
+					}
+				}
+			},
+			{
+				"recipes1": {
+					"type": "panel",
+					"size": [
+						"100%",
+						"100%c"
+					],
+					"controls": [
+						{
+							"furni_imagen": {
+								"type": "image",
+								"size": [
+									256,
+									128
+								],
+								"texture": "textures/interface/cavegen1"
+							}
+						}
+					]
+				}
+			},
+			{
+				"gen_description": {
+					"type": "label",
+					"color": "$body_text_color",
+					"size": [
+						"100%-4px",
+						"default"
+					],
+					"text": "As you can see the Caves are MUCH larger and full of new and exciting surprises ahead for you exciting journey. These caves are what you can find moist common and in plains biomes. These caves are also similar to the 1.17 showcased caves so you can experience that rush of caving months early!
+
+Cave Biomes!
+
+Desert Caves",
+					"font_type": "smooth",
+					"bindings": [
+						{
+							"binding_name": "#patch_description",
+							"binding_type": "global"
+						},
+						{
+							"binding_type": "global",
+							"binding_condition": "once",
+							"binding_name": "#tts_dialog_body"
+						}
+					],
+					"property_bag": {
+						"#tts_dialog_body": "#patch_description"
+					}
+				}
+			},
+			{
+				"recipes2": {
+					"type": "panel",
+					"size": [
+						"100%",
+						"100%c"
+					],
+					"controls": [
+						{
+							"furni_imagen": {
+								"type": "image",
+								"size": [
+									256,
+									128
+								],
+								"texture": "textures/interface/cavegen2"
+							}
+						}
+					]
+				}
+			},
+			{
+				"deset_description": {
+					"type": "label",
+					"color": "$body_text_color",
+					"size": [
+						"100%-4px",
+						"default"
+					],
+					"text": "These are one of the three Cave Biomes in the addon. The desert caves! You can find these caves in the underground desert in your world. These caves have a new type of biome stone called Sandy Stone. Also these caves include variants of your regular ores and stone types such as sandy coal ore and sandesite! 
+
+Icey Caves!!",
+					"font_type": "smooth",
+					"bindings": [
+						{
+							"binding_name": "#patch_description",
+							"binding_type": "global"
+						},
+						{
+							"binding_type": "global",
+							"binding_condition": "once",
+							"binding_name": "#tts_dialog_body"
+						}
+					],
+					"property_bag": {
+						"#tts_dialog_body": "#patch_description"
+					}
+				}
+			},
+			{
+				"recipes3": {
+					"type": "panel",
+					"size": [
+						"100%",
+						"100%c"
+					],
+					"controls": [
+						{
+							"furni_imagen": {
+								"type": "image",
+								"size": [
+									256,
+									128
+								],
+								"texture": "textures/interface/cavegen3"
+							}
+						}
+					]
+				}
+			},
+			{
+				"icey_description": {
+					"type": "label",
+					"color": "$body_text_color",
+					"size": [
+						"100%-4px",
+						"default"
+					],
+					"text": "These caves are called the Icey caves and can be found in the underground Tundra and snowy plains. Be carful in these caves because there are patches of ice that could slip on and fall in lava. These caves also hold a block called slush which can be used for secret pathways. The caves also have variants of vanilla ores and stone types. The final things about these caves is near the surface levels you will find a light blue stone which is slippery so you might wanna dig down!
+
+Jungle Caves...",
+					"font_type": "smooth",
+					"bindings": [
+						{
+							"binding_name": "#patch_description",
+							"binding_type": "global"
+						},
+						{
+							"binding_type": "global",
+							"binding_condition": "once",
+							"binding_name": "#tts_dialog_body"
+						}
+					],
+					"property_bag": {
+						"#tts_dialog_body": "#patch_description"
+					}
+				}
+			},
+			{
+				"recipes4": {
+					"type": "panel",
+					"size": [
+						"100%",
+						"100%c"
+					],
+					"controls": [
+						{
+							"furni_imagen": {
+								"type": "image",
+								"size": [
+									256,
+									128
+								],
+								"texture": "textures/interface/cavegen4"
+							}
+						}
+					]
+				}
+			},
+			{
+				"jungle_description": {
+					"type": "label",
+					"color": "$body_text_color",
+					"size": [
+						"100%-4px",
+						"default"
+					],
+					"text": "These caves are called the jungle caves. Be warned as these are the most laggy caves in the addon because of the advanced generation. These caves have large amounts of growth such as vines and mud! Please be cautious while exploring these caves because you will never know when you could get caught in a vine.
+
+End Caves!?",
+					"font_type": "smooth",
+					"bindings": [
+						{
+							"binding_name": "#patch_description",
+							"binding_type": "global"
+						},
+						{
+							"binding_type": "global",
+							"binding_condition": "once",
+							"binding_name": "#tts_dialog_body"
+						}
+					],
+					"property_bag": {
+						"#tts_dialog_body": "#patch_description"
+					}
+				}
+			},
+			{
+				"recipes5": {
+					"type": "panel",
+					"size": [
+						"100%",
+						"100%c"
+					],
+					"controls": [
+						{
+							"furni_imagen": {
+								"type": "image",
+								"size": [
+									256,
+									128
+								],
+								"texture": "textures/interface/cavegen5"
+							}
+						}
+					]
+				}
+			},
+			{
+				"end_description": {
+					"type": "label",
+					"color": "$body_text_color",
+					"size": [
+						"100%-4px",
+						"default"
+					],
+					"text": "Welcome to the depths of the dark end caves! The end is usually a boring place after the dragon fight well not anymore! Here you can explore the underground of the end and enjoy the new ores here. If you have ever wanted to make an End base now is your chance underground!!
+
+Nether Caves!!!",
+					"font_type": "smooth",
+					"bindings": [
+						{
+							"binding_name": "#patch_description",
+							"binding_type": "global"
+						},
+						{
+							"binding_type": "global",
+							"binding_condition": "once",
+							"binding_name": "#tts_dialog_body"
+						}
+					],
+					"property_bag": {
+						"#tts_dialog_body": "#patch_description"
+					}
+				}
+			},
+			{
+				"recipes6": {
+					"type": "panel",
+					"size": [
+						"100%",
+						"100%c"
+					],
+					"controls": [
+						{
+							"furni_imagen": {
+								"type": "image",
+								"size": [
+									256,
+									128
+								],
+								"texture": "textures/interface/cavegen6"
+							}
+						}
+					]
+				}
+			},
+			{
+				"nether_description": {
+					"type": "label",
+					"color": "$body_text_color",
+					"size": [
+						"100%-4px",
+						"default"
+					],
+					"text": "Well... Welcome to the Nether Caves!! These caves give you the chance to explore the Nether with even MORE excitement than before. These caves are the perfect place to hide from the Ghasts and Piglins of the evil Nether and make a base. They also let you explore the Nether biome netherrack which you can tell were in a Warped Forest by the color of the netherrack. Oh yeah, don't forget to bring your diamond pickaxe for ancient debris.....
+
+New Structures!
+
+New Dungeon",
+					"font_type": "smooth",
+					"bindings": [
+						{
+							"binding_name": "#patch_description",
+							"binding_type": "global"
+						},
+						{
+							"binding_type": "global",
+							"binding_condition": "once",
+							"binding_name": "#tts_dialog_body"
+						}
+					],
+					"property_bag": {
+						"#tts_dialog_body": "#patch_description"
+					}
+				}
+			},
+			{
+				"recipes7": {
+					"type": "panel",
+					"size": [
+						"100%",
+						"100%c"
+					],
+					"controls": [
+						{
+							"furni_imagen": {
+								"type": "image",
+								"size": [
+									256,
+									128
+								],
+								"texture": "textures/interface/dungeon1"
+							}
+						}
+					]
+				}
+			},
+			{
+				"dungeon_description": {
+					"type": "label",
+					"color": "$body_text_color",
+					"size": [
+						"100%-4px",
+						"default"
+					],
+					"text": "Tired of the boring old dungeons. Well look no further! This new dungeon is full of exciting loot and secrets. Here can find all sorts of mobs spawning here including Creepers! So good luck exploring and defeating the monsters that lay ahead. 
+
+Moss Caves!!",
+					"font_type": "smooth",
+					"bindings": [
+						{
+							"binding_name": "#patch_description",
+							"binding_type": "global"
+						},
+						{
+							"binding_type": "global",
+							"binding_condition": "once",
+							"binding_name": "#tts_dialog_body"
+						}
+					],
+					"property_bag": {
+						"#tts_dialog_body": "#patch_description"
+					}
+				}
+			},
+			{
+				"mosscave1": {
+					"type": "panel",
+					"size": [
+						"100%",
+						"100%c"
+					],
+					"controls": [
+						{
+							"furni_imagen": {
+								"type": "image",
+								"size": [
+									256,
+									128
+								],
+								"texture": "textures/interface/mosscave1"
+							}
+						}
+					]
+				}
+			},
+			{
+				"moss_description": {
+					"type": "label",
+					"color": "$body_text_color",
+					"size": [
+						"100%-4px",
+						"default"
+					],
+					"text": "Welcome to the Moss Cave! Here you can find a mini dungeon, ore deposit, and a miners hut. Within this structure you will se just how perfect this can make as a home or temporary mining station. One way or another you will definitely like exploring this structure.  
+
+Crystal Caves...",
+					"font_type": "smooth",
+					"bindings": [
+						{
+							"binding_name": "#patch_description",
+							"binding_type": "global"
+						},
+						{
+							"binding_type": "global",
+							"binding_condition": "once",
+							"binding_name": "#tts_dialog_body"
+						}
+					],
+					"property_bag": {
+						"#tts_dialog_body": "#patch_description"
+					}
+				}
+			},
+			{
+				"crystalcave1": {
+					"type": "panel",
+					"size": [
+						"100%",
+						"100%c"
+					],
+					"controls": [
+						{
+							"furni_imagen": {
+								"type": "image",
+								"size": [
+									256,
+									128
+								],
+								"texture": "textures/interface/crystalcave1"
+							}
+						}
+					]
+				}
+			},
+			{
+				"crystal_description": {
+					"type": "label",
+					"color": "$body_text_color",
+					"size": [
+						"100%-4px",
+						"default"
+					],
+					"text": "Welcome to the best structure of all!! The Crystal Cave is full of crystal blocks and rivers. This structure has a mini dungeon, rivers, a geyser, and a small library.  You will find amazing loot here which will help you while your in the caves. Beware! The spawning of these can be very glitchy so don’t be surprised if one has generated strange. 
+
+NEW Ores",
+					"font_type": "smooth",
+					"bindings": [
+						{
+							"binding_name": "#patch_description",
+							"binding_type": "global"
+						},
+						{
+							"binding_type": "global",
+							"binding_condition": "once",
+							"binding_name": "#tts_dialog_body"
+						}
+					],
+					"property_bag": {
+						"#tts_dialog_body": "#patch_description"
+					}
+				}
+			},
+			{
+				"ores": {
+					"type": "panel",
+					"size": [
+						"100%",
+						"100%c"
+					],
+					"controls": [
+						{
+							"furni_imagen": {
+								"type": "image",
+								"size": [
+									256,
+									128
+								],
+								"texture": "textures/interface/ores"
+							}
+						}
+					]
+				}
+			},
+			{
+				"ores_description": {
+					"type": "label",
+					"color": "$body_text_color",
+					"size": [
+						"100%-4px",
+						"default"
+					],
+					"text": "Here is an image of every single ore in the addon. There are 30 ores in the overworld, 10 ores in the nether, and 10 ores in the End. All will serve a special use within the next few updates. As of now all ores are used for many things.
+
+Underwater Ores",
+					"font_type": "smooth",
+					"bindings": [
+						{
+							"binding_name": "#patch_description",
+							"binding_type": "global"
+						},
+						{
+							"binding_type": "global",
+							"binding_condition": "once",
+							"binding_name": "#tts_dialog_body"
+						}
+					],
+					"property_bag": {
+						"#tts_dialog_body": "#patch_description"
+					}
+				}
+			},
+			{
+				"underwater": {
+					"type": "panel",
+					"size": [
+						"100%",
+						"100%c"
+					],
+					"controls": [
+						{
+							"furni_imagen": {
+								"type": "image",
+								"size": [
+									256,
+									128
+								],
+								"texture": "textures/interface/underwater"
+							}
+						}
+					]
+				}
+			},
+			{
+				"underwater_description": {
+					"type": "label",
+					"color": "$body_text_color",
+					"size": [
+						"100%-4px",
+						"default"
+					],
+					"text": "Those lights in the ocean are ores! There are 3 underwater ores that can be found and used. Be sure to look in the water for these ores. Good luck trying to mine these as it may take a while underwater.
+
+Weapons, Tools, And Armor",
+					"font_type": "smooth",
+					"bindings": [
+						{
+							"binding_name": "#patch_description",
+							"binding_type": "global"
+						},
+						{
+							"binding_type": "global",
+							"binding_condition": "once",
+							"binding_name": "#tts_dialog_body"
+						}
+					],
+					"property_bag": {
+						"#tts_dialog_body": "#patch_description"
+					}
+				}
+			},
+			{
+				"items": {
+					"type": "panel",
+					"size": [
+						"100%",
+						"100%c"
+					],
+					"controls": [
+						{
+							"furni_imagen": {
+								"type": "image",
+								"size": [
+									256,
+									128
+								],
+								"texture": "textures/interface/items"
+							}
+						}
+					]
+				}
+			},
+			{
+				"weapons_description": {
+					"type": "label",
+					"color": "$body_text_color",
+					"size": [
+						"100%-4px",
+						"default"
+					],
+					"text": "All weapons, tools, and armor can be found within the creative menu. The battleaxes, swords, hammers, and sickles can all be obtained in the swords menu. All crafting recipes can be found within the crafting table.
+
+Pickaxes",
+					"font_type": "smooth",
+					"bindings": [
+						{
+							"binding_name": "#patch_description",
+							"binding_type": "global"
+						},
+						{
+							"binding_type": "global",
+							"binding_condition": "once",
+							"binding_name": "#tts_dialog_body"
+						}
+					],
+					"property_bag": {
+						"#tts_dialog_body": "#patch_description"
+					}
+				}
+			},
+			{
+				"pickaxe": {
+					"type": "panel",
+					"size": [
+						"100%",
+						"100%c"
+					],
+					"controls": [
+						{
+							"furni_imagen": {
+								"type": "image",
+								"size": [
+									256,
+									128
+								],
+								"texture": "textures/interface/pickaxe"
+							}
+						}
+					]
+				}
+			},
+			{
+				"pickaxe_description": {
+					"type": "label",
+					"color": "$body_text_color",
+					"size": [
+						"100%-4px",
+						"default"
+					],
+					"text": "There are only 9 pickaxes in this addon. This is because in the future not all ores will have a pickaxe variant. Each of these pickaxes are made of crucial materials in the addon that will help progression. Those ores are: Nickel, Copper, Hematite, Garnet, Opal, Painite, Kyanite, Voidstone, and Jade. Kyanite can be found in the Nether and Voidstone in the End. Vanilla pickaxes MUST be placed in a crafting table after crafting so the pickaxe MUST say \"Warheads Cave Enhancements\" after it.  
+
+What Can Each Pickaxe Mine?",
+					"font_type": "smooth",
+					"bindings": [
+						{
+							"binding_name": "#patch_description",
+							"binding_type": "global"
+						},
+						{
+							"binding_type": "global",
+							"binding_condition": "once",
+							"binding_name": "#tts_dialog_body"
+						}
+					],
+					"property_bag": {
+						"#tts_dialog_body": "#patch_description"
+					}
+				}
+			},
+			{
+				"wiki_description": {
+					"type": "label",
+					"color": "$body_text_color",
+					"size": [
+						"100%-4px",
+						"default"
+					],
+					"text": "Alright, as we know each pickaxe can mine a different level of ores each level is easy, medium, and hard ores.
+
+Easy:
+
+Prismarite Ore
+Copper Ore
+Bauxite Ore
+Garnet Ore
+Calcite Ore
+Nickel Ore
+Amber Ore
+Hematite Ore
+Oil blocks (Desert Exclusive Material)
+Fossil Stone (Nether Exclusive Material)
+Sulfur Ore (Nether Exclusive Material)
+Pyrite Ore
+
+Medium:
+
+Celestine Ore
+Cinnabar Ore
+Cobalt Ore
+Yttrium Ore (End Exclusive Material)
+Flurite Ore
+Jade Ore
+Kyanite Ore
+Lavastone Ore
+Lead Ore
+Magnetite Ore
+Mica Ore
+Gypsum Ore (Nether Exclusive Material)
+Tin Ore (Nether Exclusive Material)
+Topaz Ore (Nether Exclusive Material)
+Zinc Ore (Nether Exclusive Material)
+Opal Ore
+Painite Ore
+Platinum Ore
+Prolinite Ore (End Exclusive Material)
+Ruby Ore
+Sapphire Ore
+Silver Ore
+Titanium Ore
+Tungsten Ore
+Amethyst Ore
+
+Hard:
+
+Adamantite (End Exclusive Ore)
+Black Opal Ore
+Cinquanta Ore (Found Only In T̸̜̍̈́̂͝h̸̨̭̪̗̗̘͂̇̌e̷̦̬̮͖̗͑̐ ̷̭̳̯̼̠̔͂̂͋͜G̵̜̼̹͉̖̻͑̿̂͘r̶͕̳̀̆̀̐̅̕e̵͇̬̫̖̐́̑̾͆́a̴̢̢̝̹͈̓͒͌̉ţ̴̤̰͓̆̔͜ ̴̨̪͒̂̀̉͝D̸͖̓͑̈͌͂͝é̸̫̝͈̟̑e̸͔̣͓̠̩̯͊̓̇̈́̀p̴̪͉̝̬̀̔̃͒͜͠͝)
+Dragon Glass Ore (End Exclusive Material)
+Plutonium Ore (End Exclusive Material)
+Kryptonite Ore (End Exclusive Material Also Found On Krypton)
+Tanzanite Ore
+Void Stone Ore (End Exclusive Material)
+
+Now lets go over which pickaxes can mine easy, medium, and hard ores
+
+Easy:
+
+Stone Pickaxe
+Copper Pickaxe
+Nickel Pickaxe
+Garnet Pickaxe
+
+Medium:
+
+Iron Pickaxe
+Hematite Pickaxe
+Jade Pickaxe
+Opal Pickaxe
+Painite Pickaxe
+
+Hard:
+
+Kyanite Pickaxe
+Void Stone Pickaxe
+
+Also, there are 9 new pickaxes added to the game this includes:
+
+Copper Pickaxe
+Nickel Pickaxe
+Garnet Pickaxe
+Hematite Pickaxe
+Jade Pickaxe
+Opal Pickaxe
+Painite Pickaxe
+Kyanite Pickaxe
+Void Stone Pickaxe
+
+Armor",
+					"font_type": "smooth",
+					"bindings": [
+						{
+							"binding_name": "#patch_description",
+							"binding_type": "global"
+						},
+						{
+							"binding_type": "global",
+							"binding_condition": "once",
+							"binding_name": "#tts_dialog_body"
+						}
+					],
+					"property_bag": {
+						"#tts_dialog_body": "#patch_description"
+					}
+				}
+			},
+			{
+				"armor": {
+					"type": "panel",
+					"size": [
+						"100%",
+						"100%c"
+					],
+					"controls": [
+						{
+							"furni_imagen": {
+								"type": "image",
+								"size": [
+									256,
+									128
+								],
+								"texture": "textures/interface/armor"
+							}
+						}
+					]
+				}
+			},
+			{
+				"armor_description": {
+					"type": "label",
+					"color": "$body_text_color",
+					"size": [
+						"100%-4px",
+						"default"
+					],
+					"text": "There are only 5 armor sets so far this will be changing soon. As of now there are Ruby, Tanzanite, Cobalt, Copper Link, and emerald armor. Each of these can be crafted using the corresponding materials
+
+Helpful Things In The Caves!
+
+The Compressor",
+					"font_type": "smooth",
+					"bindings": [
+						{
+							"binding_name": "#patch_description",
+							"binding_type": "global"
+						},
+						{
+							"binding_type": "global",
+							"binding_condition": "once",
+							"binding_name": "#tts_dialog_body"
+						}
+					],
+					"property_bag": {
+						"#tts_dialog_body": "#patch_description"
+					}
+				}
+			},
+			{
+				"compressor": {
+					"type": "panel",
+					"size": [
+						"100%",
+						"100%c"
+					],
+					"controls": [
+						{
+							"furni_imagen": {
+								"type": "image",
+								"size": [
+									256,
+									128
+								],
+								"texture": "textures/interface/compressor"
+							}
+						}
+					]
+				}
+			},
+			{
+				"compressor_description": {
+					"type": "label",
+					"color": "$body_text_color",
+					"size": [
+						"100%-4px",
+						"default"
+					],
+					"text": "The Compressor is a new crafting device crafted with iron and cobblestone and can compress cobble stone into one block and also turn granite, diorite, and andesite into normal cobblestone. The crafting recipes for the compressor can be found within the Extra Recipes section.
+
+Working Torches!!",
+					"font_type": "smooth",
+					"bindings": [
+						{
+							"binding_name": "#patch_description",
+							"binding_type": "global"
+						},
+						{
+							"binding_type": "global",
+							"binding_condition": "once",
+							"binding_name": "#tts_dialog_body"
+						}
+					],
+					"property_bag": {
+						"#tts_dialog_body": "#patch_description"
+					}
+				}
+			},
+			{
+				"torch": {
+					"type": "panel",
+					"size": [
+						"100%",
+						"100%c"
+					],
+					"controls": [
+						{
+							"furni_imagen": {
+								"type": "image",
+								"size": [
+									256,
+									128
+								],
+								"texture": "textures/interface/torch"
+							}
+						}
+					]
+				}
+			},
+			{
+				"torch_description": {
+					"type": "label",
+					"color": "$body_text_color",
+					"size": [
+						"100%-4px",
+						"default"
+					],
+					"text": "As you can see when you hold a torch in your hand it will light up the area and follow you. Thanks to ColoringEmy86 for all the help with doing this. Have fun with this feature. Keep in mid the light will blink around, this cannot be fixed so please don't complain. 
+
+Roots",
+					"font_type": "smooth",
+					"bindings": [
+						{
+							"binding_name": "#patch_description",
+							"binding_type": "global"
+						},
+						{
+							"binding_type": "global",
+							"binding_condition": "once",
+							"binding_name": "#tts_dialog_body"
+						}
+					],
+					"property_bag": {
+						"#tts_dialog_body": "#patch_description"
+					}
+				}
+			},
+			{
+				"root": {
+					"type": "panel",
+					"size": [
+						"100%",
+						"100%c"
+					],
+					"controls": [
+						{
+							"furni_imagen": {
+								"type": "image",
+								"size": [
+									256,
+									128
+								],
+								"texture": "textures/interface/root"
+							}
+						}
+					]
+				}
+			},
+			{
+				"root_description": {
+					"type": "label",
+					"color": "$body_text_color",
+					"size": [
+						"100%-4px",
+						"default"
+					],
+					"text": "While your spawning in you may notice roots under grass blocks. These root blocks can be broken for roots which can be used in creating saplings, healing potions, haste potion, and bonemeal. Crafting recipes can be found in the Extra Recipes section. 
+
+Extra Recipes!!
+
+Compressed Cobblestone",
+					"font_type": "smooth",
+					"bindings": [
+						{
+							"binding_name": "#patch_description",
+							"binding_type": "global"
+						},
+						{
+							"binding_type": "global",
+							"binding_condition": "once",
+							"binding_name": "#tts_dialog_body"
+						}
+					],
+					"property_bag": {
+						"#tts_dialog_body": "#patch_description"
+					}
+				}
+			},
+			{
+				"compressedcobblestone": {
+					"type": "panel",
+					"size": [
+						"100%",
+						"100%c"
+					],
+					"controls": [
+						{
+							"furni_imagen": {
+								"type": "image",
+								"size": [
+									256,
+									128
+								],
+								"texture": "textures/interface/compressedcobblestone"
+							}
+						}
+					]
+				}
+			},
+			{
+				"cobble_description": {
+					"type": "label",
+					"color": "$body_text_color",
+					"size": [
+						"100%-4px",
+						"default"
+					],
+					"text": "This is the recipe for the Compressed Cobblestone crafted in compressor. 
+
+Centrifuge",
+					"font_type": "smooth",
+					"bindings": [
+						{
+							"binding_name": "#patch_description",
+							"binding_type": "global"
+						},
+						{
+							"binding_type": "global",
+							"binding_condition": "once",
+							"binding_name": "#tts_dialog_body"
+						}
+					],
+					"property_bag": {
+						"#tts_dialog_body": "#patch_description"
+					}
+				}
+			},
+			{
+				"centrifuge": {
+					"type": "panel",
+					"size": [
+						"100%",
+						"100%c"
+					],
+					"controls": [
+						{
+							"furni_imagen": {
+								"type": "image",
+								"size": [
+									256,
+									128
+								],
+								"texture": "textures/interface/centrifuge"
+							}
+						}
+					]
+				}
+			},
+			{
+				"centrifuge_description": {
+					"type": "label",
+					"color": "$body_text_color",
+					"size": [
+						"100%-4px",
+						"default"
+					],
+					"text": "This is the recipe for the Centrifuge please scroll down for more information on the Centrifuge.
+
+Potion Of Haste 2",
+					"font_type": "smooth",
+					"bindings": [
+						{
+							"binding_name": "#patch_description",
+							"binding_type": "global"
+						},
+						{
+							"binding_type": "global",
+							"binding_condition": "once",
+							"binding_name": "#tts_dialog_body"
+						}
+					],
+					"property_bag": {
+						"#tts_dialog_body": "#patch_description"
+					}
+				}
+			},
+			{
+				"haste1": {
+					"type": "panel",
+					"size": [
+						"100%",
+						"100%c"
+					],
+					"controls": [
+						{
+							"furni_imagen": {
+								"type": "image",
+								"size": [
+									256,
+									128
+								],
+								"texture": "textures/interface/haste1"
+							}
+						}
+					]
+				}
+			},
+			{
+				"haste2": {
+					"type": "panel",
+					"size": [
+						"100%",
+						"100%c"
+					],
+					"controls": [
+						{
+							"furni_imagen": {
+								"type": "image",
+								"size": [
+									256,
+									128
+								],
+								"texture": "textures/interface/haste2"
+							}
+						}
+					]
+				}
+			},
+			{
+				"haste_description": {
+					"type": "label",
+					"color": "$body_text_color",
+					"size": [
+						"100%-4px",
+						"default"
+					],
+					"text": "This is the recipe for the potion of Haste 2 
+
+Coming Soon....",
+					"font_type": "smooth",
+					"bindings": [
+						{
+							"binding_name": "#patch_description",
+							"binding_type": "global"
+						},
+						{
+							"binding_type": "global",
+							"binding_condition": "once",
+							"binding_name": "#tts_dialog_body"
+						}
+					],
+					"property_bag": {
+						"#tts_dialog_body": "#patch_description"
+					}
+				}
+			}
+		]
+	},
+	"scroll@common.scrolling_panel": {
+		"$show_background": false,
+		"$scrolling_content": "tabbed_upsell.uhc"
+	},
+	"tabbed_upseell_screen_panel@common_dialogs.main_panel_no_buttons": {
+		"size": [
+			"60%",
+			"90%"
+		],
+		"$text_name": "Cave Enhancements Guide!",
+		"$child_control": "tabbed_upsell.scroll"
+	}
+}

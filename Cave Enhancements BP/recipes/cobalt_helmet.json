@@ -1,0 +1,27 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:cobalt_helmet"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XXX",
+			"X X",
+			" X "
+		],
+		"key": {
+			"X": {
+				"item": "ores:cobalt_gemstone"
+			}
+		},
+		"result": [
+			{
+				"item": "ores:cobalt_helmet"
+			}
+		]
+	}
+}

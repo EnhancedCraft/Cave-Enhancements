@@ -1,4 +1,4 @@
-//bridge-file-version: #4
+//bridge-file-version: #5
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -23,11 +23,12 @@
 				"texture": "platniumsickle"
 			},
 			"minecraft:display_name": {
-				"value": "Platnium Sickle §17 Damage"
+				"value": "Platinum Sickle §17 Damage"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"
 			}
-		}
+		},
+		"events": {}
 	}
 }

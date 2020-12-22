@@ -1,4 +1,4 @@
-//bridge-file-version: #142
+//bridge-file-version: #144
 {
 	"resource_pack_name": "bridgeRP",
 	"texture_name": "atlas.terrain",
@@ -541,6 +541,12 @@
 		},
 		"alloy": {
 			"textures": "textures/blocks/alloy"
+		},
+		"endmoss": {
+			"textures": "textures/blocks/endmoss"
+		},
+		"roots": {
+			"textures": "textures/blocks/roots"
 		}
 	}
 }

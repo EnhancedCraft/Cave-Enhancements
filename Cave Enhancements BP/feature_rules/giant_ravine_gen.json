@@ -1,0 +1,156 @@
+//bridge-file-version: #19
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "ores:giant_ravine_gen",
+			"places_feature": "ores:giant_ravine_feature"
+		},
+		"conditions": {
+			"placement_pass": "underground_pass",
+			"minecraft:biome_filter": {
+				"any_of": [
+					{
+						"any_of": [
+							{
+								"test": "has_biome_tag",
+								"operator": "==",
+								"value": "plains"
+							},
+							{
+								"test": "has_biome_tag",
+								"operator": "==",
+								"value": "desert"
+							},
+							{
+								"test": "has_biome_tag",
+								"operator": "==",
+								"value": "jungle"
+							},
+							{
+								"test": "has_biome_tag",
+								"operator": "==",
+								"value": "taiga"
+							},
+							{
+								"test": "has_biome_tag",
+								"operator": "==",
+								"value": "extreme_hills"
+							},
+							{
+								"test": "has_biome_tag",
+								"operator": "==",
+								"value": "savanna"
+							},
+							{
+								"test": "has_biome_tag",
+								"operator": "==",
+								"value": "swamp"
+							},
+							{
+								"test": "has_biome_tag",
+								"operator": "==",
+								"value": "flower_forest"
+							},
+							{
+								"test": "has_biome_tag",
+								"operator": "==",
+								"value": "forest"
+							},
+							{
+								"test": "has_biome_tag",
+								"operator": "==",
+								"value": "birch"
+							},
+							{
+								"test": "has_biome_tag",
+								"operator": "==",
+								"value": "dark_oak"
+							},
+							{
+								"test": "has_biome_tag",
+								"operator": "==",
+								"value": "hills"
+							},
+							{
+								"test": "has_biome_tag",
+								"operator": "==",
+								"value": "mutated"
+							},
+							{
+								"test": "has_biome_tag",
+								"operator": "==",
+								"value": "edge"
+							},
+							{
+								"test": "has_biome_tag",
+								"operator": "==",
+								"value": "lakes"
+							},
+							{
+								"test": "has_biome_tag",
+								"operator": "==",
+								"value": "plateau"
+							},
+							{
+								"test": "has_biome_tag",
+								"operator": "==",
+								"value": "mesa"
+							},
+							{
+								"test": "has_biome_tag",
+								"operator": "==",
+								"value": "ice_plains"
+							},
+							{
+								"test": "has_biome_tag",
+								"operator": "==",
+								"value": "mountain"
+							},
+							{
+								"test": "has_biome_tag",
+								"operator": "==",
+								"value": "stone"
+							},
+							{
+								"test": "has_biome_tag",
+								"operator": "==",
+								"value": "roofed"
+							},
+							{
+								"test": "has_biome_tag",
+								"operator": "==",
+								"value": "mega"
+							}
+						]
+					}
+				]
+			}
+		},
+		"distribution": {
+			"iterations": 2,
+			"coordinate_eval_order": "zyx",
+			"x": {
+				"distribution": "uniform",
+				"extent": [
+					16,
+					32
+				]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [
+					15,
+					55
+				]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [
+					16,
+					32
+				]
+			}
+		}
+	}
+}

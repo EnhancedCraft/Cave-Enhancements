@@ -1,4 +1,4 @@
-//bridge-file-version: #4
+//bridge-file-version: #5
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -25,7 +25,7 @@
 			},
 			"minecraft:use_animation": "eat",
 			"minecraft:display_name": {
-				"value": "Platnium Apple"
+				"value": "Platinum Apple"
 			}
 		},
 		"events": {

@@ -1,4 +1,4 @@
-//bridge-file-version: #152
+//bridge-file-version: #154
 {
 	"format_version": [
 		1,
@@ -691,5 +691,13 @@
 	"ores:alloy_foundry": {
 		"textures": "alloy",
 		"sound": "metal"
+	},
+	"ores:end_moss": {
+		"textures": "endmoss",
+		"sound": "grass"
+	},
+	"ores:bare_roots": {
+		"textures": "roots",
+		"sound": "grass"
 	}
 }

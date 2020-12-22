@@ -1,0 +1,36 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:end_moss"
+		},
+		"components": {
+			"minecraft:destroy_time": 0.5,
+			"minecraft:block_light_emission": 0.5,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:explosion_resistance": 1,
+			"minecraft:geometry": "geometry.crystal",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "endmoss",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:end_stone"
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			},
+			"minecraft:entity_collision": false
+		},
+		"events": {}
+	}
+}

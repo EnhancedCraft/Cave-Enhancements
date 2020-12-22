@@ -1,4 +1,4 @@
-//bridge-file-version: #21
+//bridge-file-version: #22
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -17,122 +17,122 @@
 			},
 			"minecraft:digger": {
 				"use_efficiency": true,
-				"destroy_speeds": {
-					"0": {
+				"destroy_speeds": [
+					{
 						"block": {
 							"tags": "query.any_tag('stone', 'metal', 'diamond_pick_diggable')"
 						},
 						"speed": 7
 					},
-					"1": {
+					{
 						"block": "minecraft:ice",
 						"speed": 4
 					},
-					"2": {
+					{
 						"block": "minecraft:sandstone",
 						"speed": 4
 					},
-					"3": {
+					{
 						"block": {
 							"tags": "query.any_tag('ores:easy')"
 						},
 						"speed": 3000
 					},
-					"4": {
+					{
 						"block": {
 							"tags": "query.any_tag('ores:biomestone')"
 						},
 						"speed": 24
 					},
-					"5": {
+					{
 						"block": {
 							"tags": "query.any_tag('ores:medium')"
 						},
 						"speed": 1200
 					},
-					"6": {
+					{
 						"block": {
 							"tags": "query.any_tag('ores:hard')"
 						},
 						"speed": 400
 					},
-					"7": {
+					{
 						"block": "minecraft:furnace",
 						"speed": 7
 					},
-					"8": {
+					{
 						"block": "minecraft:cobblestone",
 						"speed": 7
 					},
-					"9": {
-						"block": "minecraft:netherrack",
-						"speed": 7
-					},
-					"10": {
-						"block": "minecraft:quartz_ore",
-						"speed": 7
-					},
-					"11": {
-						"block": "minecraft:nether_gold_ore",
-						"speed": 7
-					},
-					"12": {
-						"block": "minecraft:stonecutter_block",
-						"speed": 7
-					},
-					"13": {
-						"block": "minecraft:dispenser",
-						"speed": 7
-					},
-					"14": {
-						"block": "minecraft:dropper",
-						"speed": 7
-					},
-					"15": {
-						"block": "minecraft:blast_furnace",
-						"speed": 7
-					},
-					"16": {
-						"block": "minecraft:lit_blast_furnace",
-						"speed": 7
-					},
-					"17": {
-						"block": "minecraft:nether_brick",
-						"speed": 7
-					},
-					"18": {
-						"block": "minecraft:observer",
-						"speed": 7
-					},
-					"19": {
-						"block": "minecraft:blackstone",
-						"speed": 7
-					},
-					"20": {
-						"block": "minecraft:piston",
-						"speed": 7
-					},
-					"21": {
-						"block": "minecraft:sticky_piston",
-						"speed": 7
-					},
-					"22": {
-						"block": "minecraft:end_stone",
-						"speed": 7
-					},
-					"23": {
-						"block": "minecraft:brewing_stand",
-						"speed": 7
-					},
-					"7_copy": {
+					{
 						"block": "minecraft:lit_furnace",
 						"speed": 7
 					},
-					"8_copy": {
+					{
 						"block": "minecraft:hopper",
 						"speed": 7
+					},
+					{
+						"block": "minecraft:netherrack",
+						"speed": 7
+					},
+					{
+						"block": "minecraft:quartz_ore",
+						"speed": 7
+					},
+					{
+						"block": "minecraft:nether_gold_ore",
+						"speed": 7
+					},
+					{
+						"block": "minecraft:stonecutter_block",
+						"speed": 7
+					},
+					{
+						"block": "minecraft:dispenser",
+						"speed": 7
+					},
+					{
+						"block": "minecraft:dropper",
+						"speed": 7
+					},
+					{
+						"block": "minecraft:blast_furnace",
+						"speed": 7
+					},
+					{
+						"block": "minecraft:lit_blast_furnace",
+						"speed": 7
+					},
+					{
+						"block": "minecraft:nether_brick",
+						"speed": 7
+					},
+					{
+						"block": "minecraft:observer",
+						"speed": 7
+					},
+					{
+						"block": "minecraft:blackstone",
+						"speed": 7
+					},
+					{
+						"block": "minecraft:piston",
+						"speed": 7
+					},
+					{
+						"block": "minecraft:sticky_piston",
+						"speed": 7
+					},
+					{
+						"block": "minecraft:end_stone",
+						"speed": 7
+					},
+					{
+						"block": "minecraft:brewing_stand",
+						"speed": 7
 					}
-				}
+				]
 			},
 			"minecraft:durability": {
 				"max_durability": 1900

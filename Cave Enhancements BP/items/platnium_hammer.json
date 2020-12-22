@@ -1,4 +1,4 @@
-//bridge-file-version: #4
+//bridge-file-version: #5
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -23,11 +23,12 @@
 				"texture": "platniumhammer"
 			},
 			"minecraft:display_name": {
-				"value": "Platnium Hammer"
+				"value": "Platinum Hammer"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"
 			}
-		}
+		},
+		"events": {}
 	}
 }

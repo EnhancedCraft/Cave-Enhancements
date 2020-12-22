@@ -1,0 +1,104 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.200",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "ores:giant_nether_cave_feature"
+		},
+		"count": 125,
+		"places_block": {
+			"name": "minecraft:air",
+			"states": {}
+		},
+		"may_replace": [
+			{
+				"name": "minecraft:netherrack",
+				"states": {}
+			},
+			{
+				"name": "ores:w_rack",
+				"states": {}
+			},
+			{
+				"name": "ores:c_rack",
+				"states": {}
+			},
+			{
+				"name": "ores:b_rack",
+				"states": {}
+			},
+			{
+				"name": "ores:s_rack",
+				"states": {}
+			},
+			{
+				"name": "minecraft:basalt",
+				"states": {}
+			},
+			{
+				"name": "minecraft:blackstone",
+				"states": {}
+			},
+			{
+				"name": "minecraft:magma",
+				"states": {}
+			},
+			{
+				"name": "minecraft:lava",
+				"states": {}
+			},
+			{
+				"name": "minecraft:flowing_lava",
+				"states": {}
+			},
+			{
+				"name": "ores:nether_diamond_ore",
+				"states": {}
+			},
+			{
+				"name": "minecraft:ancient_debris",
+				"states": {}
+			},
+			{
+				"name": "ores:nether_emerald_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:nether_gypsum_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:nether_kyanite_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:nether_tin_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:nether_topaz_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:nether_zinc_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:nether_sulfur_ore",
+				"states": {}
+			},
+			{
+				"name": "minecraft:quartz_ore",
+				"states": {}
+			},
+			{
+				"name": "minecraft:nether_gold_ore",
+				"states": {}
+			},
+			{
+				"name": "minecraft:gravel",
+				"states": {}
+			}
+		]
+	}
+}

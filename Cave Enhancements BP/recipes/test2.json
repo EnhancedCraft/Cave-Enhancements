@@ -1,23 +1,29 @@
-//bridge-file-version: #10
+//bridge-file-version: #1
 {
-	"format_version": "1.16.100",
-	"minecraft:recipe_shapeless": {
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "ores:test2"
+			"identifier": "ores:wooden_pickaxe"
 		},
 		"tags": [
 			"crafting_table"
 		],
-		"ingredients": [
-			{
-				"item": "minecraft:target",
-				"count": 2
-			}
+		"pattern": [
+			"XXX",
+			" # ",
+			" # "
 		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "minecraft:planks"
+			}
+		},
 		"result": [
 			{
-				"item": "ores:adamantite_apple",
-				"count": 1
+				"item": "ores:wooden_pickaxe"
 			}
 		]
 	}
