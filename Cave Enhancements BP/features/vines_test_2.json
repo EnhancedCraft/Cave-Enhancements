@@ -1,0 +1,34 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.13.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "ores:vines_test_2"
+		},
+		"iterations": 10,
+		"coordinate_eval_order": "zyx",
+		"x": {
+			"distribution": "uniform",
+			"extent": [
+				0,
+				16
+			]
+		},
+		"y": {
+			"distribution": "uniform",
+			"extent": [
+				15,
+				55
+			]
+		},
+		"z": {
+			"distribution": "uniform",
+			"extent": [
+				0,
+				16
+			]
+		},
+		"project_input_to_floor": false,
+		"places_feature": "minecraft:vines_feature"
+	}
+}

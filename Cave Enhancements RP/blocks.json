@@ -1,4 +1,4 @@
-//bridge-file-version: #154
+//bridge-file-version: #155
 {
 	"format_version": [
 		1,
@@ -699,5 +699,9 @@
 	"ores:bare_roots": {
 		"textures": "roots",
 		"sound": "grass"
+	},
+	"ores:sword_in_stone": {
+		"textures": "sword",
+		"sound": "stone"
 	}
 }

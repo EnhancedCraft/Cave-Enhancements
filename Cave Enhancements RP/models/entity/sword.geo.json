@@ -1,0 +1,44 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.sword",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-7, 0, -3], "size": [14, 9, 11], "uv": [0, 0]},
+						{"origin": [-7, 0, -6], "size": [6, 6, 3], "uv": [39, 0]},
+						{"origin": [-1, 0, -6], "size": [7, 8, 3], "uv": [34, 35]},
+						{"origin": [-9, 0, 0], "size": [2, 7, 8], "uv": [14, 35]}
+					]
+				},
+				{
+					"name": "top",
+					"pivot": [0, 9, 0],
+					"cubes": [
+						{"origin": [-7, 9, -3], "size": [6, 3, 9], "uv": [21, 23]},
+						{"origin": [1, 9, -3], "size": [6, 3, 9], "uv": [0, 20]},
+						{"origin": [-1, 9, 5], "size": [2, 3, 1], "uv": [0, 4]},
+						{"origin": [-1, 9, -3], "size": [2, 3, 1], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "sword",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [0, 8, -2], "size": [0, 14, 7], "uv": [0, 25]}
+					]
+				}
+			]
+		}
+	]
+}

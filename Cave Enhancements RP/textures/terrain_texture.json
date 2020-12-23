@@ -1,4 +1,4 @@
-//bridge-file-version: #144
+//bridge-file-version: #145
 {
 	"resource_pack_name": "bridgeRP",
 	"texture_name": "atlas.terrain",
@@ -547,6 +547,9 @@
 		},
 		"roots": {
 			"textures": "textures/blocks/roots"
+		},
+		"sword": {
+			"textures": "textures/blocks/sword"
 		}
 	}
 }
