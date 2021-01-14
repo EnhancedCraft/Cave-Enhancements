@@ -1,0 +1,28 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "ores:diamond_alloy_leggings"
+		},
+		"tags": [
+			"warhead_bench"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:diamond_leggings",
+				"count": 1
+			},
+			{
+				"item": "ores:diamond_alloy",
+				"count": 1
+			}
+		],
+		"result": [
+			{
+				"item": "ores:diamond_alloy_leggings",
+				"count": 1
+			}
+		]
+	}
+}

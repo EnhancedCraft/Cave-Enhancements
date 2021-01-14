@@ -1,4 +1,4 @@
-//bridge-file-version: #145
+//bridge-file-version: #156
 {
 	"resource_pack_name": "bridgeRP",
 	"texture_name": "atlas.terrain",
@@ -550,6 +550,57 @@
 		},
 		"sword": {
 			"textures": "textures/blocks/sword"
+		},
+		"swordnon": {
+			"textures": "textures/blocks/swordnon"
+		},
+		"greencrystal": {
+			"textures": "textures/blocks/greencrystal"
+		},
+		"pinkcrystal": {
+			"textures": "textures/blocks/pinkcrystal"
+		},
+		"armorybench": {
+			"textures": "textures/blocks/armory_bench"
+		},
+		"darkstone": {
+			"textures": "textures/blocks/darkstone"
+		},
+		"deepcrystal": {
+			"textures": "textures/blocks/deepcrystal"
+		},
+		"furycrystal": {
+			"textures": "textures/blocks/furycrystal"
+		},
+		"warheadbench": {
+			"textures": "textures/blocks/warheadbench"
+		},
+		"siliconeore": {
+			"textures": "textures/blocks/siliconeore"
+		},
+		"purplemushroomb": {
+			"textures": "textures/blocks/purplemushroomb"
+		},
+		"pstoneside": {
+			"textures": "textures/blocks/pstoneside"
+		},
+		"pstonetop": {
+			"textures": "textures/blocks/pstonetop"
+		},
+		"rockydirt": {
+			"textures": "textures/blocks/rockydirt"
+		},
+		"spidereggs": {
+			"textures": "textures/blocks/spidereggs"
+		},
+		"tungstenreinforcement": {
+			"textures": "textures/blocks/reinforcement"
+		},
+		"death_leaves": {
+			"textures": "textures/blocks/death_leaves"
+		},
+		"death_leaves_non": {
+			"textures": "textures/blocks/death_leaves_non"
 		}
 	}
 }

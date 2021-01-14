@@ -1,4 +1,4 @@
-//bridge-file-version: #13
+//bridge-file-version: #18
 {
 	"format_version": "1.10.0",
 	"minecraft:client_entity": {
@@ -26,21 +26,23 @@
 				"tuff": "textures/entity/geckos/tuff_gecko",
 				"marble": "textures/entity/geckos/marble_gecko",
 				"limestone": "textures/entity/geckos/limestone_gecko",
-				"dripstone": "textures/entity/gecko/dripstone_gecko"
+				"dripstone": "textures/entity/geckos/dripstone_gecko"
 			},
 			"geometry": {
 				"default": "geometry.rock_geko"
 			},
 			"animations": {
 				"walk": "animation.rock_geko.walk",
-				"look_at_target": "animation.common.look_at_target"
+				"look_at_target": "animation.common.look_at_target",
+				"plop": "animation.rock_geko.plop",
+				"move": "controller.animation.rock_gecko.move"
 			},
 			"scripts": {
 				"animate": [
+					"look_at_target",
 					{
-						"walk": "query.modified_move_speed"
-					},
-					"look_at_target"
+						"move": "query.modified_move_speed"
+					}
 				]
 			},
 			"render_controllers": [

@@ -1,0 +1,69 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ores:lost_hero_sword",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
+			},
+			"minecraft:enchantable": {
+				"slot": "sword",
+				"value": 10
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:stacked_by_data": true,
+			"minecraft:damage": 6.5,
+			"minecraft:durability": {
+				"max_durability": 1300
+			},
+			"minecraft:display_name": {
+				"value": "Lost Hero Sword"
+			},
+			"minecraft:icon": {
+				"texture": "lost_hero_sword"
+			},
+			"minecraft:weapon": {
+				"on_hurt_entity": {
+					"event": "hit",
+					"target": "self"
+				}
+			}
+		},
+		"events": {
+			"hit": {
+				"randomize": [
+					{
+						"run_command": {
+							"command": [
+								"summon lightning_bolt ~1 ~ ~",
+								"summon lightning_bolt ~ ~ ~1"
+							],
+							"target": "holder"
+						},
+						"weight": 2,
+						"add_mob_effect": {
+							"effect": "fire_resistance",
+							"target": "holder",
+							"duration": 3,
+							"amplifier": 1
+						}
+					},
+					{
+						"weight": 4,
+						"run_command": {
+							"command": [
+								"title @s actionbar Sparks come from the sword...",
+								"playsound lightning @s"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

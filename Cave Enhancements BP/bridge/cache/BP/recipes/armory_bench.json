@@ -1,0 +1,52 @@
+{
+	"file_path": "C:\\Users\\gekoc\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Cave Enhancements BP\\recipes\\armory_bench.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "6a76196a_6f5e_401c_b642_071b21df1a3e",
+	"file_version": 0,
+	"cache_content": {
+		"is_minified": true,
+		"children": {
+			"format_version": "1.16.200",
+			"minecraft:recipe_shaped": {
+				"description": {
+					"identifier": "ores:armory_bench"
+				},
+				"tags": [
+					"crafting_table"
+				],
+				"pattern": [
+					"HGC",
+					"LSB",
+					"S S"
+				],
+				"key": {
+					"H": {
+						"item": "minecraft:leather_helmet"
+					},
+					"G": {
+						"item": "minecraft:gold_ingot"
+					},
+					"C": {
+						"item": "minecraft:leather_chestplate"
+					},
+					"L": {
+						"item": "minecraft:leather_leggings"
+					},
+					"S": {
+						"item": "minecraft:stone"
+					},
+					"B": {
+						"item": "minecraft:leather_boots"
+					}
+				},
+				"result": [
+					{
+						"item": "ores:armory_bench",
+						"count": 1
+					}
+				]
+			}
+		}
+	}
+}

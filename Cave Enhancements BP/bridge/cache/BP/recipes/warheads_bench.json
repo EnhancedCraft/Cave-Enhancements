@@ -1,0 +1,43 @@
+{
+	"file_path": "C:\\Users\\gekoc\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Cave Enhancements BP\\recipes\\warheads_bench.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "464be25e_3c11_48ff_8255_0bd6b48f9345",
+	"file_version": 2,
+	"cache_content": {
+		"is_minified": true,
+		"children": {
+			"format_version": "1.16.200",
+			"minecraft:recipe_shaped": {
+				"description": {
+					"identifier": "ores:warheads_bench"
+				},
+				"tags": [
+					"crafting_table"
+				],
+				"pattern": [
+					"CCC",
+					"LAL",
+					"L L"
+				],
+				"key": {
+					"C": {
+						"item": "minecraft:crafting_table"
+					},
+					"L": {
+						"item": "minecraft:log"
+					},
+					"A": {
+						"item": "ores:platinum_alloy"
+					}
+				},
+				"result": [
+					{
+						"item": "ores:warheads_bench",
+						"count": 1
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,10 +1,10 @@
-//bridge-file-version: #8
+//bridge-file-version: #9
 {
 	"format_version": "1.16.0",
 	"minecraft:feature_rules": {
 		"description": {
 			"identifier": "ores:crystal_gen_test",
-			"places_feature": "ores:crystal_feature_test"
+			"places_feature": "ores:crystal_random_feature"
 		},
 		"conditions": {
 			"placement_pass": "after_surface_pass",

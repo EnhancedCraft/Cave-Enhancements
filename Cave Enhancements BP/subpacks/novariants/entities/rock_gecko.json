@@ -1,4 +1,4 @@
-//bridge-file-version: #29
+//bridge-file-version: #30
 {
 	"format_version": "1.16.200",
 	"minecraft:entity": {
@@ -229,8 +229,8 @@
 					},
 					{
 						"filters": {
-							"test": "is_biome",
-							"value": "plain"
+							"test": "has_biome_tag",
+							"value": "plains"
 						},
 						"randomize": [
 							{
@@ -275,7 +275,7 @@
 					},
 					{
 						"filters": {
-							"test": "is_biome",
+							"test": "has_biome_tag",
 							"value": "the_end"
 						},
 						"add": {

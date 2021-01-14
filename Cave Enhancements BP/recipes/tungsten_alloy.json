@@ -7,9 +7,9 @@
     "tags": [
       "alloy"
     ],
-    "pattern": {
+    "pattern": [
       "AAA"
-    },
+    ],
     "key": {
       "A": {
         "item": "ores:tungsten_gemstone"

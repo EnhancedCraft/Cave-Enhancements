@@ -1,4 +1,4 @@
-//bridge-file-version: #0
+//bridge-file-version: #6
 {
 	"minecraft:block": {
 		"description": {
@@ -104,12 +104,30 @@
 						]
 					}
 				]
-			}
+			},
+			"minecraft:on_interact": {
+				"event": "pull",
+				"target": "self"
+			},
+			"tag:ores:medium": {},
+			"minecraft:loot": "loot_tables/sword_broken.json"
 		},
 		"events": {
 			"bridge:update_rotation": {
 				"set_block_property": {
 					"bridge:block_rotation": "query.cardinal_player_facing"
+				}
+			},
+			"pull": {
+				"set_block": {
+					"block_type": "ores:sword_in_stone_non"
+				},
+				"play_sound": {
+					"sound": "random.orb",
+					"target": "self"
+				},
+				"spawn_loot": {
+					"table": "loot_tables/sword_pulled.json"
 				}
 			}
 		}

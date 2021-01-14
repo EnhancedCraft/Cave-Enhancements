@@ -1,0 +1,11 @@
+{
+  "lightning": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "sounds/lightning",
+        "volume": 1
+      }
+    ]
+  }
+}

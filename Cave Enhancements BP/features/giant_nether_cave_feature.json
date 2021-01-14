@@ -1,6 +1,6 @@
-//bridge-file-version: #1
+//bridge-file-version: #3
 {
-	"format_version": "1.16.200",
+	"format_version": "1.16.100",
 	"minecraft:ore_feature": {
 		"description": {
 			"identifier": "ores:giant_nether_cave_feature"
@@ -97,6 +97,26 @@
 			},
 			{
 				"name": "minecraft:gravel",
+				"states": {}
+			},
+			{
+				"name": "ores:fossil_stone_ore",
+				"states": {}
+			},
+			{
+				"name": "ores:lava_stone_ore",
+				"states": {}
+			},
+			{
+				"name": "minecraft:weeping_vines",
+				"states": {}
+			},
+			{
+				"name": "minecraft:twisting_vines",
+				"states": {}
+			},
+			{
+				"name": "ores:fury_crystal",
 				"states": {}
 			}
 		]

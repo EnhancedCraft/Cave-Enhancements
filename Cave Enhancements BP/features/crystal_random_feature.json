@@ -1,0 +1,23 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "ores:crystal_random_feature"
+		},
+		"features": [
+			[
+				"ores:crystal_feature_test",
+				4
+			],
+			[
+				"ores:green_crystal_feature",
+				2
+			],
+			[
+				"ores:pink_crystal_feature",
+				1
+			]
+		]
+	}
+}

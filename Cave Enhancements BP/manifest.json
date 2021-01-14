@@ -1,12 +1,12 @@
-//bridge-file-version: #6
+//bridge-file-version: #8
 {
 	"format_version": 2,
 	"header": {
-		"name": "Cave Enhancements V1.4 BP",
-		"description": "pack.description",
+		"name": "Cave Enhancements V1.5 BP",
+		"description": "Created By Warhead, ExDrill, Gekocaretaker, and Ryorama",
 		"uuid": "da4dcd25-2b79-4440-9b2b-185fbdf49862",
 		"version": [
-			7,
+			10,
 			0,
 			0
 		],
@@ -21,7 +21,7 @@
 			"type": "data",
 			"uuid": "b8f4354e-d56e-4537-a18d-f13f66724250",
 			"version": [
-				7,
+				10,
 				0,
 				0
 			]
@@ -30,7 +30,7 @@
 	"dependencies": [
 		{
 			"version": [
-				7,
+				10,
 				0,
 				0
 			],

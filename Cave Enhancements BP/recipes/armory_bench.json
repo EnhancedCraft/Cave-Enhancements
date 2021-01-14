@@ -1,0 +1,43 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.200",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ores:armory_bench"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"HGC",
+			"LSB",
+			"S S"
+		],
+		"key": {
+			"H": {
+				"item": "minecraft:leather_helmet"
+			},
+			"G": {
+				"item": "minecraft:gold_ingot"
+			},
+			"C": {
+				"item": "minecraft:leather_chestplate"
+			},
+			"L": {
+				"item": "minecraft:leather_leggings"
+			},
+			"S": {
+				"item": "minecraft:stone"
+			},
+			"B": {
+				"item": "minecraft:leather_boots"
+			}
+		},
+		"result": [
+			{
+				"item": "ores:armory_bench",
+				"count": 1
+			}
+		]
+	}
+}

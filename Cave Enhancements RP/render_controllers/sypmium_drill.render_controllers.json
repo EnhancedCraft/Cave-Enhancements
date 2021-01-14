@@ -1,0 +1,17 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.sypmium_drill": {
+			"textures": [
+				"Texture.sypmium_drill"
+			],
+			"geometry": "Geometry.sypmium_drill",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			]
+		}
+	}
+}

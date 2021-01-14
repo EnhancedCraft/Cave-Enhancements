@@ -1,0 +1,42 @@
+{
+	"file_path": "C:\\Users\\gekoc\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Cave Enhancements RP\\animation_controllers\\rock_gecko.animation_controllers.json",
+	"file_type": "rp_animation_controller",
+	"format_version": 1,
+	"file_uuid": "40dcf8e6_66fb_4cae_956a_9077d6504c7c",
+	"file_version": 4,
+	"cache_content": {
+		"is_minified": true,
+		"children": {
+			"format_version": "1.10.0",
+			"animation_controllers": {
+				"controller.animation.rock_gecko.move": {
+					"initial_state": "default",
+					"states": {
+						"default": {
+							"animations": [
+								{
+									"walk": "query.modified_move_speed"
+								}
+							],
+							"transitions": [
+								{
+									"plop": "query.is_idling"
+								}
+							]
+						},
+						"plop": {
+							"animations": [
+								"plop"
+							],
+							"transitions": [
+								{
+									"default": "query.all_animations_finished"
+								}
+							]
+						}
+					}
+				}
+			}
+		}
+	}
+}

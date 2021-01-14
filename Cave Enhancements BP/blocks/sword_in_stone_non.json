@@ -1,0 +1,119 @@
+//bridge-file-version: #3
+{
+	"minecraft:block": {
+		"description": {
+			"properties": {
+				"bridge:block_rotation": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5
+				]
+			},
+			"identifier": "ores:sword_in_stone_non"
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 0",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 1",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						180
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 2",
+				"components": {
+					"minecraft:rotation": [
+						90,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 3",
+				"components": {
+					"minecraft:rotation": [
+						-90,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						-90
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						90
+					]
+				}
+			}
+		],
+		"components": {
+			"minecraft:on_player_placing": {
+				"event": "bridge:update_rotation"
+			},
+			"minecraft:destroy_time": 1000,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:explosion_resistance": 10,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "swordnon",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:geometry": "geometry.sword",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:stone",
+							"ores:s_stone",
+							"ores:j_stone",
+							"ores:i_stone",
+							"ores:coldstone",
+							"minecraft:dirt",
+							"minecraft:grass"
+						]
+					}
+				]
+			},
+			"tag:ores:medium": {}
+		},
+		"events": {
+			"bridge:update_rotation": {
+				"set_block_property": {
+					"bridge:block_rotation": "query.cardinal_player_facing"
+				}
+			}
+		}
+	},
+	"format_version": "1.16.100"
+}

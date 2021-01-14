@@ -1,4 +1,4 @@
-//bridge-file-version: #27
+//bridge-file-version: #28
 {
 	"format_version": "1.13.0",
 	"minecraft:ore_feature": {
@@ -440,7 +440,15 @@
 				"states": {}
 			},
 			{
-				"name": "minecraft:grass",
+				"name": "minecraft:vine",
+				"states": {}
+			},
+			{
+				"name": "ores:green_crystal",
+				"states": {}
+			},
+			{
+				"name": "ores:pink_crystal",
 				"states": {}
 			}
 		]

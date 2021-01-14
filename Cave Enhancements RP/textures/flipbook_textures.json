@@ -9,5 +9,9 @@
 		"ticks_per_frame": 30,
 		"blend_frames": true
 	},
-	{}
+	{
+		"flipbook_texture": "textures/blocks/silicone_flipbook",
+		"atlas_tile": "siliconeore",
+		"ticks_per_frame": 10
+	}
 ]

@@ -1,0 +1,37 @@
+{
+	"file_path": "C:\\Users\\gekoc\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Cave Enhancements BP\\recipes\\diamond_alloy_chestplate.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "238bf06f_4f0d_4604_8b6b_21f8f7388cd6",
+	"file_version": 1,
+	"cache_content": {
+		"is_minified": true,
+		"children": {
+			"format_version": "1.16.100",
+			"minecraft:recipe_shapeless": {
+				"description": {
+					"identifier": "ores:diamond_alloy_chestplate"
+				},
+				"tags": [
+					"warhead_bench"
+				],
+				"ingredients": [
+					{
+						"item": "minecraft:diamond_chestplate",
+						"count": 1
+					},
+					{
+						"item": "ores:diamond_alloy",
+						"count": 1
+					}
+				],
+				"result": [
+					{
+						"item": "ores:diamond_alloy_chestplate",
+						"count": 1
+					}
+				]
+			}
+		}
+	}
+}

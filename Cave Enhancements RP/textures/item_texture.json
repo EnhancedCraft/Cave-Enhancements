@@ -1,4 +1,4 @@
-//bridge-file-version: #5
+//bridge-file-version: #14
 {
 	"resource_pack_name": "bridgeRP",
 	"texture_name": "atlas.items",
@@ -974,6 +974,85 @@
 		},
 		"diamondalloy": {
 			"textures": "textures/items/diamondalloy"
+		},
+		"lost_hero_sword": {
+			"textures": "textures/items/lost_hero_sword"
+		},
+		"broken_lost_hero_sword": {
+			"textures": "textures/items/broken_lost_hero_sword"
+		},
+		"sandpaper": {
+			"textures": "textures/items/sandpaper"
+		},
+		"sympiumdrill": {
+			"textures": [
+				"textures/items/sypmiumdrill"
+			]
+		},
+		"leather_backpack": {
+			"textures": [
+				"textures/items/leather_backpack"
+			]
+		},
+		"dipped_beef": {
+			"textures": [
+				"textures/items/dipped_beef"
+			]
+		},
+		"dipped_carrot": {
+			"textures": [
+				"textures/items/dipped_carrot"
+			]
+		},
+		"dipped_chicken": {
+			"textures": [
+				"textures/items/dipped_chicken"
+			]
+		},
+		"dipped_cod": {
+			"textures": [
+				"textures/items/dipped_cod"
+			]
+		},
+		"dipped_mutton": {
+			"textures": [
+				"textures/items/dipped_mutton"
+			]
+		},
+		"dipped_porkchop": {
+			"textures": [
+				"textures/items/dipped_porkchop"
+			]
+		},
+		"dipped_rabbit": {
+			"textures": [
+				"textures/items/dipped_rabbit"
+			]
+		},
+		"dipped_salmon": {
+			"textures": [
+				"textures/items/dipped_salmon"
+			]
+		},
+		"rock": {
+			"textures": "textures/items/rock"
+		},
+		"diamond_alloy_boots": {
+			"textures": "textures/items/diamond_alloy_boots"
+		},
+		"diamond_alloy_chestplate": {
+			"textures": "textures/items/diamond_alloy_chestplate"
+		},
+		"diamond_alloy_helmet": {
+			"textures": "textures/items/diamond_alloy_helmet"
+		},
+		"diamond_alloy_leggings": {
+			"textures": "textures/items/diamond_alloy_leggings"
+		},
+		"dynamite": {
+			"textures": [
+				"textures/items/dynamite_item"
+			]
 		}
 	}
 }

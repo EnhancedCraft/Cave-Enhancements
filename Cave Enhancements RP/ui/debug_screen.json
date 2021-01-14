@@ -1,4 +1,4 @@
-//bridge-file-version: #17
+//bridge-file-version: #16
 {
 	"namespace": "debug_screen",
 	"access_button@common_buttons.light_content_button": {
@@ -22,7 +22,7 @@
 	},
 	"cave_watermark": {
 		"type": "label",
-		"text": "Cave Enhancements V1.4 Made By CE Dev Team ",
+		"text": "Cave Enhancements V1.5 Created By §6CE Dev Team ",
 		"color": [
 			1,
 			1,

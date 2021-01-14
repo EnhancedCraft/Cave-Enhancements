@@ -1,0 +1,33 @@
+//bridge-file-version: #2
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 1,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "item",
+					"name": "ores:lost_hero_sword",
+					"functions": [
+						{
+							"function": "set_damage",
+							"damage": {
+								"min": 0.2,
+								"max": 0.6
+							}
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								"Forged in the §kGreat §kDeep §fthis sword lured some of the greatest warriors to their demise. ",
+								"Weapons forged within the §kGreat §kDeep §fare known to have a curse, this sword is cursed with lightning. Only a soul damned for eternity can wield this sword."
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

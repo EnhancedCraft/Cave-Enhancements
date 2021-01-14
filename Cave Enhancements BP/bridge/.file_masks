@@ -3038,6 +3038,36 @@
 						}
 					}
 				}
+			},
+			"8bbd5d06_f5d9_4f7c_9a18_2fee3cbbd66a": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"86539564_80c1_41ae_9ac8_498d620c3c68": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"125929ea_d0f2_4356_a22b_17a758128e82": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
 			}
 		}
 	},
@@ -5793,6 +5823,75 @@
 		"data": {}
 	},
 	"BP/loot_tables/rock_geko_loot.json": {
+		"data": {}
+	},
+	"BP/blocks/silicone_ore.json": {
+		"data": {}
+	},
+	"BP/blocks/warheads_bench.json": {
+		"data": {}
+	},
+	"BP/blocks/armory_bench.json": {
+		"data": {}
+	},
+	"BP/items/sypmium_drill.json": {
+		"data": {}
+	},
+	"RP/entity/player.entity.json": {
+		"data": {}
+	},
+	"RP/render_controllers/sypmium_drill.render_controllers.json": {
+		"data": {}
+	},
+	"BP/items/leather_backpack.json": {
+		"data": {}
+	},
+	"BP/subpacks/novariants/entities/rock_gecko.json": {
+		"data": {}
+	},
+	"BP/subpacks/morevariants/entities/rock_gecko.json": {
+		"data": {}
+	},
+	"RP/subpacks/novariants/entity/rock_gecko.json": {
+		"data": {}
+	},
+	"RP/subpacks/morevariants/entity/rock_gecko.json": {
+		"data": {}
+	},
+	"RP/animation_controllers/rock_gecko.animation_controllers.json": {
+		"data": {}
+	},
+	"RP/subpacks/morevariants/animation_controllers/rock_gecko.animation_controllers.json": {
+		"data": {}
+	},
+	"RP/subpacks/novariants/animation_controllers/rock_gecko.animation_controllers.json": {
+		"data": {}
+	},
+	"BP/recipes/diamond_alloy_boots.json": {
+		"data": {}
+	},
+	"BP/recipes/diamond_alloy_chestplate.json": {
+		"data": {}
+	},
+	"BP/recipes/diamond_alloy_helmet.json": {
+		"data": {}
+	},
+	"BP/recipes/diamond_alloy_leggings.json": {
+		"data": {}
+	},
+	"BP/recipes/sypmium_drill.json": {
+		"data": {}
+	},
+	"BP/recipes/warheads_bench.json": {
+		"data": {}
+	},
+	"BP/recipes/armory_bench.json": {
+		"data": {}
+	},
+	"BP/recipes/dynamite.json": {
+		"data": {}
+	},
+	"BP/items/dynamite_item.json": {
 		"data": {}
 	}
 }

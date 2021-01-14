@@ -1,28 +1,39 @@
+//bridge-file-version: #2
 {
 	"format_version": "1.10.0",
 	"minecraft:client_entity": {
 		"description": {
-			"identifier": "ores:dynamite_projectile",
+			"identifier": "ores:dynamite",
 			"materials": {
-				"default": "snowball"
+				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/items/dynamite"
+				"default": "textures/entity/dynamite"
 			},
 			"geometry": {
-				"default": "geometry.item_sprite"
+				"default": "geometry.dynamite"
 			},
-			"render_controllers": [
-				"controller.render.item_sprite"
-			],
 			"animations": {
-				"flying": "animation.actor.billboard"
+				"grounded": "animation.dynamite.grounded",
+				"flying": "animation.dynamite.flying",
+				"move": "animation.arrow.move"
 			},
 			"scripts": {
 				"animate": [
-					"flying"
+					{
+						"grounded": "query.is_on_ground"
+					},
+					{
+						"flying": "!query.is_on_ground"
+					},
+					{
+						"move": "!query.is_on_ground"
+					}
 				]
-			}
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
 		}
 	}
 }

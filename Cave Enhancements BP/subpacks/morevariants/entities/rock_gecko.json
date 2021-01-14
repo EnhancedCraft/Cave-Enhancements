@@ -1,4 +1,4 @@
-//bridge-file-version: #32
+//bridge-file-version: #33
 {
 	"format_version": "1.16.200",
 	"minecraft:entity": {
@@ -302,245 +302,245 @@
 							},
 							{
 								"weight": 5,
-								"remove": {},
+								"randomize": {},
 								"add": {
 									"component_groups": [
 										"ores:is_baby",
 										"ores:wild"
 									]
 								}
+							}
+						]
+					},
+					{
+						"filters": {
+							"test": "has_biome_tag",
+							"value": "plains"
+						},
+						"randomize": [
+							{
+								"weight": 52,
+								"add": {
+									"component_groups": [
+										"ores:gravel"
+									]
+								}
 							},
 							{
-								"filters": {
-									"test": "is_biome",
-									"value": "plain"
-								},
-								"randomize": [
-									{
-										"weight": 52,
-										"add": {
-											"component_groups": [
-												"ores:gravel"
-											]
-										}
-									},
-									{
-										"weight": 100,
-										"add": {
-											"component_groups": [
-												"ores:stone"
-											]
-										}
-									},
-									{
-										"weight": 100,
-										"add": {
-											"component_groups": [
-												"ores:andisite"
-											]
-										}
-									},
-									{
-										"weight": 71,
-										"add": {
-											"component_groups": [
-												"ores:calcite"
-											]
-										}
-									},
-									{
-										"weight": 100,
-										"add": {
-											"component_groups": [
-												"ores:diorite"
-											]
-										}
-									},
-									{
-										"weight": 100,
-										"add": {
-											"component_groups": [
-												"ores:granite"
-											]
-										}
-									},
-									{
-										"weight": 60,
-										"add": {
-											"component_groups": [
-												"ores:obsidian"
-											]
-										}
-									},
-									{
-										"weight": 71,
-										"add": {
-											"component_groups": [
-												"ores:tuff"
-											]
-										}
-									},
-									{
-										"weight": 100,
-										"add": {
-											"component_groups": [
-												"ores:marble"
-											]
-										}
-									},
-									{
-										"weight": 66,
-										"add": {
-											"component_groups": [
-												"ores:limestone"
-											]
-										}
-									},
-									{
-										"weight": 100,
-										"add": {
-											"component_groups": [
-												"ores:dripstone"
-											]
-										}
-									}
-								]
+								"weight": 100,
+								"add": {
+									"component_groups": [
+										"ores:stone"
+									]
+								}
 							},
 							{
-								"filters": {
-									"test": "has_biome_tag",
-									"value": "nether"
-								},
-								"randomize": [
-									{
-										"weight": 60,
-										"add": {
-											"component_groups": [
-												"ores:netherrack"
-											]
-										}
-									}
-								]
+								"weight": 100,
+								"add": {
+									"component_groups": [
+										"ores:andisite"
+									]
+								}
 							},
 							{
-								"filters": {
-									"test": "has_biome_tag",
-									"value": "basalt_deltas"
-								},
-								"randomize": [
-									{
-										"weight": 56,
-										"add": {
-											"component_groups": [
-												"ores:basalt"
-											]
-										}
-									},
-									{
-										"weight": 56,
-										"add": {
-											"component_groups": [
-												"ores:blackstone"
-											]
-										}
-									},
-									{
-										"weight": 30,
-										"add": {
-											"component_groups": [
-												"ores:magma"
-											]
-										}
-									}
-								]
+								"weight": 71,
+								"add": {
+									"component_groups": [
+										"ores:calcite"
+									]
+								}
 							},
 							{
-								"filters": {
-									"test": "is_biome",
-									"value": "the_end"
-								},
-								"randomize": [
-									{
-										"weight": 40,
-										"add": {
-											"component_groups": [
-												"ores:endstone"
-											]
-										}
-									}
-								]
+								"weight": 100,
+								"add": {
+									"component_groups": [
+										"ores:diorite"
+									]
+								}
 							},
 							{
-								"filters": {
-									"test": "has_biome_tag",
-									"value": "shore"
-								},
-								"randomize": [
-									{
-										"weight": 43,
-										"add": {
-											"component_groups": [
-												"ores:prismarine_0"
-											]
-										}
-									},
-									{
-										"weight": 43.
-										"add": {
-											"component_groups": [
-												"ores:prismarine_1"
-											]
-										}
-									},
-									{
-										"weight": 43,
-										"add": {
-											"component_groups": [
-												"ores:prismarine_2"
-											]
-										}
-									},
-									{
-										"weight": 43,
-										"add": {
-											"component_groups": [
-												"ores:prismarine_3"
-											]
-										}
-									}
-								]
+								"weight": 100,
+								"add": {
+									"component_groups": [
+										"ores:granite"
+									]
+								}
 							},
 							{
-								"filters": {
-									"test": "has_biome_tag",
-									"value": "mesa"
-								},
-								"randomize": [
-									{
-										"weight": 86,
-										"add": {
-											"component_groups": [
-												"ores:redsandstone"
-											]
-										}
-									}
-								]
+								"weight": 60,
+								"add": {
+									"component_groups": [
+										"ores:obsidian"
+									]
+								}
 							},
 							{
-								"filters": {
-									"test": "has_biome_tag",
-									"value": "desert"
-								},
-								"randomize": [
-									{
-										"weight": 100,
-										"add": {
-											"component_groups": [
-												"ores:sandstone"
-											]
-										}
-									}
-								]
+								"weight": 71,
+								"add": {
+									"component_groups": [
+										"ores:tuff"
+									]
+								}
+							},
+							{
+								"weight": 100,
+								"add": {
+									"component_groups": [
+										"ores:marble"
+									]
+								}
+							},
+							{
+								"weight": 66,
+								"add": {
+									"component_groups": [
+										"ores:limestone"
+									]
+								}
+							},
+							{
+								"weight": 100,
+								"add": {
+									"component_groups": [
+										"ores:dripstone"
+									]
+								}
+							}
+						]
+					},
+					{
+						"filters": {
+							"test": "has_biome_tag",
+							"value": "nether"
+						},
+						"randomize": [
+							{
+								"weight": 60,
+								"add": {
+									"component_groups": [
+										"ores:netherrack"
+									]
+								}
+							}
+						]
+					},
+					{
+						"filters": {
+							"test": "has_biome_tag",
+							"value": "basalt_deltas"
+						},
+						"randomize": [
+							{
+								"weight": 56,
+								"add": {
+									"component_groups": [
+										"ores:basalt"
+									]
+								}
+							},
+							{
+								"weight": 56,
+								"add": {
+									"component_groups": [
+										"ores:blackstone"
+									]
+								}
+							},
+							{
+								"weight": 30,
+								"add": {
+									"component_groups": [
+										"ores:magma"
+									]
+								}
+							}
+						]
+					},
+					{
+						"filters": {
+							"test": "has_biome_tag",
+							"value": "the_end"
+						},
+						"randomize": [
+							{
+								"weight": 40,
+								"add": {
+									"component_groups": [
+										"ores:endstone"
+									]
+								}
+							}
+						]
+					},
+					{
+						"filters": {
+							"test": "has_biome_tag",
+							"value": "shore"
+						},
+						"randomize": [
+							{
+								"weight": 43,
+								"add": {
+									"component_groups": [
+										"ores:prismarine_0"
+									]
+								}
+							},
+							{
+								"weight": 43,
+								"add": {
+									"component_groups": [
+										"ores:prismarine_1"
+									]
+								}
+							},
+							{
+								"weight": 43,
+								"add": {
+									"component_groups": [
+										"ores:prismarine_2"
+									]
+								}
+							},
+							{
+								"weight": 43,
+								"add": {
+									"component_groups": [
+										"ores:prismarine_3"
+									]
+								}
+							}
+						]
+					},
+					{
+						"filters": {
+							"test": "has_biome_tag",
+							"value": "mesa"
+						},
+						"randomize": [
+							{
+								"weight": 86,
+								"add": {
+									"component_groups": [
+										"ores:redsandstone"
+									]
+								}
+							}
+						]
+					},
+					{
+						"filters": {
+							"test": "has_biome_tag",
+							"value": "desert"
+						},
+						"randomize": [
+							{
+								"weight": 100,
+								"add": {
+									"component_groups": [
+										"ores:sandstone"
+									]
+								}
 							}
 						]
 					}

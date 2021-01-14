@@ -1,0 +1,109 @@
+{
+	"file_path": "C:\\Users\\gekoc\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Cave Enhancements BP\\recipes\\diamond_alloy_leggings.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "6a1252e5_94f4_4de3_b5ac_d26467661824",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "ores:diamond_alloy_leggings"
+						},
+						"tags": [
+							"warhead_bench"
+						],
+						"ingredients": [
+							{
+								"item": "minecraft:diamond_leggings",
+								"count": 1
+							},
+							{
+								"item": "ores:diamond_alloy",
+								"count": 1
+							}
+						],
+						"result": [
+							{
+								"item": "ores:diamond_alloy_leggings",
+								"count": 1
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shapeless",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "ores:diamond_alloy_leggings"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "ores:diamond_alloy_leggings"
+							},
+							"tags": [
+								"warhead_bench"
+							],
+							"ingredients": [
+								{
+									"item": "minecraft:diamond_leggings",
+									"count": 1
+								},
+								{
+									"item": "ores:diamond_alloy",
+									"count": 1
+								}
+							],
+							"result": [
+								{
+									"item": "ores:diamond_alloy_leggings",
+									"count": 1
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"warhead_bench"
+						]
+					},
+					{
+						"key": "ingredients",
+						"is_minified": true,
+						"children": [
+							{
+								"item": "minecraft:diamond_leggings",
+								"count": 1
+							},
+							{
+								"item": "ores:diamond_alloy",
+								"count": 1
+							}
+						]
+					},
+					{
+						"key": "result",
+						"is_minified": true,
+						"children": [
+							{
+								"item": "ores:diamond_alloy_leggings",
+								"count": 1
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

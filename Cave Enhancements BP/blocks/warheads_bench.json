@@ -1,0 +1,33 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.200",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:warheads_bench",
+			"properties": {
+				"ores:is_next_to_armory": [
+					true,
+					false
+				]
+			}
+		},
+		"components": {
+			"minecraft:crafting_table": {
+				"custom_description": "Warhead's Bench",
+				"grid_size": 3,
+				"crafting_tags": [
+					"warhead_bench"
+				]
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "warheadbench",
+					"render_method": "blend"
+				}
+			},
+			"minecraft:geometry": "geometry.warheadbench",
+			"minecraft:block_light_absorption": 0
+		},
+		"events": {}
+	}
+}

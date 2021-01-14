@@ -1,4 +1,4 @@
-//bridge-file-version: #155
+//bridge-file-version: #166
 {
 	"format_version": [
 		1,
@@ -703,5 +703,69 @@
 	"ores:sword_in_stone": {
 		"textures": "sword",
 		"sound": "stone"
+	},
+	"ores:sword_in_stone_non": {
+		"textures": "swordnon",
+		"sound": "stone"
+	},
+	"ores:green_crystal": {
+		"textures": "greencrystal",
+		"sound": "glass"
+	},
+	"ores:pink_crystal": {
+		"textures": "pinkcrystal",
+		"sound": "glass"
+	},
+	"ores:armory_bench": {
+		"textures": "armorybench",
+		"sound": "metal"
+	},
+	"ores:darkstone": {
+		"textures": "darkstone",
+		"sound": "ancient_debris"
+	},
+	"ores:dark_crystal": {
+		"textures": "deepcrystal",
+		"sound": "glass"
+	},
+	"ores:fury_crystal": {
+		"textures": "furycrystal",
+		"sound": "glass"
+	},
+	"ores:silicone_ore": {
+		"textures": "siliconeore",
+		"sound": "stone"
+	},
+	"ores:warheads_bench": {
+		"textures": "warheadbench",
+		"sound": "wood"
+	},
+	"ores:purple_mushroom_b": {
+		"textures": "purplemushroomb",
+		"sound": "stem"
+	},
+	"ores:p_stone": {
+		"textures": {
+			"up": "pstonetop",
+			"side": "pstoneside",
+			"down": "stone"
+		},
+		"sound": "stone"
+	},
+	"ores:rocky_dirt": {
+		"textures": "rockydirt",
+		"sound": "gravel"
+	},
+	"ores:spider_eggs": {
+		"textures": "spidereggs",
+		"sound": "stem"
+	},
+	"ores:tungsten_reinforcement": {
+		"textures": "tungstenreinforcement",
+		"sound": "metal"
+	},
+	"ores:death_leaves": {
+		"textures": "death_leaves",
+		"sound": "grass"
 	}
 }

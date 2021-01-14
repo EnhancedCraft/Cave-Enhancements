@@ -1,0 +1,52 @@
+{
+	"file_path": "C:\\Users\\gekoc\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Cave Enhancements RP\\subpacks\\novariants\\entity\\rock_gecko.json",
+	"file_type": "unknown",
+	"format_version": 1,
+	"file_uuid": "2ab43810_4823_48a4_b0ab_880983ad204c",
+	"file_version": 17,
+	"cache_content": {
+		"is_minified": true,
+		"children": {
+			"format_version": "1.10.0",
+			"minecraft:client_entity": {
+				"description": {
+					"identifier": "ores:rock_gecko",
+					"textures": {
+						"basalt": "textures/entity/geckos/basalt_gecko",
+						"gravel": "textures/entity/geckos/gravel_gecko",
+						"stone": "textures/entity/geckos/stone_gecko",
+						"netherrack": "textures/entity/geckos/netherrack_gecko",
+						"endstone": "textures/entity/geckos/endstone_gecko"
+					},
+					"geometry": {
+						"default": "geometry.rock_geko"
+					},
+					"animations": {
+						"walk": "animation.rock_geko.walk",
+						"look_at_target": "animation.common.look_at_target",
+						"plop": "animation.rock_geko.plop",
+						"move": "controller.animation.rock_gecko.move"
+					},
+					"scripts": {
+						"animate": [
+							"look_at_target",
+							{
+								"move": "query.modified_move_speed"
+							}
+						]
+					},
+					"render_controllers": [
+						"controller.render.rock_gecko"
+					],
+					"enable_attachables": false,
+					"spawn_egg": {
+						"texture": "rock_gecko_spawn_egg"
+					},
+					"materials": {
+						"default": "fox"
+					}
+				}
+			}
+		}
+	}
+}

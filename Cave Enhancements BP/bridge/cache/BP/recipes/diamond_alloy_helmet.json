@@ -1,0 +1,37 @@
+{
+	"file_path": "C:\\Users\\gekoc\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Cave Enhancements BP\\recipes\\diamond_alloy_helmet.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "989a4145_8b66_454e_a049_688331467e6b",
+	"file_version": 1,
+	"cache_content": {
+		"is_minified": true,
+		"children": {
+			"format_version": "1.16.100",
+			"minecraft:recipe_shapeless": {
+				"description": {
+					"identifier": "ores:diamond_alloy_helmet"
+				},
+				"tags": [
+					"warhead_bench"
+				],
+				"ingredients": [
+					{
+						"item": "minecraft:diamond_helmet",
+						"count": 1
+					},
+					{
+						"item": "ores:diamond_alloy",
+						"count": 1
+					}
+				],
+				"result": [
+					{
+						"item": "ores:diamond_alloy_helmet",
+						"count": 1
+					}
+				]
+			}
+		}
+	}
+}

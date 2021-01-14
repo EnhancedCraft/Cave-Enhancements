@@ -1,0 +1,27 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ores:dynamite_item"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:projectile": {
+				"projectile_entity": "ores:dynamite"
+			},
+			"minecraft:throwable": {
+				"do_swing_animation": true,
+				"launch_power_scale": 3,
+				"scale_power_by_draw_duration": false
+			},
+			"minecraft:display_name": {
+				"value": "Stick of Dynamite"
+			},
+			"minecraft:icon": {
+				"texture": "dynamite"
+			}
+		},
+		"events": {}
+	}
+}

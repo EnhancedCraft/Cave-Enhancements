@@ -1,52 +1,54 @@
-//bridge-file-version: #1
+//bridge-file-version: #9
 {
-	"format_version": "1.16.0",
+	"format_version": "1.13.0",
 	"minecraft:entity": {
 		"description": {
-			"identifier": "ores:dynamite_projectile",
+			"identifier": "ores:dynamite",
 			"is_spawnable": false,
 			"is_summonable": true,
 			"is_experimental": false,
 			"runtime_identifier": "minecraft:snowball"
 		},
-		"component_groups": {
-			"explosion": {
-				"minecraft:explode": {
-					"fuse_length": 3,
-					"power": 2.5,
-					"fuse_lit": true,
-					"causes_fire": false
-				}
-			}
-		},
+		"component_groups": {},
 		"components": {
+			"minecraft:explode": {
+				"fuse_length": 4,
+				"power": 10,
+				"breaks_blocks": true,
+				"destroy_affected_by_griefing": true,
+				"allow_damage_underwater": false,
+				"fuse_lit": true
+			},
 			"minecraft:collision_box": {
 				"width": 0.25,
 				"height": 0.25
 			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
 			"minecraft:projectile": {
 				"on_hit": {
-					"impact_damage": {
-						"damage": 0,
-						"knockback": true,
-						"destroy_on_hit": true,
-						"semi_random_diff_damage": false
-					},
-					"remove_on_hit": {},
-					"particle_on_hit": {
-						"particle_type": "snowballpoof",
-						"num_particles": 6,
-						"on_entity_hit": true,
-						"on_other_hit": true
-					},
 					"stick_in_ground": {
-						"shake_time": 0.35
+						"shake_time": 0
 					}
 				},
+				"power": 1.6,
+				"gravity": 0.05,
+				"uncertainty_base": 16,
+				"uncertainty_multiplier": 4,
 				"anchor": 1,
-				"power": 1.5,
-				"gravity": 0.03,
-				"angle_offset": 0,
+				"should_bounce": true,
 				"offset": [
 					0,
 					-0.1,
@@ -55,14 +57,15 @@
 			},
 			"minecraft:physics": {},
 			"minecraft:pushable": {
-				"is_pushable": true,
+				"is_pushable": false,
 				"is_pushable_by_piston": true
 			},
-			"minecraft:explode": {
-				"fuseLength": 3,
-				"power": 2.3,
-				"fuseLit": true,
-				"causesFire": false
+			"minecraft:conditional_bandwidth_optimization": {
+				"default_values": {
+					"max_optimized_distance": 80,
+					"max_dropped_ticks": 10,
+					"use_motion_prediction_hints": true
+				}
 			}
 		},
 		"events": {}

@@ -1,0 +1,69 @@
+{
+	"file_path": "C:\\Users\\gekoc\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Cave Enhancements RP\\subpacks\\morevariants\\entity\\rock_gecko.json",
+	"file_type": "unknown",
+	"format_version": 1,
+	"file_uuid": "e5da72a8_e940_47ed_8ab4_1fa863f11dce",
+	"file_version": 18,
+	"cache_content": {
+		"is_minified": true,
+		"children": {
+			"format_version": "1.10.0",
+			"minecraft:client_entity": {
+				"description": {
+					"identifier": "ores:rock_gecko",
+					"textures": {
+						"basalt": "textures/entity/geckos/basalt_gecko",
+						"gravel": "textures/entity/geckos/gravel_gecko",
+						"stone": "textures/entity/geckos/stone_gecko",
+						"netherrack": "textures/entity/geckos/netherrack_gecko",
+						"endstone": "textures/entity/geckos/endstone_gecko",
+						"andisite": "textures/entity/geckos/andisite_gecko",
+						"blackstone": "textures/entity/geckos/blackstone_gecko",
+						"calcite": "textures/entity/geckos/calcite_gecko",
+						"diorite": "textures/entity/geckos/diorite_gecko",
+						"granite": "textures/entity/geckos/granite_gecko",
+						"magma": "textures/entity/geckos/magma_gecko",
+						"obsidian": "textures/entity/geckos/obsidian_gecko",
+						"prismarine_0": "textures/entity/geckos/prismarine_gecko_0",
+						"prismarine_1": "textures/entity/geckos/prismarine_gecko_1",
+						"prismarine_2": "textures/entity/geckos/prismarine_gecko_2",
+						"prismarine_3": "textures/entity/geckos/prismarine_gecko_3",
+						"redsandstone": "textures/entity/geckos/redsandstone_gecko",
+						"sandstone": "textures/entity/geckos/sandstone_gecko",
+						"tuff": "textures/entity/geckos/tuff_gecko",
+						"marble": "textures/entity/geckos/marble_gecko",
+						"limestone": "textures/entity/geckos/limestone_gecko",
+						"dripstone": "textures/entity/geckos/dripstone_gecko"
+					},
+					"geometry": {
+						"default": "geometry.rock_geko"
+					},
+					"animations": {
+						"walk": "animation.rock_geko.walk",
+						"look_at_target": "animation.common.look_at_target",
+						"plop": "animation.rock_geko.plop",
+						"move": "controller.animation.rock_gecko.move"
+					},
+					"scripts": {
+						"animate": [
+							"look_at_target",
+							{
+								"move": "query.modified_move_speed"
+							}
+						]
+					},
+					"render_controllers": [
+						"controller.render.rock_gecko"
+					],
+					"enable_attachables": false,
+					"spawn_egg": {
+						"texture": "rock_gecko_spawn_egg"
+					},
+					"materials": {
+						"default": "fox"
+					}
+				}
+			}
+		}
+	}
+}

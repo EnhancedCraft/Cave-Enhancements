@@ -1,0 +1,15 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "ores:rocky_dirt"
+		},
+		"components": {
+			"minecraft:destroy_time": 3,
+			"minecraft:explosion_resistance": 2,
+			"minecraft:loot": "loot_tables/rocky_dirt_loot.json"
+		},
+		"events": {}
+	}
+}

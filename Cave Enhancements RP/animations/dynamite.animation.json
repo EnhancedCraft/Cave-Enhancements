@@ -1,0 +1,26 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.dynamite.grounded": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, 0, -90],
+					"position": [0, -7, 0]
+				}
+			}
+		},
+		"animation.dynamite.flying": {
+			"loop": true,
+			"animation_length": 0.64,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": [0, -180, 0],
+						"0.64": [-360, -180, 0]
+					}
+				}
+			}
+		}
+	}
+}

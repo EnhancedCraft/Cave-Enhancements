@@ -1836,6 +1836,24 @@
 				"ores:copper_dust"
 			],
 			"custom_commands": []
+		},
+		"BP/items/sypmium_drill.json": {
+			"identifiers": [
+				"ores:sypmium_drill"
+			],
+			"custom_commands": []
+		},
+		"BP/items/leather_backpack.json": {
+			"identifiers": [
+				"ores:leather_backpack"
+			],
+			"custom_commands": []
+		},
+		"BP/items/dynamite_item.json": {
+			"identifiers": [
+				"ores:dynamite_item"
+			],
+			"custom_commands": []
 		}
 	},
 	"block": {
@@ -2697,6 +2715,37 @@
 			"custom_components": [
 				"bridge:rotate_on_place"
 			]
+		},
+		"BP/blocks/silicone_ore.json": {
+			"identifiers": [
+				"ores:silicone_ore"
+			],
+			"events": [
+				"destroy"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/warheads_bench.json": {
+			"identifiers": [
+				"ores:warheads_bench"
+			],
+			"events": [],
+			"recipe_tags": [
+				"warhead_bench"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/armory_bench.json": {
+			"identifiers": [
+				"ores:armory_bench"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
 		}
 	},
 	"feature": {
@@ -2879,7 +2928,12 @@
 		"00733ad1_8300_45f9_ae69_44e68b1ba633": {},
 		"bd4db473_16b9_4fc8_808e_b52d80ed63b8": {},
 		"27ef5a9a_10e4_4e96_9530_f955cc42b64f": {},
-		"169882b1_8d91_4dde_bb7a_b57fb468a927": {}
+		"169882b1_8d91_4dde_bb7a_b57fb468a927": {},
+		"7f8e8356_c585_4425_86b1_42ce11f1a6b2": {},
+		"BP/functions/drill.mcfunction": {
+			"custom_commands": []
+		},
+		"8bbd5d06_f5d9_4f7c_9a18_2fee3cbbd66a": {}
 	},
 	"attachable": {
 		"RP/achables/tophat.json": {
@@ -4302,6 +4356,46 @@
 			"tags": [
 				"centrifuge"
 			]
+		},
+		"BP/recipes/diamond_alloy_boots.json": {
+			"tags": [
+				"warhead_bench"
+			]
+		},
+		"BP/recipes/diamond_alloy_chestplate.json": {
+			"tags": [
+				"warhead_bench"
+			]
+		},
+		"BP/recipes/diamond_alloy_helmet.json": {
+			"tags": [
+				"warhead_bench"
+			]
+		},
+		"BP/recipes/diamond_alloy_leggings.json": {
+			"tags": [
+				"warhead_bench"
+			]
+		},
+		"BP/recipes/sypmium_drill.json": {
+			"tags": [
+				"warhead_bench"
+			]
+		},
+		"BP/recipes/warheads_bench.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/armory_bench.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/dynamite.json": {
+			"tags": [
+				"crafting_table"
+			]
 		}
 	},
 	"client_entity": {
@@ -4359,12 +4453,17 @@
 			"particle_references": [],
 			"animation_references": [
 				"walk",
-				"look_at_target"
+				"look_at_target",
+				"plop",
+				"move"
 			],
 			"sound_references": [],
 			"texture_references": [
 				"basalt",
-				"gravel"
+				"gravel",
+				"stone",
+				"netherrack",
+				"endstone"
 			],
 			"material_references": [
 				"default"
@@ -4375,6 +4474,84 @@
 			"geometry_identifiers": [
 				"default"
 			]
+		},
+		"RP/entity/player.entity.json": {
+			"identifiers": [
+				"minecraft:player"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"root",
+				"base_controller",
+				"hudplayer",
+				"humanoid_base_pose",
+				"look_at_target",
+				"look_at_target_ui",
+				"look_at_target_default",
+				"look_at_target_gliding",
+				"look_at_target_swimming",
+				"look_at_target_inverted",
+				"cape",
+				"move.arms",
+				"move.legs",
+				"swimming",
+				"swimming.legs",
+				"riding.arms",
+				"riding.legs",
+				"holding",
+				"brandish_spear",
+				"charging",
+				"attack.positions",
+				"attack.rotations",
+				"sneaking",
+				"bob",
+				"damage_nearby_mobs",
+				"fishing_rod",
+				"use_item_progress",
+				"skeleton_attack",
+				"sleeping",
+				"first_person_base_pose",
+				"first_person_empty_hand",
+				"first_person_swap_item",
+				"first_person_attack_controller",
+				"first_person_attack_rotation",
+				"first_person_vr_attack_rotation",
+				"first_person_walk",
+				"first_person_map_controller",
+				"first_person_map_hold",
+				"first_person_map_hold_attack",
+				"first_person_map_hold_off_hand",
+				"first_person_map_hold_main_hand",
+				"first_person_crossbow_equipped",
+				"third_person_crossbow_equipped",
+				"third_person_bow_equipped",
+				"crossbow_hold",
+				"crossbow_controller",
+				"shield_block_main_hand",
+				"shield_block_off_hand",
+				"blink"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default",
+				"cape",
+				"sypmium_drill"
+			],
+			"material_references": [
+				"default",
+				"cape",
+				"animated"
+			],
+			"geometry_references": [
+				"default",
+				"cape",
+				"sypmium_drill"
+			],
+			"geometry_identifiers": [
+				"default",
+				"cape",
+				"sypmium_drill"
+			]
 		}
 	},
 	"rp_animation_controller": {
@@ -4383,6 +4560,11 @@
 				"controller.animation.miner.baby",
 				"controller.animation.miner.general",
 				"controller.animation.miner.move"
+			]
+		},
+		"RP/animation_controllers/rock_gecko.animation_controllers.json": {
+			"ids": [
+				"controller.animation.rock_gecko.move"
 			]
 		}
 	},
@@ -4407,6 +4589,11 @@
 		"RP/render_controllers/rock_gecko.json": {
 			"ids": [
 				"controller.render.rock_gecko"
+			]
+		},
+		"RP/render_controllers/sypmium_drill.render_controllers.json": {
+			"ids": [
+				"controller.render.sypmium_drill"
 			]
 		}
 	},

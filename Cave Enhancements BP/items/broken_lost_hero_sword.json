@@ -1,0 +1,27 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "ores:broken_lost_hero_sword",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:stacked_by_data": true,
+			"minecraft:damage": 4,
+			"minecraft:durability": {
+				"max_durability": 600
+			},
+			"minecraft:icon": {
+				"texture": "broken_lost_hero_sword"
+			},
+			"minecraft:weapon": {},
+			"minecraft:display_name": {
+				"value": "Broken Lost Hero Sword "
+			}
+		},
+		"events": {}
+	}
+}
